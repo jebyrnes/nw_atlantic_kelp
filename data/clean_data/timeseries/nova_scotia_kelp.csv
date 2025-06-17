@@ -1,0 +1,118 @@
+"Entry","Study","Region","Site","Depth.m","Sample.ID","Sample.Year","Sample.Month","Sample.Day","Latitude","Longitude","Taxon","Fixed.or.Random","Sample.Unit.Size.sq.m","Percent.Cover","Stipe.Density.num.per.sq.m","Individual.Density.num.per.sq.m","Biomass.kg.wet.per.sq.m"
+1,"nova_scotia_kelp",NA,"Coachmans Ledge",3.5,"Coachmans Ledge-2022",2022,8,NA,44.49351453,-64.17671478,"Laminaria digitata","random",1,0.1,NA,NA,NA
+2,"nova_scotia_kelp",NA,"Cross Is",3.5,"Cross Is-2022",2022,8,NA,44.31748417,-64.17390727,"Laminaria digitata","random",1,72.075,NA,NA,NA
+3,"nova_scotia_kelp",NA,"E Ironbound Is",3.5,"E Ironbound Is-2022",2022,8,NA,44.43843311,-64.09592455,"Laminaria digitata","random",1,0.025,NA,NA,NA
+4,"nova_scotia_kelp",NA,"E Spectacle Is",3.5,"E Spectacle Is-2022",2022,8,NA,44.24974658,-64.33058306,"Laminaria digitata","random",1,21.0714285714286,NA,NA,NA
+5,"nova_scotia_kelp",NA,"Feltzen South",3.5,"Feltzen South-2022",2022,8,NA,44.33160902,-64.28214228,"Laminaria digitata","random",1,17.45,NA,NA,NA
+6,"nova_scotia_kelp",NA,"Flat Is",3.5,"Flat Is-2022",2022,8,NA,44.42854791,-64.12988601,"Laminaria digitata","random",1,2.45,NA,NA,NA
+7,"nova_scotia_kelp",NA,"Gill Cove",3.5,"Gill Cove-2022",2022,8,NA,44.48522,-63.53436,"Laminaria digitata","random",1,9.51666666666667,NA,NA,NA
+8,"nova_scotia_kelp",NA,"Grassy Is",3.5,"Grassy Is-2022",2022,8,NA,44.44524131,-64.14167508,"Laminaria digitata","random",1,0.1,NA,NA,NA
+9,"nova_scotia_kelp",NA,"Graves Shoal",3.5,"Graves Shoal-2022",2022,8,NA,44.54773832,-64.19553526,"Laminaria digitata","random",1,0,NA,NA,NA
+10,"nova_scotia_kelp",NA,"Kelley Ledge",3.5,"Kelley Ledge-2022",2022,8,NA,44.47746009,-63.77083847,"Laminaria digitata","random",1,0,NA,NA,NA
+11,"nova_scotia_kelp",NA,"Little Duck",3.5,"Little Duck-2022",2022,8,NA,44.36424983,-64.18272067,"Laminaria digitata","random",1,9.56428571428571,NA,NA,NA
+12,"nova_scotia_kelp",NA,"Little Tancook Is",3.5,"Little Tancook Is-2022",2022,8,NA,44.47488785,-64.1373325,"Laminaria digitata","random",1,0,NA,NA,NA
+13,"nova_scotia_kelp",NA,"Luke Is",3.5,"Luke Is-2022",2022,8,NA,44.57911606,-63.94153048,"Laminaria digitata","random",1,0,NA,NA,NA
+14,"nova_scotia_kelp",NA,"Lynch Is",3.5,"Lynch Is-2022",2022,8,NA,44.51511503,-64.21115208,"Laminaria digitata","random",1,0,NA,NA,NA
+15,"nova_scotia_kelp",NA,"Mill Cove B",3.5,"Mill Cove B-2022",2022,8,NA,44.5798473,-64.05098297,"Laminaria digitata","random",1,0,NA,NA,NA
+16,"nova_scotia_kelp",NA,"Ovens",3.5,"Ovens-2022",2022,8,NA,44.32544899,-64.25922339,"Laminaria digitata","random",1,11.2,NA,NA,NA
+17,"nova_scotia_kelp",NA,"Pennant Is",3.5,"Pennant Is-2022",2022,8,NA,44.45579262,-63.66071502,"Laminaria digitata","random",1,0.05,NA,NA,NA
+18,"nova_scotia_kelp",NA,"Pt Enrage",3.5,"Pt Enrage-2022",2022,8,NA,44.27128069,-64.24709905,"Laminaria digitata","random",1,3.16428571428571,NA,NA,NA
+19,"nova_scotia_kelp",NA,"Ringdove Shoal",3.5,"Ringdove Shoal-2022",2022,8,NA,44.596,-63.961,"Laminaria digitata","random",1,0,NA,NA,NA
+20,"nova_scotia_kelp",NA,"Rose Bay",3.5,"Rose Bay-2022",2022,8,NA,44.29246059,-64.24751404,"Laminaria digitata","random",1,1.26547619047619,NA,NA,NA
+21,"nova_scotia_kelp",NA,"Sheep Ledge",3.5,"Sheep Ledge-2022",2022,8,NA,44.50358723,-64.26728795,"Laminaria digitata","random",1,0.05,NA,NA,NA
+22,"nova_scotia_kelp",NA,"Shut-in Is",3.5,"Shut-in Is-2022",2022,8,NA,44.54115995,-63.95357947,"Laminaria digitata","random",1,1,NA,NA,NA
+23,"nova_scotia_kelp",NA,"Tilley Pt",3.5,"Tilley Pt-2022",2022,8,NA,44.53726455,-64.01674717,"Laminaria digitata","random",1,0,NA,NA,NA
+24,"nova_scotia_kelp",NA,"W Ironbound",3.5,"W Ironbound-2022",2022,8,NA,44.23824116,-64.2761317,"Laminaria digitata","random",1,17.175,NA,NA,NA
+25,"nova_scotia_kelp",NA,"Woody Is",3.5,"Woody Is-2022",2022,8,NA,44.44942296,-63.713577,"Laminaria digitata","random",1,34.425,NA,NA,NA
+26,"nova_scotia_kelp",NA,"Coachmans Ledge",3.5,"Coachmans Ledge-2022",2022,8,NA,44.49351453,-64.17671478,"Saccharina latissima","random",1,29.575,NA,NA,NA
+27,"nova_scotia_kelp",NA,"Cross Is",3.5,"Cross Is-2022",2022,8,NA,44.31748417,-64.17390727,"Saccharina latissima","random",1,2.275,NA,NA,NA
+28,"nova_scotia_kelp",NA,"E Ironbound Is",3.5,"E Ironbound Is-2022",2022,8,NA,44.43843311,-64.09592455,"Saccharina latissima","random",1,0.475,NA,NA,NA
+29,"nova_scotia_kelp",NA,"E Spectacle Is",3.5,"E Spectacle Is-2022",2022,8,NA,44.24974658,-64.33058306,"Saccharina latissima","random",1,0.0964285714285714,NA,NA,NA
+30,"nova_scotia_kelp",NA,"Feltzen South",3.5,"Feltzen South-2022",2022,8,NA,44.33160902,-64.28214228,"Saccharina latissima","random",1,11.55,NA,NA,NA
+31,"nova_scotia_kelp",NA,"Flat Is",3.5,"Flat Is-2022",2022,8,NA,44.42854791,-64.12988601,"Saccharina latissima","random",1,0.5,NA,NA,NA
+32,"nova_scotia_kelp",NA,"Gill Cove",3.5,"Gill Cove-2022",2022,8,NA,44.48522,-63.53436,"Saccharina latissima","random",1,12.2702380952381,NA,NA,NA
+33,"nova_scotia_kelp",NA,"Grassy Is",3.5,"Grassy Is-2022",2022,8,NA,44.44524131,-64.14167508,"Saccharina latissima","random",1,0.975,NA,NA,NA
+34,"nova_scotia_kelp",NA,"Graves Shoal",3.5,"Graves Shoal-2022",2022,8,NA,44.54773832,-64.19553526,"Saccharina latissima","random",1,9.35,NA,NA,NA
+35,"nova_scotia_kelp",NA,"Kelley Ledge",3.5,"Kelley Ledge-2022",2022,8,NA,44.47746009,-63.77083847,"Saccharina latissima","random",1,2.68939393939394,NA,NA,NA
+36,"nova_scotia_kelp",NA,"Little Duck",3.5,"Little Duck-2022",2022,8,NA,44.36424983,-64.18272067,"Saccharina latissima","random",1,0.223809523809524,NA,NA,NA
+37,"nova_scotia_kelp",NA,"Little Tancook Is",3.5,"Little Tancook Is-2022",2022,8,NA,44.47488785,-64.1373325,"Saccharina latissima","random",1,25.35,NA,NA,NA
+38,"nova_scotia_kelp",NA,"Luke Is",3.5,"Luke Is-2022",2022,8,NA,44.57911606,-63.94153048,"Saccharina latissima","random",1,1.875,NA,NA,NA
+39,"nova_scotia_kelp",NA,"Lynch Is",3.5,"Lynch Is-2022",2022,8,NA,44.51511503,-64.21115208,"Saccharina latissima","random",1,0.125,NA,NA,NA
+40,"nova_scotia_kelp",NA,"Mill Cove B",3.5,"Mill Cove B-2022",2022,8,NA,44.5798473,-64.05098297,"Saccharina latissima","random",1,1.75,NA,NA,NA
+41,"nova_scotia_kelp",NA,"Ovens",3.5,"Ovens-2022",2022,8,NA,44.32544899,-64.25922339,"Saccharina latissima","random",1,0.125,NA,NA,NA
+42,"nova_scotia_kelp",NA,"Pennant Is",3.5,"Pennant Is-2022",2022,8,NA,44.45579262,-63.66071502,"Saccharina latissima","random",1,1.8,NA,NA,NA
+43,"nova_scotia_kelp",NA,"Pt Enrage",3.5,"Pt Enrage-2022",2022,8,NA,44.27128069,-64.24709905,"Saccharina latissima","random",1,0.1,NA,NA,NA
+44,"nova_scotia_kelp",NA,"Ringdove Shoal",3.5,"Ringdove Shoal-2022",2022,8,NA,44.596,-63.961,"Saccharina latissima","random",1,0,NA,NA,NA
+45,"nova_scotia_kelp",NA,"Rose Bay",3.5,"Rose Bay-2022",2022,8,NA,44.29246059,-64.24751404,"Saccharina latissima","random",1,0.673809523809524,NA,NA,NA
+46,"nova_scotia_kelp",NA,"Sheep Ledge",3.5,"Sheep Ledge-2022",2022,8,NA,44.50358723,-64.26728795,"Saccharina latissima","random",1,5.95,NA,NA,NA
+47,"nova_scotia_kelp",NA,"Shut-in Is",3.5,"Shut-in Is-2022",2022,8,NA,44.54115995,-63.95357947,"Saccharina latissima","random",1,0,NA,NA,NA
+48,"nova_scotia_kelp",NA,"Tilley Pt",3.5,"Tilley Pt-2022",2022,8,NA,44.53726455,-64.01674717,"Saccharina latissima","random",1,0,NA,NA,NA
+49,"nova_scotia_kelp",NA,"W Ironbound",3.5,"W Ironbound-2022",2022,8,NA,44.23824116,-64.2761317,"Saccharina latissima","random",1,1.6,NA,NA,NA
+50,"nova_scotia_kelp",NA,"Woody Is",3.5,"Woody Is-2022",2022,8,NA,44.44942296,-63.713577,"Saccharina latissima","random",1,1.425,NA,NA,NA
+51,"nova_scotia_kelp",NA,"Coachmans Ledge",3.5,"Coachmans Ledge-2000",2000,8,NA,44.49351453,-64.17671478,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0,NA,NA,NA
+52,"nova_scotia_kelp",NA,"Cross Is",3.5,"Cross Is-2000",2000,8,NA,44.31748417,-64.17390727,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,37.9,NA,NA,NA
+53,"nova_scotia_kelp",NA,"E Ironbound Is",3.5,"E Ironbound Is-2000",2000,8,NA,44.43843311,-64.09592455,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.6,NA,NA,NA
+54,"nova_scotia_kelp",NA,"E Spectacle Is",3.5,"E Spectacle Is-2000",2000,8,NA,44.24974658,-64.33058306,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.6,NA,NA,NA
+55,"nova_scotia_kelp",NA,"Feltzen South",3.5,"Feltzen South-2000",2000,8,NA,44.33160902,-64.28214228,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.3,NA,NA,NA
+56,"nova_scotia_kelp",NA,"Flat Is",3.5,"Flat Is-2000",2000,8,NA,44.42854791,-64.12988601,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,1.5,NA,NA,NA
+57,"nova_scotia_kelp",NA,"Gill Cove",3.5,"Gill Cove-2000",2000,8,NA,44.48522,-63.53436,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,25.6,NA,NA,NA
+58,"nova_scotia_kelp",NA,"Grassy Is",3.5,"Grassy Is-2000",2000,8,NA,44.44524131,-64.14167508,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.5,NA,NA,NA
+59,"nova_scotia_kelp",NA,"Graves Shoal",3.5,"Graves Shoal-2000",2000,8,NA,44.54773832,-64.19553526,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,28.2,NA,NA,NA
+60,"nova_scotia_kelp",NA,"Kelley Ledge",3.5,"Kelley Ledge-2000",2000,8,NA,44.47746009,-63.77083847,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,2.2,NA,NA,NA
+61,"nova_scotia_kelp",NA,"Little Duck",3.5,"Little Duck-2000",2000,8,NA,44.36424983,-64.18272067,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,3.9,NA,NA,NA
+62,"nova_scotia_kelp",NA,"Little Tancook Is",3.5,"Little Tancook Is-2000",2000,8,NA,44.47488785,-64.1373325,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0,NA,NA,NA
+63,"nova_scotia_kelp",NA,"Luke Is",3.5,"Luke Is-2000",2000,8,NA,44.57911606,-63.94153048,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0,NA,NA,NA
+64,"nova_scotia_kelp",NA,"Lynch Is",3.5,"Lynch Is-2000",2000,8,NA,44.51511503,-64.21115208,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0,NA,NA,NA
+65,"nova_scotia_kelp",NA,"Mill Cove B",3.5,"Mill Cove B-2000",2000,8,NA,44.5798473,-64.05098297,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.2,NA,NA,NA
+66,"nova_scotia_kelp",NA,"Ovens",3.5,"Ovens-2000",2000,8,NA,44.32544899,-64.25922339,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,5.1,NA,NA,NA
+67,"nova_scotia_kelp",NA,"Pennant Is",3.5,"Pennant Is-2000",2000,8,NA,44.45579262,-63.66071502,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,4.4,NA,NA,NA
+68,"nova_scotia_kelp",NA,"Pt Enrage",3.5,"Pt Enrage-2000",2000,8,NA,44.27128069,-64.24709905,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,23.7,NA,NA,NA
+69,"nova_scotia_kelp",NA,"Ringdove Shoal",3.5,"Ringdove Shoal-2000",2000,8,NA,44.596,-63.961,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0,NA,NA,NA
+70,"nova_scotia_kelp",NA,"Rose Bay",3.5,"Rose Bay-2000",2000,8,NA,44.29246059,-64.24751404,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.3,NA,NA,NA
+71,"nova_scotia_kelp",NA,"Sheep Ledge",3.5,"Sheep Ledge-2000",2000,8,NA,44.50358723,-64.26728795,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0,NA,NA,NA
+72,"nova_scotia_kelp",NA,"Shut-in Is",3.5,"Shut-in Is-2000",2000,8,NA,44.54115995,-63.95357947,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,11.6,NA,NA,NA
+73,"nova_scotia_kelp",NA,"Tilley Pt",3.5,"Tilley Pt-2000",2000,8,NA,44.53726455,-64.01674717,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,2.3,NA,NA,NA
+74,"nova_scotia_kelp",NA,"W Ironbound",3.5,"W Ironbound-2000",2000,8,NA,44.23824116,-64.2761317,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,35.5,NA,NA,NA
+75,"nova_scotia_kelp",NA,"Woody Is",3.5,"Woody Is-2000",2000,8,NA,44.44942296,-63.713577,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,12,NA,NA,NA
+76,"nova_scotia_kelp",NA,"Coachmans Ledge",3.5,"Coachmans Ledge-2007",2007,8,NA,44.49351453,-64.17671478,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,67.8,NA,NA,NA
+77,"nova_scotia_kelp",NA,"Cross Is",3.5,"Cross Is-2007",2007,8,NA,44.31748417,-64.17390727,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,73.3,NA,NA,NA
+78,"nova_scotia_kelp",NA,"E Ironbound Is",3.5,"E Ironbound Is-2007",2007,8,NA,44.43843311,-64.09592455,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,15.9,NA,NA,NA
+79,"nova_scotia_kelp",NA,"E Spectacle Is",3.5,"E Spectacle Is-2007",2007,8,NA,44.24974658,-64.33058306,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,9.9,NA,NA,NA
+80,"nova_scotia_kelp",NA,"Feltzen South",3.5,"Feltzen South-2007",2007,8,NA,44.33160902,-64.28214228,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,15.3,NA,NA,NA
+81,"nova_scotia_kelp",NA,"Flat Is",3.5,"Flat Is-2007",2007,8,NA,44.42854791,-64.12988601,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,9,NA,NA,NA
+82,"nova_scotia_kelp",NA,"Gill Cove",3.5,"Gill Cove-2007",2007,8,NA,44.48522,-63.53436,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,76.7,NA,NA,NA
+83,"nova_scotia_kelp",NA,"Grassy Is",3.5,"Grassy Is-2007",2007,8,NA,44.44524131,-64.14167508,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,35.6,NA,NA,NA
+84,"nova_scotia_kelp",NA,"Graves Shoal",3.5,"Graves Shoal-2007",2007,8,NA,44.54773832,-64.19553526,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,27.2,NA,NA,NA
+85,"nova_scotia_kelp",NA,"Kelley Ledge",3.5,"Kelley Ledge-2007",2007,8,NA,44.47746009,-63.77083847,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,11.6,NA,NA,NA
+86,"nova_scotia_kelp",NA,"Little Duck",3.5,"Little Duck-2007",2007,8,NA,44.36424983,-64.18272067,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,5.4,NA,NA,NA
+87,"nova_scotia_kelp",NA,"Little Tancook Is",3.5,"Little Tancook Is-2007",2007,8,NA,44.47488785,-64.1373325,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,29.4,NA,NA,NA
+88,"nova_scotia_kelp",NA,"Luke Is",3.5,"Luke Is-2007",2007,8,NA,44.57911606,-63.94153048,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,14.2,NA,NA,NA
+89,"nova_scotia_kelp",NA,"Lynch Is",3.5,"Lynch Is-2007",2007,8,NA,44.51511503,-64.21115208,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,29.2,NA,NA,NA
+90,"nova_scotia_kelp",NA,"Mill Cove B",3.5,"Mill Cove B-2007",2007,8,NA,44.5798473,-64.05098297,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,6,NA,NA,NA
+91,"nova_scotia_kelp",NA,"Ovens",3.5,"Ovens-2007",2007,8,NA,44.32544899,-64.25922339,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,1.5,NA,NA,NA
+92,"nova_scotia_kelp",NA,"Pennant Is",3.5,"Pennant Is-2007",2007,8,NA,44.45579262,-63.66071502,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,10.6,NA,NA,NA
+93,"nova_scotia_kelp",NA,"Pt Enrage",3.5,"Pt Enrage-2007",2007,8,NA,44.27128069,-64.24709905,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.9,NA,NA,NA
+94,"nova_scotia_kelp",NA,"Ringdove Shoal",3.5,"Ringdove Shoal-2007",2007,8,NA,44.596,-63.961,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,3.2,NA,NA,NA
+95,"nova_scotia_kelp",NA,"Rose Bay",3.5,"Rose Bay-2007",2007,8,NA,44.29246059,-64.24751404,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,1.1,NA,NA,NA
+96,"nova_scotia_kelp",NA,"Sheep Ledge",3.5,"Sheep Ledge-2007",2007,8,NA,44.50358723,-64.26728795,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,22.9,NA,NA,NA
+97,"nova_scotia_kelp",NA,"Shut-in Is",3.5,"Shut-in Is-2007",2007,8,NA,44.54115995,-63.95357947,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,42.2,NA,NA,NA
+98,"nova_scotia_kelp",NA,"Tilley Pt",3.5,"Tilley Pt-2007",2007,8,NA,44.53726455,-64.01674717,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,24.8,NA,NA,NA
+99,"nova_scotia_kelp",NA,"W Ironbound",3.5,"W Ironbound-2007",2007,8,NA,44.23824116,-64.2761317,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,43.6,NA,NA,NA
+100,"nova_scotia_kelp",NA,"Woody Is",3.5,"Woody Is-2007",2007,8,NA,44.44942296,-63.713577,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,28.4,NA,NA,NA
+101,"nova_scotia_kelp",NA,"Coachmans Ledge",3.5,"Coachmans Ledge-2014",2014,8,NA,44.49351453,-64.17671478,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.534188,NA,NA,NA
+102,"nova_scotia_kelp",NA,"Cross Is",3.5,"Cross Is-2014",2014,8,NA,44.31748417,-64.17390727,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,44.4942044,NA,NA,NA
+103,"nova_scotia_kelp",NA,"E Ironbound Is",3.5,"E Ironbound Is-2014",2014,8,NA,44.43843311,-64.09592455,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,11.3942308,NA,NA,NA
+104,"nova_scotia_kelp",NA,"E Spectacle Is",3.5,"E Spectacle Is-2014",2014,8,NA,44.24974658,-64.33058306,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,17.3798077,NA,NA,NA
+105,"nova_scotia_kelp",NA,"Feltzen South",3.5,"Feltzen South-2014",2014,8,NA,44.33160902,-64.28214228,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,17.742674,NA,NA,NA
+106,"nova_scotia_kelp",NA,"Flat Is",3.5,"Flat Is-2014",2014,8,NA,44.42854791,-64.12988601,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,4.2067308,NA,NA,NA
+107,"nova_scotia_kelp",NA,"Gill Cove",3.5,"Gill Cove-2014",2014,8,NA,44.48522,-63.53436,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,28.9423077,NA,NA,NA
+108,"nova_scotia_kelp",NA,"Little Duck",3.5,"Little Duck-2014",2014,8,NA,44.36424983,-64.18272067,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,3.6778846,NA,NA,NA
+109,"nova_scotia_kelp",NA,"Little Tancook Is",3.5,"Little Tancook Is-2014",2014,8,NA,44.47488785,-64.1373325,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,2.8846154,NA,NA,NA
+110,"nova_scotia_kelp",NA,"Luke Is",3.5,"Luke Is-2014",2014,8,NA,44.57911606,-63.94153048,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.0274725,NA,NA,NA
+111,"nova_scotia_kelp",NA,"Ovens",3.5,"Ovens-2014",2014,8,NA,44.32544899,-64.25922339,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,6.6586538,NA,NA,NA
+112,"nova_scotia_kelp",NA,"Pt Enrage",3.5,"Pt Enrage-2014",2014,8,NA,44.27128069,-64.24709905,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,5.6009615,NA,NA,NA
+113,"nova_scotia_kelp",NA,"Rose Bay",3.5,"Rose Bay-2014",2014,8,NA,44.29246059,-64.24751404,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.9134615,NA,NA,NA
+114,"nova_scotia_kelp",NA,"Sheep Ledge",3.5,"Sheep Ledge-2014",2014,8,NA,44.50358723,-64.26728795,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.2884615,NA,NA,NA
+115,"nova_scotia_kelp",NA,"Shut-in Is",3.5,"Shut-in Is-2014",2014,8,NA,44.54115995,-63.95357947,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,4.5192308,NA,NA,NA
+116,"nova_scotia_kelp",NA,"Tilley Pt",3.5,"Tilley Pt-2014",2014,8,NA,44.53726455,-64.01674717,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,0.3365385,NA,NA,NA
+117,"nova_scotia_kelp",NA,"Woody Is",3.5,"Woody Is-2014",2014,8,NA,44.44942296,-63.713577,"Saccharina latissima, Laminaria digitata, Agarum clathratum, Alaria esculenta","random",1,1.7788462,NA,NA,NA

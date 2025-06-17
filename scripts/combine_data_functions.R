@@ -1,0 +1,132 @@
+source("scripts/data_checking_functions.R")
+library(lubridate)
+
+process_one_study_to_combine <- function(datasetname, path = "data/clean_data/timeseries/"){
+  print(glue("Working on {datasetname}"))
+  
+  # read in data
+  kelp_data <- read_kelp_data(datasetname, path = path) 
+  
+  # reprocess
+  ret <- kelp_data |>
+    mutate(trajectory_ID = paste(Study, Site) |> as.factor() |> as.numeric(),
+           kelpPresent = ifelse(
+             Percent_Cover > 0 | 
+               Individual_Density_num_per_sq_m > 0 | 
+               Biomass_kg_wet_per_sq_m > 0 | 
+               Stipe_Density_num_per_sq_m > 0,
+             1,
+             NA_real_
+           ),
+           sasDate = paste(Sample_Year, Sample_Month, Sample_Day, sep = "-") |> ymd(),
+           rawDate = interval( ymd("19600101"), ymd(sasDate)) %/% days(1)) |> #days since jan 1 1960
+    arrange(Study, Site, sasDate) |>
+    group_by(Study, Site) |>
+    
+    # add sample period
+    mutate(
+      period = sasDate |> as.factor() |> as.numeric()
+    ) |>
+    
+    # Average each taxon within a sample_ID
+    group_by(Study, Site, period, Sample_ID, Taxon) |>
+    summarize(
+      Latitude = mean(Latitude),
+      Longitude = mean(Longitude),
+      Sample_Unit_Size_sq_m = mean(Sample_Unit_Size_sq_m),
+      kelpPresent = max(kelpPresent),
+      max_Depth = max(Depth_m),
+      mean_Depth = mean(Depth_m),
+      min_Depth = min(Depth_m),
+      sasDate = mean(sasDate),
+      Biomass_kg_wet_per_sq_m = mean(Biomass_kg_wet_per_sq_m),
+      Stipe_Density_num_per_sq_m = mean(Stipe_Density_num_per_sq_m),
+      Individual_Density_num_per_sq_m = mean(Individual_Density_num_per_sq_m),
+      Percent_Cover = mean(Percent_Cover),
+      .groups = "drop"
+    ) |>
+    
+  # Sum across taxon for each sample
+  group_by(Study, Site, period, Sample_ID) |>
+    summarize(
+      Latitude = mean(Latitude),
+      Longitude = mean(Longitude),
+      Sample_Unit_Size_sq_m = mean(Sample_Unit_Size_sq_m),
+      kelpPresent = max(kelpPresent),
+      max_Depth = max(max_Depth),
+      mean_Depth = mean(mean_Depth),
+      min_Depth = min(min_Depth),
+      sasDate = mean(sasDate),
+      Biomass_kg_wet_per_sq_m = sum(Biomass_kg_wet_per_sq_m),
+      Stipe_Density_num_per_sq_m = sum(Stipe_Density_num_per_sq_m),
+      Individual_Density_num_per_sq_m = sum(Individual_Density_num_per_sq_m),
+      Percent_Cover = sum(Percent_Cover),
+      .groups = "drop"
+    ) |>
+    
+    # aggregate measurements by period - so getting average kelp cover
+    group_by(Study, Site, period) |>
+    summarize(
+      Latitude = mean(Latitude),
+      Longitude = mean(Longitude),
+      sample_unit_size_sq_m = mean(Sample_Unit_Size_sq_m),
+      sasDate = mean(sasDate),
+      max_Depth = max(max_Depth),
+      mean_Depth = mean(mean_Depth),
+      min_Depth = min(min_Depth),
+      biomass_KG_wet_per_sq_m = mean(Biomass_kg_wet_per_sq_m),
+      Stipe_Density_num_per_sq_m = mean(Stipe_Density_num_per_sq_m),
+      individual_per_sq_m = mean(Individual_Density_num_per_sq_m),
+      percent_cover = mean(Percent_Cover),
+      biomass_KG_wet_per_sq_m_STD = sd(Biomass_kg_wet_per_sq_m),
+      Stipe_Density_num_per_sq_m_STD = sd(Stipe_Density_num_per_sq_m),
+      individual_per_sq_m_STD = sd(Individual_Density_num_per_sq_m),
+      percent_cover_STD = sd(Percent_Cover),
+      .groups = "drop"
+    ) |>
+    group_by(Study) |>
+    mutate(  has_bm = sum(!is.na(biomass_KG_wet_per_sq_m)),
+             has_sd = sum(!is.na(Stipe_Density_num_per_sq_m)),
+             has_id = sum(!is.na(individual_per_sq_m)),
+             has_pc = sum(!is.na(percent_cover)),
+             use_which = which.max(c(has_bm[1], has_sd[1], has_id[1], has_pc[1]))
+          ) |>
+    ungroup() |>
+    rename_with(tolower) |>
+    
+    
+    # add focal kelp with preference order biomass, stipes, individuals, percent
+    mutate(
+      focalKelp = case_when(
+        use_which==1  ~ biomass_kg_wet_per_sq_m,
+        use_which==2  ~ stipe_density_num_per_sq_m,
+        use_which==3  ~ individual_per_sq_m,
+        use_which==4  ~ percent_cover,
+        TRUE ~ NA_real_
+      ),
+      focalKelp_STD = case_when(
+        use_which==1  ~ biomass_kg_wet_per_sq_m_std,
+        use_which==2  ~ stipe_density_num_per_sq_m_std,
+        use_which==3  ~ individual_per_sq_m_std,
+        use_which==4  ~ percent_cover_std,
+        TRUE ~ NA_real_
+      ),
+      focalUnit = case_when(
+        use_which==1  ~ "biomass",
+        use_which==2  ~ "stipe_density",
+        use_which==3  ~ "individual_density",
+        use_which==4  ~ "percent_cover",
+        TRUE ~ NA_character_
+      )
+      )
+  
+  ret
+
+}
+
+
+# get the top 3 values, average them, and standardize by them
+standardize_by_max <- function(x, samp=3) {
+  m <- mean(sort(x, decreasing=T, na.last=T)[1:samp])
+  x/m
+}

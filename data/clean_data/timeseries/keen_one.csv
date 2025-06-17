@@ -1,0 +1,283 @@
+"Entry","Study","Region","Site","Depth.m","Sample.ID","Sample.Year","Sample.Month","Sample.Day","Latitude","Longitude","Taxon","Fixed.or.Random","Sample.Unit.Size.sq.m","Percent.Cover","Stipe.Density.num.per.sq.m","Individual.Density.num.per.sq.m","Biomass.kg.wet.per.sq.m"
+1,"keen_one",NA,"Baker North",8.55,"Baker North-2014-7-8-1",2014,7,8,42.53804,-70.78646,"Saccharina latissima","random",1,77.5,NA,28.5,2.37826581814398
+2,"keen_one",NA,"Baker North",8.33333333333333,"Baker North-2016-8-2-1",2016,8,2,42.53749,-70.78549,"Agarum clathratum","random",1,NA,NA,0,NA
+3,"keen_one",NA,"Baker North",8.33333333333333,"Baker North-2016-8-2-1",2016,8,2,42.53749,-70.78549,"Saccharina latissima","random",1,55,NA,9.5,0.533686422119741
+4,"keen_one",NA,"Baker North",6.66666666666667,"Baker North-2017-7-19-1",2017,7,19,42.53781,-70.78767,"Saccharina latissima","random",1,56.25,NA,10,0.373995104818367
+5,"keen_one",NA,"Baker North",5.52,"Baker North-2018-7-10-1",2018,7,10,42.3227,-70.47183,"Saccharina latissima","random",1,33.75,NA,8.66666666666667,0.218146470242476
+6,"keen_one",NA,"Baker North",6.66666666666667,"Baker North-2014-7-8-2",2014,7,8,42.53744,-70.78494,"Saccharina latissima","random",1,86.25,NA,23.1666666666667,1.67589172838011
+7,"keen_one",NA,"Baker North",10.1,"Baker North-2015-7-7-2",2015,7,7,42.53787,-70.78437,"Agarum clathratum","random",1,10,NA,2.16666666666667,0.0567443422711521
+8,"keen_one",NA,"Baker North",10.1,"Baker North-2015-7-7-2",2015,7,7,42.53787,-70.78437,"Saccharina latissima","random",1,53.75,NA,7,0.431606018793557
+9,"keen_one",NA,"Baker North",7.22857142857143,"Baker North-2016-8-2-2",2016,8,2,42.53773,-70.78626,"Agarum clathratum","random",1,NA,NA,0,NA
+10,"keen_one",NA,"Baker North",7.22857142857143,"Baker North-2016-8-2-2",2016,8,2,42.53773,-70.78626,"Saccharina latissima","random",1,23.75,NA,5.16666666666667,0.25333839938272
+11,"keen_one",NA,"Baker North",8,"Baker North-2017-7-20-2",2017,7,20,42.5379,-70.78578,"Agarum clathratum","random",1,3.75,NA,0.333333333333333,NA
+12,"keen_one",NA,"Baker North",8,"Baker North-2017-7-20-2",2017,7,20,42.5379,-70.78578,"Saccharina latissima","random",1,30,NA,10.1666666666667,NA
+13,"keen_one",NA,"Baker North",7.45,"Baker North-2014-7-9-3",2014,7,9,42.53696,-70.78384,"Saccharina latissima","random",1,31.25,NA,3.66666666666667,0.182489926369272
+14,"keen_one",NA,"Baker North",7.18,"Baker North-2015-7-9-3",2015,7,9,42.53677,-70.78341,"Agarum clathratum","random",1,NA,NA,0,NA
+15,"keen_one",NA,"Baker North",7.18,"Baker North-2015-7-9-3",2015,7,9,42.53677,-70.78341,"Saccharina latissima","random",1,2.5,NA,11.3333333333333,0.437746313539645
+16,"keen_one",NA,"Baker North",6.7,"Baker North-2016-8-4-3",2016,8,4,42.53625,-70.78327,"Agarum clathratum","random",1,NA,NA,0,NA
+17,"keen_one",NA,"Baker North",6.7,"Baker North-2016-8-4-3",2016,8,4,42.53625,-70.78327,"Saccharina latissima","random",1,8.75,NA,1,NA
+18,"keen_one",NA,"Baker North",8.46666666666667,"Baker North-2017-7-20-3",2017,7,20,42.5365,-70.78381,"Saccharina latissima","random",1,18.75,NA,7.66666666666667,NA
+19,"keen_one",NA,"Baker North",7.9875,"Baker North-2018-7-11-3",2018,7,11,42.322,-70.47036,"Saccharina latissima","random",1,16.25,NA,1.33333333333333,NA
+20,"keen_one",NA,"Baker North",7.51666666666667,"Baker North-2014-7-9-4",2014,7,9,42.53495,-70.78127,"Saccharina latissima","random",1,55,NA,7.5,0.542047817372954
+21,"keen_one",NA,"Baker North",7.51666666666667,"Baker North-2015-7-10-4",2015,7,10,42.53502,-70.78151,"Agarum clathratum","random",1,NA,NA,0,NA
+22,"keen_one",NA,"Baker North",7.51666666666667,"Baker North-2015-7-10-4",2015,7,10,42.53502,-70.78151,"Saccharina latissima","random",1,93.75,NA,15,0.385687428642299
+23,"keen_one",NA,"Baker North",7.725,"Baker North-2016-8-4-4",2016,8,4,42.53563,-70.78035,"Agarum clathratum","random",1,NA,NA,0,NA
+24,"keen_one",NA,"Baker North",7.725,"Baker North-2016-8-4-4",2016,8,4,42.53563,-70.78035,"Saccharina latissima","random",1,33.75,NA,4,NA
+25,"keen_one",NA,"Baker South",7.62,"Baker South-2014-7-11-1",2014,7,11,42.53283,-70.78202,"Saccharina latissima","random",1,35,NA,6.83333333333333,0.198466791383231
+26,"keen_one",NA,"Baker South",7.18,"Baker South-2015-7-9-1",2015,7,9,42.53247,-70.78275,"Agarum clathratum","random",1,NA,NA,0.166666666666667,NA
+27,"keen_one",NA,"Baker South",7.18,"Baker South-2015-7-9-1",2015,7,9,42.53247,-70.78275,"Saccharina latissima","random",1,NA,NA,8.33333333333333,0.435170733508155
+28,"keen_one",NA,"Baker South",8.31538461538462,"Baker South-2016-8-3-1",2016,8,3,42.533568,-70.78228,"Agarum clathratum","random",1,NA,NA,0,NA
+29,"keen_one",NA,"Baker South",8.31538461538462,"Baker South-2016-8-3-1",2016,8,3,42.533568,-70.78228,"Saccharina latissima","random",1,56.25,NA,10.5,0.614316042105647
+30,"keen_one",NA,"Baker South",7.22857142857143,"Baker South-2018-7-3-1",2018,7,3,42.31792,-70.47157,"Agarum clathratum","random",1,NA,NA,3,NA
+31,"keen_one",NA,"Baker South",7.22857142857143,"Baker South-2018-7-3-1",2018,7,3,42.31792,-70.47157,"Saccharina latissima","random",1,27.5,NA,2.16666666666667,0.0283929990702768
+32,"keen_one",NA,"Baker South",7.7,"Baker South-2014-7-11-2",2014,7,11,42.53167,-70.78329,"Saccharina latissima","random",1,41.25,NA,5.16666666666667,0.309797246587016
+33,"keen_one",NA,"Baker South",7.475,"Baker South-2015-7-9-2",2015,7,9,42.53135,-70.78362,"Agarum clathratum","random",1,NA,NA,0,NA
+34,"keen_one",NA,"Baker South",7.475,"Baker South-2015-7-9-2",2015,7,9,42.53135,-70.78362,"Saccharina latissima","random",1,70,NA,9,0.635233454174914
+35,"keen_one",NA,"Baker South",7.5,"Baker South-2016-8-3-2",2016,8,3,42.532335,-70.783988,"Agarum clathratum","random",1,NA,NA,0,NA
+36,"keen_one",NA,"Baker South",7.5,"Baker South-2016-8-3-2",2016,8,3,42.532335,-70.783988,"Saccharina latissima","random",1,66.25,NA,4.5,0.156459838466087
+37,"keen_one",NA,"Baker South",7.9875,"Baker South-2017-7-26-2",2017,7,26,42.53057,-70.78473,"Saccharina latissima","random",1,10,NA,0.333333333333333,0.0153958455932709
+38,"keen_one",NA,"Baker South",7.52727272727273,"Baker South-2018-7-5-2",2018,7,5,42.31831,-70.4707,"Agarum clathratum","random",1,NA,NA,0.5,NA
+39,"keen_one",NA,"Baker South",7.52727272727273,"Baker South-2018-7-5-2",2018,7,5,42.31831,-70.4707,"Saccharina latissima","random",1,22.5,NA,0.666666666666667,NA
+40,"keen_one",NA,"Baker South",7.775,"Baker South-2014-7-10-3",2014,7,10,42.53066,-70.78569,"Saccharina latissima","random",1,36.25,NA,6.5,0.163885675689244
+41,"keen_one",NA,"Baker South",7.52727272727273,"Baker South-2016-8-3-3",2016,8,3,42.531227,-70.78535,"Agarum clathratum","random",1,NA,NA,0,NA
+42,"keen_one",NA,"Baker South",7.52727272727273,"Baker South-2016-8-3-3",2016,8,3,42.531227,-70.78535,"Saccharina latissima","random",1,52.5,NA,8.33333333333333,0.246654856806003
+43,"keen_one",NA,"Baker South",8.5,"Baker South-2017-7-26-3",2017,7,26,42.53214,-70.78316,"Saccharina latissima","random",1,NA,NA,2,0.0731371020323878
+44,"keen_one",NA,"Baker South",9.03333333333333,"Baker South-2018-7-9-3",2018,7,9,42.31902,-70.46909,"Agarum clathratum","random",1,NA,NA,5,NA
+45,"keen_one",NA,"Baker South",9.03333333333333,"Baker South-2018-7-9-3",2018,7,9,42.31902,-70.46909,"Saccharina latissima","random",1,31.25,NA,2.33333333333333,0.0284735154656646
+46,"keen_one",NA,"Baker South",8.9,"Baker South-2016-8-3-4",2016,8,3,42.530752,-70.786561,"Agarum clathratum","random",1,NA,NA,0,NA
+47,"keen_one",NA,"Baker South",8.9,"Baker South-2016-8-3-4",2016,8,3,42.530752,-70.786561,"Saccharina latissima","random",1,53.75,NA,5,0.255116841027352
+48,"keen_one",NA,"Baker South",7.51666666666667,"Baker South-2017-7-31-4",2017,7,31,42.53159,-70.78199,"Saccharina latissima","random",1,20,NA,19,0.475492920183164
+49,"keen_one",NA,"Baker South",7.22857142857143,"Baker South-2018-7-9-4",2018,7,9,42.31972,-70.46877,"Agarum clathratum","random",1,NA,NA,0.166666666666667,NA
+50,"keen_one",NA,"Baker South",7.22857142857143,"Baker South-2018-7-9-4",2018,7,9,42.31972,-70.46877,"Saccharina latissima","random",1,22.5,NA,4.5,0.068835410295217
+51,"keen_one",NA,"Calf Island",8.85,"Calf Island-2014-7-24-1",2014,7,24,42.34634,-70.8925,"Saccharina latissima","random",1,56.25,NA,10.5,0.506257773335623
+52,"keen_one",NA,"Calf Island",6.4,"Calf Island-2016-8-30-1",2016,8,30,42.345715,-70.89132,"Agarum clathratum","random",1,1.25,NA,0.666666666666667,0.0180024555899585
+53,"keen_one",NA,"Calf Island",6.4,"Calf Island-2016-8-30-1",2016,8,30,42.345715,-70.89132,"Saccharina latissima","random",1,82.5,NA,6.33333333333333,0.483697631260369
+54,"keen_one",NA,"Calf Island",8.4,"Calf Island-2017-8-2-1",2017,8,2,42.34541,-70.8924,"Laminaria digitata","random",1,16.25,NA,1.66666666666667,0.141177051248686
+55,"keen_one",NA,"Calf Island",8.4,"Calf Island-2017-8-2-1",2017,8,2,42.34541,-70.8924,"Saccharina latissima","random",1,45,NA,3.66666666666667,0.285329329052997
+56,"keen_one",NA,"Calf Island",7.45,"Calf Island-2014-7-24-2",2014,7,24,42.34416,-70.89385,"Laminaria digitata","random",1,3.75,NA,0.166666666666667,0.0272367623002572
+57,"keen_one",NA,"Calf Island",7.45,"Calf Island-2014-7-24-2",2014,7,24,42.34416,-70.89385,"Saccharina latissima","random",1,50,NA,10.5,0.702783941791296
+58,"keen_one",NA,"Calf Island",7.6,"Calf Island-2016-8-29-2",2016,8,29,42.343802,-70.8912,"Agarum clathratum","random",1,NA,NA,0,NA
+59,"keen_one",NA,"Calf Island",7.6,"Calf Island-2016-8-29-2",2016,8,29,42.343802,-70.8912,"Laminaria digitata","random",1,NA,NA,0.166666666666667,0.00850111444620231
+60,"keen_one",NA,"Calf Island",7.6,"Calf Island-2016-8-29-2",2016,8,29,42.343802,-70.8912,"Saccharina latissima","random",1,96.25,NA,11.1666666666667,0.746498585853811
+61,"keen_one",NA,"Calf Island",6.975,"Calf Island-2017-8-2-2",2017,8,2,42.34392,-70.89391,"Laminaria digitata","random",1,2.5,NA,0.666666666666667,0.0623106616206773
+62,"keen_one",NA,"Calf Island",6.975,"Calf Island-2017-8-2-2",2017,8,2,42.34392,-70.89391,"Saccharina latissima","random",1,41.25,NA,2.5,0.160664547484689
+63,"keen_one",NA,"Calf Island",8.31538461538462,"Calf Island-2014-7-24-3",2014,7,24,42.34295,-70.893445,"Laminaria digitata","random",1,3.75,NA,0.333333333333333,0.0307563550291694
+64,"keen_one",NA,"Calf Island",8.31538461538462,"Calf Island-2014-7-24-3",2014,7,24,42.34295,-70.893445,"Saccharina latissima","random",1,67.5,NA,4.5,0.398670498783141
+65,"keen_one",NA,"Calf Island",7.475,"Calf Island-2015-7-14-3",2015,7,14,42.3424299247562,-70.8929499797523,"Agarum clathratum","random",1,NA,NA,0,NA
+66,"keen_one",NA,"Calf Island",7.475,"Calf Island-2015-7-14-3",2015,7,14,42.3424299247562,-70.8929499797523,"Laminaria digitata","random",1,16.25,NA,2.5,0.216154450045889
+67,"keen_one",NA,"Calf Island",7.475,"Calf Island-2015-7-14-3",2015,7,14,42.3424299247562,-70.8929499797523,"Saccharina latissima","random",1,58.75,NA,9.16666666666667,1.03109113739499
+68,"keen_one",NA,"Calf Island",7.42,"Calf Island-2016-8-25-3",2016,8,25,42.342275,-70.891011,"Agarum clathratum","random",1,NA,NA,0,0
+69,"keen_one",NA,"Calf Island",7.42,"Calf Island-2016-8-25-3",2016,8,25,42.342275,-70.891011,"Laminaria digitata","random",1,NA,NA,4.5,0.441050896315186
+70,"keen_one",NA,"Calf Island",7.42,"Calf Island-2016-8-25-3",2016,8,25,42.342275,-70.891011,"Saccharina latissima","random",1,73.75,NA,8.5,0.70614269363627
+71,"keen_one",NA,"Calf Island",8.1,"Calf Island-2017-8-3-3",2017,8,3,42.3419,-70.89213,"Laminaria digitata","random",1,11.25,NA,1.16666666666667,NA
+72,"keen_one",NA,"Calf Island",8.1,"Calf Island-2017-8-3-3",2017,8,3,42.3419,-70.89213,"Saccharina latissima","random",1,28.75,NA,3.16666666666667,NA
+73,"keen_one",NA,"Calf Island",8.675,"Calf Island-2015-7-14-4",2015,7,14,42.3405299987643,-70.8936199452728,"Agarum clathratum","random",1,1.25,NA,0,0
+74,"keen_one",NA,"Calf Island",8.675,"Calf Island-2015-7-14-4",2015,7,14,42.3405299987643,-70.8936199452728,"Laminaria digitata","random",1,3.75,NA,0.5,0.0235758735938413
+75,"keen_one",NA,"Calf Island",8.675,"Calf Island-2015-7-14-4",2015,7,14,42.3405299987643,-70.8936199452728,"Saccharina latissima","random",1,30,NA,8.66666666666667,0.63520839705233
+76,"keen_one",NA,"Calf Island",8.675,"Calf Island-2016-9-1-4",2016,9,1,42.340155,-70.89377,"Agarum clathratum","random",1,1.25,NA,0.166666666666667,NA
+77,"keen_one",NA,"Calf Island",8.675,"Calf Island-2016-9-1-4",2016,9,1,42.340155,-70.89377,"Laminaria digitata","random",1,NA,NA,1,0.0636144439125728
+78,"keen_one",NA,"Calf Island",8.675,"Calf Island-2016-9-1-4",2016,9,1,42.340155,-70.89377,"Saccharina latissima","random",1,62.5,NA,6,0.414793149153454
+79,"keen_one",NA,"Calf Island",7.475,"Calf Island-2017-8-3-4",2017,8,3,42.34048,-70.89324,"Agarum clathratum","random",1,2.5,NA,0.333333333333333,NA
+80,"keen_one",NA,"Calf Island",7.475,"Calf Island-2017-8-3-4",2017,8,3,42.34048,-70.89324,"Laminaria digitata","random",1,NA,NA,0.166666666666667,NA
+81,"keen_one",NA,"Calf Island",7.475,"Calf Island-2017-8-3-4",2017,8,3,42.34048,-70.89324,"Saccharina latissima","random",1,21.25,NA,3,NA
+82,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2016-8-23-1",2016,8,23,41.4772145407588,-71.3664210546525,"Laminaria digitata","random",1,1.25,NA,3.5,0.157395384862196
+83,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2016-8-23-1",2016,8,23,41.4772145407588,-71.3664210546525,"Saccharina latissima","random",1,8.75,NA,7,0.168357562205087
+84,"keen_one",NA,"Fort Weatherill",7.52727272727273,"Fort Weatherill-2017-8-29-1",2017,8,29,41.4772430268374,-71.3664210539615,"Laminaria digitata","random",1,2.5,NA,0.166666666666667,NA
+85,"keen_one",NA,"Fort Weatherill",7.52727272727273,"Fort Weatherill-2017-8-29-1",2017,8,29,41.4772430268374,-71.3664210539615,"Saccharina latissima","random",1,1.25,NA,1.16666666666667,0.0490119837672991
+86,"keen_one",NA,"Fort Weatherill",7.9875,"Fort Weatherill-2018-9-10-1",2018,9,10,41.4773,-71.3664027777777,"Laminaria digitata","random",1,NA,NA,0.833333333333333,0.0348751385911815
+87,"keen_one",NA,"Fort Weatherill",7.9875,"Fort Weatherill-2018-9-10-1",2018,9,10,41.4773,-71.3664027777777,"Saccharina latissima","random",1,12.5,NA,3.83333333333333,0.0673575650676521
+88,"keen_one",NA,"Fort Weatherill",7.4676,"Fort Weatherill-2019-9-16-1",2019,9,16,41.4773,-71.3664027777777,"Saccharina latissima","random",1,42.5,NA,17.5,1.40709386315398
+89,"keen_one",NA,"Fort Weatherill",6.475,"Fort Weatherill-2016-8-23-2",2016,8,23,41.4769146682058,-71.3635710156022,"Laminaria digitata","random",1,NA,NA,2.33333333333333,0.1101234018088
+90,"keen_one",NA,"Fort Weatherill",6.475,"Fort Weatherill-2016-8-23-2",2016,8,23,41.4769146682058,-71.3635710156022,"Saccharina latissima","random",1,26.25,NA,4.5,0.0946586779511112
+91,"keen_one",NA,"Fort Weatherill",7.9875,"Fort Weatherill-2017-8-29-2",2017,8,29,41.4769430172352,-71.3635710149172,"Saccharina latissima","random",1,2.5,NA,1.5,0.0275619229782606
+92,"keen_one",NA,"Fort Weatherill",7.475,"Fort Weatherill-2018-9-10-2",2018,9,10,41.477025,-71.3635499999999,"Saccharina latissima","random",1,2.5,NA,11,0.109523070580146
+93,"keen_one",NA,"Fort Weatherill",7.3152,"Fort Weatherill-2019-9-11-2",2019,9,11,41.477025,-71.3635499999999,"Laminaria digitata","random",1,NA,NA,1,NA
+94,"keen_one",NA,"Fort Weatherill",7.3152,"Fort Weatherill-2019-9-11-2",2019,9,11,41.477025,-71.3635499999999,"Saccharina latissima","random",1,18.75,NA,9.5,0.210471508332358
+95,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2016-8-24-3",2016,8,24,41.4781297326476,-71.3617350539949,"Laminaria digitata","random",1,NA,NA,0.5,0.010313199730496
+96,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2016-8-24-3",2016,8,24,41.4781297326476,-71.3617350539949,"Saccharina latissima","random",1,2.5,NA,0.833333333333333,0.016882994330956
+97,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2017-8-31-3",2017,8,31,41.4781579934827,-71.3617350533138,"Laminaria digitata","random",1,NA,NA,0.666666666666667,0.0198963800133935
+98,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2017-8-31-3",2017,8,31,41.4781579934827,-71.3617350533138,"Saccharina latissima","random",1,5,NA,3,0.0856084574123117
+99,"keen_one",NA,"Fort Weatherill",7.52727272727273,"Fort Weatherill-2018-9-7-3",2018,9,7,41.4781861111111,-71.3616694444444,"Saccharina latissima","random",1,10,NA,1.16666666666667,0.0104009732295519
+100,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2016-8-24-4",2016,8,24,41.4774668826876,-71.3594229621577,"Laminaria digitata","random",1,NA,NA,1.33333333333333,NA
+101,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2016-8-24-4",2016,8,24,41.4774668826876,-71.3594229621577,"Saccharina latissima","random",1,1.25,NA,1.33333333333333,0.0102838248292023
+102,"keen_one",NA,"Fort Weatherill",7.85,"Fort Weatherill-2017-8-31-4",2017,8,31,41.4774950330157,-71.3594229614814,"Laminaria digitata","random",1,2.5,NA,1.83333333333333,0.0797938388778897
+103,"keen_one",NA,"Fort Weatherill",7.85,"Fort Weatherill-2017-8-31-4",2017,8,31,41.4774950330157,-71.3594229614814,"Saccharina latissima","random",1,11.25,NA,2.83333333333333,0.141562581590663
+104,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2018-9-24-4",2018,9,24,41.4774972222222,-71.3594166666666,"Laminaria digitata","random",1,1.25,NA,1.16666666666667,NA
+105,"keen_one",NA,"Fort Weatherill",8.31538461538462,"Fort Weatherill-2018-9-24-4",2018,9,24,41.4774972222222,-71.3594166666666,"Saccharina latissima","random",1,7.5,NA,5,NA
+106,"keen_one",NA,"Fort Weatherill",8.8392,"Fort Weatherill-2019-9-16-4",2019,9,16,41.4774972222222,-71.3594166666666,"Laminaria digitata","random",1,NA,NA,0.166666666666667,0.00574554690026267
+107,"keen_one",NA,"Fort Weatherill",8.8392,"Fort Weatherill-2019-9-16-4",2019,9,16,41.4774972222222,-71.3594166666666,"Saccharina latissima","random",1,10,NA,4.83333333333333,0.122996355077113
+108,"keen_one",NA,"Fort Weatherill",7.3152,"Fort Weatherill-2019-9-6-5",2019,9,6,41.47833333,-71.36027778,"Saccharina latissima","random",1,2.5,NA,0.833333333333333,NA
+109,"keen_one",NA,"Fort Weatherill",16,"Fort Weatherill-2019-9-11-6",2019,9,11,41.47944444,-71.35611111,"Saccharina latissima","random",1,NA,NA,0.333333333333333,NA
+110,"keen_one",NA,"Hurricane Island",7.52727272727273,"Hurricane Island-2017-7-20-1",2017,7,20,44.03995,-68.88836,"Agarum clathratum","random",1,1.25,NA,0.5,0.0230303461255787
+111,"keen_one",NA,"Hurricane Island",7.52727272727273,"Hurricane Island-2017-7-20-1",2017,7,20,44.03995,-68.88836,"Saccharina latissima","random",1,47.5,NA,2.66666666666667,0.303303115645065
+112,"keen_one",NA,"Hurricane Island",6.475,"Hurricane Island-2020-8-17-1",2020,8,17,44.039617,-68.887983,"Saccharina latissima","random",1,35,NA,2.33333333333333,0.0860961885959155
+113,"keen_one",NA,"Hurricane Island",7.42,"Hurricane Island-2017-7-20-2",2017,7,20,44.04085,-68.89433,"Laminaria digitata","random",1,6.25,NA,0.5,0.034247290140518
+114,"keen_one",NA,"Hurricane Island",7.42,"Hurricane Island-2017-7-20-2",2017,7,20,44.04085,-68.89433,"Saccharina latissima","random",1,80,NA,7,0.896966459236228
+115,"keen_one",NA,"Hurricane Island",6.475,"Hurricane Island-2020-8-17-2",2020,8,17,44.0408,-68.895167,"Saccharina latissima","random",1,33.75,NA,1.83333333333333,0.120314099667991
+116,"keen_one",NA,"Hurricane Island",5.83333333333333,"Hurricane Island-2017-7-27-3",2017,7,27,44.03941,-68.89541,"Agarum clathratum","random",1,1.25,NA,1.16666666666667,0.0462720115110953
+117,"keen_one",NA,"Hurricane Island",5.83333333333333,"Hurricane Island-2017-7-27-3",2017,7,27,44.03941,-68.89541,"Laminaria digitata","random",1,2.5,NA,1,0.0867280059759724
+118,"keen_one",NA,"Hurricane Island",5.83333333333333,"Hurricane Island-2017-7-27-3",2017,7,27,44.03941,-68.89541,"Saccharina latissima","random",1,85,NA,11.6666666666667,0.747132468416364
+119,"keen_one",NA,"Hurricane Island",7.9875,"Hurricane Island-2020-8-17-3",2020,8,17,44.039617,-68.895167,"Agarum clathratum","random",1,6.25,NA,0.5,0.0235481327881153
+120,"keen_one",NA,"Hurricane Island",7.9875,"Hurricane Island-2020-8-17-3",2020,8,17,44.039617,-68.895167,"Saccharina latissima","random",1,11.25,NA,0.166666666666667,0.00792264885641146
+121,"keen_one",NA,"Hurricane Island",5.83333333333333,"Hurricane Island-2017-8-3-4",2017,8,3,44.03881,-68.89272,"Saccharina latissima","random",1,76.25,NA,6,NA
+122,"keen_one",NA,"Hurricane Island",4,"Hurricane Island-2020-8-18-4",2020,8,18,44.039867,-68.892833,"Saccharina latissima","random",1,26.25,NA,4,0.157222633726932
+123,"keen_one",NA,"King's Beach",7.3152,"King's Beach-2019-9-27-1",2019,9,27,41.45247,-71.32591,"Laminaria digitata","random",1,NA,NA,0.166666666666667,NA
+124,"keen_one",NA,"King's Beach",7.3152,"King's Beach-2019-9-27-1",2019,9,27,41.45247,-71.32591,"Saccharina latissima","random",1,2.5,NA,0.166666666666667,NA
+125,"keen_one",NA,"King's Beach",NA,"King's Beach-2019-9-27-2",2019,9,27,41.44912,-71.33695,"Saccharina latissima","random",1,8.75,NA,8.5,NA
+126,"keen_one",NA,"King's Beach",NA,"King's Beach-2019-9-30-3",2019,9,30,41.4493,-71.33535,"Saccharina latissima","random",1,21.25,NA,8.83333333333333,0.255939832743455
+127,"keen_one",NA,"King's Beach",NA,"King's Beach-2019-9-30-4",2019,9,30,41.4511,-71.34161,"Saccharina latissima","random",1,17.5,NA,15,0.182384793138223
+128,"keen_one",NA,"Little Brewster",7.85,"Little Brewster-2015-7-15-1",2015,7,15,42.3272208776325,-70.8915652055293,"Agarum clathratum","random",1,NA,NA,0,NA
+129,"keen_one",NA,"Little Brewster",7.85,"Little Brewster-2015-7-15-1",2015,7,15,42.3272208776325,-70.8915652055293,"Saccharina latissima","random",1,20,NA,6.16666666666667,0.414582165654102
+130,"keen_one",NA,"Little Brewster",6.4,"Little Brewster-2016-8-25-1",2016,8,25,42.328099,-70.888049,"Agarum clathratum","random",1,NA,NA,0,NA
+131,"keen_one",NA,"Little Brewster",6.4,"Little Brewster-2016-8-25-1",2016,8,25,42.328099,-70.888049,"Saccharina latissima","random",1,28.75,NA,8.33333333333333,0.433384612020046
+132,"keen_one",NA,"Little Brewster",5.83333333333333,"Little Brewster-2017-8-7-1",2017,8,7,42.32691,-70.89171,"Saccharina latissima","random",1,NA,NA,2.83333333333333,0.0390984802482534
+133,"keen_one",NA,"Little Brewster",8.35,"Little Brewster-2014-8-8-2",2014,8,8,42.327516,-70.88883,"Saccharina latissima","random",1,38.75,NA,4.33333333333333,0.460005228402864
+134,"keen_one",NA,"Little Brewster",6.975,"Little Brewster-2015-7-17-2",2015,7,17,42.3270465340465,-70.8908638916909,"Agarum clathratum","random",1,NA,NA,0,NA
+135,"keen_one",NA,"Little Brewster",6.975,"Little Brewster-2015-7-17-2",2015,7,17,42.3270465340465,-70.8908638916909,"Laminaria digitata","random",1,NA,NA,0.5,0.0637607433698024
+136,"keen_one",NA,"Little Brewster",6.975,"Little Brewster-2015-7-17-2",2015,7,17,42.3270465340465,-70.8908638916909,"Saccharina latissima","random",1,61.25,NA,6,0.768827033059057
+137,"keen_one",NA,"Little Brewster",7.85,"Little Brewster-2016-8-29-2",2016,8,29,42.3269,-70.888444,"Agarum clathratum","random",1,NA,NA,0,NA
+138,"keen_one",NA,"Little Brewster",7.85,"Little Brewster-2016-8-29-2",2016,8,29,42.3269,-70.888444,"Saccharina latissima","random",1,32.5,NA,9.83333333333333,0.291334535799855
+139,"keen_one",NA,"Little Brewster",7.725,"Little Brewster-2014-8-8-3",2014,8,8,42.32914,-70.88928,"Saccharina latissima","random",1,81.25,NA,8,0.93782241413864
+140,"keen_one",NA,"Little Brewster",7.725,"Little Brewster-2015-7-17-3",2015,7,17,42.3273499589413,-70.8897599950432,"Agarum clathratum","random",1,NA,NA,0,NA
+141,"keen_one",NA,"Little Brewster",7.725,"Little Brewster-2015-7-17-3",2015,7,17,42.3273499589413,-70.8897599950432,"Saccharina latissima","random",1,43.75,NA,10.5,0.637974935189982
+142,"keen_one",NA,"Little Brewster",7.725,"Little Brewster-2016-8-30-3",2016,8,30,42.326938,-70.890339,"Agarum clathratum","random",1,NA,NA,0,NA
+143,"keen_one",NA,"Little Brewster",7.725,"Little Brewster-2016-8-30-3",2016,8,30,42.326938,-70.890339,"Laminaria digitata","random",1,1.25,NA,1,0.0729807595465106
+144,"keen_one",NA,"Little Brewster",7.725,"Little Brewster-2016-8-30-3",2016,8,30,42.326938,-70.890339,"Saccharina latissima","random",1,33.75,NA,2.66666666666667,0.123155830762472
+145,"keen_one",NA,"Little Brewster",8,"Little Brewster-2017-8-7-3",2017,8,7,42.32678,-70.8903,"Saccharina latissima","random",1,16.25,NA,2.5,0.211428211801444
+146,"keen_one",NA,"Little Brewster",7.18,"Little Brewster-2015-7-15-4",2015,7,15,42.3278042580932,-70.8887399174273,"Agarum clathratum","random",1,1.25,NA,0,NA
+147,"keen_one",NA,"Little Brewster",7.18,"Little Brewster-2015-7-15-4",2015,7,15,42.3278042580932,-70.8887399174273,"Laminaria digitata","random",1,5,NA,0.333333333333333,0.0193576436408064
+148,"keen_one",NA,"Little Brewster",7.18,"Little Brewster-2015-7-15-4",2015,7,15,42.3278042580932,-70.8887399174273,"Saccharina latissima","random",1,21.25,NA,4.5,0.344889567451701
+149,"keen_one",NA,"Little Brewster",6.975,"Little Brewster-2016-9-1-4",2016,9,1,42.327162,-70.891487,"Agarum clathratum","random",1,NA,NA,0,NA
+150,"keen_one",NA,"Little Brewster",6.975,"Little Brewster-2016-9-1-4",2016,9,1,42.327162,-70.891487,"Laminaria digitata","random",1,13.75,NA,0.333333333333333,0.0433407265554687
+151,"keen_one",NA,"Little Brewster",6.975,"Little Brewster-2016-9-1-4",2016,9,1,42.327162,-70.891487,"Saccharina latissima","random",1,20,NA,6.16666666666667,0.245732684171392
+152,"keen_one",NA,"NE Appledore",8.56,"NE Appledore-2014-7-18-Broad Cove",2014,7,18,42.989987014,-70.611166991,"Agarum clathratum","random",1,NA,NA,0,NA
+153,"keen_one",NA,"NE Appledore",8.56,"NE Appledore-2014-7-18-Broad Cove",2014,7,18,42.989987014,-70.611166991,"Saccharina latissima","random",1,80,NA,22.3333333333333,1.5950811170388
+154,"keen_one",NA,"NE Appledore",6.66666666666667,"NE Appledore-2016-8-8-Broad Cove",2016,8,8,42.9898,-70.6108,"Agarum clathratum","random",1,NA,NA,0.333333333333333,NA
+155,"keen_one",NA,"NE Appledore",6.66666666666667,"NE Appledore-2016-8-8-Broad Cove",2016,8,8,42.9898,-70.6108,"Saccharina latissima","random",1,10,NA,2.83333333333333,0.0655493690017533
+156,"keen_one",NA,"NE Appledore",10.2,"NE Appledore-2017-8-15-Broad Cove",2017,8,15,42.98997,-70.61086,"Agarum clathratum","random",1,20,NA,9.33333333333333,0.153734109164851
+157,"keen_one",NA,"NE Appledore",10.2,"NE Appledore-2017-8-15-Broad Cove",2017,8,15,42.98997,-70.61086,"Saccharina latissima","random",1,46.25,NA,7.5,0.260428923916826
+158,"keen_one",NA,"NE Appledore",8.56,"NE Appledore-2019-8-13-Broad Cove",2019,8,13,42.98966,-70.610375,"Saccharina latissima","random",1,10,NA,1.66666666666667,0.049239572969967
+159,"keen_one",NA,"NE Appledore",8.33333333333333,"NE Appledore-2021-8-3-Broad Cove",2021,8,3,42.98987,-70.61067,"Agarum clathratum","random",1,NA,NA,0.166666666666667,NA
+160,"keen_one",NA,"NE Appledore",8.33333333333333,"NE Appledore-2021-8-3-Broad Cove",2021,8,3,42.98987,-70.61067,"Saccharina latissima","random",1,66.25,NA,9.66666666666667,0.143375873592768
+161,"keen_one",NA,"NE Appledore",8.56,"NE Appledore-2014-7-19-Broadway and 42nd",2014,7,19,42.992762011,-70.611665966,"Agarum clathratum","random",1,3.75,NA,1.33333333333333,0.0200689007172985
+162,"keen_one",NA,"NE Appledore",8.56,"NE Appledore-2014-7-19-Broadway and 42nd",2014,7,19,42.992762011,-70.611665966,"Saccharina latissima","random",1,2.5,NA,0.5,0.00912216171129874
+163,"keen_one",NA,"NE Appledore",7.22857142857143,"NE Appledore-2016-8-9-Broadway and 42nd",2016,8,9,42.99184,-70.61057,"Saccharina latissima","random",1,13.75,NA,0.833333333333333,0.0199755147368437
+164,"keen_one",NA,"NE Appledore",6.66666666666667,"NE Appledore-2017-8-16-Broadway and 42nd",2017,8,16,42.99266,-70.61152,"Agarum clathratum","random",1,2.5,NA,0.5,0.00776824041605361
+165,"keen_one",NA,"NE Appledore",6.66666666666667,"NE Appledore-2017-8-16-Broadway and 42nd",2017,8,16,42.99266,-70.61152,"Saccharina latissima","random",1,7.5,NA,1.83333333333333,0.124631657999978
+166,"keen_one",NA,"NE Appledore",8.46666666666667,"NE Appledore-2019-8-15-Broadway and 42nd",2019,8,15,42.99258,-70.61147,"Saccharina latissima","random",1,NA,NA,3,0.12500806793692
+167,"keen_one",NA,"NE Appledore",8.96666666666667,"NE Appledore-2021-8-3-Broadway and 42nd",2021,8,3,42.299239,-70.61145,"Saccharina latissima","random",1,48.75,NA,9.16666666666667,0.197988155424174
+168,"keen_one",NA,"NE Appledore",7.42,"NE Appledore-2014-7-21-Devil's Dance Floor",2014,7,21,42.99306904,-70.613883985,"Agarum clathratum","random",1,1.25,NA,1,NA
+169,"keen_one",NA,"NE Appledore",7.42,"NE Appledore-2014-7-21-Devil's Dance Floor",2014,7,21,42.99306904,-70.613883985,"Saccharina latissima","random",1,8.75,NA,1.5,0.0247185389767099
+170,"keen_one",NA,"NE Appledore",8.675,"NE Appledore-2016-8-9-Devil's Dance Floor",2016,8,9,42.9976,-70.61309,"Agarum clathratum","random",1,3.75,NA,0.833333333333333,0.00729296005310778
+171,"keen_one",NA,"NE Appledore",8.675,"NE Appledore-2016-8-9-Devil's Dance Floor",2016,8,9,42.9976,-70.61309,"Saccharina latissima","random",1,50,NA,9.5,0.213499764379333
+172,"keen_one",NA,"NE Appledore",7.775,"NE Appledore-2017-8-16-Devil's Dance Floor",2017,8,16,42.99288,-70.61346,"Agarum clathratum","random",1,2.5,NA,0.333333333333333,0.00787251524127185
+173,"keen_one",NA,"NE Appledore",7.775,"NE Appledore-2017-8-16-Devil's Dance Floor",2017,8,16,42.99288,-70.61346,"Saccharina latissima","random",1,57.5,NA,14.3333333333333,0.498192113798866
+174,"keen_one",NA,"NE Appledore",NA,"NE Appledore-2019-8-15-Devil's Dance Floor",2019,8,15,42.99304,-70.61391,"Agarum clathratum","random",1,NA,NA,0.5,NA
+175,"keen_one",NA,"NE Appledore",NA,"NE Appledore-2019-8-15-Devil's Dance Floor",2019,8,15,42.99304,-70.61391,"Saccharina latissima","random",1,NA,NA,1.33333333333333,0.0613869763812978
+176,"keen_one",NA,"NE Appledore",9.8,"NE Appledore-2014-7-18-Norwegian Cove",2014,7,18,42.990710959,-70.610730965,"Agarum clathratum","random",1,16.25,NA,1.5,0.0139966006224275
+177,"keen_one",NA,"NE Appledore",9.8,"NE Appledore-2014-7-18-Norwegian Cove",2014,7,18,42.990710959,-70.610730965,"Saccharina latissima","random",1,58.75,NA,3.5,0.269093241703831
+178,"keen_one",NA,"NE Appledore",8,"NE Appledore-2016-8-8-Norwegian Cove",2016,8,8,42.9906,-70.6115,"Agarum clathratum","random",1,NA,NA,0.333333333333333,NA
+179,"keen_one",NA,"NE Appledore",8,"NE Appledore-2016-8-8-Norwegian Cove",2016,8,8,42.9906,-70.6115,"Saccharina latissima","random",1,33.75,NA,6.33333333333333,0.134460169386326
+180,"keen_one",NA,"NE Appledore",7.51666666666667,"NE Appledore-2017-8-15-Norwegian Cove",2017,8,15,42.99084,-70.61073,"Agarum clathratum","random",1,1.25,NA,0.333333333333333,NA
+181,"keen_one",NA,"NE Appledore",7.51666666666667,"NE Appledore-2017-8-15-Norwegian Cove",2017,8,15,42.99084,-70.61073,"Saccharina latissima","random",1,20,NA,4.16666666666667,NA
+182,"keen_one",NA,"NE Appledore",7.9875,"NE Appledore-2021-8-3-Norwegian Cove",2021,8,3,42.99038,-70.61156,"Saccharina latissima","random",1,43.75,NA,6.66666666666667,0.133083076578705
+183,"keen_one",NA,"NW Appledore",7.52727272727273,"NW Appledore-2017-8-15-8 Ball",2017,8,15,42.99151,-70.61778,"Agarum clathratum","random",1,1.25,NA,0.166666666666667,0.00287804407535684
+184,"keen_one",NA,"NW Appledore",7.52727272727273,"NW Appledore-2017-8-15-8 Ball",2017,8,15,42.99151,-70.61778,"Saccharina latissima","random",1,25,NA,1.83333333333333,0.0618979134684325
+185,"keen_one",NA,"NW Appledore",11.4,"NW Appledore-2014-7-18-Larus Ledge",2014,7,18,42.991161989,-70.618240982,"Agarum clathratum","random",1,NA,NA,0.666666666666667,NA
+186,"keen_one",NA,"NW Appledore",11.4,"NW Appledore-2014-7-18-Larus Ledge",2014,7,18,42.991161989,-70.618240982,"Saccharina latissima","random",1,1.25,NA,1.83333333333333,0.0199254815831826
+187,"keen_one",NA,"NW Appledore",8.35,"NW Appledore-2015-8-10-Larus Ledge",2015,8,10,42.9908399563282,-70.6183599215,"Agarum clathratum","random",1,12.5,NA,2,0.0526460053907828
+188,"keen_one",NA,"NW Appledore",8.35,"NW Appledore-2015-8-10-Larus Ledge",2015,8,10,42.9908399563282,-70.6183599215,"Saccharina latissima","random",1,28.75,NA,1.5,0.046595206794186
+189,"keen_one",NA,"NW Appledore",7.45,"NW Appledore-2016-8-11-Larus Ledge",2016,8,11,42.99121,-70.61816,"Saccharina latissima","random",1,16.25,NA,1.33333333333333,NA
+190,"keen_one",NA,"NW Appledore",9.6,"NW Appledore-2018-8-30-Larus Ledge",2018,8,30,42.99079,-70.61849,"Agarum clathratum","random",1,6.25,NA,2.16666666666667,0.0470104005700057
+191,"keen_one",NA,"NW Appledore",9.6,"NW Appledore-2018-8-30-Larus Ledge",2018,8,30,42.99079,-70.61849,"Saccharina latissima","random",1,15,NA,0.833333333333333,0.0365383829025551
+192,"keen_one",NA,"NW Appledore",9.4,"NW Appledore-2021-8-6-Larus Ledge",2021,8,6,42.99084,-70.61831,"Saccharina latissima","random",1,NA,NA,3.5,0.0276284236677831
+193,"keen_one",NA,"NW Appledore",7.7,"NW Appledore-2014-7-21-Magic 8 Ball",2014,7,21,42.991409004,-70.617746031,"Agarum clathratum","random",1,NA,NA,0.166666666666667,0.00180247536007527
+194,"keen_one",NA,"NW Appledore",7.7,"NW Appledore-2014-7-21-Magic 8 Ball",2014,7,21,42.991409004,-70.617746031,"Saccharina latissima","random",1,26.25,NA,3.66666666666667,0.047661208638784
+195,"keen_one",NA,"NW Appledore",7.85,"NW Appledore-2015-8-10-Magic 8 Ball",2015,8,10,42.991222590208,-70.6181925348937,"Agarum clathratum","random",1,6.25,NA,1.16666666666667,0.0258013016436449
+196,"keen_one",NA,"NW Appledore",7.85,"NW Appledore-2015-8-10-Magic 8 Ball",2015,8,10,42.991222590208,-70.6181925348937,"Saccharina latissima","random",1,26.25,NA,6,0.221291328404773
+197,"keen_one",NA,"NW Appledore",8.31538461538462,"NW Appledore-2016-8-9-Magic 8 Ball",2016,8,9,42.99109,-70.61839,"Saccharina latissima","random",1,30,NA,1.5,0.100111442108512
+198,"keen_one",NA,"NW Appledore",10.1,"NW Appledore-2021-8-4-Magic 8 Ball",2021,8,4,42.99198,-70.6174,"Agarum clathratum","random",1,3.75,NA,0.833333333333333,0.0180373630259319
+199,"keen_one",NA,"NW Appledore",10.1,"NW Appledore-2021-8-4-Magic 8 Ball",2021,8,4,42.99198,-70.6174,"Saccharina latissima","random",1,25,NA,3.83333333333333,0.076890253663696
+200,"keen_one",NA,"NW Appledore",8.96666666666667,"NW Appledore-2014-7-21-North Head",2014,7,21,42.993015982,-70.615435978,"Agarum clathratum","random",1,13.75,NA,6.66666666666667,0.091426835956235
+201,"keen_one",NA,"NW Appledore",8.96666666666667,"NW Appledore-2014-7-21-North Head",2014,7,21,42.993015982,-70.615435978,"Saccharina latissima","random",1,11.25,NA,2,0.0931365280070503
+202,"keen_one",NA,"NW Appledore",9.6,"NW Appledore-2015-8-10-North Head",2015,8,10,42.9929039161652,-70.6156041193753,"Agarum clathratum","random",1,6.25,NA,1.5,0.0196101561809307
+203,"keen_one",NA,"NW Appledore",9.6,"NW Appledore-2015-8-10-North Head",2015,8,10,42.9929039161652,-70.6156041193753,"Saccharina latissima","random",1,23.75,NA,2,0.0785943726802281
+204,"keen_one",NA,"NW Appledore",8.33333333333333,"NW Appledore-2016-8-11-North Head",2016,8,11,42.9931,-70.61526,"Agarum clathratum","random",1,27.5,NA,6.16666666666667,0.0562367388276458
+205,"keen_one",NA,"NW Appledore",8.33333333333333,"NW Appledore-2016-8-11-North Head",2016,8,11,42.9931,-70.61526,"Saccharina latissima","random",1,2.5,NA,1.5,0.034388253311856
+206,"keen_one",NA,"NW Appledore",11.1,"NW Appledore-2017-8-15-North Head",2017,8,15,42.99264,-70.61617,"Agarum clathratum","random",1,5,NA,2.66666666666667,0.0497906039696651
+207,"keen_one",NA,"NW Appledore",11.1,"NW Appledore-2017-8-15-North Head",2017,8,15,42.99264,-70.61617,"Saccharina latissima","random",1,28.75,NA,3,0.103209617953338
+208,"keen_one",NA,"NW Appledore",14.9,"NW Appledore-2018-8-29-North Head",2018,8,29,42.99315,-70.61552,"Agarum clathratum","random",1,6.25,NA,2.16666666666667,0.0295641403867635
+209,"keen_one",NA,"NW Appledore",14.9,"NW Appledore-2018-8-29-North Head",2018,8,29,42.99315,-70.61552,"Saccharina latissima","random",1,17.5,NA,2.16666666666667,0.0663831068332938
+210,"keen_one",NA,"NW Appledore",6.66666666666667,"NW Appledore-2021-8-4-North Head",2021,8,4,42.9928,-70.61593,"Agarum clathratum","random",1,NA,NA,0.5,NA
+211,"keen_one",NA,"NW Appledore",6.66666666666667,"NW Appledore-2021-8-4-North Head",2021,8,4,42.9928,-70.61593,"Saccharina latissima","random",1,15,NA,0.333333333333333,0.00553121730128528
+212,"keen_one",NA,"NW Appledore",9.4,"NW Appledore-2014-7-18-Sandpiper Beach",2014,7,18,42.99012,-70.617828,"Agarum clathratum","random",1,NA,NA,0,NA
+213,"keen_one",NA,"NW Appledore",9.4,"NW Appledore-2014-7-18-Sandpiper Beach",2014,7,18,42.99012,-70.617828,"Saccharina latissima","random",1,3.75,NA,2.66666666666667,0.0510062163560512
+214,"keen_one",NA,"NW Appledore",7.18,"NW Appledore-2015-8-12-Sandpiper Beach",2015,8,12,42.9902022611349,-70.618576426059,"Agarum clathratum","random",1,NA,NA,0,NA
+215,"keen_one",NA,"NW Appledore",7.18,"NW Appledore-2015-8-12-Sandpiper Beach",2015,8,12,42.9902022611349,-70.618576426059,"Saccharina latissima","random",1,20,NA,3.33333333333333,0.0801818087208991
+216,"keen_one",NA,"NW Appledore",7.85,"NW Appledore-2016-8-9-Sandpiper Beach",2016,8,9,42.987935,-70.61921,"Agarum clathratum","random",1,17.5,NA,2.16666666666667,0.0496349482035927
+217,"keen_one",NA,"NW Appledore",7.85,"NW Appledore-2016-8-9-Sandpiper Beach",2016,8,9,42.987935,-70.61921,"Saccharina latissima","random",1,31.25,NA,3.66666666666667,0.181353153599775
+218,"keen_one",NA,"NW Appledore",8.9,"NW Appledore-2017-8-16-Sandpiper Beach",2017,8,16,42.99015,-70.61869,"Agarum clathratum","random",1,NA,NA,0.166666666666667,0.00298943341784504
+219,"keen_one",NA,"NW Appledore",8.9,"NW Appledore-2017-8-16-Sandpiper Beach",2017,8,16,42.99015,-70.61869,"Saccharina latissima","random",1,13.75,NA,8,0.215433558264918
+220,"keen_one",NA,"Nahant",7.85,"Nahant-2015-8-4-Canoe Beach 1",2015,8,4,42.42101,-70.90135,"Saccharina latissima","random",1,6.25,NA,9.16666666666667,NA
+221,"keen_one",NA,"Nahant",6.71,"Nahant-2016-8-16-Canoe Beach 1",2016,8,16,42.42065,-70.90685,"Saccharina latissima","random",1,17.5,NA,2.16666666666667,NA
+222,"keen_one",NA,"Nahant",5.52,"Nahant-2017-7-21-Canoe Beach 1",2017,7,21,42.420183,-70.906467,"Saccharina latissima","random",1,42.5,NA,6.83333333333333,NA
+223,"keen_one",NA,"Nahant",NA,"Nahant-2019-7-29-Canoe Beach 1",2019,7,29,42.42026,-70.90682,"Saccharina latissima","random",1,15,NA,4,0.229966041456064
+224,"keen_one",NA,"Nahant",6.09,"Nahant-2015-8-27-Canoe Beach 2",2015,8,27,42.42038,-70.90422,"Saccharina latissima","random",1,20,NA,6.16666666666667,NA
+225,"keen_one",NA,"Nahant",7.42,"Nahant-2016-8-16-Canoe Beach 2",2016,8,16,42.42117,-70.90617,"Saccharina latissima","random",1,36.25,NA,7,NA
+226,"keen_one",NA,"Nahant",5.52,"Nahant-2017-7-21-Canoe Beach 2",2017,7,21,42.420264,-70.906468,"Saccharina latissima","random",1,35,NA,7.5,NA
+227,"keen_one",NA,"Nahant",NA,"Nahant-2019-7-29-Canoe Beach 2",2019,7,29,42.42004,-70.90698,"Saccharina latissima","random",1,11.25,NA,11.1666666666667,0.0484090455363818
+228,"keen_one",NA,"Nahant",7.2,"Nahant-2018-6-21-Canoe Beach 3",2018,6,21,42.4206,-70.90647,"Saccharina latissima","random",1,33.75,NA,3.33333333333333,0.127733759067134
+229,"keen_one",NA,"Nahant",3.1,"Nahant-2018-6-21-Canoe Beach 4",2018,6,21,42.42074,-70.90676,"Saccharina latissima","random",1,45,NA,6.5,0.317547442411317
+230,"keen_one",NA,"Nahant",5.49,"Nahant-2015-8-7-Pumphouse Beach 1",2015,8,7,42.41629,-70.90759,"Saccharina latissima","random",1,32.5,NA,5.66666666666667,NA
+231,"keen_one",NA,"Nahant",5.8,"Nahant-2018-6-8-Pumphouse Beach 1",2018,6,8,42.41652,-70.90709,"Saccharina latissima","random",1,12.5,NA,1.33333333333333,0.0299183692622584
+232,"keen_one",NA,"Nahant",4.57,"Nahant-2015-8-7-Pumphouse Beach 2",2015,8,7,42.4162,-70.90679,"Saccharina latissima","random",1,8.75,NA,4.5,NA
+233,"keen_one",NA,"Nahant",5.8,"Nahant-2018-6-8-Pumphouse Beach 2",2018,6,8,42.41623,-70.90723,"Chorda filum","random",1,NA,NA,0.333333333333333,NA
+234,"keen_one",NA,"Nahant",5.8,"Nahant-2018-6-8-Pumphouse Beach 2",2018,6,8,42.41623,-70.90723,"Saccharina latissima","random",1,7.5,NA,2.33333333333333,0.040017325342909
+235,"keen_one",NA,"Nahant",3.6,"Nahant-2017-7-21-Pumphouse Beach 3",2017,7,21,42.41659,-70.907536,"Saccharina latissima","random",1,33.75,NA,6.33333333333333,NA
+236,"keen_one",NA,"Nahant",NA,"Nahant-2019-7-29-Pumphouse Beach 3",2019,7,29,42.41682,-70.90711,"Saccharina latissima","random",1,3.75,NA,1.33333333333333,NA
+237,"keen_one",NA,"Nahant",4.89,"Nahant-2017-7-21-Pumphouse Beach 4",2017,7,21,42.416496,-70.907669,"Laminaria digitata","random",1,NA,NA,0.166666666666667,NA
+238,"keen_one",NA,"Nahant",4.89,"Nahant-2017-7-21-Pumphouse Beach 4",2017,7,21,42.416496,-70.907669,"Saccharina latissima","random",1,33.75,NA,4.66666666666667,NA
+239,"keen_one",NA,"Nubble Lighthouse",8.55,"Nubble Lighthouse-2014-8-20-1",2014,8,20,43.164158,-70.591034,"Agarum clathratum","random",1,21.25,NA,5.16666666666667,NA
+240,"keen_one",NA,"Nubble Lighthouse",8.55,"Nubble Lighthouse-2014-8-20-1",2014,8,20,43.164158,-70.591034,"Laminaria digitata","random",1,3.75,NA,0.666666666666667,NA
+241,"keen_one",NA,"Nubble Lighthouse",8.55,"Nubble Lighthouse-2014-8-20-1",2014,8,20,43.164158,-70.591034,"Saccharina latissima","random",1,1.25,NA,0,NA
+242,"keen_one",NA,"Nubble Lighthouse",7.85,"Nubble Lighthouse-2015-8-14-1",2015,8,14,43.166109,-70.592358,"Agarum clathratum","random",1,10,NA,2,0.0185644377616071
+243,"keen_one",NA,"Nubble Lighthouse",7.85,"Nubble Lighthouse-2015-8-14-1",2015,8,14,43.166109,-70.592358,"Saccharina latissima","random",1,12.5,NA,5.5,0.256262098363979
+244,"keen_one",NA,"Pemaquid",3.96,"Pemaquid-2016-7-13-1",2016,7,13,43.83558,-69.50793,"Alaria esculenta","random",1,NA,NA,0.333333333333333,NA
+245,"keen_one",NA,"Pemaquid",3.96,"Pemaquid-2016-7-13-1",2016,7,13,43.83558,-69.50793,"Laminaria digitata","random",1,36.25,NA,1.16666666666667,NA
+246,"keen_one",NA,"Pemaquid",3.96,"Pemaquid-2016-7-13-1",2016,7,13,43.83558,-69.50793,"Saccharina latissima","random",1,21.25,NA,3.16666666666667,NA
+247,"keen_one",NA,"Pemaquid",5.49,"Pemaquid-2016-7-13-2",2016,7,13,43.83588,-69.50784,"Alaria esculenta","random",1,NA,NA,0.333333333333333,NA
+248,"keen_one",NA,"Pemaquid",5.49,"Pemaquid-2016-7-13-2",2016,7,13,43.83588,-69.50784,"Laminaria digitata","random",1,11.25,NA,0.5,NA
+249,"keen_one",NA,"Pemaquid",5.49,"Pemaquid-2016-7-13-2",2016,7,13,43.83588,-69.50784,"Saccharina latissima","random",1,6.25,NA,10.5,NA
+250,"keen_one",NA,"SW Appledore",8.5,"SW Appledore-2014-7-19-North Pepperrell",2014,7,19,42.986057997,-70.619525006,"Saccharina latissima","random",1,17.5,NA,1.33333333333333,0.0511439862754929
+251,"keen_one",NA,"SW Appledore",10.4,"SW Appledore-2015-8-11-North Pepperrell",2015,8,11,42.9859418235719,-70.6199330370873,"Agarum clathratum","random",1,2.5,NA,0.333333333333333,0.0100485557281213
+252,"keen_one",NA,"SW Appledore",10.4,"SW Appledore-2015-8-11-North Pepperrell",2015,8,11,42.9859418235719,-70.6199330370873,"Saccharina latissima","random",1,12.5,NA,3,0.0723937094248714
+253,"keen_one",NA,"SW Appledore",8.31538461538462,"SW Appledore-2016-8-10-North Pepperrell",2016,8,10,42.98606,-70.61996,"Agarum clathratum","random",1,1.25,NA,0.166666666666667,0.00281144173774236
+254,"keen_one",NA,"SW Appledore",8.31538461538462,"SW Appledore-2016-8-10-North Pepperrell",2016,8,10,42.98606,-70.61996,"Saccharina latissima","random",1,5,NA,1.66666666666667,0.0468098396268381
+255,"keen_one",NA,"SW Appledore",7.51666666666667,"SW Appledore-2017-8-17-North Pepperrell",2017,8,17,42.98613,-70.6199,"Saccharina latissima","random",1,NA,NA,1.33333333333333,0.0117790313796943
+256,"keen_one",NA,"SW Appledore",8.55,"SW Appledore-2014-7-17-North Smith's Cove",2014,7,17,42.984961979,-70.618916983,"Agarum clathratum","random",1,NA,NA,0.5,0.019069518536598
+257,"keen_one",NA,"SW Appledore",8.55,"SW Appledore-2014-7-17-North Smith's Cove",2014,7,17,42.984961979,-70.618916983,"Saccharina latissima","random",1,23.75,NA,6.66666666666667,0.251592376842769
+258,"keen_one",NA,"SW Appledore",5.52,"SW Appledore-2016-8-10-North Smith's Cove",2016,8,10,42.98505,-70.61876,"Saccharina latissima","random",1,NA,NA,0.833333333333333,0.0165014378001162
+259,"keen_one",NA,"SW Appledore",7.18,"SW Appledore-2017-8-17-North Smith's Cove",2017,8,17,42.98479,-70.61869,"Saccharina latissima","random",1,16.25,NA,3,0.0484476209632917
+260,"keen_one",NA,"SW Appledore",7.7,"SW Appledore-2019-8-14-North Smith's Cove",2019,8,14,42.98505,-70.61915,"Laminaria digitata","random",1,NA,NA,0.166666666666667,NA
+261,"keen_one",NA,"SW Appledore",7.7,"SW Appledore-2019-8-14-North Smith's Cove",2019,8,14,42.98505,-70.61915,"Saccharina latissima","random",1,25,NA,1,0.0292811507009113
+262,"keen_one",NA,"SW Appledore",5.8,"SW Appledore-2021-8-2-North Smith's Cove",2021,8,2,42.9847,-70.61892,"Saccharina latissima","random",1,12.5,NA,3.66666666666667,0.0715724536217303
+263,"keen_one",NA,"SW Appledore",8.85,"SW Appledore-2014-7-19-South Pepperrell",2014,7,19,42.985265991,-70.619861037,"Saccharina latissima","random",1,5,NA,0.166666666666667,0.00222961833901368
+264,"keen_one",NA,"SW Appledore",5.8,"SW Appledore-2016-8-10-South Pepperrell",2016,8,10,42.987935,-70.61921,"Agarum clathratum","random",1,NA,NA,0.333333333333333,0.0102514209141613
+265,"keen_one",NA,"SW Appledore",7.85,"SW Appledore-2017-8-17-South Pepperrell",2017,8,17,42.98505,-70.61962,"Saccharina latissima","random",1,2.5,NA,0.833333333333333,0.0452639680631851
+266,"keen_one",NA,"SW Appledore",8.4,"SW Appledore-2014-7-17-South Smith's Cove",2014,7,17,42.984478008,-70.618435023,"Agarum clathratum","random",1,NA,NA,0.333333333333333,NA
+267,"keen_one",NA,"SW Appledore",8.4,"SW Appledore-2014-7-17-South Smith's Cove",2014,7,17,42.984478008,-70.618435023,"Saccharina latissima","random",1,1.25,NA,0.333333333333333,0.00343127150260003
+268,"keen_one",NA,"SW Appledore",7.775,"SW Appledore-2015-8-13-South Smith's Cove",2015,8,13,42.9842899180948,-70.618179962039,"Agarum clathratum","random",1,NA,NA,0.166666666666667,NA
+269,"keen_one",NA,"SW Appledore",7.775,"SW Appledore-2015-8-13-South Smith's Cove",2015,8,13,42.9842899180948,-70.618179962039,"Saccharina latissima","random",1,17.5,NA,0.5,NA
+270,"keen_one",NA,"SW Appledore",5.83333333333333,"SW Appledore-2017-8-16-South Smith's Cove",2017,8,16,42.98434,-70.61806,"Saccharina latissima","random",1,10,NA,6.5,0.0799969812139956
+271,"keen_one",NA,"SW Appledore",6.5,"SW Appledore-2019-8-14-South Smith's Cove",2019,8,14,42.98447,-70.61839,"Saccharina latissima","random",1,8.75,NA,0.333333333333333,0.0105415995208966
+272,"keen_one",NA,"SW Appledore",7.45,"SW Appledore-2021-8-2-South Smith's Cove",2021,8,2,42.98431,-70.61799,"Saccharina latissima","random",1,5,NA,0.333333333333333,0.00490540958459386
+273,"keen_one",NA,"Schoodic",7.52727272727273,"Schoodic-2017-8-14-1",2017,8,14,44.36827,-68.07795,"Agarum clathratum","random",1,16.25,NA,2,0.0369861396270408
+274,"keen_one",NA,"Schoodic",7.52727272727273,"Schoodic-2017-8-14-1",2017,8,14,44.36827,-68.07795,"Saccharina latissima","random",1,41.25,NA,8.83333333333333,0.219021079089684
+275,"keen_one",NA,"Schoodic",7.9875,"Schoodic-2017-8-14-2",2017,8,14,44.36795,-68.07792,"Agarum clathratum","random",1,7.5,NA,0.833333333333333,0.023256349071591
+276,"keen_one",NA,"Schoodic",7.9875,"Schoodic-2017-8-14-2",2017,8,14,44.36795,-68.07792,"Laminaria digitata","random",1,2.5,NA,2.66666666666667,0.137196712646837
+277,"keen_one",NA,"Schoodic",7.9875,"Schoodic-2017-8-14-2",2017,8,14,44.36795,-68.07792,"Saccharina latissima","random",1,25,NA,2.5,0.0542269188908023
+278,"keen_one",NA,"Schoodic",7.9875,"Schoodic-2017-8-15-3",2017,8,15,44.36807,-68.07841,"Agarum clathratum","random",1,17.5,NA,1.16666666666667,0.0259251180640713
+279,"keen_one",NA,"Schoodic",7.9875,"Schoodic-2017-8-15-3",2017,8,15,44.36807,-68.07841,"Saccharina latissima","random",1,1.25,NA,0.666666666666667,0.00299812289898783
+280,"keen_one",NA,"Schoodic",7.52727272727273,"Schoodic-2017-8-15-4",2017,8,15,44.36835,-68.07846,"Agarum clathratum","random",1,5,NA,1.83333333333333,0.0342484335503507
+281,"keen_one",NA,"Schoodic",7.52727272727273,"Schoodic-2017-8-15-4",2017,8,15,44.36835,-68.07846,"Laminaria digitata","random",1,NA,NA,0.333333333333333,0.0123823265507141
+282,"keen_one",NA,"Schoodic",7.52727272727273,"Schoodic-2017-8-15-4",2017,8,15,44.36835,-68.07846,"Saccharina latissima","random",1,5,NA,0.5,0.00725969793389624

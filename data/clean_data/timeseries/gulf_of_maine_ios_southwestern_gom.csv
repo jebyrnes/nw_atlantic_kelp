@@ -1,0 +1,23 @@
+"Entry","Study","Region","Site","Depth.m","Sample.ID","Sample.Year","Sample.Month","Sample.Day","Latitude","Longitude","Taxon","Fixed.or.Random","Sample.Unit.Size.sq.m","Percent.Cover","Stipe.Density.num.per.sq.m","Individual.Density.num.per.sq.m","Biomass.kg.wet.per.sq.m"
+1,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-1977-Saccharina latissima",1977,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,6.694,NA,NA,NA
+2,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1979-Saccharina latissima",1979,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,40,NA,NA,NA
+3,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-1983-Saccharina latissima",1983,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,55,NA,NA,NA
+4,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-1987-Saccharina latissima",1987,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,0.363636363636364,NA,NA,NA
+5,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1990-Saccharina latissima",1990,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,53,NA,NA,NA
+6,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1991-Saccharina latissima",1991,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,14.83,NA,NA,NA
+7,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1992-Saccharina latissima",1992,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,9.17,NA,NA,NA
+8,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-1994-Saccharina latissima",1994,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,85,NA,NA,NA
+9,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1996-Saccharina latissima",1996,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,0.45,NA,NA,NA
+10,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1997-Saccharina latissima",1997,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,0.45,NA,NA,NA
+11,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-1997-Alaria esculenta",1997,NA,NA,42.9737757731959,-70.6163436755105,"Alaria esculenta","Random",0.25,6.9,NA,NA,NA
+12,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-1997-Saccharina latissima",1997,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,6.9,NA,NA,NA
+13,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-1998-Saccharina latissima",1998,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,0.9,NA,NA,NA
+14,"gulf_of_maine_ios_southwestern_gom",NA,"White Island",8,"White Island-1998-Agarum clathratum",1998,NA,NA,42.967719072165,-70.6256745998415,"Agarum clathratum","Random",0.25,3.21428571428571,NA,NA,NA
+15,"gulf_of_maine_ios_southwestern_gom",NA,"White Island",8,"White Island-1998-Saccharina latissima",1998,NA,NA,42.967719072165,-70.6256745998415,"Saccharina latissima","Random",0.25,23.8,NA,NA,NA
+16,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-2000-Saccharina latissima",2000,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,13.2857142857142,NA,NA,NA
+17,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-2008-Saccharina latissima",2008,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,2,NA,NA,NA
+18,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-2012-Saccharina latissima",2012,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,2,NA,NA,NA
+19,"gulf_of_maine_ios_southwestern_gom",NA,"White Island",8,"White Island-2012-Saccharina latissima",2012,NA,NA,42.967719072165,-70.6256745998415,"Saccharina latissima","Random",0.25,5.3,NA,NA,NA
+20,"gulf_of_maine_ios_southwestern_gom",NA,"Appledore Island",8,"Appledore Island-2014-Saccharina latissima",2014,NA,NA,42.9878221649485,-70.6179281720951,"Saccharina latissima","Random",0.25,12.5,NA,NA,NA
+21,"gulf_of_maine_ios_southwestern_gom",NA,"Lunging Island",8,"Lunging Island-2014-Saccharina latissima",2014,NA,NA,42.9771262886598,-70.6244422136091,"Saccharina latissima","Random",0.25,15.2,NA,NA,NA
+22,"gulf_of_maine_ios_southwestern_gom",NA,"Star Island",8,"Star Island-2015-Saccharina latissima",2015,NA,NA,42.9737757731959,-70.6163436755105,"Saccharina latissima","Random",0.25,2.74324324324324,NA,NA,NA

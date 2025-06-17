@@ -1,0 +1,60 @@
+#' -----------------------------------------------
+#' Merge datasets into Kelptime format
+#' Author: Jarrett Byrnes jarrett.byrnes@umb.edu
+#' Dataset Last Updated:  
+#' Script Last Updated: June 8, 2023
+#'
+#' -----------------------------------------------
+
+# load helpers
+library(purrr)
+source("scripts/data_checking_functions.R")
+source("scripts/combine_data_functions.R")
+source("scripts/add_geo_info.R")
+
+# run the data check scripts
+raw_data_files <- list.files("data/clean_data/timeseries/",
+                             pattern = "csv")
+
+map(raw_data_files, read_kelp_data) |>
+  walk(check_problems)
+
+
+# combine in old data as well
+#moved GOM files to new clean data
+
+# combine the data files - new and old
+new_data <- 
+  map_df(raw_data_files, process_one_study_to_combine)
+
+# create combined data with geospatial info
+# then get focal kelp standardized by each region
+log_add_one <- function(x) log(x+1)
+
+combined_data <- new_data |>
+  filter(!is.na(study)) |>
+  add_geo_info() |>
+  
+  group_by(ecoregion, focalUnit) |>
+  mutate(focal_std_by_ecoregion = standardize_by_max(focalKelp))|>
+  ungroup() |>
+  
+  group_by(province) |>
+  mutate(focal_std_by_province = standardize_by_max(focalKelp))|>
+  ungroup() |>
+  
+  group_by(realm) |>
+  mutate(focal_std_by_realm = standardize_by_max(focalKelp)) |>
+  ungroup() |>
+  
+  mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_realm,
+                .fns = log_add_one,
+                .names = "ln_{.col}")
+  )
+
+
+#write out data
+write_csv(combined_data, "data/kelptime_nwa_data.csv")
+
+
+

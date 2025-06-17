@@ -1,0 +1,637 @@
+"Entry","Study","Region","Site","Depth.m","Sample.ID","Sample.Year","Sample.Month","Sample.Day","Latitude","Longitude","Taxon","Fixed.or.Random","Sample.Unit.Size.sq.m","Percent.Cover","Stipe.Density.num.per.sq.m","Individual.Density.num.per.sq.m","Biomass.kg.wet.per.sq.m"
+1,"filbee_dexter_arctic_kelp",NA,"Duck Island",5,"Duck Island-Agarum-2014",2014,3,10,60.2339,-64.341,"Agarum","",1,"0",NA,8,NA
+2,"filbee_dexter_arctic_kelp",NA,"Duck Island",5,"Duck Island-Alaria-2014",2014,3,10,60.2339,-64.341,"Alaria","",1,"54,875",NA,8,NA
+3,"filbee_dexter_arctic_kelp",NA,"Duck Island",5,"Duck Island-S.latissima-2014",2014,3,10,60.2339,-64.341,"S.latissima","",1,"0",NA,8,NA
+4,"filbee_dexter_arctic_kelp",NA,"Duck Island",5,"Duck Island-Saccorhiza-2014",2014,3,10,60.2339,-64.341,"Saccorhiza","",1,"0",NA,8,NA
+5,"filbee_dexter_arctic_kelp",NA,"Duck Island",5,"Duck Island-L.solidung-2014",2014,3,10,60.2339,-64.341,"L.solidung","",1,"0",NA,8,NA
+6,"filbee_dexter_arctic_kelp",NA,"Duck Island",5,"Duck Island-L.digitata-2014",2014,3,10,60.2339,-64.341,"L.digitata","",1,"34,875",NA,8,NA
+7,"filbee_dexter_arctic_kelp",NA,"Duck Island",10,"Duck Island-Agarum-2014",2014,3,10,60.2339,-64.341,"Agarum","",1,"39,5",NA,8,"1,63893333333333"
+8,"filbee_dexter_arctic_kelp",NA,"Duck Island",10,"Duck Island-Alaria-2014",2014,3,10,60.2339,-64.341,"Alaria","",1,"21,5",NA,8,"0"
+9,"filbee_dexter_arctic_kelp",NA,"Duck Island",10,"Duck Island-S.latissima-2014",2014,3,10,60.2339,-64.341,"S.latissima","",1,"9",NA,8,"0"
+10,"filbee_dexter_arctic_kelp",NA,"Duck Island",10,"Duck Island-Saccorhiza-2014",2014,3,10,60.2339,-64.341,"Saccorhiza","",1,"0",NA,8,NA
+11,"filbee_dexter_arctic_kelp",NA,"Duck Island",10,"Duck Island-L.solidung-2014",2014,3,10,60.2339,-64.341,"L.solidung","",1,"0",NA,8,"1,1884"
+12,"filbee_dexter_arctic_kelp",NA,"Duck Island",10,"Duck Island-L.digitata-2014",2014,3,10,60.2339,-64.341,"L.digitata","",1,"0",NA,8,"0,1604"
+13,"filbee_dexter_arctic_kelp",NA,"Duck Island",15,"Duck Island-Agarum-2014",2014,3,10,60.2339,-64.341,"Agarum","",1,"55,25",NA,8,NA
+14,"filbee_dexter_arctic_kelp",NA,"Duck Island",15,"Duck Island-Alaria-2014",2014,3,10,60.2339,-64.341,"Alaria","",1,"1,5",NA,8,NA
+15,"filbee_dexter_arctic_kelp",NA,"Duck Island",15,"Duck Island-S.latissima-2014",2014,3,10,60.2339,-64.341,"S.latissima","",1,"26,25",NA,8,NA
+16,"filbee_dexter_arctic_kelp",NA,"Duck Island",15,"Duck Island-Saccorhiza-2014",2014,3,10,60.2339,-64.341,"Saccorhiza","",1,"0",NA,8,NA
+17,"filbee_dexter_arctic_kelp",NA,"Duck Island",15,"Duck Island-L.solidung-2014",2014,3,10,60.2339,-64.341,"L.solidung","",1,"9",NA,8,NA
+18,"filbee_dexter_arctic_kelp",NA,"Duck Island",15,"Duck Island-L.digitata-2014",2014,3,10,60.2339,-64.341,"L.digitata","",1,"0",NA,8,NA
+19,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",5,"Durban Harbour-Agarum-2014",2014,3,9,67.0382,-62.167,"Agarum","",1,"13,8",NA,10,NA
+20,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",5,"Durban Harbour-Alaria-2014",2014,3,9,67.0382,-62.167,"Alaria","",1,"0",NA,10,NA
+21,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",5,"Durban Harbour-S.latissima-2014",2014,3,9,67.0382,-62.167,"S.latissima","",1,"0",NA,10,NA
+22,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",5,"Durban Harbour-Saccorhiza-2014",2014,3,9,67.0382,-62.167,"Saccorhiza","",1,"0",NA,10,NA
+23,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",5,"Durban Harbour-L.solidung-2014",2014,3,9,67.0382,-62.167,"L.solidung","",1,"0",NA,10,NA
+24,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",5,"Durban Harbour-L.digitata-2014",2014,3,9,67.0382,-62.167,"L.digitata","",1,"0",NA,10,NA
+25,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",10,"Durban Harbour-Agarum-2014",2014,3,9,67.0382,-62.167,"Agarum","",1,"48,3",NA,10,"1,32213333333333"
+26,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",10,"Durban Harbour-Alaria-2014",2014,3,9,67.0382,-62.167,"Alaria","",1,"0",NA,10,"0"
+27,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",10,"Durban Harbour-S.latissima-2014",2014,3,9,67.0382,-62.167,"S.latissima","",1,"0",NA,10,"0"
+28,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",10,"Durban Harbour-Saccorhiza-2014",2014,3,9,67.0382,-62.167,"Saccorhiza","",1,"0",NA,10,NA
+29,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",10,"Durban Harbour-L.solidung-2014",2014,3,9,67.0382,-62.167,"L.solidung","",1,"0",NA,10,"0"
+30,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",10,"Durban Harbour-L.digitata-2014",2014,3,9,67.0382,-62.167,"L.digitata","",1,"0",NA,10,"0"
+31,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",15,"Durban Harbour-Agarum-2014",2014,3,9,67.0382,-62.167,"Agarum","",1,"59,4",NA,10,NA
+32,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",15,"Durban Harbour-Alaria-2014",2014,3,9,67.0382,-62.167,"Alaria","",1,"0",NA,10,NA
+33,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",15,"Durban Harbour-S.latissima-2014",2014,3,9,67.0382,-62.167,"S.latissima","",1,"0",NA,10,NA
+34,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",15,"Durban Harbour-Saccorhiza-2014",2014,3,9,67.0382,-62.167,"Saccorhiza","",1,"0",NA,10,NA
+35,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",15,"Durban Harbour-L.solidung-2014",2014,3,9,67.0382,-62.167,"L.solidung","",1,"0",NA,10,NA
+36,"filbee_dexter_arctic_kelp",NA,"Durban Harbour",15,"Durban Harbour-L.digitata-2014",2014,3,9,67.0382,-62.167,"L.digitata","",1,"0",NA,10,NA
+37,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",5,"Evan's Bight-Agarum-2014",2014,3,12,59.2985,-63.523,"Agarum","",1,"25,8",NA,10,"0,533733333333333"
+38,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",5,"Evan's Bight-Alaria-2014",2014,3,12,59.2985,-63.523,"Alaria","",1,"10",NA,10,"0"
+39,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",5,"Evan's Bight-S.latissima-2014",2014,3,12,59.2985,-63.523,"S.latissima","",1,"42,5",NA,10,"1,13333333333333"
+40,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",5,"Evan's Bight-Saccorhiza-2014",2014,3,12,59.2985,-63.523,"Saccorhiza","",1,"0",NA,10,NA
+41,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",5,"Evan's Bight-L.solidung-2014",2014,3,12,59.2985,-63.523,"L.solidung","",1,"2",NA,10,"1,0384"
+42,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",5,"Evan's Bight-L.digitata-2014",2014,3,12,59.2985,-63.523,"L.digitata","",1,"13,2",NA,10,"1,52586666666667"
+43,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",10,"Evan's Bight-Agarum-2014",2014,3,12,59.2985,-63.523,"Agarum","",1,"69,6",NA,10,"2,45773333333333"
+44,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",10,"Evan's Bight-Alaria-2014",2014,3,12,59.2985,-63.523,"Alaria","",1,"0",NA,10,"0"
+45,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",10,"Evan's Bight-S.latissima-2014",2014,3,12,59.2985,-63.523,"S.latissima","",1,"0,4",NA,10,"0"
+46,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",10,"Evan's Bight-Saccorhiza-2014",2014,3,12,59.2985,-63.523,"Saccorhiza","",1,"0",NA,10,NA
+47,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",10,"Evan's Bight-L.solidung-2014",2014,3,12,59.2985,-63.523,"L.solidung","",1,"12",NA,10,"1,21693333333333"
+48,"filbee_dexter_arctic_kelp",NA,"Evan's Bight",10,"Evan's Bight-L.digitata-2014",2014,3,12,59.2985,-63.523,"L.digitata","",1,"1,6",NA,10,"0"
+49,"filbee_dexter_arctic_kelp",NA,"Hogg Island",5,"Hogg Island-Agarum-2014",2014,3,11,59.4288,-63.73,"Agarum","",1,"13,778",NA,9,"0,786933333333333"
+50,"filbee_dexter_arctic_kelp",NA,"Hogg Island",5,"Hogg Island-Alaria-2014",2014,3,11,59.4288,-63.73,"Alaria","",1,"2,667",NA,9,"0"
+51,"filbee_dexter_arctic_kelp",NA,"Hogg Island",5,"Hogg Island-S.latissima-2014",2014,3,11,59.4288,-63.73,"S.latissima","",1,"73,111",NA,9,"1,5056"
+52,"filbee_dexter_arctic_kelp",NA,"Hogg Island",5,"Hogg Island-Saccorhiza-2014",2014,3,11,59.4288,-63.73,"Saccorhiza","",1,"0",NA,9,NA
+53,"filbee_dexter_arctic_kelp",NA,"Hogg Island",5,"Hogg Island-L.solidung-2014",2014,3,11,59.4288,-63.73,"L.solidung","",1,"0",NA,9,"5,2528"
+54,"filbee_dexter_arctic_kelp",NA,"Hogg Island",5,"Hogg Island-L.digitata-2014",2014,3,11,59.4288,-63.73,"L.digitata","",1,"0",NA,9,"0"
+55,"filbee_dexter_arctic_kelp",NA,"Hogg Island",10,"Hogg Island-Agarum-2014",2014,3,11,59.4288,-63.73,"Agarum","",1,"0",NA,9,"0"
+56,"filbee_dexter_arctic_kelp",NA,"Hogg Island",10,"Hogg Island-Alaria-2014",2014,3,11,59.4288,-63.73,"Alaria","",1,"0",NA,9,"0"
+57,"filbee_dexter_arctic_kelp",NA,"Hogg Island",10,"Hogg Island-S.latissima-2014",2014,3,11,59.4288,-63.73,"S.latissima","",1,"73,889",NA,9,"4,43"
+58,"filbee_dexter_arctic_kelp",NA,"Hogg Island",10,"Hogg Island-Saccorhiza-2014",2014,3,11,59.4288,-63.73,"Saccorhiza","",1,"0",NA,9,NA
+59,"filbee_dexter_arctic_kelp",NA,"Hogg Island",10,"Hogg Island-L.solidung-2014",2014,3,11,59.4288,-63.73,"L.solidung","",1,"0",NA,9,"1,19213333333333"
+60,"filbee_dexter_arctic_kelp",NA,"Hogg Island",10,"Hogg Island-L.digitata-2014",2014,3,11,59.4288,-63.73,"L.digitata","",1,"0",NA,9,"0"
+61,"filbee_dexter_arctic_kelp",NA,"Makkovik",10,"Makkovik-Agarum-2014",2014,3,14,55.088,-59.175,"Agarum","",1,"42,875",NA,8,"2,4904"
+62,"filbee_dexter_arctic_kelp",NA,"Makkovik",10,"Makkovik-Alaria-2014",2014,3,14,55.088,-59.175,"Alaria","",1,"0",NA,8,"0"
+63,"filbee_dexter_arctic_kelp",NA,"Makkovik",10,"Makkovik-S.latissima-2014",2014,3,14,55.088,-59.175,"S.latissima","",1,"0",NA,8,"0"
+64,"filbee_dexter_arctic_kelp",NA,"Makkovik",10,"Makkovik-Saccorhiza-2014",2014,3,14,55.088,-59.175,"Saccorhiza","",1,"0",NA,8,NA
+65,"filbee_dexter_arctic_kelp",NA,"Makkovik",10,"Makkovik-L.solidung-2014",2014,3,14,55.088,-59.175,"L.solidung","",1,"0",NA,8,"0"
+66,"filbee_dexter_arctic_kelp",NA,"Makkovik",10,"Makkovik-L.digitata-2014",2014,3,14,55.088,-59.175,"L.digitata","",1,"0",NA,8,"0"
+67,"filbee_dexter_arctic_kelp",NA,"Mussel Point",10,"Mussel Point-Agarum-2014",2014,3,15,55.102,-59.196,"Agarum","",1,"0",NA,9,NA
+68,"filbee_dexter_arctic_kelp",NA,"Mussel Point",10,"Mussel Point-Alaria-2014",2014,3,15,55.102,-59.196,"Alaria","",1,"0",NA,9,NA
+69,"filbee_dexter_arctic_kelp",NA,"Mussel Point",10,"Mussel Point-S.latissima-2014",2014,3,15,55.102,-59.196,"S.latissima","",1,"0",NA,9,NA
+70,"filbee_dexter_arctic_kelp",NA,"Mussel Point",10,"Mussel Point-Saccorhiza-2014",2014,3,15,55.102,-59.196,"Saccorhiza","",1,"0",NA,9,NA
+71,"filbee_dexter_arctic_kelp",NA,"Mussel Point",10,"Mussel Point-L.solidung-2014",2014,3,15,55.102,-59.196,"L.solidung","",1,"0",NA,9,NA
+72,"filbee_dexter_arctic_kelp",NA,"Mussel Point",10,"Mussel Point-L.digitata-2014",2014,3,15,55.102,-59.196,"L.digitata","",1,"0",NA,9,NA
+73,"filbee_dexter_arctic_kelp",NA,"Qik",5,"Qik-Agarum-2014",2014,2,9,67.56163,-64.07281,"Agarum","",1,"0",NA,10,NA
+74,"filbee_dexter_arctic_kelp",NA,"Qik",5,"Qik-Alaria-2014",2014,2,9,67.56163,-64.07281,"Alaria","",1,"0",NA,10,NA
+75,"filbee_dexter_arctic_kelp",NA,"Qik",5,"Qik-S.latissima-2014",2014,2,9,67.56163,-64.07281,"S.latissima","",1,"52,8",NA,10,NA
+76,"filbee_dexter_arctic_kelp",NA,"Qik",5,"Qik-Saccorhiza-2014",2014,2,9,67.56163,-64.07281,"Saccorhiza","",1,"0",NA,10,NA
+77,"filbee_dexter_arctic_kelp",NA,"Qik",5,"Qik-L.solidung-2014",2014,2,9,67.56163,-64.07281,"L.solidung","",1,"13,2",NA,10,NA
+78,"filbee_dexter_arctic_kelp",NA,"Qik",5,"Qik-L.digitata-2014",2014,2,9,67.56163,-64.07281,"L.digitata","",1,"0",NA,10,NA
+79,"filbee_dexter_arctic_kelp",NA,"Qik",10,"Qik-Agarum-2014",2014,2,9,67.56163,-64.07281,"Agarum","",1,"0",NA,10,NA
+80,"filbee_dexter_arctic_kelp",NA,"Qik",10,"Qik-Alaria-2014",2014,2,9,67.56163,-64.07281,"Alaria","",1,"0",NA,10,NA
+81,"filbee_dexter_arctic_kelp",NA,"Qik",10,"Qik-S.latissima-2014",2014,2,9,67.56163,-64.07281,"S.latissima","",1,"3,2",NA,10,NA
+82,"filbee_dexter_arctic_kelp",NA,"Qik",10,"Qik-Saccorhiza-2014",2014,2,9,67.56163,-64.07281,"Saccorhiza","",1,"0",NA,10,NA
+83,"filbee_dexter_arctic_kelp",NA,"Qik",10,"Qik-L.solidung-2014",2014,2,9,67.56163,-64.07281,"L.solidung","",1,"0,8",NA,10,NA
+84,"filbee_dexter_arctic_kelp",NA,"Qik",10,"Qik-L.digitata-2014",2014,2,9,67.56163,-64.07281,"L.digitata","",1,"0",NA,10,NA
+85,"filbee_dexter_arctic_kelp",NA,"Qik",15,"Qik-Agarum-2014",2014,2,9,67.56163,-64.07281,"Agarum","",1,"34",NA,10,NA
+86,"filbee_dexter_arctic_kelp",NA,"Qik",15,"Qik-Alaria-2014",2014,2,9,67.56163,-64.07281,"Alaria","",1,"0",NA,10,NA
+87,"filbee_dexter_arctic_kelp",NA,"Qik",15,"Qik-S.latissima-2014",2014,2,9,67.56163,-64.07281,"S.latissima","",1,"0,4",NA,10,NA
+88,"filbee_dexter_arctic_kelp",NA,"Qik",15,"Qik-Saccorhiza-2014",2014,2,9,67.56163,-64.07281,"Saccorhiza","",1,"0",NA,10,NA
+89,"filbee_dexter_arctic_kelp",NA,"Qik",15,"Qik-L.solidung-2014",2014,2,9,67.56163,-64.07281,"L.solidung","",1,"0,1",NA,10,NA
+90,"filbee_dexter_arctic_kelp",NA,"Qik",15,"Qik-L.digitata-2014",2014,2,9,67.56163,-64.07281,"L.digitata","",1,"0",NA,10,NA
+91,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",5,"Rocks near Durban-Agarum-2014",2014,3,9,67.03925,-62.214,"Agarum","",1,"40",NA,10,"0,190666666666667"
+92,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",5,"Rocks near Durban-Alaria-2014",2014,3,9,67.03925,-62.214,"Alaria","",1,"3",NA,10,"0,647066666666667"
+93,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",5,"Rocks near Durban-S.latissima-2014",2014,3,9,67.03925,-62.214,"S.latissima","",1,"0,4",NA,10,"0"
+94,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",5,"Rocks near Durban-Saccorhiza-2014",2014,3,9,67.03925,-62.214,"Saccorhiza","",1,"0",NA,10,NA
+95,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",5,"Rocks near Durban-L.solidung-2014",2014,3,9,67.03925,-62.214,"L.solidung","",1,"0,1",NA,10,"0"
+96,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",5,"Rocks near Durban-L.digitata-2014",2014,3,9,67.03925,-62.214,"L.digitata","",1,"0",NA,10,"0"
+97,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",10,"Rocks near Durban-Agarum-2014",2014,3,9,67.03925,-62.214,"Agarum","",1,"32,5",NA,10,NA
+98,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",10,"Rocks near Durban-Alaria-2014",2014,3,9,67.03925,-62.214,"Alaria","",1,"2",NA,10,NA
+99,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",10,"Rocks near Durban-S.latissima-2014",2014,3,9,67.03925,-62.214,"S.latissima","",1,"30,4",NA,10,NA
+100,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",10,"Rocks near Durban-Saccorhiza-2014",2014,3,9,67.03925,-62.214,"Saccorhiza","",1,"0",NA,10,NA
+101,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",10,"Rocks near Durban-L.solidung-2014",2014,3,9,67.03925,-62.214,"L.solidung","",1,"7,6",NA,10,NA
+102,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",10,"Rocks near Durban-L.digitata-2014",2014,3,9,67.03925,-62.214,"L.digitata","",1,"0",NA,10,NA
+103,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",15,"Rocks near Durban-Agarum-2014",2014,3,9,67.03925,-62.214,"Agarum","",1,"19,5",NA,10,NA
+104,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",15,"Rocks near Durban-Alaria-2014",2014,3,9,67.03925,-62.214,"Alaria","",1,"0",NA,10,NA
+105,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",15,"Rocks near Durban-S.latissima-2014",2014,3,9,67.03925,-62.214,"S.latissima","",1,"57,6",NA,10,NA
+106,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",15,"Rocks near Durban-Saccorhiza-2014",2014,3,9,67.03925,-62.214,"Saccorhiza","",1,"0",NA,10,NA
+107,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",15,"Rocks near Durban-L.solidung-2014",2014,3,9,67.03925,-62.214,"L.solidung","",1,"14,4",NA,10,NA
+108,"filbee_dexter_arctic_kelp",NA,"Rocks near Durban",15,"Rocks near Durban-L.digitata-2014",2014,3,9,67.03925,-62.214,"L.digitata","",1,"0",NA,10,NA
+109,"filbee_dexter_arctic_kelp",NA,"S. of Qik",5,"S. of Qik-Agarum-2014",2014,2,9,67.5222,-64.062,"Agarum","",1,"8",NA,10,"0"
+110,"filbee_dexter_arctic_kelp",NA,"S. of Qik",5,"S. of Qik-Alaria-2014",2014,2,9,67.5222,-64.062,"Alaria","",1,"0",NA,10,"0"
+111,"filbee_dexter_arctic_kelp",NA,"S. of Qik",5,"S. of Qik-S.latissima-2014",2014,2,9,67.5222,-64.062,"S.latissima","",1,"42,8",NA,10,"2,66213333333333"
+112,"filbee_dexter_arctic_kelp",NA,"S. of Qik",5,"S. of Qik-Saccorhiza-2014",2014,2,9,67.5222,-64.062,"Saccorhiza","",1,"0",NA,10,NA
+113,"filbee_dexter_arctic_kelp",NA,"S. of Qik",5,"S. of Qik-L.solidung-2014",2014,2,9,67.5222,-64.062,"L.solidung","",1,"10,7",NA,10,"0"
+114,"filbee_dexter_arctic_kelp",NA,"S. of Qik",5,"S. of Qik-L.digitata-2014",2014,2,9,67.5222,-64.062,"L.digitata","",1,"0",NA,10,"0,0148"
+115,"filbee_dexter_arctic_kelp",NA,"S. of Qik",10,"S. of Qik-Agarum-2014",2014,2,9,67.5222,-64.062,"Agarum","",1,"9,5",NA,10,"1,97813333333333"
+116,"filbee_dexter_arctic_kelp",NA,"S. of Qik",10,"S. of Qik-Alaria-2014",2014,2,9,67.5222,-64.062,"Alaria","",1,"0",NA,10,"0,872666666666667"
+117,"filbee_dexter_arctic_kelp",NA,"S. of Qik",10,"S. of Qik-S.latissima-2014",2014,2,9,67.5222,-64.062,"S.latissima","",1,"32",NA,10,"1,66106666666667"
+118,"filbee_dexter_arctic_kelp",NA,"S. of Qik",10,"S. of Qik-Saccorhiza-2014",2014,2,9,67.5222,-64.062,"Saccorhiza","",1,"0",NA,10,NA
+119,"filbee_dexter_arctic_kelp",NA,"S. of Qik",10,"S. of Qik-L.solidung-2014",2014,2,9,67.5222,-64.062,"L.solidung","",1,"8",NA,10,"8,21786666666667"
+120,"filbee_dexter_arctic_kelp",NA,"S. of Qik",10,"S. of Qik-L.digitata-2014",2014,2,9,67.5222,-64.062,"L.digitata","",1,"0",NA,10,"0"
+121,"filbee_dexter_arctic_kelp",NA,"S. of Qik",15,"S. of Qik-Agarum-2014",2014,2,9,67.5222,-64.062,"Agarum","",1,"0",NA,10,NA
+122,"filbee_dexter_arctic_kelp",NA,"S. of Qik",15,"S. of Qik-Alaria-2014",2014,2,9,67.5222,-64.062,"Alaria","",1,"0",NA,10,NA
+123,"filbee_dexter_arctic_kelp",NA,"S. of Qik",15,"S. of Qik-S.latissima-2014",2014,2,9,67.5222,-64.062,"S.latissima","",1,"0,8",NA,10,NA
+124,"filbee_dexter_arctic_kelp",NA,"S. of Qik",15,"S. of Qik-Saccorhiza-2014",2014,2,9,67.5222,-64.062,"Saccorhiza","",1,"0",NA,10,NA
+125,"filbee_dexter_arctic_kelp",NA,"S. of Qik",15,"S. of Qik-L.solidung-2014",2014,2,9,67.5222,-64.062,"L.solidung","",1,"0,2",NA,10,NA
+126,"filbee_dexter_arctic_kelp",NA,"S. of Qik",15,"S. of Qik-L.digitata-2014",2014,2,9,67.5222,-64.062,"L.digitata","",1,"0",NA,10,NA
+127,"filbee_dexter_arctic_kelp",NA,"Turnagain",10,"Turnagain-Agarum-2014",2014,3,13,56.766,-61.307,"Agarum","",1,"0",NA,8,NA
+128,"filbee_dexter_arctic_kelp",NA,"Turnagain",10,"Turnagain-Alaria-2014",2014,3,13,56.766,-61.307,"Alaria","",1,"0",NA,8,NA
+129,"filbee_dexter_arctic_kelp",NA,"Turnagain",10,"Turnagain-S.latissima-2014",2014,3,13,56.766,-61.307,"S.latissima","",1,"0",NA,8,NA
+130,"filbee_dexter_arctic_kelp",NA,"Turnagain",10,"Turnagain-Saccorhiza-2014",2014,3,13,56.766,-61.307,"Saccorhiza","",1,"0",NA,8,NA
+131,"filbee_dexter_arctic_kelp",NA,"Turnagain",10,"Turnagain-L.solidung-2014",2014,3,13,56.766,-61.307,"L.solidung","",1,"0",NA,8,NA
+132,"filbee_dexter_arctic_kelp",NA,"Turnagain",10,"Turnagain-L.digitata-2014",2014,3,13,56.766,-61.307,"L.digitata","",1,"0",NA,8,NA
+133,"filbee_dexter_arctic_kelp",NA,"Turnagain",15,"Turnagain-Agarum-2014",2014,3,13,56.766,-61.307,"Agarum","",1,"0",NA,10,NA
+134,"filbee_dexter_arctic_kelp",NA,"Turnagain",15,"Turnagain-Alaria-2014",2014,3,13,56.766,-61.307,"Alaria","",1,"0",NA,10,NA
+135,"filbee_dexter_arctic_kelp",NA,"Turnagain",15,"Turnagain-S.latissima-2014",2014,3,13,56.766,-61.307,"S.latissima","",1,"0",NA,10,NA
+136,"filbee_dexter_arctic_kelp",NA,"Turnagain",15,"Turnagain-Saccorhiza-2014",2014,3,13,56.766,-61.307,"Saccorhiza","",1,"0",NA,10,NA
+137,"filbee_dexter_arctic_kelp",NA,"Turnagain",15,"Turnagain-L.solidung-2014",2014,3,13,56.766,-61.307,"L.solidung","",1,"0",NA,10,NA
+138,"filbee_dexter_arctic_kelp",NA,"Turnagain",15,"Turnagain-L.digitata-2014",2014,3,13,56.766,-61.307,"L.digitata","",1,"0",NA,10,NA
+139,"filbee_dexter_arctic_kelp",NA,"Churchill T2",5,"Churchill T2-Agarum-2011",2011,8,19,58.78638889,-94.21888889,"Agarum","",1,"0",NA,11,NA
+140,"filbee_dexter_arctic_kelp",NA,"Churchill T2",5,"Churchill T2-Alaria-2011",2011,8,19,58.78638889,-94.21888889,"Alaria","",1,"0",NA,11,NA
+141,"filbee_dexter_arctic_kelp",NA,"Churchill T2",5,"Churchill T2-S.latissima-2011",2011,8,19,58.78638889,-94.21888889,"S.latissima","",1,"0",NA,11,NA
+142,"filbee_dexter_arctic_kelp",NA,"Churchill T2",5,"Churchill T2-Saccorhiza-2011",2011,8,19,58.78638889,-94.21888889,"Saccorhiza","",1,"0",NA,11,NA
+143,"filbee_dexter_arctic_kelp",NA,"Churchill T2",5,"Churchill T2-L.solidung-2011",2011,8,19,58.78638889,-94.21888889,"L.solidung","",1,"0",NA,11,NA
+144,"filbee_dexter_arctic_kelp",NA,"Churchill T2",5,"Churchill T2-L.digitata-2011",2011,8,19,58.78638889,-94.21888889,"L.digitata","",1,"0",NA,11,NA
+145,"filbee_dexter_arctic_kelp",NA,"Churchill T2",15,"Churchill T2-Agarum-2011",2011,8,19,58.78638889,-94.21888889,"Agarum","",1,"0",NA,14,NA
+146,"filbee_dexter_arctic_kelp",NA,"Churchill T2",15,"Churchill T2-Alaria-2011",2011,8,19,58.78638889,-94.21888889,"Alaria","",1,"0",NA,14,NA
+147,"filbee_dexter_arctic_kelp",NA,"Churchill T2",15,"Churchill T2-S.latissima-2011",2011,8,19,58.78638889,-94.21888889,"S.latissima","",1,"0",NA,14,NA
+148,"filbee_dexter_arctic_kelp",NA,"Churchill T2",15,"Churchill T2-Saccorhiza-2011",2011,8,19,58.78638889,-94.21888889,"Saccorhiza","",1,"0",NA,14,NA
+149,"filbee_dexter_arctic_kelp",NA,"Churchill T2",15,"Churchill T2-L.solidung-2011",2011,8,19,58.78638889,-94.21888889,"L.solidung","",1,"0",NA,14,NA
+150,"filbee_dexter_arctic_kelp",NA,"Churchill T2",15,"Churchill T2-L.digitata-2011",2011,8,19,58.78638889,-94.21888889,"L.digitata","",1,"0",NA,14,NA
+151,"filbee_dexter_arctic_kelp",NA,"Churchill T3",10,"Churchill T3-Agarum-2011",2011,8,19,58.81222222,-94.21416667,"Agarum","",1,"0",NA,13,NA
+152,"filbee_dexter_arctic_kelp",NA,"Churchill T3",10,"Churchill T3-Alaria-2011",2011,8,19,58.81222222,-94.21416667,"Alaria","",1,"0",NA,13,NA
+153,"filbee_dexter_arctic_kelp",NA,"Churchill T3",10,"Churchill T3-S.latissima-2011",2011,8,19,58.81222222,-94.21416667,"S.latissima","",1,"1,231",NA,13,NA
+154,"filbee_dexter_arctic_kelp",NA,"Churchill T3",10,"Churchill T3-Saccorhiza-2011",2011,8,19,58.81222222,-94.21416667,"Saccorhiza","",1,"0",NA,13,NA
+155,"filbee_dexter_arctic_kelp",NA,"Churchill T3",10,"Churchill T3-L.solidung-2011",2011,8,19,58.81222222,-94.21416667,"L.solidung","",1,"0",NA,13,NA
+156,"filbee_dexter_arctic_kelp",NA,"Churchill T3",10,"Churchill T3-L.digitata-2011",2011,8,19,58.81222222,-94.21416667,"L.digitata","",1,"0,923",NA,13,NA
+157,"filbee_dexter_arctic_kelp",NA,"Churchill T3",15,"Churchill T3-Agarum-2011",2011,8,19,58.81222222,-94.21416667,"Agarum","",1,"0",NA,13,NA
+158,"filbee_dexter_arctic_kelp",NA,"Churchill T3",15,"Churchill T3-Alaria-2011",2011,8,19,58.81222222,-94.21416667,"Alaria","",1,"0",NA,13,NA
+159,"filbee_dexter_arctic_kelp",NA,"Churchill T3",15,"Churchill T3-S.latissima-2011",2011,8,19,58.81222222,-94.21416667,"S.latissima","",1,"1,154",NA,13,NA
+160,"filbee_dexter_arctic_kelp",NA,"Churchill T3",15,"Churchill T3-Saccorhiza-2011",2011,8,19,58.81222222,-94.21416667,"Saccorhiza","",1,"0",NA,13,NA
+161,"filbee_dexter_arctic_kelp",NA,"Churchill T3",15,"Churchill T3-L.solidung-2011",2011,8,19,58.81222222,-94.21416667,"L.solidung","",1,"7,231",NA,13,NA
+162,"filbee_dexter_arctic_kelp",NA,"Churchill T3",15,"Churchill T3-L.digitata-2011",2011,8,19,58.81222222,-94.21416667,"L.digitata","",1,"0",NA,13,NA
+163,"filbee_dexter_arctic_kelp",NA,"Churchill T4",10,"Churchill T4-Agarum-2011",2011,8,20,58.80055556,-94.22972222,"Agarum","",1,"0",NA,13,NA
+164,"filbee_dexter_arctic_kelp",NA,"Churchill T4",10,"Churchill T4-Alaria-2011",2011,8,20,58.80055556,-94.22972222,"Alaria","",1,"0",NA,13,NA
+165,"filbee_dexter_arctic_kelp",NA,"Churchill T4",10,"Churchill T4-S.latissima-2011",2011,8,20,58.80055556,-94.22972222,"S.latissima","",1,"0,769",NA,13,NA
+166,"filbee_dexter_arctic_kelp",NA,"Churchill T4",10,"Churchill T4-Saccorhiza-2011",2011,8,20,58.80055556,-94.22972222,"Saccorhiza","",1,"0",NA,13,NA
+167,"filbee_dexter_arctic_kelp",NA,"Churchill T4",10,"Churchill T4-L.solidung-2011",2011,8,20,58.80055556,-94.22972222,"L.solidung","",1,"0",NA,13,NA
+168,"filbee_dexter_arctic_kelp",NA,"Churchill T4",10,"Churchill T4-L.digitata-2011",2011,8,20,58.80055556,-94.22972222,"L.digitata","",1,"0",NA,13,NA
+169,"filbee_dexter_arctic_kelp",NA,"Churchill T4",15,"Churchill T4-Agarum-2011",2011,8,20,58.80055556,-94.22972222,"Agarum","",1,"13,538",NA,13,NA
+170,"filbee_dexter_arctic_kelp",NA,"Churchill T4",15,"Churchill T4-Alaria-2011",2011,8,20,58.80055556,-94.22972222,"Alaria","",1,"0",NA,13,NA
+171,"filbee_dexter_arctic_kelp",NA,"Churchill T4",15,"Churchill T4-S.latissima-2011",2011,8,20,58.80055556,-94.22972222,"S.latissima","",1,"0",NA,13,NA
+172,"filbee_dexter_arctic_kelp",NA,"Churchill T4",15,"Churchill T4-Saccorhiza-2011",2011,8,20,58.80055556,-94.22972222,"Saccorhiza","",1,"0",NA,13,NA
+173,"filbee_dexter_arctic_kelp",NA,"Churchill T4",15,"Churchill T4-L.solidung-2011",2011,8,20,58.80055556,-94.22972222,"L.solidung","",1,"5",NA,13,NA
+174,"filbee_dexter_arctic_kelp",NA,"Churchill T4",15,"Churchill T4-L.digitata-2011",2011,8,20,58.80055556,-94.22972222,"L.digitata","",1,"0",NA,13,NA
+175,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",5,"Deception Bay T1-Agarum-2012",2012,8,3,62.12333,-74.61947,"Agarum","",1,"0",NA,10,NA
+176,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",5,"Deception Bay T1-Alaria-2012",2012,8,3,62.12333,-74.61947,"Alaria","",1,"0",NA,10,NA
+177,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",5,"Deception Bay T1-S.latissima-2012",2012,8,3,62.12333,-74.61947,"S.latissima","",1,"0",NA,10,NA
+178,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",5,"Deception Bay T1-Saccorhiza-2012",2012,8,3,62.12333,-74.61947,"Saccorhiza","",1,"0",NA,10,NA
+179,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",5,"Deception Bay T1-L.solidung-2012",2012,8,3,62.12333,-74.61947,"L.solidung","",1,"0",NA,10,NA
+180,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",5,"Deception Bay T1-L.digitata-2012",2012,8,3,62.12333,-74.61947,"L.digitata","",1,"0",NA,10,NA
+181,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",10,"Deception Bay T1-Agarum-2012",2012,8,3,62.12333,-74.61947,"Agarum","",1,"0",NA,10,NA
+182,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",10,"Deception Bay T1-Alaria-2012",2012,8,3,62.12333,-74.61947,"Alaria","",1,"0",NA,10,NA
+183,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",10,"Deception Bay T1-S.latissima-2012",2012,8,3,62.12333,-74.61947,"S.latissima","",1,"0",NA,10,NA
+184,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",10,"Deception Bay T1-Saccorhiza-2012",2012,8,3,62.12333,-74.61947,"Saccorhiza","",1,"0",NA,10,NA
+185,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",10,"Deception Bay T1-L.solidung-2012",2012,8,3,62.12333,-74.61947,"L.solidung","",1,"0",NA,10,NA
+186,"filbee_dexter_arctic_kelp",NA,"Deception Bay T1",10,"Deception Bay T1-L.digitata-2012",2012,8,3,62.12333,-74.61947,"L.digitata","",1,"0",NA,10,NA
+187,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",10,"Deception Bay T2-Agarum-2012",2012,8,4,62.14213,-74.68817,"Agarum","",1,"0",NA,10,NA
+188,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",10,"Deception Bay T2-Alaria-2012",2012,8,4,62.14213,-74.68817,"Alaria","",1,"0",NA,10,NA
+189,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",10,"Deception Bay T2-S.latissima-2012",2012,8,4,62.14213,-74.68817,"S.latissima","",1,"46,85",NA,10,NA
+190,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",10,"Deception Bay T2-Saccorhiza-2012",2012,8,4,62.14213,-74.68817,"Saccorhiza","",1,"0",NA,10,NA
+191,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",10,"Deception Bay T2-L.solidung-2012",2012,8,4,62.14213,-74.68817,"L.solidung","",1,"0",NA,10,NA
+192,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",10,"Deception Bay T2-L.digitata-2012",2012,8,4,62.14213,-74.68817,"L.digitata","",1,"0",NA,10,NA
+193,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",15,"Deception Bay T2-Agarum-2012",2012,8,4,62.14213,-74.68817,"Agarum","",1,"0",NA,10,NA
+194,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",15,"Deception Bay T2-Alaria-2012",2012,8,4,62.14213,-74.68817,"Alaria","",1,"0",NA,10,NA
+195,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",15,"Deception Bay T2-S.latissima-2012",2012,8,4,62.14213,-74.68817,"S.latissima","",1,"0",NA,10,NA
+196,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",15,"Deception Bay T2-Saccorhiza-2012",2012,8,4,62.14213,-74.68817,"Saccorhiza","",1,"0",NA,10,NA
+197,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",15,"Deception Bay T2-L.solidung-2012",2012,8,4,62.14213,-74.68817,"L.solidung","",1,"63",NA,10,NA
+198,"filbee_dexter_arctic_kelp",NA,"Deception Bay T2",15,"Deception Bay T2-L.digitata-2012",2012,8,4,62.14213,-74.68817,"L.digitata","",1,"0",NA,10,NA
+199,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",5,"Deception Bay T3-Agarum-2012",2012,8,5,62.20228,-74.81023,"Agarum","",1,"3,14",NA,10,NA
+200,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",5,"Deception Bay T3-Alaria-2012",2012,8,5,62.20228,-74.81023,"Alaria","",1,"1,5",NA,10,NA
+201,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",5,"Deception Bay T3-S.latissima-2012",2012,8,5,62.20228,-74.81023,"S.latissima","",1,"16,87",NA,10,NA
+202,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",5,"Deception Bay T3-Saccorhiza-2012",2012,8,5,62.20228,-74.81023,"Saccorhiza","",1,"0",NA,10,NA
+203,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",5,"Deception Bay T3-L.solidung-2012",2012,8,5,62.20228,-74.81023,"L.solidung","",1,"13,3",NA,10,NA
+204,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",5,"Deception Bay T3-L.digitata-2012",2012,8,5,62.20228,-74.81023,"L.digitata","",1,"0",NA,10,NA
+205,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",10,"Deception Bay T3-Agarum-2012",2012,8,5,62.20228,-74.81023,"Agarum","",1,"0",NA,10,NA
+206,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",10,"Deception Bay T3-Alaria-2012",2012,8,5,62.20228,-74.81023,"Alaria","",1,"0",NA,10,NA
+207,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",10,"Deception Bay T3-S.latissima-2012",2012,8,5,62.20228,-74.81023,"S.latissima","",1,"40,08",NA,10,NA
+208,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",10,"Deception Bay T3-Saccorhiza-2012",2012,8,5,62.20228,-74.81023,"Saccorhiza","",1,"0",NA,10,NA
+209,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",10,"Deception Bay T3-L.solidung-2012",2012,8,5,62.20228,-74.81023,"L.solidung","",1,"0,67",NA,10,NA
+210,"filbee_dexter_arctic_kelp",NA,"Deception Bay T3",10,"Deception Bay T3-L.digitata-2012",2012,8,5,62.20228,-74.81023,"L.digitata","",1,"0",NA,10,NA
+211,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",10,"Deception Bay T4-Agarum-2012",2012,8,1,62.24567,-74.86087,"Agarum","",1,"0",NA,11,NA
+212,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",10,"Deception Bay T4-Alaria-2012",2012,8,1,62.24567,-74.86087,"Alaria","",1,"35",NA,11,NA
+213,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",10,"Deception Bay T4-S.latissima-2012",2012,8,1,62.24567,-74.86087,"S.latissima","",1,"40,909",NA,11,NA
+214,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",10,"Deception Bay T4-Saccorhiza-2012",2012,8,1,62.24567,-74.86087,"Saccorhiza","",1,"0",NA,11,NA
+215,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",10,"Deception Bay T4-L.solidung-2012",2012,8,1,62.24567,-74.86087,"L.solidung","",1,"5,909",NA,11,NA
+216,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",10,"Deception Bay T4-L.digitata-2012",2012,8,1,62.24567,-74.86087,"L.digitata","",1,"0",NA,11,NA
+217,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",15,"Deception Bay T4-Agarum-2012",2012,8,1,62.24567,-74.86087,"Agarum","",1,"0",NA,10,NA
+218,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",15,"Deception Bay T4-Alaria-2012",2012,8,1,62.24567,-74.86087,"Alaria","",1,"16,84",NA,10,NA
+219,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",15,"Deception Bay T4-S.latissima-2012",2012,8,1,62.24567,-74.86087,"S.latissima","",1,"68,7",NA,10,NA
+220,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",15,"Deception Bay T4-Saccorhiza-2012",2012,8,1,62.24567,-74.86087,"Saccorhiza","",1,"0",NA,10,NA
+221,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",15,"Deception Bay T4-L.solidung-2012",2012,8,1,62.24567,-74.86087,"L.solidung","",1,"0",NA,10,NA
+222,"filbee_dexter_arctic_kelp",NA,"Deception Bay T4",15,"Deception Bay T4-L.digitata-2012",2012,8,1,62.24567,-74.86087,"L.digitata","",1,"0",NA,10,NA
+223,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",10,"Deception Bay T5-Agarum-2012",2012,8,2,62.25665,-74.69048,"Agarum","",1,"33,21",NA,10,NA
+224,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",10,"Deception Bay T5-Alaria-2012",2012,8,2,62.25665,-74.69048,"Alaria","",1,"10,71",NA,10,NA
+225,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",10,"Deception Bay T5-S.latissima-2012",2012,8,2,62.25665,-74.69048,"S.latissima","",1,"18,634",NA,10,NA
+226,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",10,"Deception Bay T5-Saccorhiza-2012",2012,8,2,62.25665,-74.69048,"Saccorhiza","",1,"0",NA,10,NA
+227,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",10,"Deception Bay T5-L.solidung-2012",2012,8,2,62.25665,-74.69048,"L.solidung","",1,"0",NA,10,NA
+228,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",10,"Deception Bay T5-L.digitata-2012",2012,8,2,62.25665,-74.69048,"L.digitata","",1,"0",NA,10,NA
+229,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",15,"Deception Bay T5-Agarum-2012",2012,8,2,62.25665,-74.69048,"Agarum","",1,"30,51",NA,10,NA
+230,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",15,"Deception Bay T5-Alaria-2012",2012,8,2,62.25665,-74.69048,"Alaria","",1,"1,07",NA,10,NA
+231,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",15,"Deception Bay T5-S.latissima-2012",2012,8,2,62.25665,-74.69048,"S.latissima","",1,"0,2",NA,10,NA
+232,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",15,"Deception Bay T5-Saccorhiza-2012",2012,8,2,62.25665,-74.69048,"Saccorhiza","",1,"0",NA,10,NA
+233,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",15,"Deception Bay T5-L.solidung-2012",2012,8,2,62.25665,-74.69048,"L.solidung","",1,"0",NA,10,NA
+234,"filbee_dexter_arctic_kelp",NA,"Deception Bay T5",15,"Deception Bay T5-L.digitata-2012",2012,8,2,62.25665,-74.69048,"L.digitata","",1,"0",NA,10,NA
+235,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",10,"Deception Bay T6-Agarum-2012",2012,8,3,62.20221,-74.73529,"Agarum","",1,"3,77",NA,10,NA
+236,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",10,"Deception Bay T6-Alaria-2012",2012,8,3,62.20221,-74.73529,"Alaria","",1,"0",NA,10,NA
+237,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",10,"Deception Bay T6-S.latissima-2012",2012,8,3,62.20221,-74.73529,"S.latissima","",1,"48,53",NA,10,NA
+238,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",10,"Deception Bay T6-Saccorhiza-2012",2012,8,3,62.20221,-74.73529,"Saccorhiza","",1,"0",NA,10,NA
+239,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",10,"Deception Bay T6-L.solidung-2012",2012,8,3,62.20221,-74.73529,"L.solidung","",1,"9",NA,10,NA
+240,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",10,"Deception Bay T6-L.digitata-2012",2012,8,3,62.20221,-74.73529,"L.digitata","",1,"0",NA,10,NA
+241,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",15,"Deception Bay T6-Agarum-2012",2012,8,3,62.20221,-74.73529,"Agarum","",1,"69,02",NA,10,NA
+242,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",15,"Deception Bay T6-Alaria-2012",2012,8,3,62.20221,-74.73529,"Alaria","",1,"0",NA,10,NA
+243,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",15,"Deception Bay T6-S.latissima-2012",2012,8,3,62.20221,-74.73529,"S.latissima","",1,"2,2",NA,10,NA
+244,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",15,"Deception Bay T6-Saccorhiza-2012",2012,8,3,62.20221,-74.73529,"Saccorhiza","",1,"0",NA,10,NA
+245,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",15,"Deception Bay T6-L.solidung-2012",2012,8,3,62.20221,-74.73529,"L.solidung","",1,"0",NA,10,NA
+246,"filbee_dexter_arctic_kelp",NA,"Deception Bay T6",15,"Deception Bay T6-L.digitata-2012",2012,8,3,62.20221,-74.73529,"L.digitata","",1,"0",NA,10,NA
+247,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",5,"Iqualuit T1-Agarum-2011",2011,8,25,63.7358333,-68.516667,"Agarum","",1,"0",NA,13,NA
+248,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",5,"Iqualuit T1-Alaria-2011",2011,8,25,63.7358333,-68.516667,"Alaria","",1,"0",NA,13,NA
+249,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",5,"Iqualuit T1-S.latissima-2011",2011,8,25,63.7358333,-68.516667,"S.latissima","",1,"11,538",NA,13,NA
+250,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",5,"Iqualuit T1-Saccorhiza-2011",2011,8,25,63.7358333,-68.516667,"Saccorhiza","",1,"0",NA,13,NA
+251,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",5,"Iqualuit T1-L.solidung-2011",2011,8,25,63.7358333,-68.516667,"L.solidung","",1,"0",NA,13,NA
+252,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",5,"Iqualuit T1-L.digitata-2011",2011,8,25,63.7358333,-68.516667,"L.digitata","",1,"0",NA,13,NA
+253,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",10,"Iqualuit T1-Agarum-2011",2011,8,25,63.7358333,-68.516667,"Agarum","",1,"0",NA,10,NA
+254,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",10,"Iqualuit T1-Alaria-2011",2011,8,25,63.7358333,-68.516667,"Alaria","",1,"0",NA,10,NA
+255,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",10,"Iqualuit T1-S.latissima-2011",2011,8,25,63.7358333,-68.516667,"S.latissima","",1,"0",NA,10,NA
+256,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",10,"Iqualuit T1-Saccorhiza-2011",2011,8,25,63.7358333,-68.516667,"Saccorhiza","",1,"0",NA,10,NA
+257,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",10,"Iqualuit T1-L.solidung-2011",2011,8,25,63.7358333,-68.516667,"L.solidung","",1,"0",NA,10,NA
+258,"filbee_dexter_arctic_kelp",NA,"Iqualuit T1",10,"Iqualuit T1-L.digitata-2011",2011,8,25,63.7358333,-68.516667,"L.digitata","",1,"0",NA,10,NA
+259,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",5,"Iqualuit T2-Agarum-2011",2011,8,25,63.7247222,-68.47166667,"Agarum","",1,"0",NA,13,NA
+260,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",5,"Iqualuit T2-Alaria-2011",2011,8,25,63.7247222,-68.47166667,"Alaria","",1,"0",NA,13,NA
+261,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",5,"Iqualuit T2-S.latissima-2011",2011,8,25,63.7247222,-68.47166667,"S.latissima","",1,"3,846",NA,13,NA
+262,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",5,"Iqualuit T2-Saccorhiza-2011",2011,8,25,63.7247222,-68.47166667,"Saccorhiza","",1,"0",NA,13,NA
+263,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",5,"Iqualuit T2-L.solidung-2011",2011,8,25,63.7247222,-68.47166667,"L.solidung","",1,"0",NA,13,NA
+264,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",5,"Iqualuit T2-L.digitata-2011",2011,8,25,63.7247222,-68.47166667,"L.digitata","",1,"0",NA,13,NA
+265,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",10,"Iqualuit T2-Agarum-2011",2011,8,25,63.7247222,-68.47166667,"Agarum","",1,"21,923",NA,13,NA
+266,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",10,"Iqualuit T2-Alaria-2011",2011,8,25,63.7247222,-68.47166667,"Alaria","",1,"1,154",NA,13,NA
+267,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",10,"Iqualuit T2-S.latissima-2011",2011,8,25,63.7247222,-68.47166667,"S.latissima","",1,"29,231",NA,13,NA
+268,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",10,"Iqualuit T2-Saccorhiza-2011",2011,8,25,63.7247222,-68.47166667,"Saccorhiza","",1,"0",NA,13,NA
+269,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",10,"Iqualuit T2-L.solidung-2011",2011,8,25,63.7247222,-68.47166667,"L.solidung","",1,"12,308",NA,13,NA
+270,"filbee_dexter_arctic_kelp",NA,"Iqualuit T2",10,"Iqualuit T2-L.digitata-2011",2011,8,25,63.7247222,-68.47166667,"L.digitata","",1,"0",NA,13,NA
+271,"filbee_dexter_arctic_kelp",NA,"Iqualuit T3",5,"Iqualuit T3-Agarum-2011",2011,8,28,63.71666667,-68.48694444,"Agarum","",1,"4,091",NA,11,NA
+272,"filbee_dexter_arctic_kelp",NA,"Iqualuit T3",5,"Iqualuit T3-Alaria-2011",2011,8,28,63.71666667,-68.48694444,"Alaria","",1,"0",NA,11,NA
+273,"filbee_dexter_arctic_kelp",NA,"Iqualuit T3",5,"Iqualuit T3-S.latissima-2011",2011,8,28,63.71666667,-68.48694444,"S.latissima","",1,"76,091",NA,11,NA
+274,"filbee_dexter_arctic_kelp",NA,"Iqualuit T3",5,"Iqualuit T3-Saccorhiza-2011",2011,8,28,63.71666667,-68.48694444,"Saccorhiza","",1,"0",NA,11,NA
+275,"filbee_dexter_arctic_kelp",NA,"Iqualuit T3",5,"Iqualuit T3-L.solidung-2011",2011,8,28,63.71666667,-68.48694444,"L.solidung","",1,"0",NA,11,NA
+276,"filbee_dexter_arctic_kelp",NA,"Iqualuit T3",5,"Iqualuit T3-L.digitata-2011",2011,8,28,63.71666667,-68.48694444,"L.digitata","",1,"0",NA,11,NA
+277,"filbee_dexter_arctic_kelp",NA,"Iqualuit T4",10,"Iqualuit T4-Agarum-2011",2011,8,29,63.71666667,-68.48694444,"Agarum","",1,"0",NA,12,NA
+278,"filbee_dexter_arctic_kelp",NA,"Iqualuit T4",10,"Iqualuit T4-Alaria-2011",2011,8,29,63.71666667,-68.48694444,"Alaria","",1,"6,417",NA,12,NA
+279,"filbee_dexter_arctic_kelp",NA,"Iqualuit T4",10,"Iqualuit T4-S.latissima-2011",2011,8,29,63.71666667,-68.48694444,"S.latissima","",1,"22,5",NA,12,NA
+280,"filbee_dexter_arctic_kelp",NA,"Iqualuit T4",10,"Iqualuit T4-Saccorhiza-2011",2011,8,29,63.71666667,-68.48694444,"Saccorhiza","",1,"0",NA,12,NA
+281,"filbee_dexter_arctic_kelp",NA,"Iqualuit T4",10,"Iqualuit T4-L.solidung-2011",2011,8,29,63.71666667,-68.48694444,"L.solidung","",1,"2,083",NA,12,NA
+282,"filbee_dexter_arctic_kelp",NA,"Iqualuit T4",10,"Iqualuit T4-L.digitata-2011",2011,8,29,63.71666667,-68.48694444,"L.digitata","",1,"0",NA,12,NA
+283,"filbee_dexter_arctic_kelp",NA,"Iqualuit T5",15,"Iqualuit T5-Agarum-2011",2011,8,28,63.711667,-68.5130556,"Agarum","",1,"32",NA,12,NA
+284,"filbee_dexter_arctic_kelp",NA,"Iqualuit T5",15,"Iqualuit T5-Alaria-2011",2011,8,28,63.711667,-68.5130556,"Alaria","",1,"0",NA,12,NA
+285,"filbee_dexter_arctic_kelp",NA,"Iqualuit T5",15,"Iqualuit T5-S.latissima-2011",2011,8,28,63.711667,-68.5130556,"S.latissima","",1,"35,333",NA,12,NA
+286,"filbee_dexter_arctic_kelp",NA,"Iqualuit T5",15,"Iqualuit T5-Saccorhiza-2011",2011,8,28,63.711667,-68.5130556,"Saccorhiza","",1,"0",NA,12,NA
+287,"filbee_dexter_arctic_kelp",NA,"Iqualuit T5",15,"Iqualuit T5-L.solidung-2011",2011,8,28,63.711667,-68.5130556,"L.solidung","",1,"6,667",NA,12,NA
+288,"filbee_dexter_arctic_kelp",NA,"Iqualuit T5",15,"Iqualuit T5-L.digitata-2011",2011,8,28,63.711667,-68.5130556,"L.digitata","",1,"0",NA,12,NA
+289,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T1",10,"Steensby Inlet T1-Agarum-2012",2012,8,15,70.25066,-78.85715,"Agarum","",1,"0",NA,11,NA
+290,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T1",10,"Steensby Inlet T1-Alaria-2012",2012,8,15,70.25066,-78.85715,"Alaria","",1,"0",NA,11,NA
+291,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T1",10,"Steensby Inlet T1-S.latissima-2012",2012,8,15,70.25066,-78.85715,"S.latissima","",1,"20,182",NA,11,NA
+292,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T1",10,"Steensby Inlet T1-Saccorhiza-2012",2012,8,15,70.25066,-78.85715,"Saccorhiza","",1,"0",NA,11,NA
+293,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T1",10,"Steensby Inlet T1-L.solidung-2012",2012,8,15,70.25066,-78.85715,"L.solidung","",1,"8",NA,11,NA
+294,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T1",10,"Steensby Inlet T1-L.digitata-2012",2012,8,15,70.25066,-78.85715,"L.digitata","",1,"0",NA,11,NA
+295,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",5,"Steensby Inlet T2-Agarum-2012",2012,8,19,70.21439,-78.76381,"Agarum","",1,"0",NA,10,NA
+296,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",5,"Steensby Inlet T2-Alaria-2012",2012,8,19,70.21439,-78.76381,"Alaria","",1,"1",NA,10,NA
+297,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",5,"Steensby Inlet T2-S.latissima-2012",2012,8,19,70.21439,-78.76381,"S.latissima","",1,"19,7",NA,10,NA
+298,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",5,"Steensby Inlet T2-Saccorhiza-2012",2012,8,19,70.21439,-78.76381,"Saccorhiza","",1,"0",NA,10,NA
+299,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",5,"Steensby Inlet T2-L.solidung-2012",2012,8,19,70.21439,-78.76381,"L.solidung","",1,"12",NA,10,NA
+300,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",5,"Steensby Inlet T2-L.digitata-2012",2012,8,19,70.21439,-78.76381,"L.digitata","",1,"0",NA,10,NA
+301,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",10,"Steensby Inlet T2-Agarum-2012",2012,8,19,70.21439,-78.76381,"Agarum","",1,"0",NA,8,NA
+302,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",10,"Steensby Inlet T2-Alaria-2012",2012,8,19,70.21439,-78.76381,"Alaria","",1,"0",NA,8,NA
+303,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",10,"Steensby Inlet T2-S.latissima-2012",2012,8,19,70.21439,-78.76381,"S.latissima","",1,"0,625",NA,8,NA
+304,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",10,"Steensby Inlet T2-Saccorhiza-2012",2012,8,19,70.21439,-78.76381,"Saccorhiza","",1,"0",NA,8,NA
+305,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",10,"Steensby Inlet T2-L.solidung-2012",2012,8,19,70.21439,-78.76381,"L.solidung","",1,"20,625",NA,8,NA
+306,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T2",10,"Steensby Inlet T2-L.digitata-2012",2012,8,19,70.21439,-78.76381,"L.digitata","",1,"0",NA,8,NA
+307,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T3",5,"Steensby Inlet T3-Agarum-2012",2012,8,17,70.19653,-78.39088,"Agarum","",1,"2,5",NA,10,NA
+308,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T3",5,"Steensby Inlet T3-Alaria-2012",2012,8,17,70.19653,-78.39088,"Alaria","",1,"1",NA,10,NA
+309,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T3",5,"Steensby Inlet T3-S.latissima-2012",2012,8,17,70.19653,-78.39088,"S.latissima","",1,"22,5",NA,10,NA
+310,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T3",5,"Steensby Inlet T3-Saccorhiza-2012",2012,8,17,70.19653,-78.39088,"Saccorhiza","",1,"0",NA,10,NA
+311,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T3",5,"Steensby Inlet T3-L.solidung-2012",2012,8,17,70.19653,-78.39088,"L.solidung","",1,"25,5",NA,10,NA
+312,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T3",5,"Steensby Inlet T3-L.digitata-2012",2012,8,17,70.19653,-78.39088,"L.digitata","",1,"0",NA,10,NA
+313,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",5,"Steensby Inlet T5-Agarum-2012",2012,8,18,70.27333,-78.51007,"Agarum","",1,"0",NA,6,NA
+314,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",5,"Steensby Inlet T5-Alaria-2012",2012,8,18,70.27333,-78.51007,"Alaria","",1,"0",NA,6,NA
+315,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",5,"Steensby Inlet T5-S.latissima-2012",2012,8,18,70.27333,-78.51007,"S.latissima","",1,"7,5",NA,6,NA
+316,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",5,"Steensby Inlet T5-Saccorhiza-2012",2012,8,18,70.27333,-78.51007,"Saccorhiza","",1,"0",NA,6,NA
+317,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",5,"Steensby Inlet T5-L.solidung-2012",2012,8,18,70.27333,-78.51007,"L.solidung","",1,"0",NA,6,NA
+318,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",5,"Steensby Inlet T5-L.digitata-2012",2012,8,18,70.27333,-78.51007,"L.digitata","",1,"0",NA,6,NA
+319,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",10,"Steensby Inlet T5-Agarum-2012",2012,8,18,70.27333,-78.51007,"Agarum","",1,"0",NA,4,NA
+320,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",10,"Steensby Inlet T5-Alaria-2012",2012,8,18,70.27333,-78.51007,"Alaria","",1,"2,5",NA,4,NA
+321,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",10,"Steensby Inlet T5-S.latissima-2012",2012,8,18,70.27333,-78.51007,"S.latissima","",1,"0",NA,4,NA
+322,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",10,"Steensby Inlet T5-Saccorhiza-2012",2012,8,18,70.27333,-78.51007,"Saccorhiza","",1,"0",NA,4,NA
+323,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",10,"Steensby Inlet T5-L.solidung-2012",2012,8,18,70.27333,-78.51007,"L.solidung","",1,"0",NA,4,NA
+324,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",10,"Steensby Inlet T5-L.digitata-2012",2012,8,18,70.27333,-78.51007,"L.digitata","",1,"0",NA,4,NA
+325,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",15,"Steensby Inlet T5-Agarum-2012",2012,8,18,70.27333,-78.51007,"Agarum","",1,"9,333",NA,9,NA
+326,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",15,"Steensby Inlet T5-Alaria-2012",2012,8,18,70.27333,-78.51007,"Alaria","",1,"0",NA,9,NA
+327,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",15,"Steensby Inlet T5-S.latissima-2012",2012,8,18,70.27333,-78.51007,"S.latissima","",1,"1,333",NA,9,NA
+328,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",15,"Steensby Inlet T5-Saccorhiza-2012",2012,8,18,70.27333,-78.51007,"Saccorhiza","",1,"0",NA,9,NA
+329,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",15,"Steensby Inlet T5-L.solidung-2012",2012,8,18,70.27333,-78.51007,"L.solidung","",1,"19,222",NA,9,NA
+330,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T5",15,"Steensby Inlet T5-L.digitata-2012",2012,8,18,70.27333,-78.51007,"L.digitata","",1,"0",NA,9,NA
+331,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",5,"Steensby Inlet T6-Agarum-2012",2012,8,18,70.32535,-78.56289,"Agarum","",1,"0",NA,4,NA
+332,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",5,"Steensby Inlet T6-Alaria-2012",2012,8,18,70.32535,-78.56289,"Alaria","",1,"0",NA,4,NA
+333,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",5,"Steensby Inlet T6-S.latissima-2012",2012,8,18,70.32535,-78.56289,"S.latissima","",1,"0",NA,4,NA
+334,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",5,"Steensby Inlet T6-Saccorhiza-2012",2012,8,18,70.32535,-78.56289,"Saccorhiza","",1,"0",NA,4,NA
+335,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",5,"Steensby Inlet T6-L.solidung-2012",2012,8,18,70.32535,-78.56289,"L.solidung","",1,"0",NA,4,NA
+336,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",5,"Steensby Inlet T6-L.digitata-2012",2012,8,18,70.32535,-78.56289,"L.digitata","",1,"0",NA,4,NA
+337,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",10,"Steensby Inlet T6-Agarum-2012",2012,8,18,70.32535,-78.56289,"Agarum","",1,"0",NA,3,NA
+338,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",10,"Steensby Inlet T6-Alaria-2012",2012,8,18,70.32535,-78.56289,"Alaria","",1,"0",NA,3,NA
+339,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",10,"Steensby Inlet T6-S.latissima-2012",2012,8,18,70.32535,-78.56289,"S.latissima","",1,"0",NA,3,NA
+340,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",10,"Steensby Inlet T6-Saccorhiza-2012",2012,8,18,70.32535,-78.56289,"Saccorhiza","",1,"0",NA,3,NA
+341,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",10,"Steensby Inlet T6-L.solidung-2012",2012,8,18,70.32535,-78.56289,"L.solidung","",1,"3,333",NA,3,NA
+342,"filbee_dexter_arctic_kelp",NA,"Steensby Inlet T6",10,"Steensby Inlet T6-L.digitata-2012",2012,8,18,70.32535,-78.56289,"L.digitata","",1,"0",NA,3,NA
+343,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",5,"Pangnirtung 1-Agarum-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Agarum","",1,"0",NA,3,NA
+344,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",5,"Pangnirtung 1-Alaria-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Alaria","",1,"8,667",NA,3,NA
+345,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",5,"Pangnirtung 1-S.latissima-2019",2019,10,8,66.1066666666667,-65.9916666666667,"S.latissima","",1,"83,333",NA,3,NA
+346,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",5,"Pangnirtung 1-Saccorhiza-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Saccorhiza","",1,"0",NA,3,NA
+347,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",5,"Pangnirtung 1-L.solidung-2019",2019,10,8,66.1066666666667,-65.9916666666667,"L.solidung","",1,"0",NA,3,NA
+348,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",5,"Pangnirtung 1-L.digitata-2019",2019,10,8,66.1066666666667,-65.9916666666667,"L.digitata","",1,"0",NA,3,NA
+349,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",10,"Pangnirtung 1-Agarum-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Agarum","",1,"0",NA,2,NA
+350,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",10,"Pangnirtung 1-Alaria-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Alaria","",1,"7,5",NA,2,NA
+351,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",10,"Pangnirtung 1-S.latissima-2019",2019,10,8,66.1066666666667,-65.9916666666667,"S.latissima","",1,"85",NA,2,NA
+352,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",10,"Pangnirtung 1-Saccorhiza-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Saccorhiza","",1,"0",NA,2,NA
+353,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",10,"Pangnirtung 1-L.solidung-2019",2019,10,8,66.1066666666667,-65.9916666666667,"L.solidung","",1,"0",NA,2,NA
+354,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",10,"Pangnirtung 1-L.digitata-2019",2019,10,8,66.1066666666667,-65.9916666666667,"L.digitata","",1,"0",NA,2,NA
+355,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",15,"Pangnirtung 1-Agarum-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Agarum","",1,"0",NA,3,NA
+356,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",15,"Pangnirtung 1-Alaria-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Alaria","",1,"48,333",NA,3,NA
+357,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",15,"Pangnirtung 1-S.latissima-2019",2019,10,8,66.1066666666667,-65.9916666666667,"S.latissima","",1,"51,667",NA,3,NA
+358,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",15,"Pangnirtung 1-Saccorhiza-2019",2019,10,8,66.1066666666667,-65.9916666666667,"Saccorhiza","",1,"0",NA,3,NA
+359,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",15,"Pangnirtung 1-L.solidung-2019",2019,10,8,66.1066666666667,-65.9916666666667,"L.solidung","",1,"0",NA,3,NA
+360,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 1",15,"Pangnirtung 1-L.digitata-2019",2019,10,8,66.1066666666667,-65.9916666666667,"L.digitata","",1,"0",NA,3,NA
+361,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",5,"Pangnirtung 2-Agarum-2019",2019,10,8,66.266,-67.9916666666667,"Agarum","",1,"0",NA,3,NA
+362,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",5,"Pangnirtung 2-Alaria-2019",2019,10,8,66.266,-67.9916666666667,"Alaria","",1,"77,333",NA,3,NA
+363,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",5,"Pangnirtung 2-S.latissima-2019",2019,10,8,66.266,-67.9916666666667,"S.latissima","",1,"0",NA,3,NA
+364,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",5,"Pangnirtung 2-Saccorhiza-2019",2019,10,8,66.266,-67.9916666666667,"Saccorhiza","",1,"0",NA,3,NA
+365,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",5,"Pangnirtung 2-L.solidung-2019",2019,10,8,66.266,-67.9916666666667,"L.solidung","",1,"0",NA,3,NA
+366,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",5,"Pangnirtung 2-L.digitata-2019",2019,10,8,66.266,-67.9916666666667,"L.digitata","",1,"0",NA,3,NA
+367,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",10,"Pangnirtung 2-Agarum-2019",2019,10,8,66.266,-67.9916666666667,"Agarum","",1,"0",NA,8,NA
+368,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",10,"Pangnirtung 2-Alaria-2019",2019,10,8,66.266,-67.9916666666667,"Alaria","",1,"0",NA,8,NA
+369,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",10,"Pangnirtung 2-S.latissima-2019",2019,10,8,66.266,-67.9916666666667,"S.latissima","",1,"100",NA,8,NA
+370,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",10,"Pangnirtung 2-Saccorhiza-2019",2019,10,8,66.266,-67.9916666666667,"Saccorhiza","",1,"0",NA,8,NA
+371,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",10,"Pangnirtung 2-L.solidung-2019",2019,10,8,66.266,-67.9916666666667,"L.solidung","",1,"0",NA,8,NA
+372,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",10,"Pangnirtung 2-L.digitata-2019",2019,10,8,66.266,-67.9916666666667,"L.digitata","",1,"0",NA,8,NA
+373,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",15,"Pangnirtung 2-Agarum-2019",2019,10,8,66.266,-67.9916666666667,"Agarum","",1,"32,75",NA,4,NA
+374,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",15,"Pangnirtung 2-Alaria-2019",2019,10,8,66.266,-67.9916666666667,"Alaria","",1,"0",NA,4,NA
+375,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",15,"Pangnirtung 2-S.latissima-2019",2019,10,8,66.266,-67.9916666666667,"S.latissima","",1,"27",NA,4,NA
+376,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",15,"Pangnirtung 2-Saccorhiza-2019",2019,10,8,66.266,-67.9916666666667,"Saccorhiza","",1,"0",NA,4,NA
+377,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",15,"Pangnirtung 2-L.solidung-2019",2019,10,8,66.266,-67.9916666666667,"L.solidung","",1,"0",NA,4,NA
+378,"filbee_dexter_arctic_kelp",NA,"Pangnirtung 2",15,"Pangnirtung 2-L.digitata-2019",2019,10,8,66.266,-67.9916666666667,"L.digitata","",1,"0",NA,4,NA
+379,"filbee_dexter_arctic_kelp",NA,"Black Point",5,"Black Point-Agarum-2019",2019,9,3,72.703117,-77.937138,"Agarum","",1,"38,625",NA,8,"1,8849"
+380,"filbee_dexter_arctic_kelp",NA,"Black Point",5,"Black Point-Alaria-2019",2019,9,3,72.703117,-77.937138,"Alaria","",1,"11,75",NA,8,"0,3502"
+381,"filbee_dexter_arctic_kelp",NA,"Black Point",5,"Black Point-S.latissima-2019",2019,9,3,72.703117,-77.937138,"S.latissima","",1,"0",NA,8,"0"
+382,"filbee_dexter_arctic_kelp",NA,"Black Point",5,"Black Point-Saccorhiza-2019",2019,9,3,72.703117,-77.937138,"Saccorhiza","",1,"0",NA,8,NA
+383,"filbee_dexter_arctic_kelp",NA,"Black Point",5,"Black Point-L.solidung-2019",2019,9,3,72.703117,-77.937138,"L.solidung","",1,"12,875",NA,8,"0,9443"
+384,"filbee_dexter_arctic_kelp",NA,"Black Point",5,"Black Point-L.digitata-2019",2019,9,3,72.703117,-77.937138,"L.digitata","",1,"0",NA,8,"0"
+385,"filbee_dexter_arctic_kelp",NA,"Black Point",10,"Black Point-Agarum-2019",2019,9,3,72.703117,-77.937138,"Agarum","",1,"32,143",NA,7,"2,3252"
+386,"filbee_dexter_arctic_kelp",NA,"Black Point",10,"Black Point-Alaria-2019",2019,9,3,72.703117,-77.937138,"Alaria","",1,"0",NA,7,"0"
+387,"filbee_dexter_arctic_kelp",NA,"Black Point",10,"Black Point-S.latissima-2019",2019,9,3,72.703117,-77.937138,"S.latissima","",1,"0",NA,7,"0"
+388,"filbee_dexter_arctic_kelp",NA,"Black Point",10,"Black Point-Saccorhiza-2019",2019,9,3,72.703117,-77.937138,"Saccorhiza","",1,"0",NA,7,NA
+389,"filbee_dexter_arctic_kelp",NA,"Black Point",10,"Black Point-L.solidung-2019",2019,9,3,72.703117,-77.937138,"L.solidung","",1,"0",NA,7,"0,1713"
+390,"filbee_dexter_arctic_kelp",NA,"Black Point",10,"Black Point-L.digitata-2019",2019,9,3,72.703117,-77.937138,"L.digitata","",1,"0",NA,7,"0"
+391,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",5,"Iceberg Point-Agarum-2019",2019,9,2,72.579117,-78.470986,"Agarum","",1,"0",NA,8,NA
+392,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",5,"Iceberg Point-Alaria-2019",2019,9,2,72.579117,-78.470986,"Alaria","",1,"0",NA,8,NA
+393,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",5,"Iceberg Point-S.latissima-2019",2019,9,2,72.579117,-78.470986,"S.latissima","",1,"0",NA,8,NA
+394,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",5,"Iceberg Point-Saccorhiza-2019",2019,9,2,72.579117,-78.470986,"Saccorhiza","",1,"0",NA,8,NA
+395,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",5,"Iceberg Point-L.solidung-2019",2019,9,2,72.579117,-78.470986,"L.solidung","",1,"0",NA,8,NA
+396,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",5,"Iceberg Point-L.digitata-2019",2019,9,2,72.579117,-78.470986,"L.digitata","",1,"0",NA,8,NA
+397,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",10,"Iceberg Point-Agarum-2019",2019,9,2,72.579117,-78.470986,"Agarum","",1,"22,5",NA,8,"1,3909"
+398,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",10,"Iceberg Point-Alaria-2019",2019,9,2,72.579117,-78.470986,"Alaria","",1,"0",NA,8,"0"
+399,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",10,"Iceberg Point-S.latissima-2019",2019,9,2,72.579117,-78.470986,"S.latissima","",1,"0",NA,8,"0"
+400,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",10,"Iceberg Point-Saccorhiza-2019",2019,9,2,72.579117,-78.470986,"Saccorhiza","",1,"0",NA,8,NA
+401,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",10,"Iceberg Point-L.solidung-2019",2019,9,2,72.579117,-78.470986,"L.solidung","",1,"0",NA,8,"0"
+402,"filbee_dexter_arctic_kelp",NA,"Iceberg Point",10,"Iceberg Point-L.digitata-2019",2019,9,2,72.579117,-78.470986,"L.digitata","",1,"0",NA,8,"0"
+403,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",5,"Narwhal Cove-Agarum-2019",2019,8,29,72.7684666666667,-77.4351666666667,"Agarum","",1,"68,75",NA,8,"2,8857"
+404,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",5,"Narwhal Cove-Alaria-2019",2019,8,29,72.7684666666667,-77.4351666666667,"Alaria","",1,"0",NA,8,"0"
+405,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",5,"Narwhal Cove-S.latissima-2019",2019,8,29,72.7684666666667,-77.4351666666667,"S.latissima","",1,"0",NA,8,"0"
+406,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",5,"Narwhal Cove-Saccorhiza-2019",2019,8,29,72.7684666666667,-77.4351666666667,"Saccorhiza","",1,"0",NA,8,NA
+407,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",5,"Narwhal Cove-L.solidung-2019",2019,8,29,72.7684666666667,-77.4351666666667,"L.solidung","",1,"0",NA,8,"0"
+408,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",5,"Narwhal Cove-L.digitata-2019",2019,8,29,72.7684666666667,-77.4351666666667,"L.digitata","",1,"0",NA,8,"0"
+409,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",10,"Narwhal Cove-Agarum-2019",2019,8,29,72.7684666666667,-77.4351666666667,"Agarum","",1,"64,286",NA,7,"0,7827"
+410,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",10,"Narwhal Cove-Alaria-2019",2019,8,29,72.7684666666667,-77.4351666666667,"Alaria","",1,"0",NA,7,"0"
+411,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",10,"Narwhal Cove-S.latissima-2019",2019,8,29,72.7684666666667,-77.4351666666667,"S.latissima","",1,"0",NA,7,"0"
+412,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",10,"Narwhal Cove-Saccorhiza-2019",2019,8,29,72.7684666666667,-77.4351666666667,"Saccorhiza","",1,"0",NA,7,NA
+413,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",10,"Narwhal Cove-L.solidung-2019",2019,8,29,72.7684666666667,-77.4351666666667,"L.solidung","",1,"0",NA,7,"0"
+414,"filbee_dexter_arctic_kelp",NA,"Narwhal Cove",10,"Narwhal Cove-L.digitata-2019",2019,8,29,72.7684666666667,-77.4351666666667,"L.digitata","",1,"0",NA,7,"0"
+415,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",5,"Pooh Corner-Agarum-2019",2019,9,6,72.715144,-77.783171,"Agarum","",1,"66,875",NA,8,"1,5327"
+416,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",5,"Pooh Corner-Alaria-2019",2019,9,6,72.715144,-77.783171,"Alaria","",1,"0",NA,8,"0"
+417,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",5,"Pooh Corner-S.latissima-2019",2019,9,6,72.715144,-77.783171,"S.latissima","",1,"0",NA,8,"0"
+418,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",5,"Pooh Corner-Saccorhiza-2019",2019,9,6,72.715144,-77.783171,"Saccorhiza","",1,"0",NA,8,NA
+419,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",5,"Pooh Corner-L.solidung-2019",2019,9,6,72.715144,-77.783171,"L.solidung","",1,"0",NA,8,"0"
+420,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",5,"Pooh Corner-L.digitata-2019",2019,9,6,72.715144,-77.783171,"L.digitata","",1,"0",NA,8,"0"
+421,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",10,"Pooh Corner-Agarum-2019",2019,9,6,72.715144,-77.783171,"Agarum","",1,"31,429",NA,7,"1,8059"
+422,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",10,"Pooh Corner-Alaria-2019",2019,9,6,72.715144,-77.783171,"Alaria","",1,"0",NA,7,"0"
+423,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",10,"Pooh Corner-S.latissima-2019",2019,9,6,72.715144,-77.783171,"S.latissima","",1,"0",NA,7,"0"
+424,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",10,"Pooh Corner-Saccorhiza-2019",2019,9,6,72.715144,-77.783171,"Saccorhiza","",1,"0",NA,7,NA
+425,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",10,"Pooh Corner-L.solidung-2019",2019,9,6,72.715144,-77.783171,"L.solidung","",1,"0",NA,7,"0"
+426,"filbee_dexter_arctic_kelp",NA,"Pooh Corner",10,"Pooh Corner-L.digitata-2019",2019,9,6,72.715144,-77.783171,"L.digitata","",1,"0",NA,7,"0"
+427,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",5,"Sheaties Cabin-Agarum-2019",2019,9,6,72.593863,-78.400179,"Agarum","",1,"16,875",NA,8,NA
+428,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",5,"Sheaties Cabin-Alaria-2019",2019,9,6,72.593863,-78.400179,"Alaria","",1,"0",NA,8,NA
+429,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",5,"Sheaties Cabin-S.latissima-2019",2019,9,6,72.593863,-78.400179,"S.latissima","",1,"0",NA,8,NA
+430,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",5,"Sheaties Cabin-Saccorhiza-2019",2019,9,6,72.593863,-78.400179,"Saccorhiza","",1,"0",NA,8,NA
+431,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",5,"Sheaties Cabin-L.solidung-2019",2019,9,6,72.593863,-78.400179,"L.solidung","",1,"0",NA,8,NA
+432,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",5,"Sheaties Cabin-L.digitata-2019",2019,9,6,72.593863,-78.400179,"L.digitata","",1,"0",NA,8,NA
+433,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",10,"Sheaties Cabin-Agarum-2019",2019,9,6,72.593863,-78.400179,"Agarum","",1,"36,875",NA,8,NA
+434,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",10,"Sheaties Cabin-Alaria-2019",2019,9,6,72.593863,-78.400179,"Alaria","",1,"0",NA,8,NA
+435,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",10,"Sheaties Cabin-S.latissima-2019",2019,9,6,72.593863,-78.400179,"S.latissima","",1,"0",NA,8,NA
+436,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",10,"Sheaties Cabin-Saccorhiza-2019",2019,9,6,72.593863,-78.400179,"Saccorhiza","",1,"0",NA,8,NA
+437,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",10,"Sheaties Cabin-L.solidung-2019",2019,9,6,72.593863,-78.400179,"L.solidung","",1,"0",NA,8,NA
+438,"filbee_dexter_arctic_kelp",NA,"Sheaties Cabin",10,"Sheaties Cabin-L.digitata-2019",2019,9,6,72.593863,-78.400179,"L.digitata","",1,"0",NA,8,NA
+439,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",5,"Trevor's Cove-Agarum-2019",2019,8,29,72.7535,-77.62215,"Agarum","",1,"15",NA,8,"0,162"
+440,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",5,"Trevor's Cove-Alaria-2019",2019,8,29,72.7535,-77.62215,"Alaria","",1,"4,75",NA,8,"0,8435"
+441,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",5,"Trevor's Cove-S.latissima-2019",2019,8,29,72.7535,-77.62215,"S.latissima","",1,"0",NA,8,"0"
+442,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",5,"Trevor's Cove-Saccorhiza-2019",2019,8,29,72.7535,-77.62215,"Saccorhiza","",1,"0",NA,8,NA
+443,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",5,"Trevor's Cove-L.solidung-2019",2019,8,29,72.7535,-77.62215,"L.solidung","",1,"0",NA,8,"0"
+444,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",5,"Trevor's Cove-L.digitata-2019",2019,8,29,72.7535,-77.62215,"L.digitata","",1,"0",NA,8,"0"
+445,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",10,"Trevor's Cove-Agarum-2019",2019,8,29,72.7535,-77.62215,"Agarum","",1,"35,625",NA,8,"0,4137"
+446,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",10,"Trevor's Cove-Alaria-2019",2019,8,29,72.7535,-77.62215,"Alaria","",1,"0",NA,8,"0"
+447,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",10,"Trevor's Cove-S.latissima-2019",2019,8,29,72.7535,-77.62215,"S.latissima","",1,"0",NA,8,"0"
+448,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",10,"Trevor's Cove-Saccorhiza-2019",2019,8,29,72.7535,-77.62215,"Saccorhiza","",1,"0",NA,8,NA
+449,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",10,"Trevor's Cove-L.solidung-2019",2019,8,29,72.7535,-77.62215,"L.solidung","",1,"0,125",NA,8,"0"
+450,"filbee_dexter_arctic_kelp",NA,"Trevor's Cove",10,"Trevor's Cove-L.digitata-2019",2019,8,29,72.7535,-77.62215,"L.digitata","",1,"0",NA,8,"0"
+451,"filbee_dexter_arctic_kelp",NA,"Bear Island",10,"Bear Island-Agarum-2019",2019,8,5,64.0193666666667,-83.2202166666667,"Agarum","",1,"0",NA,8,"0,063"
+452,"filbee_dexter_arctic_kelp",NA,"Bear Island",10,"Bear Island-Alaria-2019",2019,8,5,64.0193666666667,-83.2202166666667,"Alaria","",1,"0",NA,8,"0"
+453,"filbee_dexter_arctic_kelp",NA,"Bear Island",10,"Bear Island-S.latissima-2019",2019,8,5,64.0193666666667,-83.2202166666667,"S.latissima","",1,"17,5",NA,8,"0,273"
+454,"filbee_dexter_arctic_kelp",NA,"Bear Island",10,"Bear Island-Saccorhiza-2019",2019,8,5,64.0193666666667,-83.2202166666667,"Saccorhiza","",1,"0",NA,8,NA
+455,"filbee_dexter_arctic_kelp",NA,"Bear Island",10,"Bear Island-L.solidung-2019",2019,8,5,64.0193666666667,-83.2202166666667,"L.solidung","",1,"0",NA,8,"0"
+456,"filbee_dexter_arctic_kelp",NA,"Bear Island",10,"Bear Island-L.digitata-2019",2019,8,5,64.0193666666667,-83.2202166666667,"L.digitata","",1,"0",NA,8,"0"
+457,"filbee_dexter_arctic_kelp",NA,"Bear Island",15,"Bear Island-Agarum-2019",2019,8,5,64.0193666666667,-83.2202166666667,"Agarum","",1,"3,125",NA,8,"1,745"
+458,"filbee_dexter_arctic_kelp",NA,"Bear Island",15,"Bear Island-Alaria-2019",2019,8,5,64.0193666666667,-83.2202166666667,"Alaria","",1,"4,75",NA,8,"0"
+459,"filbee_dexter_arctic_kelp",NA,"Bear Island",15,"Bear Island-S.latissima-2019",2019,8,5,64.0193666666667,-83.2202166666667,"S.latissima","",1,"6,25",NA,8,"0,456"
+460,"filbee_dexter_arctic_kelp",NA,"Bear Island",15,"Bear Island-Saccorhiza-2019",2019,8,5,64.0193666666667,-83.2202166666667,"Saccorhiza","",1,"0",NA,8,NA
+461,"filbee_dexter_arctic_kelp",NA,"Bear Island",15,"Bear Island-L.solidung-2019",2019,8,5,64.0193666666667,-83.2202166666667,"L.solidung","",1,"0",NA,8,"0"
+462,"filbee_dexter_arctic_kelp",NA,"Bear Island",15,"Bear Island-L.digitata-2019",2019,8,5,64.0193666666667,-83.2202166666667,"L.digitata","",1,"0",NA,8,"0"
+463,"filbee_dexter_arctic_kelp",NA,"East Bay",10,"East Bay-Agarum-2019",2019,8,21,64.0293166666667,-81.06655,"Agarum","",1,"0",NA,8,"0"
+464,"filbee_dexter_arctic_kelp",NA,"East Bay",10,"East Bay-Alaria-2019",2019,8,21,64.0293166666667,-81.06655,"Alaria","",1,"0",NA,8,"0"
+465,"filbee_dexter_arctic_kelp",NA,"East Bay",10,"East Bay-S.latissima-2019",2019,8,21,64.0293166666667,-81.06655,"S.latissima","",1,"2,5",NA,8,"0,602"
+466,"filbee_dexter_arctic_kelp",NA,"East Bay",10,"East Bay-Saccorhiza-2019",2019,8,21,64.0293166666667,-81.06655,"Saccorhiza","",1,"0",NA,8,NA
+467,"filbee_dexter_arctic_kelp",NA,"East Bay",10,"East Bay-L.solidung-2019",2019,8,21,64.0293166666667,-81.06655,"L.solidung","",1,"2,5",NA,8,"0,088"
+468,"filbee_dexter_arctic_kelp",NA,"East Bay",10,"East Bay-L.digitata-2019",2019,8,21,64.0293166666667,-81.06655,"L.digitata","",1,"0",NA,8,"0"
+469,"filbee_dexter_arctic_kelp",NA,"East Bay",15,"East Bay-Agarum-2019",2019,8,21,64.0293166666667,-81.06655,"Agarum","",1,"0",NA,8,"0"
+470,"filbee_dexter_arctic_kelp",NA,"East Bay",15,"East Bay-Alaria-2019",2019,8,21,64.0293166666667,-81.06655,"Alaria","",1,"1,875",NA,8,"0,069"
+471,"filbee_dexter_arctic_kelp",NA,"East Bay",15,"East Bay-S.latissima-2019",2019,8,21,64.0293166666667,-81.06655,"S.latissima","",1,"11,875",NA,8,"2,529"
+472,"filbee_dexter_arctic_kelp",NA,"East Bay",15,"East Bay-Saccorhiza-2019",2019,8,21,64.0293166666667,-81.06655,"Saccorhiza","",1,"2,5",NA,8,NA
+473,"filbee_dexter_arctic_kelp",NA,"East Bay",15,"East Bay-L.solidung-2019",2019,8,21,64.0293166666667,-81.06655,"L.solidung","",1,"12,5",NA,8,"1,375"
+474,"filbee_dexter_arctic_kelp",NA,"East Bay",15,"East Bay-L.digitata-2019",2019,8,21,64.0293166666667,-81.06655,"L.digitata","",1,"0",NA,8,"0"
+475,"filbee_dexter_arctic_kelp",NA,"Station 10",10,"Station 10-Agarum-2019",2019,8,12,64.97395,-86.2461166666667,"Agarum","",1,"0",NA,8,"0"
+476,"filbee_dexter_arctic_kelp",NA,"Station 10",10,"Station 10-Alaria-2019",2019,8,12,64.97395,-86.2461166666667,"Alaria","",1,"0",NA,8,"0"
+477,"filbee_dexter_arctic_kelp",NA,"Station 10",10,"Station 10-S.latissima-2019",2019,8,12,64.97395,-86.2461166666667,"S.latissima","",1,"13,75",NA,8,"0,7766"
+478,"filbee_dexter_arctic_kelp",NA,"Station 10",10,"Station 10-Saccorhiza-2019",2019,8,12,64.97395,-86.2461166666667,"Saccorhiza","",1,"3,25",NA,8,NA
+479,"filbee_dexter_arctic_kelp",NA,"Station 10",10,"Station 10-L.solidung-2019",2019,8,12,64.97395,-86.2461166666667,"L.solidung","",1,"0",NA,8,"0,0072"
+480,"filbee_dexter_arctic_kelp",NA,"Station 10",10,"Station 10-L.digitata-2019",2019,8,12,64.97395,-86.2461166666667,"L.digitata","",1,"0",NA,8,"0"
+481,"filbee_dexter_arctic_kelp",NA,"Station 10",15,"Station 10-Agarum-2019",2019,8,12,64.97395,-86.2461166666667,"Agarum","",1,"0",NA,8,"0"
+482,"filbee_dexter_arctic_kelp",NA,"Station 10",15,"Station 10-Alaria-2019",2019,8,12,64.97395,-86.2461166666667,"Alaria","",1,"0",NA,8,"0,019"
+483,"filbee_dexter_arctic_kelp",NA,"Station 10",15,"Station 10-S.latissima-2019",2019,8,12,64.97395,-86.2461166666667,"S.latissima","",1,"51,875",NA,8,"0,7751"
+484,"filbee_dexter_arctic_kelp",NA,"Station 10",15,"Station 10-Saccorhiza-2019",2019,8,12,64.97395,-86.2461166666667,"Saccorhiza","",1,"0",NA,8,NA
+485,"filbee_dexter_arctic_kelp",NA,"Station 10",15,"Station 10-L.solidung-2019",2019,8,12,64.97395,-86.2461166666667,"L.solidung","",1,"1,25",NA,8,"0,0185"
+486,"filbee_dexter_arctic_kelp",NA,"Station 10",15,"Station 10-L.digitata-2019",2019,8,12,64.97395,-86.2461166666667,"L.digitata","",1,"0",NA,8,"0"
+487,"filbee_dexter_arctic_kelp",NA,"Station 12",10,"Station 12-Agarum-2019",2019,8,13,65.9092,-85.6152833333333,"Agarum","",1,"0",NA,8,"0"
+488,"filbee_dexter_arctic_kelp",NA,"Station 12",10,"Station 12-Alaria-2019",2019,8,13,65.9092,-85.6152833333333,"Alaria","",1,"20",NA,8,"2,165"
+489,"filbee_dexter_arctic_kelp",NA,"Station 12",10,"Station 12-S.latissima-2019",2019,8,13,65.9092,-85.6152833333333,"S.latissima","",1,"10",NA,8,"1,557"
+490,"filbee_dexter_arctic_kelp",NA,"Station 12",10,"Station 12-Saccorhiza-2019",2019,8,13,65.9092,-85.6152833333333,"Saccorhiza","",1,"14,375",NA,8,NA
+491,"filbee_dexter_arctic_kelp",NA,"Station 12",10,"Station 12-L.solidung-2019",2019,8,13,65.9092,-85.6152833333333,"L.solidung","",1,"0",NA,8,"0"
+492,"filbee_dexter_arctic_kelp",NA,"Station 12",10,"Station 12-L.digitata-2019",2019,8,13,65.9092,-85.6152833333333,"L.digitata","",1,"0",NA,8,"0,329"
+493,"filbee_dexter_arctic_kelp",NA,"Station 12",15,"Station 12-Agarum-2019",2019,8,13,65.9092,-85.6152833333333,"Agarum","",1,"0",NA,4,"0"
+494,"filbee_dexter_arctic_kelp",NA,"Station 12",15,"Station 12-Alaria-2019",2019,8,13,65.9092,-85.6152833333333,"Alaria","",1,"35",NA,4,"6,7882"
+495,"filbee_dexter_arctic_kelp",NA,"Station 12",15,"Station 12-S.latissima-2019",2019,8,13,65.9092,-85.6152833333333,"S.latissima","",1,"38,75",NA,4,"0,112"
+496,"filbee_dexter_arctic_kelp",NA,"Station 12",15,"Station 12-Saccorhiza-2019",2019,8,13,65.9092,-85.6152833333333,"Saccorhiza","",1,"0",NA,4,NA
+497,"filbee_dexter_arctic_kelp",NA,"Station 12",15,"Station 12-L.solidung-2019",2019,8,13,65.9092,-85.6152833333333,"L.solidung","",1,"12,5",NA,4,"0,8682"
+498,"filbee_dexter_arctic_kelp",NA,"Station 12",15,"Station 12-L.digitata-2019",2019,8,13,65.9092,-85.6152833333333,"L.digitata","",1,"0",NA,4,"5,66"
+499,"filbee_dexter_arctic_kelp",NA,"Station 13",10,"Station 13-Agarum-2019",2019,8,14,66.25005,-86.1737333333333,"Agarum","",1,"1,25",NA,8,"0,069"
+500,"filbee_dexter_arctic_kelp",NA,"Station 13",10,"Station 13-Alaria-2019",2019,8,14,66.25005,-86.1737333333333,"Alaria","",1,"4,375",NA,8,"0,076"
+501,"filbee_dexter_arctic_kelp",NA,"Station 13",10,"Station 13-S.latissima-2019",2019,8,14,66.25005,-86.1737333333333,"S.latissima","",1,"48,125",NA,8,"6,911"
+502,"filbee_dexter_arctic_kelp",NA,"Station 13",10,"Station 13-Saccorhiza-2019",2019,8,14,66.25005,-86.1737333333333,"Saccorhiza","",1,"0",NA,8,NA
+503,"filbee_dexter_arctic_kelp",NA,"Station 13",10,"Station 13-L.solidung-2019",2019,8,14,66.25005,-86.1737333333333,"L.solidung","",1,"6,875",NA,8,"0,5963"
+504,"filbee_dexter_arctic_kelp",NA,"Station 13",10,"Station 13-L.digitata-2019",2019,8,14,66.25005,-86.1737333333333,"L.digitata","",1,"0",NA,8,"0"
+505,"filbee_dexter_arctic_kelp",NA,"Station 13",15,"Station 13-Agarum-2019",2019,8,14,66.25005,-86.1737333333333,"Agarum","",1,"0",NA,8,"0"
+506,"filbee_dexter_arctic_kelp",NA,"Station 13",15,"Station 13-Alaria-2019",2019,8,14,66.25005,-86.1737333333333,"Alaria","",1,"0,625",NA,8,"0"
+507,"filbee_dexter_arctic_kelp",NA,"Station 13",15,"Station 13-S.latissima-2019",2019,8,14,66.25005,-86.1737333333333,"S.latissima","",1,"24,375",NA,8,"0,03"
+508,"filbee_dexter_arctic_kelp",NA,"Station 13",15,"Station 13-Saccorhiza-2019",2019,8,14,66.25005,-86.1737333333333,"Saccorhiza","",1,"0",NA,8,NA
+509,"filbee_dexter_arctic_kelp",NA,"Station 13",15,"Station 13-L.solidung-2019",2019,8,14,66.25005,-86.1737333333333,"L.solidung","",1,"0",NA,8,"1,445"
+510,"filbee_dexter_arctic_kelp",NA,"Station 13",15,"Station 13-L.digitata-2019",2019,8,14,66.25005,-86.1737333333333,"L.digitata","",1,"0",NA,8,"0"
+511,"filbee_dexter_arctic_kelp",NA,"Station 14",10,"Station 14-Agarum-2019",2019,8,17,65.9340166666667,-84.7338333333333,"Agarum","",1,"0",NA,4,"0"
+512,"filbee_dexter_arctic_kelp",NA,"Station 14",10,"Station 14-Alaria-2019",2019,8,17,65.9340166666667,-84.7338333333333,"Alaria","",1,"22,5",NA,4,"1,048"
+513,"filbee_dexter_arctic_kelp",NA,"Station 14",10,"Station 14-S.latissima-2019",2019,8,17,65.9340166666667,-84.7338333333333,"S.latissima","",1,"5",NA,4,"0,118666666666667"
+514,"filbee_dexter_arctic_kelp",NA,"Station 14",10,"Station 14-Saccorhiza-2019",2019,8,17,65.9340166666667,-84.7338333333333,"Saccorhiza","",1,"0",NA,4,NA
+515,"filbee_dexter_arctic_kelp",NA,"Station 14",10,"Station 14-L.solidung-2019",2019,8,17,65.9340166666667,-84.7338333333333,"L.solidung","",1,"40",NA,4,"9,3548"
+516,"filbee_dexter_arctic_kelp",NA,"Station 14",10,"Station 14-L.digitata-2019",2019,8,17,65.9340166666667,-84.7338333333333,"L.digitata","",1,"0",NA,4,"0"
+517,"filbee_dexter_arctic_kelp",NA,"Station 14",15,"Station 14-Agarum-2019",2019,8,17,65.9340166666667,-84.7338333333333,"Agarum","",1,"0",NA,4,"0"
+518,"filbee_dexter_arctic_kelp",NA,"Station 14",15,"Station 14-Alaria-2019",2019,8,17,65.9340166666667,-84.7338333333333,"Alaria","",1,"8,75",NA,4,"0,0773333333333333"
+519,"filbee_dexter_arctic_kelp",NA,"Station 14",15,"Station 14-S.latissima-2019",2019,8,17,65.9340166666667,-84.7338333333333,"S.latissima","",1,"22,5",NA,4,"0,0226666666666667"
+520,"filbee_dexter_arctic_kelp",NA,"Station 14",15,"Station 14-Saccorhiza-2019",2019,8,17,65.9340166666667,-84.7338333333333,"Saccorhiza","",1,"0",NA,4,NA
+521,"filbee_dexter_arctic_kelp",NA,"Station 14",15,"Station 14-L.solidung-2019",2019,8,17,65.9340166666667,-84.7338333333333,"L.solidung","",1,"51,25",NA,4,"11,548"
+522,"filbee_dexter_arctic_kelp",NA,"Station 14",15,"Station 14-L.digitata-2019",2019,8,17,65.9340166666667,-84.7338333333333,"L.digitata","",1,"0",NA,4,"0"
+523,"filbee_dexter_arctic_kelp",NA,"Station 17",10,"Station 17-Agarum-2019",2019,8,20,64.8720333333333,-82.9218666666667,"Agarum","",1,"17,143",NA,7,"0,376"
+524,"filbee_dexter_arctic_kelp",NA,"Station 17",10,"Station 17-Alaria-2019",2019,8,20,64.8720333333333,-82.9218666666667,"Alaria","",1,"27,857",NA,7,"0,738"
+525,"filbee_dexter_arctic_kelp",NA,"Station 17",10,"Station 17-S.latissima-2019",2019,8,20,64.8720333333333,-82.9218666666667,"S.latissima","",1,"6,429",NA,7,"5,557"
+526,"filbee_dexter_arctic_kelp",NA,"Station 17",10,"Station 17-Saccorhiza-2019",2019,8,20,64.8720333333333,-82.9218666666667,"Saccorhiza","",1,"0",NA,7,NA
+527,"filbee_dexter_arctic_kelp",NA,"Station 17",10,"Station 17-L.solidung-2019",2019,8,20,64.8720333333333,-82.9218666666667,"L.solidung","",1,"18,571",NA,7,"1,277"
+528,"filbee_dexter_arctic_kelp",NA,"Station 17",10,"Station 17-L.digitata-2019",2019,8,20,64.8720333333333,-82.9218666666667,"L.digitata","",1,"0",NA,7,"0"
+529,"filbee_dexter_arctic_kelp",NA,"Station 17",15,"Station 17-Agarum-2019",2019,8,20,64.8720333333333,-82.9218666666667,"Agarum","",1,"9,375",NA,8,"0,448"
+530,"filbee_dexter_arctic_kelp",NA,"Station 17",15,"Station 17-Alaria-2019",2019,8,20,64.8720333333333,-82.9218666666667,"Alaria","",1,"11,875",NA,8,"0,254"
+531,"filbee_dexter_arctic_kelp",NA,"Station 17",15,"Station 17-S.latissima-2019",2019,8,20,64.8720333333333,-82.9218666666667,"S.latissima","",1,"34,375",NA,8,"3,531"
+532,"filbee_dexter_arctic_kelp",NA,"Station 17",15,"Station 17-Saccorhiza-2019",2019,8,20,64.8720333333333,-82.9218666666667,"Saccorhiza","",1,"0",NA,8,NA
+533,"filbee_dexter_arctic_kelp",NA,"Station 17",15,"Station 17-L.solidung-2019",2019,8,20,64.8720333333333,-82.9218666666667,"L.solidung","",1,"10",NA,8,"0,247"
+534,"filbee_dexter_arctic_kelp",NA,"Station 17",15,"Station 17-L.digitata-2019",2019,8,20,64.8720333333333,-82.9218666666667,"L.digitata","",1,"0",NA,8,"0"
+535,"filbee_dexter_arctic_kelp",NA,"Station 20",10,"Station 20-Agarum-2019",2019,8,22,63.7819333333333,-80.17605,"Agarum","",1,"31,25",NA,8,"1,553"
+536,"filbee_dexter_arctic_kelp",NA,"Station 20",10,"Station 20-Alaria-2019",2019,8,22,63.7819333333333,-80.17605,"Alaria","",1,"3,125",NA,8,"0,623"
+537,"filbee_dexter_arctic_kelp",NA,"Station 20",10,"Station 20-S.latissima-2019",2019,8,22,63.7819333333333,-80.17605,"S.latissima","",1,"2,5",NA,8,"1,807"
+538,"filbee_dexter_arctic_kelp",NA,"Station 20",10,"Station 20-Saccorhiza-2019",2019,8,22,63.7819333333333,-80.17605,"Saccorhiza","",1,"0",NA,8,NA
+539,"filbee_dexter_arctic_kelp",NA,"Station 20",10,"Station 20-L.solidung-2019",2019,8,22,63.7819333333333,-80.17605,"L.solidung","",1,"34,375",NA,8,"2,779"
+540,"filbee_dexter_arctic_kelp",NA,"Station 20",10,"Station 20-L.digitata-2019",2019,8,22,63.7819333333333,-80.17605,"L.digitata","",1,"0",NA,8,"0"
+541,"filbee_dexter_arctic_kelp",NA,"Station 20",15,"Station 20-Agarum-2019",2019,8,22,63.7819333333333,-80.17605,"Agarum","",1,"0",NA,8,"0"
+542,"filbee_dexter_arctic_kelp",NA,"Station 20",15,"Station 20-Alaria-2019",2019,8,22,63.7819333333333,-80.17605,"Alaria","",1,"5",NA,8,"0,09"
+543,"filbee_dexter_arctic_kelp",NA,"Station 20",15,"Station 20-S.latissima-2019",2019,8,22,63.7819333333333,-80.17605,"S.latissima","",1,"0",NA,8,"0,096"
+544,"filbee_dexter_arctic_kelp",NA,"Station 20",15,"Station 20-Saccorhiza-2019",2019,8,22,63.7819333333333,-80.17605,"Saccorhiza","",1,"6,875",NA,8,NA
+545,"filbee_dexter_arctic_kelp",NA,"Station 20",15,"Station 20-L.solidung-2019",2019,8,22,63.7819333333333,-80.17605,"L.solidung","",1,"0",NA,8,"0,06"
+546,"filbee_dexter_arctic_kelp",NA,"Station 20",15,"Station 20-L.digitata-2019",2019,8,22,63.7819333333333,-80.17605,"L.digitata","",1,"2,5",NA,8,"0,096"
+547,"filbee_dexter_arctic_kelp",NA,"Station 21",10,"Station 21-Agarum-2019",2019,8,23,63.5185166666667,-80.8404166666667,"Agarum","",1,"15",NA,8,"1,898"
+548,"filbee_dexter_arctic_kelp",NA,"Station 21",10,"Station 21-Alaria-2019",2019,8,23,63.5185166666667,-80.8404166666667,"Alaria","",1,"16,25",NA,8,"1,587"
+549,"filbee_dexter_arctic_kelp",NA,"Station 21",10,"Station 21-S.latissima-2019",2019,8,23,63.5185166666667,-80.8404166666667,"S.latissima","",1,"13,75",NA,8,"6,618"
+550,"filbee_dexter_arctic_kelp",NA,"Station 21",10,"Station 21-Saccorhiza-2019",2019,8,23,63.5185166666667,-80.8404166666667,"Saccorhiza","",1,"0",NA,8,NA
+551,"filbee_dexter_arctic_kelp",NA,"Station 21",10,"Station 21-L.solidung-2019",2019,8,23,63.5185166666667,-80.8404166666667,"L.solidung","",1,"18,75",NA,8,"2,366"
+552,"filbee_dexter_arctic_kelp",NA,"Station 21",10,"Station 21-L.digitata-2019",2019,8,23,63.5185166666667,-80.8404166666667,"L.digitata","",1,"3,75",NA,8,"2,074"
+553,"filbee_dexter_arctic_kelp",NA,"Station 21",15,"Station 21-Agarum-2019",2019,8,23,63.5185166666667,-80.8404166666667,"Agarum","",1,"24,375",NA,8,"0,62"
+554,"filbee_dexter_arctic_kelp",NA,"Station 21",15,"Station 21-Alaria-2019",2019,8,23,63.5185166666667,-80.8404166666667,"Alaria","",1,"12,5",NA,8,"0,518"
+555,"filbee_dexter_arctic_kelp",NA,"Station 21",15,"Station 21-S.latissima-2019",2019,8,23,63.5185166666667,-80.8404166666667,"S.latissima","",1,"5",NA,8,"1,987"
+556,"filbee_dexter_arctic_kelp",NA,"Station 21",15,"Station 21-Saccorhiza-2019",2019,8,23,63.5185166666667,-80.8404166666667,"Saccorhiza","",1,"0",NA,8,NA
+557,"filbee_dexter_arctic_kelp",NA,"Station 21",15,"Station 21-L.solidung-2019",2019,8,23,63.5185166666667,-80.8404166666667,"L.solidung","",1,"15",NA,8,"1,19"
+558,"filbee_dexter_arctic_kelp",NA,"Station 21",15,"Station 21-L.digitata-2019",2019,8,23,63.5185166666667,-80.8404166666667,"L.digitata","",1,"0",NA,8,"0"
+559,"filbee_dexter_arctic_kelp",NA,"Station 22",10,"Station 22-Agarum-2019",2019,8,24,62.9438,-81.9684,"Agarum","",1,"1,25",NA,8,"0,306"
+560,"filbee_dexter_arctic_kelp",NA,"Station 22",10,"Station 22-Alaria-2019",2019,8,24,62.9438,-81.9684,"Alaria","",1,"5",NA,8,"3,484"
+561,"filbee_dexter_arctic_kelp",NA,"Station 22",10,"Station 22-S.latissima-2019",2019,8,24,62.9438,-81.9684,"S.latissima","",1,"6,875",NA,8,"0,387"
+562,"filbee_dexter_arctic_kelp",NA,"Station 22",10,"Station 22-Saccorhiza-2019",2019,8,24,62.9438,-81.9684,"Saccorhiza","",1,"1,25",NA,8,NA
+563,"filbee_dexter_arctic_kelp",NA,"Station 22",10,"Station 22-L.solidung-2019",2019,8,24,62.9438,-81.9684,"L.solidung","",1,"0",NA,8,"0"
+564,"filbee_dexter_arctic_kelp",NA,"Station 22",10,"Station 22-L.digitata-2019",2019,8,24,62.9438,-81.9684,"L.digitata","",1,"5",NA,8,"0,654"
+565,"filbee_dexter_arctic_kelp",NA,"Station 22",15,"Station 22-Agarum-2019",2019,8,24,62.9438,-81.9684,"Agarum","",1,"13,889",NA,9,"1,655"
+566,"filbee_dexter_arctic_kelp",NA,"Station 22",15,"Station 22-Alaria-2019",2019,8,24,62.9438,-81.9684,"Alaria","",1,"22,778",NA,9,"4,661"
+567,"filbee_dexter_arctic_kelp",NA,"Station 22",15,"Station 22-S.latissima-2019",2019,8,24,62.9438,-81.9684,"S.latissima","",1,"2,778",NA,9,"0,159"
+568,"filbee_dexter_arctic_kelp",NA,"Station 22",15,"Station 22-Saccorhiza-2019",2019,8,24,62.9438,-81.9684,"Saccorhiza","",1,"0",NA,9,NA
+569,"filbee_dexter_arctic_kelp",NA,"Station 22",15,"Station 22-L.solidung-2019",2019,8,24,62.9438,-81.9684,"L.solidung","",1,"0",NA,9,"0,164"
+570,"filbee_dexter_arctic_kelp",NA,"Station 22",15,"Station 22-L.digitata-2019",2019,8,24,62.9438,-81.9684,"L.digitata","",1,"4,444",NA,9,"0"
+571,"filbee_dexter_arctic_kelp",NA,"Station 25",10,"Station 25-Agarum-2019",2019,8,26,62.9472833333333,-81.8394,"Agarum","",1,"3,125",NA,8,"0,321"
+572,"filbee_dexter_arctic_kelp",NA,"Station 25",10,"Station 25-Alaria-2019",2019,8,26,62.9472833333333,-81.8394,"Alaria","",1,"1,875",NA,8,"0,15"
+573,"filbee_dexter_arctic_kelp",NA,"Station 25",10,"Station 25-S.latissima-2019",2019,8,26,62.9472833333333,-81.8394,"S.latissima","",1,"23,125",NA,8,"3,07"
+574,"filbee_dexter_arctic_kelp",NA,"Station 25",10,"Station 25-Saccorhiza-2019",2019,8,26,62.9472833333333,-81.8394,"Saccorhiza","",1,"0",NA,8,NA
+575,"filbee_dexter_arctic_kelp",NA,"Station 25",10,"Station 25-L.solidung-2019",2019,8,26,62.9472833333333,-81.8394,"L.solidung","",1,"5",NA,8,"1,804"
+576,"filbee_dexter_arctic_kelp",NA,"Station 25",10,"Station 25-L.digitata-2019",2019,8,26,62.9472833333333,-81.8394,"L.digitata","",1,"5",NA,8,"0"
+577,"filbee_dexter_arctic_kelp",NA,"Station 25",15,"Station 25-Agarum-2019",2019,8,26,62.9472833333333,-81.8394,"Agarum","",1,"4,286",NA,7,NA
+578,"filbee_dexter_arctic_kelp",NA,"Station 25",15,"Station 25-Alaria-2019",2019,8,26,62.9472833333333,-81.8394,"Alaria","",1,"2,857",NA,7,NA
+579,"filbee_dexter_arctic_kelp",NA,"Station 25",15,"Station 25-S.latissima-2019",2019,8,26,62.9472833333333,-81.8394,"S.latissima","",1,"17,143",NA,7,NA
+580,"filbee_dexter_arctic_kelp",NA,"Station 25",15,"Station 25-Saccorhiza-2019",2019,8,26,62.9472833333333,-81.8394,"Saccorhiza","",1,"0",NA,7,NA
+581,"filbee_dexter_arctic_kelp",NA,"Station 25",15,"Station 25-L.solidung-2019",2019,8,26,62.9472833333333,-81.8394,"L.solidung","",1,"14,286",NA,7,NA
+582,"filbee_dexter_arctic_kelp",NA,"Station 25",15,"Station 25-L.digitata-2019",2019,8,26,62.9472833333333,-81.8394,"L.digitata","",1,"0",NA,7,NA
+583,"filbee_dexter_arctic_kelp",NA,"Station 3",15,"Station 3-Agarum-2019",2019,8,6,63.64275,-82.3577333333333,"Agarum","",1,"21,25",NA,8,"0,967"
+584,"filbee_dexter_arctic_kelp",NA,"Station 3",15,"Station 3-Alaria-2019",2019,8,6,63.64275,-82.3577333333333,"Alaria","",1,"5",NA,8,"0,219"
+585,"filbee_dexter_arctic_kelp",NA,"Station 3",15,"Station 3-S.latissima-2019",2019,8,6,63.64275,-82.3577333333333,"S.latissima","",1,"26,25",NA,8,"2,885"
+586,"filbee_dexter_arctic_kelp",NA,"Station 3",15,"Station 3-Saccorhiza-2019",2019,8,6,63.64275,-82.3577333333333,"Saccorhiza","",1,"0",NA,8,NA
+587,"filbee_dexter_arctic_kelp",NA,"Station 3",15,"Station 3-L.solidung-2019",2019,8,6,63.64275,-82.3577333333333,"L.solidung","",1,"0",NA,8,"2,029"
+588,"filbee_dexter_arctic_kelp",NA,"Station 3",15,"Station 3-L.digitata-2019",2019,8,6,63.64275,-82.3577333333333,"L.digitata","",1,"0",NA,8,"0"
+589,"filbee_dexter_arctic_kelp",NA,"Station 6",10,"Station 6-Agarum-2019",2019,8,9,63.6916833333333,-87.3199921666667,"Agarum","",1,"1,25",NA,8,"0"
+590,"filbee_dexter_arctic_kelp",NA,"Station 6",10,"Station 6-Alaria-2019",2019,8,9,63.6916833333333,-87.3199921666667,"Alaria","",1,"1,875",NA,8,"0,018"
+591,"filbee_dexter_arctic_kelp",NA,"Station 6",10,"Station 6-S.latissima-2019",2019,8,9,63.6916833333333,-87.3199921666667,"S.latissima","",1,"26,875",NA,8,"0,688"
+592,"filbee_dexter_arctic_kelp",NA,"Station 6",10,"Station 6-Saccorhiza-2019",2019,8,9,63.6916833333333,-87.3199921666667,"Saccorhiza","",1,"0",NA,8,NA
+593,"filbee_dexter_arctic_kelp",NA,"Station 6",10,"Station 6-L.solidung-2019",2019,8,9,63.6916833333333,-87.3199921666667,"L.solidung","",1,"0",NA,8,"0,249"
+594,"filbee_dexter_arctic_kelp",NA,"Station 6",10,"Station 6-L.digitata-2019",2019,8,9,63.6916833333333,-87.3199921666667,"L.digitata","",1,"0",NA,8,"0"
+595,"filbee_dexter_arctic_kelp",NA,"Station 6",15,"Station 6-Agarum-2019",2019,8,9,63.6916833333333,-87.3199921666667,"Agarum","",1,"3,75",NA,4,"0,408"
+596,"filbee_dexter_arctic_kelp",NA,"Station 6",15,"Station 6-Alaria-2019",2019,8,9,63.6916833333333,-87.3199921666667,"Alaria","",1,"12,5",NA,4,"1,3901"
+597,"filbee_dexter_arctic_kelp",NA,"Station 6",15,"Station 6-S.latissima-2019",2019,8,9,63.6916833333333,-87.3199921666667,"S.latissima","",1,"52,5",NA,4,"4,0455"
+598,"filbee_dexter_arctic_kelp",NA,"Station 6",15,"Station 6-Saccorhiza-2019",2019,8,9,63.6916833333333,-87.3199921666667,"Saccorhiza","",1,"0",NA,4,NA
+599,"filbee_dexter_arctic_kelp",NA,"Station 6",15,"Station 6-L.solidung-2019",2019,8,9,63.6916833333333,-87.3199921666667,"L.solidung","",1,"0",NA,4,"0,4"
+600,"filbee_dexter_arctic_kelp",NA,"Station 6",15,"Station 6-L.digitata-2019",2019,8,9,63.6916833333333,-87.3199921666667,"L.digitata","",1,"0",NA,4,"0"
+601,"filbee_dexter_arctic_kelp",NA,"Station 8",10,"Station 8-Agarum-2019",2019,8,10,64.3292666666667,-86.4056666666667,"Agarum","",1,"0",NA,8,"0"
+602,"filbee_dexter_arctic_kelp",NA,"Station 8",10,"Station 8-Alaria-2019",2019,8,10,64.3292666666667,-86.4056666666667,"Alaria","",1,"6,875",NA,8,"0,367"
+603,"filbee_dexter_arctic_kelp",NA,"Station 8",10,"Station 8-S.latissima-2019",2019,8,10,64.3292666666667,-86.4056666666667,"S.latissima","",1,"42,5",NA,8,"2,949"
+604,"filbee_dexter_arctic_kelp",NA,"Station 8",10,"Station 8-Saccorhiza-2019",2019,8,10,64.3292666666667,-86.4056666666667,"Saccorhiza","",1,"0",NA,8,NA
+605,"filbee_dexter_arctic_kelp",NA,"Station 8",10,"Station 8-L.solidung-2019",2019,8,10,64.3292666666667,-86.4056666666667,"L.solidung","",1,"0",NA,8,"0,0191"
+606,"filbee_dexter_arctic_kelp",NA,"Station 8",10,"Station 8-L.digitata-2019",2019,8,10,64.3292666666667,-86.4056666666667,"L.digitata","",1,"0",NA,8,"0"
+607,"filbee_dexter_arctic_kelp",NA,"Station 8",15,"Station 8-Agarum-2019",2019,8,10,64.3292666666667,-86.4056666666667,"Agarum","",1,"23,333",NA,6,"0,741"
+608,"filbee_dexter_arctic_kelp",NA,"Station 8",15,"Station 8-Alaria-2019",2019,8,10,64.3292666666667,-86.4056666666667,"Alaria","",1,"0",NA,6,"0"
+609,"filbee_dexter_arctic_kelp",NA,"Station 8",15,"Station 8-S.latissima-2019",2019,8,10,64.3292666666667,-86.4056666666667,"S.latissima","",1,"30,833",NA,6,"12,5697"
+610,"filbee_dexter_arctic_kelp",NA,"Station 8",15,"Station 8-Saccorhiza-2019",2019,8,10,64.3292666666667,-86.4056666666667,"Saccorhiza","",1,"0",NA,6,NA
+611,"filbee_dexter_arctic_kelp",NA,"Station 8",15,"Station 8-L.solidung-2019",2019,8,10,64.3292666666667,-86.4056666666667,"L.solidung","",1,"0",NA,6,"0"
+612,"filbee_dexter_arctic_kelp",NA,"Station 8",15,"Station 8-L.digitata-2019",2019,8,10,64.3292666666667,-86.4056666666667,"L.digitata","",1,"0",NA,6,"0"
+613,"filbee_dexter_arctic_kelp",NA,"Grise fiord",10,"Grise fiord-Agarum-2020",2020,9,19,76.42225,-82.934317,"Agarum","",1,"17,5",NA,4,"0,236"
+614,"filbee_dexter_arctic_kelp",NA,"Grise fiord",10,"Grise fiord-Alaria-2020",2020,9,19,76.42225,-82.934317,"Alaria","",1,"0",NA,4,"0"
+615,"filbee_dexter_arctic_kelp",NA,"Grise fiord",10,"Grise fiord-S.latissima-2020",2020,9,19,76.42225,-82.934317,"S.latissima","",1,"0",NA,4,"0"
+616,"filbee_dexter_arctic_kelp",NA,"Grise fiord",10,"Grise fiord-Saccorhiza-2020",2020,9,19,76.42225,-82.934317,"Saccorhiza","",1,"0",NA,4,NA
+617,"filbee_dexter_arctic_kelp",NA,"Grise fiord",10,"Grise fiord-L.solidung-2020",2020,9,19,76.42225,-82.934317,"L.solidung","",1,"0",NA,4,"0"
+618,"filbee_dexter_arctic_kelp",NA,"Grise fiord",10,"Grise fiord-L.digitata-2020",2020,9,19,76.42225,-82.934317,"L.digitata","",1,"0",NA,4,"0"
+619,"filbee_dexter_arctic_kelp",NA,"Harbour fiord",10,"Harbour fiord-Agarum-2020",2020,9,19,76.6123833333333,-84.1834833333333,"Agarum","",1,"2,143",NA,7,NA
+620,"filbee_dexter_arctic_kelp",NA,"Harbour fiord",10,"Harbour fiord-Alaria-2020",2020,9,19,76.6123833333333,-84.1834833333333,"Alaria","",1,"0",NA,7,NA
+621,"filbee_dexter_arctic_kelp",NA,"Harbour fiord",10,"Harbour fiord-S.latissima-2020",2020,9,19,76.6123833333333,-84.1834833333333,"S.latissima","",1,"0",NA,7,NA
+622,"filbee_dexter_arctic_kelp",NA,"Harbour fiord",10,"Harbour fiord-Saccorhiza-2020",2020,9,19,76.6123833333333,-84.1834833333333,"Saccorhiza","",1,"0",NA,7,NA
+623,"filbee_dexter_arctic_kelp",NA,"Harbour fiord",10,"Harbour fiord-L.solidung-2020",2020,9,19,76.6123833333333,-84.1834833333333,"L.solidung","",1,"0",NA,7,NA
+624,"filbee_dexter_arctic_kelp",NA,"Harbour fiord",10,"Harbour fiord-L.digitata-2020",2020,9,19,76.6123833333333,-84.1834833333333,"L.digitata","",1,"0",NA,7,NA
+625,"filbee_dexter_arctic_kelp",NA,"Starnes Fiord",10,"Starnes Fiord-Agarum-2020",2020,9,14,76.7254,-82.56073,"Agarum","",1,"7,5",NA,4,"0,263"
+626,"filbee_dexter_arctic_kelp",NA,"Starnes Fiord",10,"Starnes Fiord-Alaria-2020",2020,9,14,76.7254,-82.56073,"Alaria","",1,"0",NA,4,"0"
+627,"filbee_dexter_arctic_kelp",NA,"Starnes Fiord",10,"Starnes Fiord-S.latissima-2020",2020,9,14,76.7254,-82.56073,"S.latissima","",1,"0",NA,4,"0"
+628,"filbee_dexter_arctic_kelp",NA,"Starnes Fiord",10,"Starnes Fiord-Saccorhiza-2020",2020,9,14,76.7254,-82.56073,"Saccorhiza","",1,"0",NA,4,NA
+629,"filbee_dexter_arctic_kelp",NA,"Starnes Fiord",10,"Starnes Fiord-L.solidung-2020",2020,9,14,76.7254,-82.56073,"L.solidung","",1,"0",NA,4,"0"
+630,"filbee_dexter_arctic_kelp",NA,"Starnes Fiord",10,"Starnes Fiord-L.digitata-2020",2020,9,14,76.7254,-82.56073,"L.digitata","",1,"0",NA,4,"0"
+631,"filbee_dexter_arctic_kelp",NA,"Vaga20.23a",10,"Vaga20.23a-Agarum-2020",2020,8,28,76.4230833333333,-83.15635,"Agarum","",1,"3,2",NA,10,NA
+632,"filbee_dexter_arctic_kelp",NA,"Vaga20.23a",10,"Vaga20.23a-Alaria-2020",2020,8,28,76.4230833333333,-83.15635,"Alaria","",1,"0",NA,10,NA
+633,"filbee_dexter_arctic_kelp",NA,"Vaga20.23a",10,"Vaga20.23a-S.latissima-2020",2020,8,28,76.4230833333333,-83.15635,"S.latissima","",1,"0",NA,10,NA
+634,"filbee_dexter_arctic_kelp",NA,"Vaga20.23a",10,"Vaga20.23a-Saccorhiza-2020",2020,8,28,76.4230833333333,-83.15635,"Saccorhiza","",1,"0",NA,10,NA
+635,"filbee_dexter_arctic_kelp",NA,"Vaga20.23a",10,"Vaga20.23a-L.solidung-2020",2020,8,28,76.4230833333333,-83.15635,"L.solidung","",1,"0",NA,10,NA
+636,"filbee_dexter_arctic_kelp",NA,"Vaga20.23a",10,"Vaga20.23a-L.digitata-2020",2020,8,28,76.4230833333333,-83.15635,"L.digitata","",1,"0",NA,10,NA
