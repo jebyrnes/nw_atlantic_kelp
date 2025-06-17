@@ -24,7 +24,7 @@ if(!has_env_data){
   WI_fall_winter(nwa_data)
   WI_fall_winter_max(nwa_data)
 }
-
+ 
 ## Add to the dataset
 nitrates <- read_csv("data/env_data/no3_spring.csv")|>
   distinct(y, latitude, longitude, .keep_all=T)
