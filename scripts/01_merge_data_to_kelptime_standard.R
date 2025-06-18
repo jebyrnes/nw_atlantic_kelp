@@ -54,7 +54,52 @@ combined_data <- new_data |>
 
 
 #write out data
-write_csv(combined_data, "data/kelptime_nwa_data.csv")
+write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
 
+
+#write out data that meets time requirements for analysis
+combined_clear <- combined_data |>
+  as_tibble() |>
+  mutate(date = ymd(sasdate),
+         year = year(date),
+         year_f = as.character(year),
+         year_c = year - mean(year),
+         trajectory = paste(study, site)) |>
+  filter(!is.na(ln_focal_std_by_ecoregion)) |>
+  group_by(trajectory) |>
+  mutate(n_per_trajectory = n()) |>
+  ungroup() |>
+  filter(n_per_trajectory >= 2)# at least 3 data points per trajectory
+
+write_csv(combined_clear, 
+           "data/kelptime_nwa_data.csv")
+
+# unique lat/longs and date ranges
+combined_clear |>
+  group_by(latitude, longitude) |>
+  summarize(min_year = min(year),
+            max_year = max(year)) |>
+  ungroup() |>
+  write_csv("data/unique_latlongs_time.csv")
+
+# plot timeseries
+combined_clear <- combined_clear |>
+  mutate(trj = as.character(trajectory) |>
+           forcats::fct_reorder(latitude, .desc = TRUE) |>
+           as)
+
+ggplot(combined_clear,
+       aes(x = year, 
+           y = trj |> as.numeric(),
+           group = trj)) +
+  geom_line() +
+  scale_y_continuous(breaks = seq(0, 
+                                  max(combined_clear$trj|>as.numeric()), 
+                                  length.out=4),
+                     labels = seq(min(combined_clear$latitude), 
+                                  max(combined_clear$latitude), 
+                                  length.out=4) |> round(2)) +
+  labs(y = "Latitude", x = "") +
+  theme_bw()
 
 
