@@ -39,7 +39,8 @@ for(year in 1982:2024){
     )
 
   file.copy(from = sst$summary$filename,
-          to = glue("data/rasters/sst/ncdcOisst21Agg_LonPM180_nwa_{year}.nc"))
+          to = glue("data/rasters/sst/ncdcOisst21Agg_LonPM180_nwa_{year}.nc"),
+          overwrite = TRUE)
   
   cache_delete(sst)
   
@@ -51,6 +52,41 @@ for(year in 1982:2024){
   Sys.sleep(20)
   
 }
+
+# make OISST monthly mean and max
+oisst_files <- list.files("data/rasters/sst/",
+                          full.names = TRUE)
+oisst_all <- rast(oisst_files)
+
+oisst_monthly_mean <- tapp(oisst_all, "yearmonths", mean, na.rm = TRUE)
+oisst_monthly_max <- tapp(oisst_all, "yearmonths", max, na.rm = TRUE)
+
+writeCDF(oisst_monthly_mean, "data/rasters/oisst_monthly_mean_nma.nc", 
+         unit = "C",
+         varname = "sst",
+         timename = "time",
+         overwrite = TRUE)
+
+writeCDF(oisst_monthly_max, "data/rasters/oisst_monthly_max_nma.nc", 
+         unit = "C",
+         varname = "sst",
+         timename = "time",
+         overwrite = TRUE)
+
+
+#
+# z <- as_tibble(oisst_monthly_mean) |> 
+#   tidyr::pivot_longer(everything()) |>
+#   mutate(date = gsub("ym_", "", name) |>
+#            ym()) |>
+#   group_by(date, year = year(date), month = month(date)) |>
+#   summarize(mean_sst = mean(value),
+#             min_sst = min(sst),
+#             max_sst = max(sst)) |>
+#   group_by(year) |>
+#   summarize(max_sst = max(mean_sst))
+# 
+# plot(max_sst ~ year, data = z, type = "l")
 
 ##
 # hadsst
@@ -99,7 +135,7 @@ turb_dat <- griddap(
 
 
 file.copy(from = turb_dat$summary$filename,
-          to = "data/rasters/sst/erdMH1kd490mday.nc",
+          to = "data/rasters/erdMH1kd490mday.nc",
           overwrite = TRUE)
 
 cache_delete(turb_dat)
