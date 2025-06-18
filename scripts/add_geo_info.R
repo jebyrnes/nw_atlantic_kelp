@@ -1,4 +1,4 @@
-library(mregions)
+library(mregions) #devtools::install_github("ropensci/mregions")
 library(sf)
 library(dplyr)
 
