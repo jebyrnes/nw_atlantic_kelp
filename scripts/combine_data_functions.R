@@ -1,6 +1,8 @@
 source("scripts/data_checking_functions.R")
 library(lubridate)
 
+mean_na <- function(x) mean(x, na.rm = TRUE)
+
 process_one_study_to_combine <- function(datasetname, path = "data/clean_data/timeseries/"){
   print(glue("Working on {datasetname}"))
   
@@ -31,32 +33,32 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
     # Average each taxon within a sample_ID
     group_by(Study, Site, period, Sample_ID, Taxon) |>
     summarize(
-      Latitude = mean(Latitude),
-      Longitude = mean(Longitude),
-      Sample_Unit_Size_sq_m = mean(Sample_Unit_Size_sq_m),
+      Latitude = mean_na(Latitude),
+      Longitude = mean_na(Longitude),
+      Sample_Unit_Size_sq_m = mean_na(Sample_Unit_Size_sq_m),
       kelpPresent = max(kelpPresent),
       max_Depth = max(Depth_m),
-      mean_Depth = mean(Depth_m),
+      mean_Depth = mean_na(Depth_m),
       min_Depth = min(Depth_m),
-      sasDate = mean(sasDate),
-      Biomass_kg_wet_per_sq_m = mean(Biomass_kg_wet_per_sq_m),
-      Stipe_Density_num_per_sq_m = mean(Stipe_Density_num_per_sq_m),
-      Individual_Density_num_per_sq_m = mean(Individual_Density_num_per_sq_m),
-      Percent_Cover = mean(Percent_Cover),
+      sasDate = mean_na(sasDate),
+      Biomass_kg_wet_per_sq_m = mean_na(Biomass_kg_wet_per_sq_m),
+      Stipe_Density_num_per_sq_m = mean_na(Stipe_Density_num_per_sq_m),
+      Individual_Density_num_per_sq_m = mean_na(Individual_Density_num_per_sq_m),
+      Percent_Cover = mean_na(Percent_Cover),
       .groups = "drop"
     ) |>
     
   # Sum across taxon for each sample
   group_by(Study, Site, period, Sample_ID) |>
     summarize(
-      Latitude = mean(Latitude),
-      Longitude = mean(Longitude),
-      Sample_Unit_Size_sq_m = mean(Sample_Unit_Size_sq_m),
+      Latitude = mean_na(Latitude),
+      Longitude = mean_na(Longitude),
+      Sample_Unit_Size_sq_m = mean_na(Sample_Unit_Size_sq_m),
       kelpPresent = max(kelpPresent),
       max_Depth = max(max_Depth),
-      mean_Depth = mean(mean_Depth),
+      mean_Depth = mean_na(mean_Depth),
       min_Depth = min(min_Depth),
-      sasDate = mean(sasDate),
+      sasDate = mean_na(sasDate),
       Biomass_kg_wet_per_sq_m = sum(Biomass_kg_wet_per_sq_m),
       Stipe_Density_num_per_sq_m = sum(Stipe_Density_num_per_sq_m),
       Individual_Density_num_per_sq_m = sum(Individual_Density_num_per_sq_m),
@@ -67,17 +69,17 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
     # aggregate measurements by period - so getting average kelp cover
     group_by(Study, Site, period) |>
     summarize(
-      Latitude = mean(Latitude),
-      Longitude = mean(Longitude),
-      sample_unit_size_sq_m = mean(Sample_Unit_Size_sq_m),
-      sasDate = mean(sasDate),
+      Latitude = mean_na(Latitude),
+      Longitude = mean_na(Longitude),
+      sample_unit_size_sq_m = mean_na(Sample_Unit_Size_sq_m),
+      sasDate = mean_na(sasDate),
       max_Depth = max(max_Depth),
-      mean_Depth = mean(mean_Depth),
+      mean_Depth = mean_na(mean_Depth),
       min_Depth = min(min_Depth),
-      biomass_KG_wet_per_sq_m = mean(Biomass_kg_wet_per_sq_m),
-      Stipe_Density_num_per_sq_m = mean(Stipe_Density_num_per_sq_m),
-      individual_per_sq_m = mean(Individual_Density_num_per_sq_m),
-      percent_cover = mean(Percent_Cover),
+      biomass_KG_wet_per_sq_m = mean_na(Biomass_kg_wet_per_sq_m),
+      Stipe_Density_num_per_sq_m = mean_na(Stipe_Density_num_per_sq_m),
+      individual_per_sq_m = mean_na(Individual_Density_num_per_sq_m),
+      percent_cover = mean_na(Percent_Cover),
       biomass_KG_wet_per_sq_m_STD = sd(Biomass_kg_wet_per_sq_m),
       Stipe_Density_num_per_sq_m_STD = sd(Stipe_Density_num_per_sq_m),
       individual_per_sq_m_STD = sd(Individual_Density_num_per_sq_m),

@@ -83,23 +83,25 @@ combined_clear |>
   write_csv("data/unique_latlongs_time.csv")
 
 # plot timeseries
+library(ggplot2)
 combined_clear <- combined_clear |>
   mutate(trj = as.character(trajectory) |>
-           forcats::fct_reorder(latitude, .desc = TRUE) |>
-           as)
+           forcats::fct_reorder(latitude, .desc = FALSE))
 
 ggplot(combined_clear,
        aes(x = year, 
-           y = trj |> as.numeric(),
-           group = trj)) +
-  geom_line() +
-  scale_y_continuous(breaks = seq(0, 
-                                  max(combined_clear$trj|>as.numeric()), 
-                                  length.out=4),
-                     labels = seq(min(combined_clear$latitude), 
-                                  max(combined_clear$latitude), 
-                                  length.out=4) |> round(2)) +
-  labs(y = "Latitude", x = "") +
+           y = latitude,#trj |> as.numeric(),
+           group = trj,
+           color = ecoregion)) +
+  geom_line(alpha = 1) +
+  scale_color_discrete(guide = "none") +
+  # scale_y_continuous(breaks = seq(0, 
+  #                                 max(combined_clear$trj|>as.numeric()), 
+  #                                 length.out=4),
+  #                    labels = seq(min(combined_clear$latitude), 
+  #                                 max(combined_clear$latitude), 
+  #                                 length.out=4) |> round(2)) +
+   labs(y = "Latitude", x = "") +
   theme_bw()
 
 
