@@ -78,19 +78,22 @@ cmems_extracted_long <- cmems_extracted |>
 cmems_seasonal <- cmems_extracted_long |>
   group_by(x, y, cell, longitude, latitude,
            season, season_name) |>
-  summarize(across(no3:si, mean)) |>
+  summarize(across(no3:si, 
+                   \(x) mean(x, na.rm = TRUE))) |>
   ungroup() |>
   mutate(year = gsub("\\.[1-4]", "", season)) |>
   select(-season) |>
   pivot_wider(names_from = season_name, 
               values_from = no3:si,
-              names_sep = "_")
+              names_sep = "_") |> 
+  ungroup()
 
 cmes_means <- cmems_seasonal |>
   group_by(x, y, cell, longitude, latitude) |>
   summarize(across(no3_winter:si_fall, 
-                   mean,
-                   .names = "{.col}_cellmean"))
+                   \(x) mean(x, na.rm = TRUE),
+                   .names = "{.col}_cellmean")) |> 
+  ungroup()
 
 ## write them out
 write_csv(cmems_seasonal, "data/env_data/cmems_seasonal.csv")
