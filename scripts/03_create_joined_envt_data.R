@@ -26,7 +26,7 @@ unique_data <- read_csv("data/unique_latlongs_time.csv") |>
 # lag summer mean sst
 # summer sst
 # spring sst
-# spring turbidity
+# spring turbidity "data/rasters/erdMH1kd490mday.nc"
 # summer turbidity
 # lag fall wave height
 # winter wave height
@@ -100,4 +100,103 @@ write_csv(cmes_means, "data/env_data/cmems_means.csv")
 # lag summer mean sst
 # summer mean sst
 # spring mean sst
+##
+
+## with oisst
+oisst_monthly_rast <- rast("data/rasters/oisst_monthly_mean_nma.nc")
+oisst_times <- time(oisst_monthly_rast)
+
+oisst_monthly <- extract_with_nas(oisst_monthly_rast,
+                         unique_data) |>
+  pivot_longer(-c(cell,x,y, latitude, longitude),
+               values_to = "oisst") |>
+  mutate(date_idx = gsub("sst_", "", name) |> as.numeric()) |>
+  mutate(times = oisst_times[as.numeric(date_idx)],
+         year = floor(times),
+         month = round((times-year) * 12 + 1),
+         #ok, now make the dates right
+         date = ymd(paste(year, month, "01", sep = "-"))) |>
+  make_date_to_year_mo_season() |> #see functions
+  select(-name)
+
+# get annual seasonal means and 
+# then average seasonal means for the entire timeseries
+oisst_seasonal <- oisst_monthly |>
+  group_by(x, y, cell, longitude, latitude,
+           season, season_name) |>
+  summarize(across(oisst, mean)) |>
+  ungroup() |>
+  mutate(year = gsub("\\.[1-4]", "", season)) |>
+  select(-season) |>
+  pivot_wider(names_from = season_name, 
+              values_from = oisst,
+              names_prefix = "oisst_")|>
+  group_by(x, y, cell, longitude, latitude) |>
+  arrange(year) |>
+  mutate(lag_oisst_summer = lag(oisst_summer)) |>
+  ungroup()
+
+oisst_means <- oisst_seasonal |>
+  group_by(x, y, cell, longitude, latitude) |>
+  summarize(across(oisst_winter:lag_oisst_summer, 
+                   \(x) mean(x, na.rm = TRUE),
+                   .names = "{.col}_cellmean"))
+
+## write them out
+write_csv(oisst_seasonal, "data/env_data/oisst_seasonal.csv")
+write_csv(oisst_means, "data/env_data/oisst_means.csv")
+
+## with hadsst 
+had_rast <- rast("data/rasters/HadISST_sst_nwa.nc")
+had_time <- time(had_rast)
+names(had_rast) <- had_time
+
+
+had_monthly <- extract_with_nas(had_rast,
+                                  unique_data) |>
+  pivot_longer(-c(cell,x,y, latitude, longitude),
+               values_to = "hadsst",
+               names_to = "date") |>
+  mutate(date = ymd(date)) |>
+  make_date_to_year_mo_season()  |>
+  as_tibble()
+
+# get annual seasonal means and 
+# then average seasonal means for the entire timeseries
+hadsst_seasonal <- hadsst_monthly |>
+  group_by(x, y, cell, longitude, latitude,
+           season, season_name) |>
+  summarize(across(hadsst, mean)) |>
+  ungroup() |>
+  mutate(year = gsub("\\.[1-4]", "", season)) |>
+  select(-season) |>
+  pivot_wider(names_from = season_name, 
+              values_from = hadsst,
+              names_prefix = "hadsst_")|>
+  group_by(x, y, cell, longitude, latitude) |>
+  arrange(year) |>
+  mutate(lag_hadsst_summer = lag(hadsst_summer)) |>
+  ungroup()
+
+hadsst_means <- hadsst_seasonal |>
+  group_by(x, y, cell, longitude, latitude) |>
+  summarize(across(hadsst_winter:lag_hadsst_summer, 
+                   \(x) mean(x, na.rm = TRUE),
+                   .names = "{.col}_cellmean")) |>
+  ungroup()
+
+## write them out
+write_csv(hadsst_seasonal, "data/env_data/hadsst_seasonal.csv")
+write_csv(hadsst_means, "data/env_data/hadsst_means.csv")
+
+##
+# spring turbidity "data/rasters/erdMH1kd490mday.nc"
+# summer turbidity
+# winter turbidity
+##
+
+##
+# lag fall wave height
+# winter wave height
+# lag fall & winter wave height?
 ##

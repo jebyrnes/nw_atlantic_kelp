@@ -23,3 +23,19 @@ extract_with_nas <- function(a_rast_stack,
   
   return(dat_extracted)
 }
+
+make_date_to_year_mo_season <- function(dat){
+  dat |>
+    mutate(
+      month = month(date),
+      year = year(date),
+      season = quarter(date, type = "year.quarter", fiscal_start = 12),
+      season_name = case_when(
+        grepl("\\.1", season) ~ "winter",
+        grepl("\\.2", season) ~ "spring",
+        grepl("\\.3", season) ~ "summer",
+        grepl("\\.4", season) ~ "fall",
+        .default = "other"
+      )
+    ) 
+}
