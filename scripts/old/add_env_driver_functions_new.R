@@ -13,6 +13,7 @@ library(rerddap)
 
 library(ecmwfr)
 library(ncdf4)
+source("scripts/wf_keyset.R")
 
 
 #function to add sst info to data frame row by row using year, month, lat, and lon
@@ -25,7 +26,7 @@ get_SST_monthly <- function(kelp_dat){
     latitude = c(kelp_dat$latitude, kelp_dat$latitude), 
     longitude = c(kelp_dat$longitude, kelp_dat$longitude),
     time = c(paste0(substr(kelp_dat$sasdate, 1, 7),"-01"), paste0(substr(kelp_dat$sasdate, 1, 7),"-31")), #get all sst values for month
-    fmt = "csv"
+    fmt = "nc"
   )
   return(dat)
 }
@@ -33,22 +34,22 @@ get_SST_monthly <- function(kelp_dat){
 
 
 SST_monthly <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/sst"))
-  kelp_dat_processed$sasdate <- as.Date(kelp_dat_processed$sasdate)
+  sst_dat_processed <- as.data.frame(read_csv("data/env_data/sst"))
+  sst_dat_processed$sasdate <- as.Date(sst_dat_processed$sasdate)
   
   kelp_dat <- kelp_dat |>
     filter(year(sasdate) > 1981) |>
-    anti_join(kelp_dat_processed)
+    anti_join(sst_dat_processed)
   
-  Temp = data.frame(colnames = c("time", "zlev", "latitude", "longitude", "sst"))
+  Temp <- data.frame(colnames = c("time", "zlev", "latitude", "longitude", "sst"))
   
   SST = data.frame(ncol = 6)
-  SST <- kelp_dat_processed
+  SST <- sst_dat_processed
   colnames(SST) = c("sst", "latitude", "longitude", "sasdate", "study", "site")
   
   Temp_kelp_dat = data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(sst_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp = get_SST_monthly(kelp_dat[i,]) #get sst for each row in kelp_dat and save as a row in temp
@@ -96,8 +97,8 @@ get_SST_winter <- function(kelp_dat){
 }
 
 SST_winter <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/sst_winter"))
-  colnames(kelp_dat_processed) <- c("sst", "latitude", "longitude", "y")
+  sst_dat_processed <- as.data.frame(read_csv("data/env_data/sst_winter"))
+  colnames(sst_dat_processed) <- c("sst", "latitude", "longitude", "y")
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate)) |>
@@ -105,16 +106,16 @@ SST_winter <- function(kelp_dat){
   
   kelp_dat <- kelp_dat |>
     filter(y > 1981) |>
-    anti_join(kelp_dat_processed) 
+    anti_join(sst_dat_processed) 
   
   Temp = data.frame(colnames = c("time", "zlev", "latitude", "longitude", "sst"))
   
   SST = data.frame(sst = NA, latitude = NA, longitude = NA, y = NA)
-  SST <- kelp_dat_processed
+  SST <- sst_dat_processed
   
   Temp_kelp_dat = data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(sst_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp = get_SST_winter(kelp_dat[i,]) #get sst for each row in kelp_dat and save as a row in temp
@@ -162,8 +163,8 @@ get_SST_spring <- function(kelp_dat){
 }
 
 SST_spring <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/sst_spring.csv", col_names=TRUE))
-  colnames(kelp_dat_processed) <- c("sst", "latitude", "longitude", "y")
+  sst_dat_processed <- as.data.frame(read_csv("data/env_data/sst_spring.csv", col_names=TRUE))
+  colnames(sst_dat_processed) <- c("sst", "latitude", "longitude", "y")
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate)) |>
@@ -171,16 +172,16 @@ SST_spring <- function(kelp_dat){
   
   kelp_dat <- kelp_dat |>
     filter(y > 1981) |>
-    anti_join(kelp_dat_processed) 
+    anti_join(sst_dat_processed) 
   
   Temp = data.frame(colnames = c("time", "zlev", "latitude", "longitude", "sst"))
   
   SST = data.frame(sst = NA, latitude = NA, longitude = NA, y = NA)
-  SST <- kelp_dat_processed
+  SST <- sst_dat_processed
   
   Temp_kelp_dat = data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(sst_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     #kelp_dat$y[i] <- ifelse(month(kelp_dat$sas_date[i])<04, year(kelp_dat$sasdate[i]), year(kelp_dat$sasdate[i])-1)
@@ -226,8 +227,8 @@ get_SST_spring_grid <- function(kelp_dat){
 }
 
 SST_spring_grid <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/sst_spring_grid.csv", col_names=TRUE))
-  colnames(kelp_dat_processed) <- c("sst", "cell_num")
+  sst_dat_processed <- as.data.frame(read_csv("data/env_data/sst_spring_grid.csv", col_names=TRUE))
+  colnames(sst_dat_processed) <- c("sst", "cell_num")
   
   kelp_dat <- kelp_dat |>
     distinct(cell_num, .keep_all=T)
@@ -235,16 +236,16 @@ SST_spring_grid <- function(kelp_dat){
   print(kelp_dat)
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed, by=join_by("cell_num" == "cell_num")) 
+    anti_join(sst_dat_processed, by=join_by("cell_num" == "cell_num")) 
   
   Temp = data.frame(colnames = c("time", "zlev", "latitude", "longitude", "sst"))
   
   SST = data.frame(sst = NA, cell_num = NA)
-  SST <- kelp_dat_processed
+  SST <- sst_dat_processed
   
   Temp_kelp_dat = data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(sst_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp = get_SST_spring_grid(kelp_dat[i,]) 
@@ -288,20 +289,20 @@ get_WI_monthly <- function(kelp_dat){
 
 
 WI_monthly <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/wi"))
+  wi_dat_processed <- as.data.frame(read_csv("data/env_data/wi"))
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed)
+    anti_join(wi_dat_processed)
   
   Temp = data.frame(colnames = c("time", "depth", "latitude", "longitude", "wi"))
   
   WI = data.frame(ncol=6)
-  WI <- kelp_dat_processed
+  WI <- wi_dat_processed
   colnames(WI) = c("wi", "latitude", "longitude", "sasdate", "study", "site")
   
   Temp_kelp_dat = data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(wi_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     dat = get_WI_monthly(kelp_dat[i,]) #get mean monthly wave intensity for each row in kelp_dat
@@ -382,7 +383,7 @@ get_WI_winter <- function(kelp_dat){
 
 
 WI_fall_winter <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/wi_fall_winter.csv"))
+  wi_dat_processed <- as.data.frame(read_csv("data/env_data/wi_fall_winter.csv"))
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate)) |>
@@ -390,17 +391,17 @@ WI_fall_winter <- function(kelp_dat){
     distinct(latitude, longitude, longitude_new, y)
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed)
+    anti_join(wi_dat_processed)
   print(nrow(kelp_dat))
   
   kelp_dat$month = NA
   
   WI = data.frame(ncol=6)
-  WI <- kelp_dat_processed
+  WI <- wi_dat_processed
   colnames(WI) = c("wi", "latitude", "longitude", "y")
   
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(wi_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     wi = c()
@@ -459,10 +460,10 @@ WI_fall_winter <- function(kelp_dat){
 
 
 WI_fall_winter_max <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/wi_fall_winter_max.csv"))
-  kelp_dat_processed$latitude <- as.numeric(kelp_dat_processed$latitude)
-  kelp_dat_processed$longitude <- as.numeric(kelp_dat_processed$longitude)
-  kelp_dat_processed$y <- as.numeric(kelp_dat_processed$y)
+  wi_dat_processed <- as.data.frame(read_csv("data/env_data/wi_fall_winter_max.csv"))
+  wi_dat_processed$latitude <- as.numeric(wi_dat_processed$latitude)
+  wi_dat_processed$longitude <- as.numeric(wi_dat_processed$longitude)
+  wi_dat_processed$y <- as.numeric(wi_dat_processed$y)
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate)) |>
@@ -470,17 +471,17 @@ WI_fall_winter_max <- function(kelp_dat){
     distinct(latitude, longitude, longitude_new, y)
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed)
+    anti_join(wi_dat_processed)
   print(nrow(kelp_dat))
   
   kelp_dat$month = NA
   
   WI = data.frame(ncol=6)
-  WI <- kelp_dat_processed
+  WI <- wi_dat_processed
   colnames(WI) = c("wi", "latitude", "longitude", "y")
   
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(wi_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     wi = c()
@@ -550,25 +551,25 @@ get_turb_monthly <- function(kelp_dat){
 
 
 turb_monthly <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/turbidity.csv"))
-  kelp_dat_processed$sasdate <- as.Date(kelp_dat_processed$sasdate)
-  kelp_dat_processed$longitude <- as.numeric(kelp_dat_processed$longitude)
-  kelp_dat_processed$latitude <- as.numeric(kelp_dat_processed$longitude)
-  kelp_dat_processed$k490 <- as.numeric(kelp_dat_processed$k490)
+  turb_dat_processed <- as.data.frame(read_csv("data/env_data/turbidity.csv"))
+  turb_dat_processed$sasdate <- as.Date(turb_dat_processed$sasdate)
+  turb_dat_processed$longitude <- as.numeric(turb_dat_processed$longitude)
+  turb_dat_processed$latitude <- as.numeric(turb_dat_processed$longitude)
+  turb_dat_processed$k490 <- as.numeric(turb_dat_processed$k490)
   
   kelp_dat <- kelp_dat |>
     filter(year(sasdate) >= 2003) |>
-    anti_join(kelp_dat_processed)
+    anti_join(turb_dat_processed)
   
   Temp = data.frame(colnames = c("time", "latitude", "longitude", "k490"))
   
   Turbidity = data.frame(ncol = 6)
-  Turbidity <- kelp_dat_processed
+  Turbidity <- turb_dat_processed
   colnames(Turbidity) = c("k490", "latitude", "longitude", "sasdate", "study", "site")
   
   Temp_kelp_dat = data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(turb_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp = get_turb_monthly(kelp_dat[i,]) #get sst for each row in kelp_dat and save as a row in temp
@@ -614,24 +615,24 @@ get_turb_spring <- function(kelp_dat){
 
 
 turb_spring <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/turbidity_spring.csv"))|>
+  turb_dat_processed <- as.data.frame(read_csv("data/env_data/turbidity_spring.csv"))|>
     mutate(y = as.numeric(y))
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate))|>
     filter(y >= 2003) |>
-    anti_join(kelp_dat_processed)
+    anti_join(turb_dat_processed)
   
   Temp = data.frame(colnames = c("time", "latitude", "longitude", "k490"))
   
   Turbidity = data.frame(matrix(ncol = 4, nrow = 2))
   names(Turbidity) = c("k490", "latitude", "longitude", "y")
   #Turbidity[1,] <- NA
-  Turbidity <- kelp_dat_processed
+  Turbidity <- turb_dat_processed
   
   Temp_kelp_dat <- data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(turb_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp <- get_turb_spring(kelp_dat[i,]) #get sst for each row in kelp_dat and save as a row in temp
@@ -678,18 +679,18 @@ get_turb_spring_grid <- function(kelp_dat){
 
 
 turb_spring_grid <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/turbidity_spring_grid.csv"))
+  turb_dat_processed <- as.data.frame(read_csv("data/env_data/turbidity_spring_grid.csv"))
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed, by = join_by(cell_num == cell))
+    anti_join(turb_dat_processed, by = join_by(cell_num == cell))
   
   Temp = data.frame(colnames = c("time", "latitude", "longitude",  "k490"))
   
   Turbidity = data.frame(matrix(ncol = 2, nrow = 2))
   names(Turbidity) = c("k490", "cell")
-  Turbidity <- kelp_dat_processed
+  Turbidity <- turb_dat_processed
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(turb_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp <- get_turb_spring_grid(kelp_dat[i,]) #get sst for each row in kelp_dat and save as a row in temp
@@ -731,11 +732,11 @@ get_no3_spring <- function(kelp_dat){
 }
 
 no3_spring <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/no3_spring.csv"))
-  kelp_dat_processed$longitude <- as.numeric(kelp_dat_processed$longitude)
-  kelp_dat_processed$latitude <- as.numeric(kelp_dat_processed$latitude)
-  kelp_dat_processed$y <- as.numeric(kelp_dat_processed$y)
-  kelp_dat_processed$no3 <- as.numeric(kelp_dat_processed$no3)
+  no3_dat_processed <- as.data.frame(read_csv("data/env_data/no3_spring.csv"))
+  no3_dat_processed$longitude <- as.numeric(no3_dat_processed$longitude)
+  no3_dat_processed$latitude <- as.numeric(no3_dat_processed$latitude)
+  no3_dat_processed$y <- as.numeric(no3_dat_processed$y)
+  no3_dat_processed$no3 <- as.numeric(no3_dat_processed$no3)
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate)) |>
@@ -743,16 +744,16 @@ no3_spring <- function(kelp_dat){
     distinct(latitude, longitude, longitude_new, y)
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed)
+    anti_join(no3_dat_processed)
   print(nrow(kelp_dat))
   
   kelp_dat$month = NA
   
-#  NO3 = data.frame(ncol=6)
-  NO3 <- kelp_dat_processed
+  #  NO3 = data.frame(ncol=6)
+  NO3 <- no3_dat_processed
   colnames(NO3) = c("no3", "latitude", "longitude", "y")
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(no3_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     dat = get_no3_spring(kelp_dat[i,]) #get mean monthly no3 for each row in kelp_dat
@@ -812,11 +813,11 @@ get_no3_2020 <- function(kelp_dat){
 }
 
 no3_decadal <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/no3_decadal.csv"))
-  kelp_dat_processed$longitude <- as.numeric(kelp_dat_processed$longitude)
-  kelp_dat_processed$latitude <- as.numeric(kelp_dat_processed$latitude)
-  kelp_dat_processed$y <- as.numeric(kelp_dat_processed$y)
-  kelp_dat_processed$no3 <- as.numeric(kelp_dat_processed$no3)
+  no3_dat_processed <- as.data.frame(read_csv("data/env_data/no3_decadal.csv"))
+  no3_dat_processed$longitude <- as.numeric(no3_dat_processed$longitude)
+  no3_dat_processed$latitude <- as.numeric(no3_dat_processed$latitude)
+  no3_dat_processed$y <- as.numeric(no3_dat_processed$y)
+  no3_dat_processed$no3 <- as.numeric(no3_dat_processed$no3)
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate)) |>
@@ -825,16 +826,16 @@ no3_decadal <- function(kelp_dat){
     distinct(latitude, longitude, longitude_new, y)
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed)
+    anti_join(no3_dat_processed)
   print(nrow(kelp_dat))
   
   kelp_dat$month = NA
   
   NO3 = data.frame(ncol=6)
-  NO3 <- kelp_dat_processed
+  NO3 <- no3_dat_processed
   colnames(NO3) = c("no3", "latitude", "longitude", "y")
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(no3_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     dat = ifelse(kelp_dat[i,]$y<= 2010, get_no3_2010(kelp_dat[i,]), get_no3_2020(kelp_dat[i,])) #get mean monthly wave intensity for each row in kelp_dat
@@ -877,19 +878,19 @@ get_no3_spring_grid <- function(kelp_dat){
 
 
 no3_spring_grid <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/no3_spring_grid.csv"))
-  kelp_dat_processed$cell <- as.numeric(kelp_dat_processed$cell)
-  kelp_dat_processed$no3 <- as.numeric(kelp_dat_processed$no3)
+  no3_dat_processed <- as.data.frame(read_csv("data/env_data/no3_spring_grid.csv"))
+  no3_dat_processed$cell <- as.numeric(no3_dat_processed$cell)
+  no3_dat_processed$no3 <- as.numeric(no3_dat_processed$no3)
   
   kelp_dat <- kelp_dat |>
-    anti_join(kelp_dat_processed, by=join_by(cell_num == cell))
+    anti_join(no3_dat_processed, by=join_by(cell_num == cell))
   print(nrow(kelp_dat))
   
   NO3 = data.frame()
-  NO3 <- kelp_dat_processed
+  NO3 <- no3_dat_processed
   #colnames(NO3) = c("no3", "cell")
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(no3_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     dat = get_no3_spring_grid(kelp_dat[i,]) #get mean monthly nitrates for each row in kelp_dat
@@ -923,22 +924,22 @@ get_salt_spring <- function(kelp_dat){
 
 
 salt_spring <- function(kelp_dat){
-  kelp_dat_processed <- as.data.frame(read_csv("data/env_data/salinity_spring.csv"))|>
+  salt_dat_processed <- as.data.frame(read_csv("data/env_data/salinity_spring.csv"))|>
     mutate(y = as.numeric(y))
   
   kelp_dat <- kelp_dat |>
     mutate(y = year(sasdate))|>
-    anti_join(kelp_dat_processed)
+    anti_join(salt_dat_processed)
   
   Temp = data.frame(colnames = c("time", "latitude", "longitude", "salinity"))
   
   Salinity = data.frame(matrix(ncol = 4, nrow = 2))
   names(Salinity) = c("salinity", "latitude", "longitude", "y")
-  Salinity <- kelp_dat_processed
+  Salinity <- salt_dat_processed
   
   Temp_kelp_dat <- data.frame(colnames = colnames(kelp_dat))
   
-  x=nrow(kelp_dat_processed)+1
+  x=nrow(salt_dat_processed)+1
   for (i in 1:nrow(kelp_dat))  { 
     print(x)
     Temp <- get_salt_spring(kelp_dat[i,]) #get sst for each row in kelp_dat and save as a row in temp
