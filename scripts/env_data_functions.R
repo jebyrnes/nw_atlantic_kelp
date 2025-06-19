@@ -24,6 +24,22 @@ extract_with_nas <- function(a_rast_stack,
   return(dat_extracted)
 }
 
+make_monthly <- function(dat_rast, 
+                         lat_long_dat,
+                         varname){
+  names(dat_rast) <- time(dat_rast)
+  
+  extract_with_nas(dat_rast,
+                   lat_long_dat) |>
+    pivot_longer(-c(cell,x,y, latitude, longitude),
+                 values_to = varname,
+                 names_to = "date") |>
+    mutate(date = ymd(date)) |>
+    make_date_to_year_mo_season()  |>
+    as_tibble()
+  
+}
+
 make_date_to_year_mo_season <- function(dat){
   dat |>
     mutate(
@@ -38,4 +54,18 @@ make_date_to_year_mo_season <- function(dat){
         .default = "other"
       )
     ) 
+}
+
+
+make_seasonal <- function(monthly_dat, varname){
+  monthly_dat |>
+    group_by(x, y, cell, longitude, latitude,
+             season, season_name) |>
+    summarize(across({{varname}}, mean)) |>
+    ungroup() |>
+    mutate(year = gsub("\\.[1-4]", "", season)) |>
+    select(-season) |>
+    pivot_wider(names_from = season_name, 
+                values_from = {{varname}},
+                names_prefix = glue("{varname}_"))
 }

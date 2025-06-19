@@ -163,16 +163,8 @@ had_monthly <- extract_with_nas(had_rast,
 
 # get annual seasonal means and 
 # then average seasonal means for the entire timeseries
-hadsst_seasonal <- hadsst_monthly |>
-  group_by(x, y, cell, longitude, latitude,
-           season, season_name) |>
-  summarize(across(hadsst, mean)) |>
-  ungroup() |>
-  mutate(year = gsub("\\.[1-4]", "", season)) |>
-  select(-season) |>
-  pivot_wider(names_from = season_name, 
-              values_from = hadsst,
-              names_prefix = "hadsst_")|>
+hadsst_seasonal <- 
+  make_seasonal(had_monthly, "hadsst") |>
   group_by(x, y, cell, longitude, latitude) |>
   arrange(year) |>
   mutate(lag_hadsst_summer = lag(hadsst_summer)) |>
@@ -194,9 +186,49 @@ write_csv(hadsst_means, "data/env_data/hadsst_means.csv")
 # summer turbidity
 # winter turbidity
 ##
+turb_rast <- rast("data/rasters/erdMH1kd490mday.nc")
+
+turb_monthly <- 
+  make_monthly(turb_rast, 
+               unique_data,
+               "kd490")
+
+turb_seasonal <- 
+  make_seasonal(turb_monthly, "kd490") 
+
+turb_means <- turb_seasonal |>
+  group_by(x, y, cell, longitude, latitude) |>
+  summarize(across(kd490_winter:kd490_fall, 
+                   \(x) mean(x, na.rm = TRUE),
+                   .names = "{.col}_cellmean")) |>
+  ungroup()
+
+## write out
+write_csv(turb_seasonal, "data/env_data/turb_seasonal.csv")
+write_csv(turb_means, "data/env_data/turb_means.csv")
 
 ##
 # lag fall wave height
 # winter wave height
-# lag fall & winter wave height?
 ##
+
+wave_rast <- rast("data/rasters/reanalysis-era5-single-levels-monthly-means_swh.nc")
+
+wave_monthly <- 
+  make_monthly(wave_rast, 
+               unique_data,
+               "swh")
+
+wave_seasonal <- 
+  make_seasonal(wave_monthly, "swh") 
+
+wave_means <- wave_seasonal |>
+  group_by(x, y, cell, longitude, latitude) |>
+  summarize(across(swh_winter:swh_fall, 
+                   \(x) mean(x, na.rm = TRUE),
+                   .names = "{.col}_cellmean")) |>
+  ungroup()
+
+## write out
+write_csv(turb_seasonal, "data/env_data/era5_waves_seasonal.csv")
+write_csv(turb_means, "data/env_data/era5_waves_means.csv")
