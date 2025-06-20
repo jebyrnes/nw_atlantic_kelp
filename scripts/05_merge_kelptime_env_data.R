@@ -13,15 +13,24 @@ library(lubridate)
 ###
 
 ## Load all envt data sets
+## remember to start with oldest first to get all years
+## which would be hadsst
+get_had_first <- function(file_vec){
+  idx <- which(grepl("hadsst_seasonal", file_vec))
+  file_vec[c(idx, c(1:length(file_vec))[-idx])]
+}
+
 env_dat <- list.files("data/env_data",
                       full.names = TRUE) |>
-  rev() |>
+  get_had_first() |>
   ## strip off cell, x, and y
   map(~read_csv(.x) |> select(-c(x, y, cell))) |>
   ## merge them together by accumulating left joins
   reduce(left_join)
 
 # checks
+visdat::vis_dat(env_dat)
+
 #sapply(env_dat, class)
 # GGally::ggpairs(env_dat |> 
 #                   select(contains("cellmean")) |>
@@ -44,7 +53,7 @@ visdat::vis_dat(nwa_with_env)
 
 ggplot(nwa_with_env,
        aes(y = biomass_kg_wet_per_sq_m,
-           x = oisst_summer,
+           x = hadsst_summer,
            color = as.character(trajectory))) +
   geom_point() +
   scale_color_discrete(guide = "none")

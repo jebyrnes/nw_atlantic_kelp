@@ -233,5 +233,5 @@ wave_means <- wave_seasonal |>
   ungroup()
 
 ## write out
-write_csv(turb_seasonal, "data/env_data/era5_waves_seasonal.csv")
-write_csv(turb_means, "data/env_data/era5_waves_means.csv")
+write_csv(wave_seasonal, "data/env_data/era5_waves_seasonal.csv")
+write_csv(wave_means, "data/env_data/era5_waves_means.csv")
