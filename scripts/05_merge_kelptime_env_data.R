@@ -29,7 +29,7 @@ env_dat <- list.files("data/env_data",
   reduce(left_join)
 
 # checks
-visdat::vis_dat(env_dat)
+#visdat::vis_dat(env_dat)
 
 #sapply(env_dat, class)
 # GGally::ggpairs(env_dat |> 
@@ -48,14 +48,16 @@ nwa_kelp <- read_csv("data/kelptime_nwa_data.csv")
 ## one big left join!
 nwa_with_env <- left_join(nwa_kelp, env_dat)
 
+write_csv(nwa_with_env, "data/nwa_with_env.csv")
+
+
 ## check and be done
 visdat::vis_dat(nwa_with_env)
 
 ggplot(nwa_with_env,
-       aes(y = biomass_kg_wet_per_sq_m,
-           x = hadsst_summer,
+       aes(y = percent_cover,
+           x = swh_winter,
            color = as.character(trajectory))) +
   geom_point() +
   scale_color_discrete(guide = "none")
 
-write_csv(nwa_with_env, "data/nwa_with_env.csv")

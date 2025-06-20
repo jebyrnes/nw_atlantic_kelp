@@ -20,20 +20,6 @@ unique_data <- read_csv("data/unique_latlongs_time.csv") |>
            remove = FALSE)
 
 ##
-# what do we want to add?
-# spring no3
-# spring po4
-# lag summer mean sst
-# summer sst
-# spring sst
-# spring turbidity "data/rasters/erdMH1kd490mday.nc"
-# summer turbidity
-# lag fall wave height
-# winter wave height
-# lag fall & winter wave height?
-##
-
-##
 # Spring no3 & po4
 ##
 cmems_rast <- rast("data/rasters/cmems_mod_glo_bgc_my_0.25deg_P1M-m_1750273483465.nc")
@@ -223,7 +209,9 @@ wave_monthly <-
                "swh")
 
 wave_seasonal <- 
-  make_seasonal(wave_monthly, "swh") 
+  make_seasonal(wave_monthly, "swh") |>
+  mutate(lag_swh_fall = lag(swh_fall)) |>
+  ungroup()
 
 wave_means <- wave_seasonal |>
   group_by(x, y, cell, longitude, latitude) |>
