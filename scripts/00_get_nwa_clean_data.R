@@ -4,6 +4,14 @@
 #' -----------------------------------------------
 pacman::p_load(dplyr, readr)
 
+# get ye olde data
+nwa_old <- read.csv("https://github.com/kelpecosystems/global_kelp_time_series/raw/refs/heads/master/05_HLM_analysis_code/formatted_data_3years.csv")
+
+nwa_old |>
+  filter(PROVINCE == ("Cold Temperate Northwest Atlantic")) |>
+  filter(!is.na(ln_stdByECOREGION)) |>
+  write_csv("data/nwa_krumhansl_2016.csv")
+
 setwd(here::here())
 # move files that work
 f <- c("dmr_rasher_steneck.csv", "filbee_dexter_arctic_kelp.csv", 
