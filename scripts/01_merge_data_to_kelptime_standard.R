@@ -86,7 +86,7 @@ combined_clear |>
 library(ggplot2)
 combined_clear <- combined_clear |>
   mutate(trj = as.character(trajectory) |>
-           forcats::fct_reorder(latitude, .desc = FALSE))
+           forcats::fct_reorder(latitude, .desc = FALSE)) 
 
 ggplot(combined_clear,
        aes(x = year, 
@@ -102,6 +102,7 @@ ggplot(combined_clear,
   #                                 max(combined_clear$latitude), 
   #                                 length.out=4) |> round(2)) +
    labs(y = "Latitude", x = "") +
-  theme_bw()
+  theme_bw() +
+  facet_wrap(vars(focalUnit))
 
 

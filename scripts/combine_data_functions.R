@@ -12,6 +12,19 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
   
   # reprocess
   ret <- kelp_data |>
+    
+    # for NWA, if no stipes or individuals, use the other
+    # as stipes = individuals
+    mutate(
+      Stipe_Density_num_per_sq_m = ifelse(is.na(Stipe_Density_num_per_sq_m), 
+                                          Individual_Density_num_per_sq_m,
+                                          Stipe_Density_num_per_sq_m),
+      Individual_Density_num_per_sq_m = ifelse(is.na(Individual_Density_num_per_sq_m),
+                                               Stipe_Density_num_per_sq_m,
+                                               Individual_Density_num_per_sq_m)
+      
+    ) |>
+    
     mutate(trajectory_ID = paste(Study, Site) |> as.factor() |> as.numeric(),
            kelpPresent = ifelse(
              Percent_Cover > 0 | 
