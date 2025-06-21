@@ -23,7 +23,22 @@ nwa_data <- read_csv("data/nwa_with_env.csv") |>
                                 "Gulf of Maine/Bay of Fundy",
                                 "Scotian Shelf",
                                 "Gulf of St. Lawrence - Eastern Scotian Shelf"
-                              )))
+                              ))) |>
+  mutate(focalUnit = case_when(
+    focalUnit == "biomass" ~ "Biomass",
+    focalUnit == "percent_cover" ~ "Percent cover",
+    focalUnit == "stipe_density" ~ "Stipe density"
+  ))
+
+old_data <- read_csv("data/nwa_krumhansl_2016.csv")
+
+old_unique_latlong <- old_data |>
+  rename_all(tolower) |>
+  group_by(latitude, longitude) |>
+  slice(1L) |>
+  ungroup()|>
+  st_as_sf(crs = 4326,
+           coords = c("longitude", "latitude"))
 
 unique_latlong <- read_csv("data/unique_latlongs_time.csv") |>
   st_as_sf(crs = 4326,
@@ -54,7 +69,11 @@ basemap +
 
 ggsave("figures/sitemap.jpg", width = 6, height = 8)
 
+basemap +
+  geom_sf(data = old_unique_latlong, alpha = 0.8) +
+  coord_sf(expand = FALSE)
 
+ggsave("figures/sitemap_krumhansl_2016.jpg", width = 6, height = 8)
 
 ##
 # show data by ecoregion and measurement type
@@ -108,24 +127,61 @@ nwa_data |>
 
 nwa_data <- nwa_data |>
   mutate(trj = as.character(trajectory) |>
-         forcats::fct_reorder(latitude, .desc = FALSE)) 
+         forcats::fct_reorder(latitude, .desc = FALSE))
 
 ggplot(nwa_data,
        aes(x = year, 
-           y = trj |> as.numeric(),
-           group = trj)) +
+           y = latitude,
+           group = trj,
+           color = ecoregion)) +
   geom_line(alpha = 0.7) +
-  scale_y_continuous(guide = "none") +
   # scale_y_continuous(breaks = seq(0, 
   #                                 max(combined_clear$trj|>as.numeric()), 
   #                                 length.out=4),
   #                    labels = seq(min(combined_clear$latitude), 
   #                                 max(combined_clear$latitude), 
   #                                 length.out=4) |> round(2)) +
-  labs(y = "\n\nN\n\n^\n|\nv\n\nS", x = "") +
+  labs(x = "", y = "", fill = "") +
   theme_bw() +
-  facet_wrap(vars(focalUnit)) +
-  theme(axis.title.y = element_text(angle = 0))
+  scale_y_continuous(labels = ~ paste0(.x, "°")) +
+  facet_wrap(vars(focalUnit))   +
+  theme(legend.position = "bottom",
+        legend.box="vertical") 
+
+ggsave("figures/length_by_focalUnit.jpg", width = 10, height = 4)
+
+
+ggplot(nwa_data,
+       aes(x = year, 
+           y = latitude,
+           group = trj,
+           color = ecoregion)) +
+  geom_line(alpha = 0.7) +
+  labs(x = "", y = "", fill = "") +
+  theme_bw() +
+  scale_y_continuous(labels = ~ paste0(.x, "°")) +
+  theme(legend.position = "bottom",
+        legend.box="vertical") 
+
+ggsave("figures/timeseries_with_length_latitude.jpg", width = 8, height = 4)
+
+# whole shebang
+ggplot(nwa_data,
+       aes(x = year, 
+           y = trj |> as.numeric(),
+           group = trj)) +
+  geom_line(alpha = 0.7) +
+  labs(x = "", y = "", fill = "") +
+  theme_bw() +
+  scale_y_continuous(guide = "none") +
+  theme(legend.position = "bottom",
+        legend.box="vertical") 
+
+ggsave("figures/timeseries_with_length_trj.jpg", width = 8, height = 4)
+
+##
+# Histograms of properties
+##
 
 
 ## 
@@ -228,6 +284,40 @@ ggsave("figures/swh_june_2012.jpg",
 ## 
 # timeseries of envt parameters
 ##
+
+env_dat <- read_csv("data/merged_envt_data_all.csv") |>
+  select(year, 
+         oisst_summer, 
+         hadsst_summer,
+         no3_spring,
+         swh_fall,
+         kd490_summer
+         ) |>
+  pivot_longer(-year) |>
+  filter(!is.na(value)) |>
+  group_by(name) |>
+  summarize(min_year = min(year),
+            max_year = max(year)) |>
+  mutate(proxy = 
+           case_when(
+             name == "hadsst_summer" ~"Temperature: HADSST",
+             name == "oisst_summer" ~"Temperature: OISST",
+             name == "kd490_summer" ~"Turbidity: kd490",
+             name == "no3_spring" ~"Nitrate: CMEM Model",
+             name == "swh_fall" ~"Waves: Era 5 Model"
+             
+           )) |>
+  pivot_longer(c(min_year, max_year), 
+               names_to = "type", 
+               values_to = "year")
+
+ggplot(env_dat,
+       aes(x = year, y = proxy)) + 
+  geom_line(size = 2) +
+  labs(x = "", y = "",
+       subtitle = "Temporal coverage of proxies")
+
+ggsave("figures/proxy_timeline.jpg", width = 6, height = 4)
 
 ## 
 # show distance from sites to where data collected
