@@ -3,6 +3,7 @@
 #
 #####################################################################################
 
+library(purrr)
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -215,7 +216,7 @@ wave_seasonal <-
 
 wave_means <- wave_seasonal |>
   group_by(x, y, cell, longitude, latitude) |>
-  summarize(across(swh_winter:swh_fall, 
+  summarize(across(swh_winter:lag_swh_fall, 
                    \(x) mean(x, na.rm = TRUE),
                    .names = "{.col}_cellmean")) |>
   ungroup()
@@ -223,3 +224,27 @@ wave_means <- wave_seasonal |>
 ## write out
 write_csv(wave_seasonal, "data/env_data/era5_waves_seasonal.csv")
 write_csv(wave_means, "data/env_data/era5_waves_means.csv")
+
+
+
+###
+# envt merge
+###
+
+## Load all envt data sets
+## remember to start with oldest first to get all years
+## which would be hadsst
+get_had_first <- function(file_vec){
+  idx <- which(grepl("hadsst_seasonal", file_vec))
+  file_vec[c(idx, c(1:length(file_vec))[-idx])]
+}
+
+env_dat <- list.files("data/env_data",
+                      full.names = TRUE) |>
+  get_had_first() |>
+  ## strip off cell, x, and y
+  map(~read_csv(.x) |> select(-c(x, y, cell))) |>
+  ## merge them together by accumulating left joins
+  reduce(left_join)
+
+write_csv(env_dat, "data/merged_envt_data_all.csv")
