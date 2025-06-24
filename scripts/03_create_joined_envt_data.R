@@ -243,8 +243,13 @@ env_dat <- list.files("data/env_data",
                       full.names = TRUE) |>
   get_had_first() |>
   ## strip off cell, x, and y
-  map(~read_csv(.x) |> select(-c(x, y, cell))) |>
+  map(~read_csv(.x) |> 
+        select(-c(x, y)) |>
+        dplyr::rename("{.x}" :=  cell)) |>
   ## merge them together by accumulating left joins
-  reduce(left_join)
+  reduce(left_join) |>
+  ## make sure we preserve info about unique cells
+  rename_with(\(.x) gsub("data/env_data/", "", .x)) |>
+  rename_with(\(.x) gsub("\\.csv", "_cell_number", .x)) 
 
 write_csv(env_dat, "data/merged_envt_data_all.csv")

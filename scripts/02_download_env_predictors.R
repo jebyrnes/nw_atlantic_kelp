@@ -32,8 +32,8 @@ for(year in 1982:2024){
   sst <- griddap(
     datasetx = "ncdcOisst21Agg_LonPM180",
     fields = "sst",
-    latitude = c(min(unique_data$latitude)-1, max(unique_data$latitude)+1),
-    longitude = c(min(unique_data$longitude)-1, max(unique_data$longitude)+1),
+    latitude = c(min(unique_data$latitude)-3, max(unique_data$latitude)+3),
+    longitude = c(min(unique_data$longitude)-3, max(unique_data$longitude)+3),
     time = c(paste0(year, "-01-01"), paste0(year, "-12-31")), #get all sst values for month
     url = "https://coastwatch.pfeg.noaa.gov/erddap/"
     )
@@ -49,7 +49,7 @@ for(year in 1982:2024){
   #plot(a[[1]])
   
   # give errdap a break
-  Sys.sleep(20)
+  Sys.sleep(10)
   
 }
 
@@ -151,8 +151,8 @@ request <- list(
   "year"           = 1949:2022,#substr(kelp_dat$sasdate, 1, 4),
   month            =1:12,
   "time"           = "00:00",
-  "area" =    paste(min(unique_data$latitude)-1, min(unique_data$longitude)-1,
-                    max(unique_data$latitude)+1, max(unique_data$longitude)+1, 
+  "area" =    paste(min(unique_data$latitude)-3, min(unique_data$longitude)-3,
+                    max(unique_data$latitude)-3, max(unique_data$longitude)+3, 
                     sep = "/"),
 
   "data_format"         = "netcdf",
