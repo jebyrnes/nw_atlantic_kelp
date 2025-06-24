@@ -1,0 +1,679 @@
+Entry,Study,Region,Site,Depth.m,Sample.ID,Sample.Year,Sample.Month,Sample.Day,Latitude,Longitude,Taxon,Fixed.or.Random,Sample.Unit.Size.sq.m,Percent.Cover,Stipe.Density.num.per.sq.m,Individual.Density.num.per.sq.m,Biomass.kg.wet.per.sq.m
+79,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2005,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,22.24719101,NA
+80,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2007,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,7.865168539,NA
+81,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2009,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,20.8988764,NA
+82,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2010,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,19.71910112,NA
+83,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2012,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,2.078651685,NA
+84,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2013,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,2.584269663,NA
+85,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2014,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,3.370786517,NA
+86,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2015,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,6.123595506,NA
+87,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2016,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,8.202247191,NA
+88,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Saccharina latissima,2017,NA,NA,44.55083,-62.01917,Saccharina latissima,NA,NA,NA,NA,2.247191011,NA
+89,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Laminaria digitata,2012,NA,NA,44.55083,-62.01917,Laminaria digitata,NA,NA,NA,NA,0.112359551,NA
+90,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Laminaria digitata,2013,NA,NA,44.55083,-62.01917,Laminaria digitata,NA,NA,NA,NA,0.056179775,NA
+91,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Laminaria digitata,2014,NA,NA,44.55083,-62.01917,Laminaria digitata,NA,NA,NA,NA,0.280898876,NA
+92,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Laminaria digitata,2015,NA,NA,44.55083,-62.01917,Laminaria digitata,NA,NA,NA,NA,0.112359551,NA
+93,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Laminaria digitata,2016,NA,NA,44.55083,-62.01917,Laminaria digitata,NA,NA,NA,NA,0.056179775,NA
+94,Attridge_et_al._2022,Nova Scotia,The Lodge,8,Attridge_et_al._2022-The Lodge-Laminaria digitata,2017,NA,NA,44.55083,-62.01917,Laminaria digitata,NA,NA,NA,NA,0,NA
+148,Witman_et_al._2018,Gulf of Maine,Ammen Rock 1,13.5,Witman_et_al._2018-Ammen Rock 1-Saccharina latissima,2014,NA,NA,42.89058,-68.94351,Saccharina latissima,Random,1,NA,NA,36.29261364,4.869402985
+149,Witman_et_al._2018,Gulf of Maine,Ammen Rock 1,13.5,Witman_et_al._2018-Ammen Rock 1-Saccharina latissima,2015,NA,NA,42.89058,-68.94351,Saccharina latissima,Random,1,NA,NA,26.70454545,4.832089552
+150,Witman_et_al._2018,Gulf of Maine,Ammen Rock 2,13.5,Witman_et_al._2018-Ammen Rock 2-Saccharina latissima,2015,NA,NA,42.89058,-68.94351,Saccharina latissima,Random,1,NA,NA,34.16193182,3.526119403
+151,Witman_et_al._2018,Gulf of Maine,Ammen Rock 2,13.5,Witman_et_al._2018-Ammen Rock 2-Saccharina latissima,2016,NA,NA,42.89058,-68.94351,Saccharina latissima,Random,1,NA,NA,11.36363636,1.97761194
+152,Witman_et_al._2018,Gulf of Maine,Lunging Island,13.5,Witman_et_al._2018-Lunging Island-Agarum clathratum,2014,NA,NA,43.01112,-71.00862,Agarum clathratum,Random,1,NA,NA,7.6171875,0.500779221
+153,Witman_et_al._2018,Gulf of Maine,Lunging Island,13.5,Witman_et_al._2018-Lunging Island-Agarum clathratum,2015,NA,NA,43.01112,-71.00862,Agarum clathratum,Random,1,NA,NA,13.0859375,0.633246753
+154,Witman_et_al._2018,Gulf of Maine,Spout Shoal,13.5,Witman_et_al._2018-Spout Shoal-Agarum clathratum,2014,NA,NA,43.01112,-71.00862,Agarum clathratum,Random,1,NA,NA,0.1953125,0.041038961
+155,Witman_et_al._2018,Gulf of Maine,Spout Shoal,13.5,Witman_et_al._2018-Spout Shoal-Agarum clathratum,2015,NA,NA,43.01112,-71.00862,Agarum clathratum,Random,1,NA,NA,19.921875,0.376103896
+156,Witman_et_al._2018,Gulf of Maine,Star Island,13.5,Witman_et_al._2018-Star Island-Agarum clathratum,2014,NA,NA,43.01112,-71.00862,Agarum clathratum,Random,1,NA,NA,3.7109375,0.104935065
+157,Witman_et_al._2018,Gulf of Maine,Star Island,13.5,Witman_et_al._2018-Star Island-Agarum clathratum,2015,NA,NA,43.01112,-71.00862,Agarum clathratum,Random,1,NA,NA,20.1171875,0.198441558
+333,O'Brien_et_al._2018,Nova Scotia,The Lodge,8,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2005,6,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,0.25,NA,NA,22.36521739,NA
+334,O'Brien_et_al._2018,Nova Scotia,The Lodge,8,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2007,6,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,0.25,NA,NA,7.617391304,NA
+335,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2009,7,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,1,NA,NA,20.34782609,NA
+336,O'Brien_et_al._2018,Nova Scotia,The Lodge,7.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2010,6,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,1,NA,NA,19.23478261,NA
+337,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,6,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.704347826,NA
+338,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,7,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.052173913,NA
+339,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,8,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.704347826,NA
+340,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,9,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.913043478,NA
+341,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,10,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.565217391,NA
+342,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,11,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.147826087,NA
+343,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,4,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.843478261,NA
+344,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,7,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.260869565,NA
+345,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,9,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.913043478,NA
+346,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,NA,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.913043478,NA
+347,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,4,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.260869565,NA
+348,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,6,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,3.026086957,NA
+349,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,8,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.886956522,NA
+350,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,10,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.191304348,NA
+351,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,5,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,5.87826087,NA
+352,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,8,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,6.504347826,NA
+353,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,10,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,5.808695652,NA
+354,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,6,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,8.8,NA
+355,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,10,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,4.904347826,NA
+356,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,11,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,4.208695652,NA
+357,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,12,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.817391304,NA
+358,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2017,4,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.634782609,NA
+359,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2017,8,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.539130435,NA
+360,O'Brien_et_al._2018,Nova Scotia,The Lodge,8.5,"O'Brien_et_al._2018-The Lodge-Saccharina latissima, Laminaria digitata, Agarum clathratum",2017,12,NA,44.55818,-64.02488,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.660869565,NA
+361,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,8,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2005,6,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,0.25,NA,NA,11.60486322,NA
+362,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,8,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2007,6,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,0.25,NA,NA,2.41337386,NA
+363,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,6,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,3.045592705,NA
+364,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,7,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.583586626,NA
+365,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,8,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,2.340425532,NA
+366,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,9,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.686930091,NA
+367,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,10,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.249240122,NA
+368,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2012,12,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.103343465,NA
+369,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,3,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.370820669,NA
+370,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,5,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.613981763,NA
+371,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,7,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.273556231,NA
+372,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2013,9,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.127659574,NA
+373,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,2,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.273556231,NA
+374,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,5,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.541033435,NA
+375,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,7,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.881458967,NA
+376,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,9,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.224924012,NA
+377,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,11,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.054711246,NA
+378,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,3,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.711246201,NA
+379,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,5,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.465045593,NA
+380,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,7,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.58662614,NA
+381,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2015,10,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.079027356000000007,NA
+382,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,3,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.127659574,NA
+383,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,5,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,1.56231003,NA
+384,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2016,9,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.224924012,NA
+385,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2017,7,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,5.209726444,NA
+386,O'Brien_et_al._2018,Nova Scotia,Paddy's Head,5,"O'Brien_et_al._2018-Paddy's Head-Saccharina latissima, Laminaria digitata, Agarum clathratum",2017,11,NA,44.52707,-63.95133,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Fixed,NA,NA,NA,0.249240122,NA
+418,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1980,5,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,62.00980392,NA
+419,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1980,6,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,95.71078431,3.4684685
+420,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1980,7,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,47.30392157,NA
+421,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1980,8,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,110.4166667,NA
+422,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1980,9,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,76.71568627,NA
+423,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1980,2,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,46.07843137,NA
+424,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1981,4,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,88.97058824,NA
+425,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,1981,6,NA,41.478,-71.362,Saccharina latissima,Random,0.1,NA,NA,248.2843137,5
+426,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2017,12,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,1.960784314,NA
+427,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2018,1,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,3.18627451,NA
+428,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2018,NA,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,3.18627451,NA
+429,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2018,3,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,5.024509804,NA
+430,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2018,6,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,43.01470588,0.114
+431,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2018,8,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,9.926470588,NA
+432,Feehan_et_al._2019,Narragensett Bay,Fort Wetherill,2,Feehan_et_al._2019-Fort Wetherill-Saccharina latissima,2018,11,NA,41.478,-71.362,Saccharina latissima,Random,0.625,NA,NA,4.411764706,NA
+433,Feehan_et_al._2019,Narragensett Bay,Land's End,2,Feehan_et_al._2019-Land's End-Saccharina latissima,1980,6,NA,41.45,-71.314,Saccharina latissima,Random,0.1,NA,NA,NA,0
+434,Feehan_et_al._2019,Narragensett Bay,Land's End,2,Feehan_et_al._2019-Land's End-Saccharina latissima,1981,6,NA,41.45,-71.314,Saccharina latissima,Random,0.1,NA,NA,NA,12.88288288
+435,Feehan_et_al._2019,Narragensett Bay,Land's End,2,Feehan_et_al._2019-Land's End-Saccharina latissima,2018,6,NA,41.45,-71.314,Saccharina latissima,Random,0.625,NA,NA,NA,18.01801802
+482,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",1968,2,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,16.06108478
+483,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",1973,2,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,20.17509215
+484,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",1992,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,4.903896788
+485,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",1994,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.921537651
+486,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",1995,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,4.673512375
+487,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",2005,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.460768826
+488,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",2008,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.32912059
+489,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",2009,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,2.238020011
+490,Filbee-Dexteretal_et_al._2016,Nova Scotia,Mill Cove,8,"Filbee-Dexteretal_et_al._2016-Mill Cove-Saccharina latissima, Laminaria digitata, Agarum clathratum",2010,1,NA,44.586353,-64.060977,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,3.686150606
+491,Filbee-Dexteretal_et_al._2016,Nova Scotia,Whitehead Island,8,"Filbee-Dexteretal_et_al._2016-Whitehead Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1949,NA,NA,43.665572,-65.867357,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,19.35229068
+492,Filbee-Dexteretal_et_al._2016,Nova Scotia,Whitehead Island,8,"Filbee-Dexteretal_et_al._2016-Whitehead Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1979,1,NA,43.665572,-65.867357,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,4.574776198
+493,Filbee-Dexteretal_et_al._2016,Nova Scotia,Whitehead Island,8,"Filbee-Dexteretal_et_al._2016-Whitehead Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1984,1,NA,43.665572,-65.867357,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,3.784886783
+494,Filbee-Dexteretal_et_al._2016,Nova Scotia,Whitehead Island,8,"Filbee-Dexteretal_et_al._2016-Whitehead Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,1,NA,43.665572,-65.867357,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,2.863349131
+495,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1983,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,8.162190627
+496,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1992,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,3.883622959
+497,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1993,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,3.719062665
+498,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1994,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.822801474
+499,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1995,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,4.015271195
+500,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1997,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,3.949447077
+501,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1998,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,2.5671406
+502,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",1999,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.296208531
+503,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",2000,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.230384413
+504,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",2008,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,2.27093207
+505,Filbee-Dexteretal_et_al._2016,Nova Scotia,Little Duck Island,8,"Filbee-Dexteretal_et_al._2016-Little Duck Island-Saccharina latissima, Laminaria digitata, Agarum clathratum",2014,1,NA,44.364216,-64.180952,"Saccharina latissima, Laminaria digitata, Agarum clathratum",Random,0.625,NA,NA,NA,0.098736177
+763,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1985,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,40,10
+764,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1985,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,35,9
+765,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1985,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,34,8
+766,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1985,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,30,5.5
+767,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,31,3
+768,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,39,5
+769,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,22,4
+770,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,100,12
+771,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,175,25
+772,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,1000,11
+773,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,630,10.5
+774,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,280,9
+775,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,320,12
+776,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1986,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,450,14
+777,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1987,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,200,14.5
+778,Egan_&_Yarish__1990,USA,southern New England_ Long Island Sound_ Black Ledge,4,Egan_&_Yarish__1990-southern New England_ Long Island Sound_ Black Ledge-Saccharina longicruris,1987,NA,NA,41.30302,-72.086122,Saccharina longicruris,Random,0.25,NA,NA,200,48
+822,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1978,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,1.3,NA
+823,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1978,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.68,NA
+824,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1978,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,1.45,NA
+825,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1978,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.31,NA
+826,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1978,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.26,NA
+827,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1978,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.4,NA
+828,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1978,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+829,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1978,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.36,NA
+830,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1979,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.29,NA
+831,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1979,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.68,NA
+832,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1979,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,3.93,NA
+833,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1979,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,6.28,NA
+834,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1979,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.19,NA
+835,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1979,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.48,NA
+836,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1979,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+837,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1979,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.67,NA
+838,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1980,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,9.27,NA
+839,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1980,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.3,NA
+840,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1980,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.79,NA
+841,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1980,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,8.01,NA
+842,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1980,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.4,NA
+843,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1980,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.89,NA
+844,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1980,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.28,NA
+845,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1980,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,1.32,NA
+846,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1981,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,8.79,NA
+847,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1981,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.3,NA
+848,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1981,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.3,NA
+849,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1981,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,6.15,NA
+850,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1981,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.36,NA
+851,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1981,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.88,NA
+852,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1981,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+853,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1981,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,3.32,NA
+854,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1982,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,7.9,NA
+855,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1982,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.8,NA
+856,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1982,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.67,NA
+857,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1982,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,6.03,NA
+858,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1982,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,5.34,NA
+859,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1982,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.9,NA
+860,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1982,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.92,NA
+861,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1982,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.65,NA
+862,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1982,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+863,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1982,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.88,NA
+864,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1983,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,9.52,NA
+865,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1983,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,9.3,NA
+866,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1983,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.17,NA
+867,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1983,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,5.66,NA
+868,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1983,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.24,NA
+869,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1983,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.32,NA
+870,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1983,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.64,NA
+871,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1983,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.85,NA
+872,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1983,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.04,NA
+873,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1983,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.5,NA
+874,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1984,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.28,NA
+875,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1984,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,8,NA
+876,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1984,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.44,NA
+877,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1984,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,4.79,NA
+878,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1984,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.86,NA
+879,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1984,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.77,NA
+880,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1984,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.36,NA
+881,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1984,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.2,NA
+882,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1984,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+883,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1984,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.36,NA
+884,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1985,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.03,NA
+885,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1985,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,7.53,NA
+886,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,9.3,NA
+887,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.05,NA
+888,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1985,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.44,NA
+889,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1985,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.19,NA
+890,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,6.16,NA
+891,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,4.18,NA
+892,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.34,NA
+893,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.98,NA
+894,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.8,NA
+895,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.03,NA
+896,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.36,NA
+897,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.26,NA
+898,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.23,NA
+899,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1985,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.4,NA
+900,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1985,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+901,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1985,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.34,NA
+902,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,11,NA,NA,NA
+903,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,10,NA,NA,NA
+904,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,7,NA,NA,NA
+905,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1985,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,52,NA,NA,NA
+906,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1986,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.17,NA
+907,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1986,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,16,NA,NA,NA
+908,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1986,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,9,NA,NA,NA
+909,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1986,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,10,NA,NA,NA
+910,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1986,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,45,NA,NA,NA
+911,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1987,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,10.77,NA
+912,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1987,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.3,NA
+913,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1987,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,3.31,NA
+914,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1987,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.06,NA
+915,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1987,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.96,NA
+916,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1987,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.9,NA
+917,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1987,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.15,NA
+918,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1987,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.4,NA
+919,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1987,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+920,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1987,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.36,NA
+921,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1987,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,15,NA,NA,NA
+922,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1987,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,12,NA,NA,NA
+923,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1987,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,11,NA,NA,NA
+924,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1987,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,29,NA,NA,NA
+925,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1988,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,10.52,NA
+926,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1988,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.54,NA
+927,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1988,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.55,NA
+928,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1988,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.8,NA
+929,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1988,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.14,NA
+930,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1988,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.84,NA
+931,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1988,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.14,NA
+932,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1988,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.4,NA
+933,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1988,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+934,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1988,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.42,NA
+935,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1988,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,9,NA,NA,NA
+936,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1988,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,11,NA,NA,NA
+937,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1988,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,24,NA,NA,NA
+938,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1988,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,39,NA,NA,NA
+939,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1989,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,10.39,NA
+940,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1989,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.8,NA
+941,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1989,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,3.06,NA
+942,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1989,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.43,NA
+943,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1989,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.89,NA
+944,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1989,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.48,NA
+945,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1989,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.22,NA
+946,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1989,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.33,NA
+947,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1989,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+948,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1989,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.17,NA
+949,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1989,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,12,NA,NA,NA
+950,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1989,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,15,NA,NA,NA
+951,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1989,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,15,NA,NA,NA
+952,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1989,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,32,NA,NA,NA
+953,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1990,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,9.27,NA
+954,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1990,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.92,NA
+955,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1990,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.18,NA
+956,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1990,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.69,NA
+957,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1990,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.96,NA
+958,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1990,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.51,NA
+959,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1990,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.12,NA
+960,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1990,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.36,NA
+961,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1990,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+962,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1990,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.45,NA
+963,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1990,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,13,NA,NA,NA
+964,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1990,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,9,NA,NA,NA
+965,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1990,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,20,NA,NA,NA
+966,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1990,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,30,NA,NA,NA
+967,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1991,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.91,NA
+968,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1991,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.18,NA
+969,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1991,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.69,NA
+970,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1991,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.2,NA
+971,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1991,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.06,NA
+972,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1991,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.05,NA
+973,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1991,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.15,NA
+974,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1991,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.54,NA
+975,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1991,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.1,NA
+976,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1991,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.2,NA
+977,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1991,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,12,NA,NA,NA
+978,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1991,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,4,NA,NA,NA
+979,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1991,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+980,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1991,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,26,NA,NA,NA
+981,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1992,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.91,NA
+982,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1992,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.18,NA
+983,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1992,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,3.06,NA
+984,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1992,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.81,NA
+985,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1992,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.73,NA
+986,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1992,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.05,NA
+987,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1992,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.19,NA
+988,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1992,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.78,NA
+989,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1992,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+990,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1992,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,1.24,NA
+991,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1992,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,25,NA,NA,NA
+992,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1992,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,6,NA,NA,NA
+993,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1992,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+994,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1992,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,33,NA,NA,NA
+995,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1993,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.16,NA
+996,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1993,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.18,NA
+997,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1993,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.44,NA
+998,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1993,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.69,NA
+999,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1993,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.77,NA
+1000,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1993,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,5.13,NA
+1001,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1993,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.19,NA
+1002,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1993,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.78,NA
+1003,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1993,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.1,NA
+1004,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1993,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.56,NA
+1005,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1993,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,18,NA,NA,NA
+1006,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1993,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,3,NA,NA,NA
+1007,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1993,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1008,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1993,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,26,NA,NA,NA
+1009,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1994,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,8.4,NA
+1010,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1994,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.3,NA
+1011,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1994,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,8.88,NA
+1012,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1994,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.21,NA
+1013,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1994,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.5,NA
+1014,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1994,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.35,NA
+1015,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1994,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.02,NA
+1016,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1994,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.64,NA
+1017,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1994,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1018,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1994,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.42,NA
+1019,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1994,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,18,NA,NA,NA
+1020,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1994,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,9,NA,NA,NA
+1021,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1994,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1022,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1994,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,12,NA,NA,NA
+1023,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1995,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,10.02,NA
+1024,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1995,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1025,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1995,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.4,NA
+1026,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1995,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.46,NA
+1027,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1995,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.04,NA
+1028,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1995,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.61,NA
+1029,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1995,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.02,NA
+1030,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1995,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.44,NA
+1031,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1995,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1032,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1995,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,1.18,NA
+1033,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1995,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,6,NA,NA,NA
+1034,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1995,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,3,NA,NA,NA
+1035,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1995,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1036,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1995,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,3,NA,NA,NA
+1037,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1996,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,7.41,NA
+1038,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1996,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1039,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1996,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,8.26,NA
+1040,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1996,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.45,NA
+1041,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1996,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.21,NA
+1042,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1996,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.55,NA
+1043,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1996,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.74,NA
+1044,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1996,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.57,NA
+1045,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1996,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1046,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1996,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.97,NA
+1047,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1996,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,12,NA,NA,NA
+1048,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1996,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,3,NA,NA,NA
+1049,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1996,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1050,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1996,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,7,NA,NA,NA
+1051,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1997,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,15.88,NA
+1052,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1997,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1053,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1997,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.78,NA
+1054,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1997,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.8,NA
+1055,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1997,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.36,NA
+1056,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1997,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.62,NA
+1057,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1997,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.22,NA
+1058,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1997,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.74,NA
+1059,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1997,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1060,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1997,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.72,NA
+1061,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1997,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,14,NA,NA,NA
+1062,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1997,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1063,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1997,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1064,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1997,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,29,NA,NA,NA
+1065,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1998,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,16.12,NA
+1066,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1998,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1067,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1998,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.67,NA
+1068,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1998,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,3.31,NA
+1069,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1998,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.96,NA
+1070,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1998,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.79,NA
+1071,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1998,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.12,NA
+1072,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1998,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.85,NA
+1073,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1998,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1074,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1998,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.45,NA
+1075,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1998,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,7,NA,NA,NA
+1076,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1998,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1077,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1998,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1078,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1998,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,31,NA,NA,NA
+1079,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,1999,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,16,NA
+1080,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1999,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1081,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,1999,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.17,NA
+1082,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1999,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.81,NA
+1083,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,1999,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.64,NA
+1084,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,1999,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.05,NA
+1085,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,1999,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.08,NA
+1086,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,1999,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.88,NA
+1087,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,1999,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.1,NA
+1088,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,1999,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.56,NA
+1089,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,1999,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,18,NA,NA,NA
+1090,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,1999,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1091,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,1999,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1092,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,1999,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,29,NA,NA,NA
+1093,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2000,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,11.02,NA
+1094,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2000,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1095,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2000,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.07,NA
+1096,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2000,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,2.07,NA
+1097,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2000,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.34,NA
+1098,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2000,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.15,NA
+1099,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2000,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.08,NA
+1100,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2000,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.08,NA
+1101,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2000,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1102,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2000,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.09,NA
+1103,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2000,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1104,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2000,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1105,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2000,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1106,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2000,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,15,NA,NA,NA
+1107,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2001,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,7.28,NA
+1108,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2001,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1109,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2001,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,2.57,NA
+1110,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2001,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.22,NA
+1111,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2001,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.88,NA
+1112,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2001,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.11,NA
+1113,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2001,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.15,NA
+1114,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2001,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.47,NA
+1115,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2001,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.07,NA
+1116,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2001,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.31,NA
+1117,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2001,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1118,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2001,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1119,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2001,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1120,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2001,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1121,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2002,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.66,NA
+1122,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2002,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1123,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2002,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,3.43,NA
+1124,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2002,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.83,NA
+1125,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2002,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.19,NA
+1126,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2002,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.11,NA
+1127,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2002,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1128,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2002,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.08,NA
+1129,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2002,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1130,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2002,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.2,NA
+1131,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2002,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1132,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2002,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1133,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2002,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1134,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2002,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,7,NA,NA,NA
+1135,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2003,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.03,NA
+1136,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2003,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1137,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2003,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.18,NA
+1138,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2003,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.46,NA
+1139,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2003,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.38,NA
+1140,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2003,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.11,NA
+1141,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2003,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1142,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2003,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.22,NA
+1143,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2003,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1144,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2003,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.28,NA
+1145,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2003,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1146,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2003,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1147,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2003,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1148,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2003,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,5,NA,NA,NA
+1149,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2004,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,10.77,NA
+1150,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2004,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1151,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2004,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.78,NA
+1152,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2004,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.71,NA
+1153,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2004,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,4.82,NA
+1154,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2004,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.43,NA
+1155,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2004,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1156,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2004,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.26,NA
+1157,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2004,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1158,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2004,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.04,NA
+1159,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2004,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,5,NA,NA,NA
+1160,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2004,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1161,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2004,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1162,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2004,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,10,NA,NA,NA
+1163,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2005,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,11.27,NA
+1164,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2005,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1165,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2005,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.65,NA
+1166,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2005,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.45,NA
+1167,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2005,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,6.91,NA
+1168,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2005,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.02,NA
+1169,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2005,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1170,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2005,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.08,NA
+1171,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2005,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0.12,NA
+1172,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2005,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1173,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2005,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,9,NA,NA,NA
+1174,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2005,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1175,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2005,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1176,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2005,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,10,NA,NA,NA
+1177,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2006,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,9.4,NA
+1178,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2006,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1179,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2006,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.04,NA
+1180,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2006,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.95,NA
+1181,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2006,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.98,NA
+1182,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2006,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.81,NA
+1183,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2006,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1184,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2006,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1185,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2006,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1186,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2006,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1187,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2006,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,11,NA,NA,NA
+1188,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2006,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1189,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2006,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1190,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2006,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,16,NA,NA,NA
+1191,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2007,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,7.53,NA
+1192,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2007,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1193,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2007,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.55,NA
+1194,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2007,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,1.33,NA
+1195,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2007,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.95,NA
+1196,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2007,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.15,NA
+1197,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2007,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1198,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2007,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1199,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2007,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1200,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2007,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1201,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2007,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,3,NA,NA,NA
+1202,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2007,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1203,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2007,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1204,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2007,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,13,NA,NA,NA
+1205,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2008,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,8.02,NA
+1206,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2008,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1207,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2008,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,4.92,NA
+1208,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2008,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.96,NA
+1209,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2008,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,1.12,NA
+1210,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2008,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.04,NA
+1211,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2008,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1212,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2008,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1213,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2008,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1214,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2008,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1215,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2008,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,7,NA,NA,NA
+1216,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2008,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1217,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2008,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1218,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2008,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,7,NA,NA,NA
+1219,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2009,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,10.15,NA
+1220,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2009,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1221,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2009,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.16,NA
+1222,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2009,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.46,NA
+1223,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2009,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.56,NA
+1224,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2009,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.36,NA
+1225,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2009,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1226,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2009,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1227,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2009,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1228,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2009,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1229,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2009,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,18,NA,NA,NA
+1230,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2009,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1231,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2009,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1232,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2009,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,5,NA,NA,NA
+1233,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2010,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,8.4,NA
+1234,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2010,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1235,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2010,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.4,NA
+1236,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2010,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.46,NA
+1237,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2010,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,3.07,NA
+1238,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2010,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.25,NA
+1239,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2010,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1240,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2010,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1241,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2010,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1242,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2010,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1243,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2010,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,19,NA,NA,NA
+1244,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2010,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1245,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2010,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1246,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2010,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,2,NA,NA,NA
+1247,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Agarum clathratum,2011,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,6.66,NA
+1248,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2011,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0,NA
+1249,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Agarum clathratum,2011,NA,NA,42.892011,-70.808254,Agarum clathratum,Random,1,NA,NA,5.29,NA
+1250,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2011,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,NA,NA,0.59,NA
+1251,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Saccharina latissima,2011,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,2.34,NA
+1252,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Saccharina latissima,2011,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0.11,NA
+1253,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Saccharina latissima,2011,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1254,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Saccharina latissima,2011,NA,NA,42.892011,-70.808254,Saccharina latissima,Random,1,NA,NA,0,NA
+1255,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Alaria esculenta,2011,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1256,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Alaria esculenta,2011,NA,NA,42.892011,-70.808254,Alaria esculenta,Random,1,NA,NA,0,NA
+1257,Normandeau,New Hampshire,Seabrook Station B35,4.6,Normandeau-Seabrook Station B35-Laminaria digitata,2011,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,14,NA,NA,NA
+1258,Normandeau,New Hampshire,Seabrook Station B17,4.9,Normandeau-Seabrook Station B17-Laminaria digitata,2011,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,1,NA,NA,NA
+1259,Normandeau,New Hampshire,Seabrook Station B19,12.2,Normandeau-Seabrook Station B19-Laminaria digitata,2011,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,0,NA,NA,NA
+1260,Normandeau,New Hampshire,Seabrook Station B31,9.4,Normandeau-Seabrook Station B31-Laminaria digitata,2011,NA,NA,42.892011,-70.808254,Laminaria digitata,Random,1,4,NA,NA,NA
+1261,Siddon_&_Witman_2003,Gulf of Maine,Exposed,1.5,Siddon_&_Witman_2003-Exposed-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,180.7,NA
+1262,Siddon_&_Witman_2003,Gulf of Maine,Exposed,10,Siddon_&_Witman_2003-Exposed-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1263,Siddon_&_Witman_2003,Gulf of Maine,Exposed,3,Siddon_&_Witman_2003-Exposed-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,124.7,NA
+1264,Siddon_&_Witman_2003,Gulf of Maine,Exposed,4.5,Siddon_&_Witman_2003-Exposed-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,12.7,NA
+1265,Siddon_&_Witman_2003,Gulf of Maine,Exposed,6,Siddon_&_Witman_2003-Exposed-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1266,Siddon_&_Witman_2003,Gulf of Maine,Protected,1.5,Siddon_&_Witman_2003-Protected-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1267,Siddon_&_Witman_2003,Gulf of Maine,Protected,10,Siddon_&_Witman_2003-Protected-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1268,Siddon_&_Witman_2003,Gulf of Maine,Protected,3,Siddon_&_Witman_2003-Protected-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1269,Siddon_&_Witman_2003,Gulf of Maine,Protected,4.5,Siddon_&_Witman_2003-Protected-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1270,Siddon_&_Witman_2003,Gulf of Maine,Protected,6,Siddon_&_Witman_2003-Protected-Alaria esculenta,1997,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1271,Siddon_&_Witman_2003,Gulf of Maine,Exposed,1.5,Siddon_&_Witman_2003-Exposed-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,33.1,NA
+1272,Siddon_&_Witman_2003,Gulf of Maine,Exposed,10,Siddon_&_Witman_2003-Exposed-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1273,Siddon_&_Witman_2003,Gulf of Maine,Exposed,3,Siddon_&_Witman_2003-Exposed-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,26.7,NA
+1274,Siddon_&_Witman_2003,Gulf of Maine,Exposed,4.5,Siddon_&_Witman_2003-Exposed-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1275,Siddon_&_Witman_2003,Gulf of Maine,Exposed,6,Siddon_&_Witman_2003-Exposed-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1276,Siddon_&_Witman_2003,Gulf of Maine,Protected,1.4,Siddon_&_Witman_2003-Protected-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,3.8,NA
+1277,Siddon_&_Witman_2003,Gulf of Maine,Protected,10,Siddon_&_Witman_2003-Protected-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1278,Siddon_&_Witman_2003,Gulf of Maine,Protected,3,Siddon_&_Witman_2003-Protected-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1279,Siddon_&_Witman_2003,Gulf of Maine,Protected,4.5,Siddon_&_Witman_2003-Protected-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1280,Siddon_&_Witman_2003,Gulf of Maine,Protected,6,Siddon_&_Witman_2003-Protected-Alaria esculenta,2000,NA,NA,42.502633,-70.774833,Alaria esculenta,Random,0.25,NA,NA,0,NA
+1281,Witman_1987,New Hampshire,Murray Rock - Control,9,Witman_1987-Murray Rock - Control-Saccharina latissima_ Laminaria digitata,1981,NA,NA,43.070829,-70.622224,Saccharina latissima_ Laminaria digitata,Random,1,0,NA,0,NA
+1282,Witman_1987,New Hampshire,Murray Rock - Control,9,Witman_1987-Murray Rock - Control-Saccharina latissima_ Laminaria digitata,1982,NA,NA,43.070829,-70.622224,Saccharina latissima_ Laminaria digitata,Random,1,0,NA,0,NA
+1283,Witman_1987,New Hampshire,Murray Rock - Control,9,Witman_1987-Murray Rock - Control-Saccharina latissima_ Laminaria digitata,1983,NA,NA,43.070829,-70.622224,Saccharina latissima_ Laminaria digitata,Random,1,0,NA,0,NA
+1284,Lambert_et_al._1992,Gulf of Maine,Cape Neddick,7.5,Lambert_et_al._1992-Cape Neddick-Laminaria saccharina,1990,NA,NA,43.1648931,-70.600532,Laminaria saccharina,Random,0.25,98,16,16,NA
+1285,Lambert_et_al._1992,Gulf of Maine,Cape Neddick,7.5,Lambert_et_al._1992-Cape Neddick-Laminaria saccharina,1990,NA,NA,43.1648931,-70.600532,Laminaria saccharina,Random,0.25,3,2,2,NA
+1286,Lambert_et_al._1992,Gulf of Maine,Cape Neddick,7.5,Lambert_et_al._1992-Cape Neddick-Laminaria saccharina,1991,NA,NA,43.1648931,-70.600532,Laminaria saccharina,Random,0.25,29,4,4,NA
+1287,Lambert_et_al._1992,Gulf of Maine,Cape Neddick,7.5,Lambert_et_al._1992-Cape Neddick-Laminaria saccharina,1991,NA,NA,43.1648931,-70.600532,Laminaria saccharina,Random,0.25,22,16,16,NA
+1353,Steneck_1997,Gulf of Maine,Pemaquid 12m,12,Steneck_1997-Pemaquid 12m-Laminaria digitata_ Saccharina latissima,1975,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,0,NA,NA,NA
+1354,Steneck_1997,Gulf of Maine,Pemaquid 1m,1,Steneck_1997-Pemaquid 1m-Laminaria digitata_ Saccharina latissima,1975,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,84,NA,NA,NA
+1355,Steneck_1997,Gulf of Maine,Pemaquid 2m,2,Steneck_1997-Pemaquid 2m-Laminaria digitata_ Saccharina latissima,1975,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,80,NA,NA,NA
+1356,Steneck_1997,Gulf of Maine,Pemaquid 3m,3,Steneck_1997-Pemaquid 3m-Laminaria digitata_ Saccharina latissima,1975,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,8,NA,NA,NA
+1357,Steneck_1997,Gulf of Maine,Pemaquid 4m,4,Steneck_1997-Pemaquid 4m-Laminaria digitata_ Saccharina latissima,1975,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,1,NA,NA,NA
+1358,Steneck_1997,Gulf of Maine,Pemaquid 7m,7,Steneck_1997-Pemaquid 7m-Laminaria digitata_ Saccharina latissima,1975,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,2,NA,NA,NA
+1359,Steneck_1997,Gulf of Maine,Pemaquid 10m,10,Steneck_1997-Pemaquid 10m-Laminaria digitata_ Saccharina latissima,1985,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,0,NA,NA,NA
+1360,Steneck_1997,Gulf of Maine,Pemaquid 1m,1,Steneck_1997-Pemaquid 1m-Laminaria digitata_ Saccharina latissima,1985,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,88,NA,NA,NA
+1361,Steneck_1997,Gulf of Maine,Pemaquid 3m,3,Steneck_1997-Pemaquid 3m-Laminaria digitata_ Saccharina latissima,1985,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,6,NA,NA,NA
+1362,Steneck_1997,Gulf of Maine,Pemaquid 10m,10,Steneck_1997-Pemaquid 10m-Laminaria digitata_ Saccharina latissima,1994,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,6,NA,NA,NA
+1363,Steneck_1997,Gulf of Maine,Pemaquid 3m,3,Steneck_1997-Pemaquid 3m-Laminaria digitata_ Saccharina latissima,1994,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,100,NA,NA,NA
+1364,Steneck_1997,Gulf of Maine,Pemaquid 5m,5,Steneck_1997-Pemaquid 5m-Laminaria digitata_ Saccharina latissima,1994,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,92,NA,NA,NA
+1365,Steneck_1997,Gulf of Maine,Pemaquid 6m,6,Steneck_1997-Pemaquid 6m-Laminaria digitata_ Saccharina latissima,1994,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,80,NA,NA,NA
+1366,Steneck_1997,Gulf of Maine,Pemaquid 8m,8,Steneck_1997-Pemaquid 8m-Laminaria digitata_ Saccharina latissima,1994,NA,NA,43.835355,-69.506934,Laminaria digitata_ Saccharina latissima,Random,1,36,NA,NA,NA
+1367,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1975,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,0,NA,NA,NA
+1368,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1977,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,0,NA,NA,NA
+1369,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1980,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,0,NA,NA,NA
+1370,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1981,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,0,NA,NA,NA
+1371,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1987,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,0,NA,NA,NA
+1372,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1990,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,5,NA,NA,NA
+1373,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1994,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,7,NA,NA,NA
+1374,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1995,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,9,NA,NA,NA
+1375,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1996,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,36,NA,NA,NA
+1376,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1997,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,66,NA,NA,NA
+1377,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1998,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,83,NA,NA,NA
+1378,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,1999,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,83,NA,NA,NA
+1379,Steneck_et_al._2013,Maine,Pemaquid Point,10,Steneck_et_al._2013-Pemaquid Point-fleshy macroalgae,2010,NA,NA,43.835355,-69.506934,fleshy macroalgae,Random,1,76,NA,NA,NA
+1380,Smith__1985,Canada,Nova Scotia_ Lobster Bay_ Snake Reef - Site S,6,Smith__1985-Nova Scotia_ Lobster Bay_ Snake Reef - Site S-Laminaria longicruris,1980,NA,NA,43.679202,-65.878484,Laminaria longicruris,Random,0.25,NA,NA,NA,6.2
+1381,Smith__1985,Canada,Nova Scotia_ Lobster Bay_ Ram Island - Site D,6,Smith__1985-Nova Scotia_ Lobster Bay_ Ram Island - Site D-Laminaria digitata,1980,NA,NA,43.679202,-65.878484,Laminaria digitata,Random,0.25,NA,NA,NA,1.8
+1382,Smith__1985,Canada,Nova Scotia_ Lobster Bay_ Snake Reef - Site S,6,Smith__1985-Nova Scotia_ Lobster Bay_ Snake Reef - Site S-Laminaria longicruris,1981,NA,NA,43.679202,-65.878484,Laminaria longicruris,Random,0.25,NA,NA,NA,2.8
+1383,Smith__1985,Canada,Nova Scotia_ Lobster Bay_ Ram Island - Site D,6,Smith__1985-Nova Scotia_ Lobster Bay_ Ram Island - Site D-Laminaria digitata,1981,NA,NA,43.679202,-65.878484,Laminaria digitata,Random,0.25,NA,NA,NA,3
+1384,Smith__1985,Canada,Nova Scotia_ Lobster Bay_ Ram Island - Site D,6,Smith__1985-Nova Scotia_ Lobster Bay_ Ram Island - Site D-Laminaria longicruris,1982,NA,NA,43.679202,-65.878484,Laminaria longicruris,Random,0.25,NA,NA,NA,4.8
+1385,Smith__1985,Canada,Nova Scotia_ Lobster Bay_ Snake Reef - Site S,6,Smith__1985-Nova Scotia_ Lobster Bay_ Snake Reef - Site S-Laminaria digitata,1982,NA,NA,43.679202,-65.878484,Laminaria digitata,Random,0.25,NA,NA,NA,3.2
+1386,Gagnon_et_al_2004,Quebec,Firman,4,Gagnon_et_al_2004-Firman-Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,2000,NA,NA,50.206348,-63.687117,Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,Fixed,0.5,NA,NA,37.4,NA
+1387,Gagnon_et_al_2004,Quebec,Firman,4,Gagnon_et_al_2004-Firman-Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,2001,NA,NA,50.206348,-63.687117,Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,Fixed,0.5,NA,NA,7.166666667,NA
+1388,Gagnon_et_al_2004,Quebec,Firman,4,Gagnon_et_al_2004-Firman-Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,2002,NA,NA,50.206348,-63.687117,Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,Fixed,0.5,NA,NA,11.83333333,NA
+1389,Gagnon_et_al_2004,Quebec,Havre,4,Gagnon_et_al_2004-Havre-Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,2000,NA,NA,50.210766,-63.639106,Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,Fixed,0.5,NA,NA,4.166666667,NA
+1390,Gagnon_et_al_2004,Quebec,Havre,4,Gagnon_et_al_2004-Havre-Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,2001,NA,NA,50.210766,-63.639106,Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,Fixed,0.5,NA,NA,2.466666667,NA
+1391,Gagnon_et_al_2004,Quebec,Havre,4,Gagnon_et_al_2004-Havre-Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,2002,NA,NA,50.210766,-63.639106,Alaria esculenta_ Laminaria saccharina_ Agarum cribosum,Fixed,0.5,NA,NA,1.666666667,NA
+1392,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),PetiteI_le au Marteau,7.5,Gagnon_et_al._2005-PetiteI_le au Marteau-Agarum clathratum,2000,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,69,NA,NA,NA
+1393,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),PetiteI_le au Marteau,7.5,Gagnon_et_al._2005-PetiteI_le au Marteau-Agarum clathratum,2000,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,58,NA,NA,NA
+1394,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),"I_le aux
+Goe‰lands",7.5,"Gagnon_et_al._2005-I_le aux
+Goe‰lands-Agarum clathratum",2000,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,50,NA,NA,NA
+1395,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),"I_le aux
+Goe‰lands",7.5,"Gagnon_et_al._2005-I_le aux
+Goe‰lands-Agarum clathratum",2000,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,49,NA,NA,NA
+1396,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),PetiteI_le au Marteau,7.5,Gagnon_et_al._2005-PetiteI_le au Marteau-Agarum clathratum,2001,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,80,NA,NA,NA
+1397,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),PetiteI_le au Marteau,7.5,Gagnon_et_al._2005-PetiteI_le au Marteau-Agarum clathratum,2001,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,74,NA,NA,NA
+1398,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),"I_le aux
+Goe‰lands",7.5,"Gagnon_et_al._2005-I_le aux
+Goe‰lands-Agarum clathratum",2001,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,52,NA,NA,NA
+1399,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),"I_le aux
+Goe‰lands",7.5,"Gagnon_et_al._2005-I_le aux
+Goe‰lands-Agarum clathratum",2001,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,53,NA,NA,NA
+1400,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),PetiteI_le au Marteau,7.5,Gagnon_et_al._2005-PetiteI_le au Marteau-Agarum clathratum,2002,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,75,NA,NA,NA
+1401,Gagnon_et_al._2005,northwestern North Atlantic (northern Gulf of St. Lawrence),"I_le aux
+Goe‰lands",7.5,"Gagnon_et_al._2005-I_le aux
+Goe‰lands-Agarum clathratum",2002,NA,NA,50.206587,-63.589829,Agarum clathratum,Fixed,144,58,NA,NA,NA
+1402,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Alaria esculenta,1979,NA,NA,46.666667,-52.833333,Alaria esculenta,Random,0.1,NA,NA,NA,0.7183
+1403,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Sacchoriza dermatodea,1979,NA,NA,46.666667,-52.833333,Sacchoriza dermatodea,Random,0.1,NA,NA,NA,0.0076
+1404,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Laminaria digitata,1979,NA,NA,46.666667,-52.833333,Laminaria digitata,Random,0.1,NA,NA,NA,0.0107
+1405,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Alaria esculenta,1980,NA,NA,46.666667,-52.833333,Alaria esculenta,Random,0.1,NA,NA,NA,1.5975
+1406,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Sacchoriza dermatodea,1980,NA,NA,46.666667,-52.833333,Sacchoriza dermatodea,Random,0.1,NA,NA,NA,0.8244
+1407,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Laminaria digitata,1980,NA,NA,46.666667,-52.833333,Laminaria digitata,Random,0.1,NA,NA,NA,0.00318
+1408,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Alaria esculenta,1981,NA,NA,46.666667,-52.833333,Alaria esculenta,Random,0.1,NA,NA,NA,5.0322
+1409,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Sacchoriza dermatodea,1981,NA,NA,46.666667,-52.833333,Sacchoriza dermatodea,Random,0.1,NA,NA,NA,0
+1410,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Laminaria digitata,1981,NA,NA,46.666667,-52.833333,Laminaria digitata,Random,0.1,NA,NA,NA,0.1571
+1411,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Alaria esculenta,1982,NA,NA,46.666667,-52.833333,Alaria esculenta,Random,0.1,NA,NA,NA,5.78
+1412,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Sacchoriza dermatodea,1982,NA,NA,46.666667,-52.833333,Sacchoriza dermatodea,Random,0.1,NA,NA,NA,0.0167
+1413,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Laminaria digitata,1982,NA,NA,46.666667,-52.833333,Laminaria digitata,Random,0.1,NA,NA,NA,0.0143
+1414,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Alaria esculenta,1983,NA,NA,46.666667,-52.833333,Alaria esculenta,Random,0.1,NA,NA,NA,1.8696
+1415,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Sacchoriza dermatodea,1983,NA,NA,46.666667,-52.833333,Sacchoriza dermatodea,Random,0.1,NA,NA,NA,0.1798
+1416,Keats_et_al._1985,Newfoundland,Conception Bay,4,Keats_et_al._1985-Conception Bay-Laminaria digitata,1983,NA,NA,46.666667,-52.833333,Laminaria digitata,Random,0.1,NA,NA,NA,0.1188
