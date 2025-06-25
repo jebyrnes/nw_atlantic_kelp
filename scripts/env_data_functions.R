@@ -1,7 +1,8 @@
 library(terra)
 
 extract_with_nas <- function(a_rast_stack, 
-                             lat_long_data){
+                             lat_long_data,
+                             search_radius = 3*55000){
   
   # na strategy from https://github.com/rspatial/terra/issues/1733
   # create e to deal with pixels too close to land
@@ -9,7 +10,7 @@ extract_with_nas <- function(a_rast_stack,
   e <- extract(a_rast_stack[[1]], 
                lat_long_data,
                xy=TRUE, 
-               search_radius = 3*55000,
+               search_radius = search_radius,
                cells = TRUE, raw = TRUE) |> as_tibble()
   
   dat_extracted <- terra::extract(a_rast_stack, 
@@ -26,11 +27,13 @@ extract_with_nas <- function(a_rast_stack,
 
 make_monthly <- function(dat_rast, 
                          lat_long_dat,
-                         varname){
+                         varname,
+                         search_radius = 3*55000){
   names(dat_rast) <- time(dat_rast)
   
   extract_with_nas(dat_rast,
-                   lat_long_dat) |>
+                   lat_long_dat,
+                   search_radius = search_radius) |>
     pivot_longer(-c(cell,x,y, latitude, longitude),
                  values_to = varname,
                  names_to = "date") |>
