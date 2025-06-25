@@ -81,3 +81,4 @@ combined_clear |>
             max_year = max(year)) |>
   ungroup() |>
   write_csv("data/unique_latlongs_time.csv")
+
