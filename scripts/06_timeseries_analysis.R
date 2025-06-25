@@ -13,7 +13,8 @@ library(forcats)
 
 theme_set(theme_bw(base_size = 12))
 
-nwa <- read.csv("data/nwa_with_env.csv")
+#reads in nwa data
+source("scripts/load_nwa_data.R")
 
 # initial plot
 ggplot(nwa,
@@ -22,7 +23,7 @@ ggplot(nwa,
   geom_point(alpha = 0.1) +
   facet_wrap(vars(ecoregion)) +
   scale_color_discrete(guide = "none") +
-  stat_smooth(method = "lm", fill = NA) +
+  stat_smooth(method = "lm", fill = NA, size = 0.5) +
   ylim(c(0,1.1))
 
 
@@ -63,14 +64,14 @@ performance::check_predictions(mod_ecoregion)
 performance::check_predictions(mod_common_slope)
 
 performance::check_residuals(mod_ecoregion) |> plot()
-performance::check_residuals(mod_common_slope)
+performance::check_residuals(mod_common_slope) |> plot()
 
 
 # What's the model tell us?
 AIC(mod_no_eco)
 AIC(mod) # it's this one
 
-modelbased::estimate_grouplevel(mod_no_eco,
+modelbased::estimate_grouplevel(mod_common_slope,
                                 type = "total",
                                 group = "trajectory:year") |>
   filter(!grepl("Intercept", Parameter))|> 
@@ -79,34 +80,76 @@ modelbased::estimate_grouplevel(mod_no_eco,
   guides(y = "none") +
   geom_hline(yintercept = 0, lty = 2, color = "red")
 
-car::Anova(mod)
-car::Anova(mod_no_eco)
+car::Anova(mod_ecoregion)
+car::Anova(mod_common_slope)
 tidy(mod, effects = "fixed")
 
 # Plot slopes
-slopes <- emtrends(mod, specs = ~ecoregion, var = "year")
+slopes <- emtrends(mod_ecoregion, specs = ~ecoregion, var = "year")
 
-plot(slopes)
+plot(slopes) +
+  labs(y = "", x = "Logit Change")
 
 # Show the model results
-modelbased::estimate_relation(mod,
+modelbased::estimate_relation(mod_ecoregion,
+                              length = 100,
                               by = c("year", "ecoregion")) |>
-  plot(show_data = TRUE)
+  plot(show_data = TRUE) +
+  labs(y = "Porpotion of Max Kelp", x = "",
+       color = "", fill = "") +
+  guides(color=guide_legend(nrow=2,byrow=TRUE))+
+  theme_bw(base_size = 14)+
+  theme(legend.position = "bottom",
+        legend.box="vertical")
+
+ggsave("figures/timeseries_with_curves.jpg",
+       width = 7, height = 6)
+
+# show with RE
+
+modelbased::estimate_relation(mod_common_slope,
+                              include_random = TRUE,
+                              length = 200,
+                              by = c("year", "trajectory")) |>
+  plot(show_data = TRUE, 
+       color = "grey",
+       ribbon = list(alpha = 0)) +
+  labs(y = "Porpotion of Max Kelp", x = "",
+       color = "", fill = "") +
+  guides(color = "none", fill = "none") +
+  # guides(color=guide_legend(nrow=2,byrow=TRUE),
+  #        fill=guide_legend(nrow=2,byrow=TRUE))+
+  theme_bw(base_size = 14)+
+  theme(legend.position = "bottom",
+        legend.box="vertical")
 
 ##
 # Percent Cover Only with Ordbetareg
 ##
 perc_mod <- glmmTMB(p_cover ~ 
-                      ecoregion*year + 
-                      (1  |trajectory) + (1|study), 
+                      ecoregion*year_c + 
+                      (1  + year_c|trajectory) + (1|study), 
                     family = ordbeta,
                     data = nwa |>
                       mutate(p_cover = percent_cover/100))
 
-modelbased::estimate_expectation(perc_mod,
-                              by = c("year"),
-                              showdata = TRUE) |>
-  plot(show_data = TRUE)
+check_convergence(perc_mod)
+car::Anova(perc_mod)
+
+
+# Show the model results
+modelbased::estimate_relation(perc_mod,
+                              by = c("year_c", "ecoregion")) |>
+  plot(show_data = TRUE) +
+  labs(y = "Porpotion Cover", x = "",
+       color = "", fill = "") +
+  guides(color=guide_legend(nrow=2,byrow=TRUE))+
+  theme_bw(base_size = 14)+
+  theme(legend.position = "bottom",
+        legend.box="vertical") +
+  scale_x_continuous(breaks = seq(-31, 11, 10),
+                     labels = seq(-31, 11, 10)+
+                       mean(nwa$year) |> round())
 
 ##
 # brms
@@ -130,4 +173,7 @@ mod_ecoregion <- brm(
   cores = 4,
   file = "models/mod_ecoregion.rds")
 
-                                                       
+##
+# Map viz
+##
+

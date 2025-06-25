@@ -152,7 +152,7 @@ request <- list(
   month            =1:12,
   "time"           = "00:00",
   "area" =    paste(min(unique_data$latitude)-3, min(unique_data$longitude)-3,
-                    max(unique_data$latitude)-3, max(unique_data$longitude)+3, 
+                    max(unique_data$latitude)+3, max(unique_data$longitude)+3, 
                     sep = "/"),
 
   "data_format"         = "netcdf",
