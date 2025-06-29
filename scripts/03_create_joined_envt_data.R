@@ -1,7 +1,9 @@
-#####################################################################################
-# Create a dataset of envt predictors for each latlong from 1949-present
-#
-#####################################################################################
+#-------------------------------------------------------
+#' @Description Create a dataset of envt predictors for 
+#' each latlong from 1949-present
+#'
+#' @author Jarrett Byrnes 
+#-------------------------------------------------------
 
 library(purrr)
 library(readr)
@@ -143,8 +145,9 @@ names(had_rast) <- had_time
 
 
 had_monthly <- extract_with_nas(had_rast,
-                                  unique_data,
-                                search_radius = 10*55000) |> #GSL
+                                  unique_data#,
+                               # search_radius = 10*55000
+                                ) |> #GSL
   pivot_longer(-c(cell,x,y, latitude, longitude),
                values_to = "hadsst",
                names_to = "date") |>
@@ -182,8 +185,8 @@ turb_rast <- rast("data/rasters/erdMH1kd490mday.nc")
 turb_monthly <- 
   make_monthly(turb_rast, 
                unique_data,
-               "kd490",
-               search_radius = 5*55000)
+               "kd490")#,
+               #search_radius = 5*55000)
 
 turb_seasonal <- 
   make_seasonal(turb_monthly, "kd490") 
@@ -209,8 +212,7 @@ wave_rast <- rast("data/rasters/reanalysis-era5-single-levels-monthly-means_swh.
 wave_monthly <- 
   make_monthly(wave_rast, 
                unique_data,
-               "swh",
-               search_radius = 8 * 55000)
+               "swh")
 
 wave_seasonal <- 
   make_seasonal(wave_monthly, "swh") |>

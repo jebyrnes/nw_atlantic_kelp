@@ -8,17 +8,24 @@ library(dplyr)
 library(ggplot2)
 library(rnaturalearth)
 library(rnaturalearthdata)
+library(mregions)
 library(wesanderson)
 library(sf)
 library(terra)
 library(tidyterra)
+library(patchwork)
 
 pal <- wes_palette("Zissou1", 4, type = "continuous")
 
-theme_set(theme_bw(base_size = 14))
+theme_set(theme_bw(base_size = 17))
 
 #reads in nwa data
 source("scripts/load_nwa_data.R")
+
+ecoregions_shp <- mr_shp(key = "Ecoregions:ecoregions") |> 
+  st_make_valid() |>
+  dplyr::select(ecoregion, geometry) |>
+  filter(ecoregion %in% levels(nwa_dat$ecoregion))
 
 
 old_data <- read_csv("data/nwa_krumhansl_2016.csv")
@@ -47,15 +54,16 @@ coastline <- ne_states(country = c("United States of America", "Canada"),
   st_crop(aoi)
 
 basemap <- ggplot() +
-  geom_sf(data = coastline , fill = "lightgreen") +
+  geom_sf(data = coastline , fill = "seagreen3") +
   theme_bw() +
   theme(axis.text.x = element_text(size = 12, color = "black"),
         axis.text.y = element_text(size = 12, color = "black"),
         panel.grid.major = element_blank(),
-        panel.background = element_rect(fill = "lightblue"))
+        panel.background = element_rect(fill = "lightblue")) +
+  geom_sf(data = ecoregions_shp, fill = NA)
 
 basemap +
-  geom_sf(data = unique_latlong, alpha = 0.8) +
+  geom_sf(data = unique_latlong, alpha = 0.8, size = 2.5) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
            ylim = c(aoi[2], aoi[4])) 
@@ -64,7 +72,7 @@ basemap +
 ggsave("figures/sitemap.jpg", width = 6, height = 8)
 
 basemap +
-  geom_sf(data = old_unique_latlong, alpha = 0.8) +
+  geom_sf(data = old_unique_latlong, alpha = 0.8, size = 2.5) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
            ylim = c(aoi[2], aoi[4])) 
@@ -142,9 +150,10 @@ ggplot(nwa_dat |> filter(!is.na(ecoregion)),
   facet_wrap(vars(focalUnit))   +
   theme(legend.position = "bottom",
         legend.box="vertical")+ 
-  theme_bw(base_size = 18)
+  theme_bw(base_size = 18) +
+  theme()
 
-ggsave("figures/length_by_focalUnit.jpg", width = 10, height = 4)
+ggsave("figures/length_by_focalUnit.jpg", width = 12, height = 4)
 
 
 ggplot(nwa_dat,
@@ -181,6 +190,54 @@ ggsave("figures/timeseries_with_length_trj.jpg", width = 8, height = 4)
 # Histograms of properties
 ##
 
+old_hist <- ggplot(data = old_data,
+       aes(x = year)) + 
+  geom_histogram(bins = 30) +
+  xlim(c(1941, 2030)) +
+  ylim(c(0,300)) +
+  labs(x="", y = "# sites",
+       subtitle = "Krumhansl et al. 2016")
+
+
+new_hist <- ggplot(data = nwa_dat,
+       aes(x = year)) + 
+  geom_histogram(bins = 40)+
+  xlim(c(1941, 2030)) +
+  ylim(c(0,300)) +
+  labs(x="", y = "# sites", 
+       subtitle = "Current Dataset") 
+
+old_hist+new_hist +
+  plot_layout(axis_titles = "collect")
+
+ggsave("figures/year_hist.jpg",
+       width = 8, height = 4)
+
+## Length
+old_length <- old_data |>
+  group_by(Site) |>
+  summarize(study_length = max(year) - min(year)) |>
+  ggplot(aes(x = study_length)) +
+  geom_histogram(bins = 40) +
+  xlim(c(-1, 80)) + ylim(c(-1, 55)) +
+  labs(x = "time series duration (years)", y = "# sites",
+       subtitle = "Krumhansl et al. 2016")
+
+new_length <- nwa_dat |>
+  group_by(site) |>
+  summarize(study_length = max(year) - min(year)) |>
+  ggplot(aes(x = study_length)) +
+  geom_histogram(bins = 40) +
+  xlim(c(-1, 80)) + ylim(c(-1, 55)) +
+  labs(x = "time series duration (years)", y = "# sites",
+       subtitle = "Current dataset")
+
+old_length + new_length +
+  plot_layout(axis_titles = "collect")
+
+
+ggsave("figures/duration_hist.jpg",
+       width = 8, height = 4)
 
 ## 
 # Show map of each envt predictor in June 2012

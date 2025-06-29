@@ -17,7 +17,7 @@ theme_set(theme_bw(base_size = 12))
 source("scripts/load_nwa_data.R")
 
 # initial plot
-ggplot(nwa,
+ggplot(nwa_dat,
        aes(x = year, y = ln_focal_std_by_ecoregion,
            group = trajectory, color = study)) +
   geom_point(alpha = 0.1) +
@@ -27,7 +27,7 @@ ggplot(nwa,
   ylim(c(0,1.1))
 
 
-ggplot(nwa,
+ggplot(nwa_dat,
        aes(x = year, y = ln_focal_std_by_ecoregion)) +
   geom_point(alpha = 0.1, aes(color = study)) +
   scale_color_discrete(guide = "none") +
@@ -45,7 +45,8 @@ mod_ecoregion <- glmmTMB(lfse ~
                  (1 + year |trajectory) + (1|study), 
                dispformula =~focalUnit,
                family = ordbeta,
-               data = nwa |>
+               REML = TRUE,
+               data = nwa_dat |>
                  mutate(lfse = scales::rescale(focal_std_by_ecoregion, c(0,1))))
 
 mod_common_slope <- glmmTMB(lfse ~ 
@@ -53,7 +54,8 @@ mod_common_slope <- glmmTMB(lfse ~
                               (1 + year |trajectory) + (1|study), 
                             dispformula =~focalUnit,
                             family = ordbeta,
-                            data = nwa |>
+                            REML = TRUE,
+                            data = nwa_dat |>
                               mutate(lfse = scales::rescale(focal_std_by_ecoregion, c(0,1))))
 
 # check model
@@ -68,21 +70,24 @@ performance::check_residuals(mod_common_slope) |> plot()
 
 
 # What's the model tell us?
-AIC(mod_no_eco)
-AIC(mod) # it's this one
+AIC(mod_ecoregion)
+AIC(mod_common_slope) 
+
+car::Anova(mod_ecoregion)
 
 modelbased::estimate_grouplevel(mod_common_slope,
                                 type = "total",
                                 group = "trajectory:year") |>
   filter(!grepl("Intercept", Parameter))|> 
-  mutate(Level = as.character(Coefficient)) |>
+  mutate(Level = forcats::fct_reorder(Coefficient |> as.factor(), 
+                                      Coefficient)) |>
   plot() +
   guides(y = "none") +
   geom_hline(yintercept = 0, lty = 2, color = "red")
 
 car::Anova(mod_ecoregion)
 car::Anova(mod_common_slope)
-tidy(mod, effects = "fixed")
+tidy(mod_ecoregion, effects = "fixed")
 
 # Plot slopes
 slopes <- emtrends(mod_ecoregion, specs = ~ecoregion, var = "year")
@@ -130,8 +135,8 @@ perc_mod <- glmmTMB(p_cover ~
                       ecoregion*year_c + 
                       (1  + year_c|trajectory) + (1|study), 
                     family = ordbeta,
-                    data = nwa |>
-                      mutate(p_cover = percent_cover/100))
+                    REML = FALSE,
+                    data = nwa_dat)
 
 check_convergence(perc_mod)
 car::Anova(perc_mod)
@@ -160,7 +165,7 @@ library(ordbetareg)
 mod_ecoregion <- ordbetareg(
   bf(fse ~ ecoregion*year_c + 
        (1 + ecoregion*year_c |trajectory) + (1|study)),
-  data = nwa |>
+  data = nwa_dat |>
     mutate(lfse = scales::rescale(focal_std_by_ecoregion, c(0,1))),
                      cores = 4)
 
@@ -169,11 +174,11 @@ mod_ecoregion <- brm(
   bf(ln_focal_std_by_ecoregion ~ ecoregion*year_c + 
        (1 + ecoregion*year_c |trajectory) + (1|study),
      sigma ~ focalUnit),
-  data = nwa,
+  data = nwa_dat,
   cores = 4,
   file = "models/mod_ecoregion.rds")
 
 ##
-# Map viz
+# Map viz?
 ##
 

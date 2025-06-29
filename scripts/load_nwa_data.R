@@ -10,11 +10,16 @@ nwa_dat <- read_csv("data/nwa_with_env.csv") |>
                               c("Virginian",
                                 "Gulf of Maine/Bay of Fundy",
                                 "Scotian Shelf",
-                                "Gulf of St. Lawrence - Eastern Scotian Shelf"
+                                "Gulf of St. Lawrence - Eastern Scotian Shelf",
+                                "Southern Grand Banks - South Newfoundland",  
+                                "Northern Grand Banks - Southern Labrador"
                               ))) |>
   # Some nicer names
   mutate(focalUnit = case_when(
     focalUnit == "biomass" ~ "Biomass",
     focalUnit == "percent_cover" ~ "Percent cover",
     focalUnit == "stipe_density" ~ "Stipe density"
-  ))
+  )) |>
+  # for ordbeta of only percent cover
+  mutate(p_cover = percent_cover/100,
+         p_cover = p_cover>1, 1, p_cover)

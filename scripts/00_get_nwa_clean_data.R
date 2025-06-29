@@ -20,7 +20,7 @@ f <- c("dmr_rasher_steneck.csv", "filbee_dexter_arctic_kelp.csv",
        "hubline.csv", "keen_one.csv", "Mined_Data.csv", "nova_scotia_kelp.csv", 
        "Rhode_Island_Feehan_Grace_Narvaez.csv", "seabrook.csv",
        "Old_Mined_Data.csv", "metaxas_recent.csv", "noisette_antacosti.csv",
-       "merinov_gosl.csv"
+       "merinov_gosl.csv","sw_newfoundland_gagnon.csv"
        )
 
 
@@ -38,7 +38,8 @@ file.copy(from = paste0("../old_clean_data/", fold),
 # do a geographic filter in the future
 mined <- read_csv("data/clean_data/timeseries/Mined_Data.csv", na = c("", "NA")) |>
   bind_rows(read.csv("data/clean_data/timeseries/Old_Mined_Data.csv")) |>
-  filter(Study %in% c("Attridge_et_al._2022", "Witman_et_al._2018","Keats_etal_1985",
+  filter(Study %in% c(#"Attridge_et_al._2022", #nope - in Merinov data set
+                      "Witman_et_al._2018","Keats_etal_1985",
                       "O'Brien_et_al._2018", "Feehan_et_al._2019", 
                       "Filbee-Dexteretal_et_al._2016", "Gagnon_et_al._2005",
                       "Gagnon_et_al_2004", "Steneck_et_al._2013" , "Steneck_1997",

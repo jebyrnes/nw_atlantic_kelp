@@ -52,6 +52,9 @@ combined_data <- new_data |>
                 .names = "ln_{.col}")
   )
 
+# filter out some duplicate studies 
+combined_data <- combined_data |>
+  filter(study != "Attridge_et_al._2022")
 
 #write out data
 write_csv(combined_data, "data/kelptime_nwa_all_data.csv")

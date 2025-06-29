@@ -43,7 +43,7 @@ oisst_only_mod <- glmmTMB(ln_focal_std_by_ecoregion ~
                      oisst_spring_cellmean +
                      (1  +year|trajectory) + (1|study), 
                    dispformula =~focalUnit,
-                   data = nwa)
+                   data = nwa_dat)
 
 oisst_only_mod_ordbera <- glmmTMB(rescaled_std_by_ecoregion ~ 
                             ecoregion + year + 
@@ -54,7 +54,7 @@ oisst_only_mod_ordbera <- glmmTMB(rescaled_std_by_ecoregion ~
                             (1 + year|trajectory) + (1|study), 
                           dispformula =~focalUnit,
                           family = ordbeta,
-                          data = nwa)
+                          data = nwa_dat)
 
 hadsst_only_mod <- glmmTMB(ln_focal_std_by_ecoregion ~ 
                             ecoregion + year + 
@@ -64,7 +64,7 @@ hadsst_only_mod <- glmmTMB(ln_focal_std_by_ecoregion ~
                             hadsst_spring_cellmean +
                             (1  |trajectory) + (1|study), 
                           dispformula =~focalUnit,
-                          data = nwa)
+                          data = nwa_dat)
 car::Anova(oisst_only_mod)
 car::Anova(hadsst_only_mod)
 
@@ -90,7 +90,7 @@ hadsst_wave_mod <- glmmTMB(ln_focal_std_by_ecoregion ~
                              
                              (1+year  |trajectory) + (1|study), 
                            dispformula =~focalUnit,
-                           data = nwa)
+                           data = nwa_dat)
 
 param_plot_ln(hadsst_wave_mod)
 
@@ -117,7 +117,7 @@ oisst_wave_mod <- glmmTMB(ln_focal_std_by_ecoregion ~
                              
                              (1+year  |trajectory) + (1|study), 
                            dispformula =~0 + focalUnit,
-                           data = nwa)
+                           data = nwa_dat)
 
 
 
@@ -140,14 +140,9 @@ oisst_wave_mod_ordbeta <- glmmTMB(rescaled_std_by_ecoregion ~
                             (1+year  |trajectory) + (1|study), 
                           dispformula =~0 + focalUnit,
                           family = ordbeta,
-                          data = nwa)
+                          data = nwa_dat)
 
-parameters::model_parameters(oisst_wave_mod,
-                             effects = "fixed",
-                             component = "conditional",
-                             include_sigma = FALSE,
-                             drop = c("cellmean", "ecoregion"),
-                             ci = 0.8) |> plot()
+param_plot_ln(oisst_wave_mod)
 
 ##
 # Era 5,  OISST, CMEM for no3
@@ -179,7 +174,7 @@ temp_wave_nut_mod <- glmmTMB(
     
     (1 + year  | trajectory) + (1 | study),
   dispformula =  ~ 0 + focalUnit,
-  data = nwa,
+  data = nwa_dat,
   REML = FALSE
 )
 
@@ -201,7 +196,7 @@ parameters::model_parameters(temp_wave_nut_mod,
 
 
 all_mod <- glmmTMB(
-  rescaled_std_by_ecoregion ~
+  ln_focal_std_by_ecoregion ~
     0 + ecoregion + year_c +
     #temp
     lag_oisst_summer +
@@ -230,7 +225,7 @@ all_mod <- glmmTMB(
     
     (1 + year  | trajectory) + (1 | study),
   dispformula =  ~ 0 + focalUnit,
-  data = nwa,
+  data = nwa_dat,
   REML = FALSE
 )
 
