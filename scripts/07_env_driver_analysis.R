@@ -44,17 +44,17 @@ oisst_only_mod <- glmmTMB(ln_focal_std_by_ecoregion ~
                      (1  +year|trajectory) + (1|study), 
                    dispformula =~focalUnit,
                    data = nwa_dat)
-
-oisst_only_mod_ordbera <- glmmTMB(rescaled_std_by_ecoregion ~ 
-                            ecoregion + year + 
-                            lag_oisst_summer + 
-                            oisst_spring +
-                            lag_oisst_summer_cellmean +
-                            oisst_spring_cellmean +
-                            (1 + year|trajectory) + (1|study), 
-                          dispformula =~focalUnit,
-                          family = ordbeta,
-                          data = nwa_dat)
+# 
+# oisst_only_mod_ordbeta <- glmmTMB(rescaled_std_by_ecoregion ~ 
+#                             ecoregion + year + 
+#                             lag_oisst_summer + 
+#                             oisst_spring +
+#                             lag_oisst_summer_cellmean +
+#                             oisst_spring_cellmean +
+#                             (1 + year|trajectory) + (1|study), 
+#                           dispformula =~focalUnit,
+#                           family = ordbeta,
+#                           data = nwa_dat)
 
 hadsst_only_mod <- glmmTMB(ln_focal_std_by_ecoregion ~ 
                             ecoregion + year + 
