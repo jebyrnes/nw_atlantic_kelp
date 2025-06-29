@@ -94,7 +94,7 @@ hadsst_wave_mod <- glmmTMB(ln_focal_std_by_ecoregion ~
                            data = nwa_dat)
 
 param_plot_ln(hadsst_wave_mod)
-ggsave("figures/hadsst_wave_coefs.jpg", width = 4, height = 5)
+ggsave("figures/hadsst_wave_params.jpg", width = 6, height = 5)
 
 saveRDS(hadsst_wave_mod, "models/hadsst_wave_mod.rds")
 
