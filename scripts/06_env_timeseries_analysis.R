@@ -240,7 +240,7 @@ envt_tab <- bind_rows(
   get_year_coef(hadsst_summer_mod, name = "HADSST summer"),
   get_year_coef(hadsst_spring_mod, name = "HADSST spring"),
   get_year_coef(oisst_summer_mod, name = "OISST summer"),
-  get_year_coef(oisst_spring_mod, name = "OISST summer"),
+  get_year_coef(oisst_spring_mod, name = "OISST spring"),
   get_year_coef(swh_fall_mod, name = "SWH fall"),
   get_year_coef(swh_winter_mod, name = "SWH winter"),
   get_year_coef(no3_winter_mod, name = "NO3 winter", coef = "year_c"),
