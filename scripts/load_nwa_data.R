@@ -22,4 +22,12 @@ nwa_dat <- read_csv("data/nwa_with_env.csv") |>
   )) |>
   # for ordbeta of only percent cover
   mutate(p_cover = percent_cover/100,
-         p_cover = p_cover>1, 1, p_cover)
+         p_cover = p_cover>1, 1, p_cover)|>
+  # to combine regions without much data
+  mutate(eco_collapsed = 
+           fct_collapse(ecoregion,
+                        "Gulf of St. Lawrence - Newfoundland" = 
+                          c("Gulf of St. Lawrence - Eastern Scotian Shelf",
+                            "Southern Grand Banks - South Newfoundland",
+                            "Northern Grand Banks - Southern Labrador")))
+

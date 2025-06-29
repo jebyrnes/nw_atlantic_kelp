@@ -25,14 +25,6 @@ coef_to_prec<-scales::new_transform(
 #reads in nwa data
 source("scripts/load_nwa_data.R")
 
-nwa_dat <- nwa_dat |>
-  mutate(eco_collapsed = 
-           fct_collapse(ecoregion,
-                        "Gulf of St. Lawrence - Newfoundland" = 
-                          c("Gulf of St. Lawrence - Eastern Scotian Shelf",
-                            "Southern Grand Banks - South Newfoundland",
-                            "Northern Grand Banks - Southern Labrador")))
-
 # initial plot
 ggplot(nwa_dat,
        aes(x = year, y = ln_focal_std_by_ecoregion,
