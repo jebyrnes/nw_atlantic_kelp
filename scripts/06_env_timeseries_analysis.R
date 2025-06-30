@@ -13,7 +13,6 @@ library(glmmTMB)
 library(broom.mixed)
 library(car)
 library(sf)
-library(blme)
 
 theme_set(theme_bw(base_size = 12))
 
