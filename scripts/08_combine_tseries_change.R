@@ -127,8 +127,8 @@ ggplot(data= had_est_change,
            xmin = `% change per year` - 1.96*`se % change per year`,
            xmax = `% change per year` + 1.96*`se % change per year`
        )) +
-  geom_point(size = 2) +
   geom_linerange() +
+  geom_point(size = 2) +
   geom_vline(xintercept = 0, 
              color = "red",
              lty = 2) +
@@ -153,3 +153,6 @@ ggplot(data= all_est_change,
   labs(y = "")
 
 ggsave("figures/all_change_est.jpg", width = 4, height = 3)
+
+
+100*exp(70*log(1+.01*sum(all_est_change$`% change per year`)))
