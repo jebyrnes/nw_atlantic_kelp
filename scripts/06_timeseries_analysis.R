@@ -200,6 +200,11 @@ nwa_dat <- nwa_dat |>
                                  "1970s",
                                  "1960s",
                                  "1940s"
+                               )),
+         decade = fct_collapse(decade,
+                               "post-2010" = c(
+                                 "2010s",
+                                 "2020s"
                                )))
 
 mod_decadal <- glmmTMB(ln_focal_std_by_ecoregion ~ 
@@ -235,11 +240,10 @@ ggsave("figures/decadal_slopes.jpg", width = 5, height = 5)
 ##
 # Percent Cover Only with Ordbetareg
 ##
-perc_mod <- glmmTMB(p_cover ~ 
+perc_mod <- glmmTMB(rescaled_std_by_ecoregion ~ 
                       ecoregion*year_c + 
                       (1  + year_c|trajectory) + (1|study), 
                     family = ordbeta,
-                    REML = FALSE,
                     data = nwa_dat)
 
 check_convergence(perc_mod)
@@ -258,7 +262,7 @@ modelbased::estimate_relation(perc_mod,
         legend.box="vertical") +
   scale_x_continuous(breaks = seq(-31, 11, 10),
                      labels = seq(-31, 11, 10)+
-                       mean(nwa$year) |> round())
+                       mean(nwa_dat$year) |> round())
 
 ##
 # brms

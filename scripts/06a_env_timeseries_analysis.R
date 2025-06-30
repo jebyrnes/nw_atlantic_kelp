@@ -8,6 +8,7 @@ library(readr)
 library(ggplot2)
 library(performance)
 library(parameters)
+library(lubridate)
 library(modelbased)
 library(glmmTMB)
 library(broom.mixed)
@@ -17,7 +18,7 @@ library(rnaturalearth)
 library(terra)
 
 theme_set(theme_bw(base_size = 12))
-
+source("scripts/add_ecoregions_to_data.R")
 
 ## create coastline buffer
 
@@ -80,7 +81,8 @@ make_buffered_dat <-
     
     #return
     dat_extracted |>
-      rename_with(~gsub("layer", layer_name, .x))
+      rename_with(~gsub("layer", layer_name, .x)) |>
+      add_ecoregions_to_data()
   }
 
   
@@ -285,9 +287,24 @@ kd490_spring_mod <- glmmTMB(
 ###
 # Put it all together
 ###
-get_year_coef <- function(mod, coef = "year", name = NA){
-  tidy(mod) |>
-    filter(term == coef) |>
+get_year_coef <- function(mod, 
+                          coef = "year", 
+                          name = NA,
+                          add_ran_sd = TRUE){
+  
+  out <- tidy(mod) |>
+    filter(grepl(coef, term)) |>
+    filter(!grepl("cor_", term))
+  
+  if(add_ran_sd){
+    # add them together
+    out <- out |> mutate(
+      std.error = ifelse(is.na(std.error), 
+                         estimate, 
+                         std.error),
+      std.error = sum(std.error))
+  }
+  out |> filter(term == coef) |>
     select(estimate, std.error, p.value) |>
     mutate(model = name) |>
     relocate(model, estimate, std.error, p.value) |>
@@ -317,3 +334,22 @@ gt::gt(envt_tab) |>
   gt::fmt_number(decimals=3) |>
   gt::gtsave("tables/envt_coefs_gt.docx")
 
+## plot
+
+ggplot(envt_tab |>
+         rename(Driver = ` `) |>
+         mutate(Driver = forcats::fct_inorder(Driver)),
+       aes(x = Driver, y = coefficient,
+           ymin = coefficient - 2*se,
+           ymax = coefficient + 2*se)) +
+  geom_pointrange() +
+  theme_bw(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  labs(x = "",
+       y = "rate of change per year") +
+  geom_hline(yintercept = 0,
+             color = "red",
+             lty = 2)
+
+ggsave("figures/envt_tseries_change.jpg",
+       width = 6, height = 5)
