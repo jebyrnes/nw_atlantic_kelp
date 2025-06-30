@@ -30,6 +30,7 @@ new_data <-
 # create combined data with geospatial info
 # then get focal kelp standardized by each region
 log_add_one <- function(x) log(x+1)
+log_add_01 <- function(x) log(x+.01)
 
 combined_data <- new_data |>
   filter(!is.na(study)) |>
@@ -48,7 +49,7 @@ combined_data <- new_data |>
   ungroup() |>
   
   mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_realm,
-                .fns = log_add_one,
+                .fns = log_add_01,
                 .names = "ln_{.col}")
   )
 

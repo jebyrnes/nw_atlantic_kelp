@@ -27,7 +27,7 @@ source("scripts/load_nwa_data.R")
 
 # initial plot
 ggplot(nwa_dat,
-       aes(x = year, y = ln_focal_std_by_ecoregion,
+       aes(x = year, y = focal_std_by_ecoregion,
            group = trajectory, color = study)) +
   geom_point(alpha = 0.1) +
   facet_wrap(vars(eco_collapsed)) +
@@ -37,7 +37,7 @@ ggplot(nwa_dat,
 
 
 ggplot(nwa_dat,
-       aes(x = year, y = ln_focal_std_by_ecoregion)) +
+       aes(x = year, y = focal_std_by_ecoregion)) +
   geom_point(alpha = 0.1, aes(color = study)) +
   scale_color_discrete(guide = "none") +
   stat_smooth(method = "glm", fill = NA, 
@@ -60,6 +60,14 @@ mod_common_slope <- glmmTMB(ln_focal_std_by_ecoregion ~
                               (1 + year |trajectory) + (1|study), 
                             dispformula =~focalUnit,
                             data = nwa_dat )
+
+
+mod_ecoregion_ord <- glmmTMB(rescaled_std_by_ecoregion ~ 
+                           eco_collapsed*year + 
+                           (1 + year |trajectory) + (1|study), 
+                         dispformula =~focalUnit,
+                         family = ordbeta,
+                         data = nwa_dat)
 
 # check model
 performance::check_convergence(mod_ecoregion)
@@ -105,11 +113,30 @@ plot(slopes) +
 modelbased::estimate_relation(mod_ecoregion,
                               length = 100,
                               by = c("year", "eco_collapsed")) |>
-  plot(show_data = TRUE,
-       point = list(size = 2)) +
+  as_tibble() |>
+  mutate(Predicted = exp(Predicted)-0.01,
+         CI_low = exp(CI_low)-0.01,
+         CI_high = exp(CI_high)-0.01,
+         CI_high = ifelse(CI_high>1.1, 1.1, CI_high)
+  ) |>
+  ggplot(aes(x = year)) +
+  geom_line(aes(y = Predicted, 
+                color = eco_collapsed),
+            size = 1.5) +
+  geom_ribbon(aes(y = Predicted, 
+                  ymin = CI_low,
+                  ymax = CI_high,
+                  fill = eco_collapsed),
+              alpha = 0.1) +
+  geom_point(data = nwa_dat, 
+             aes(y = focal_std_by_ecoregion, 
+                 color = eco_collapsed),
+             alpha = 0.2) +
+  ylim(c(0,1.1)) +
   labs(y = "Standardized Kelp Abundance", x = "",
        color = "", fill = "") +
-  guides(color=guide_legend(nrow=2,byrow=TRUE))+
+  guides(color=guide_legend(nrow=2,
+                            byrow=TRUE))+
   theme_bw(base_size = 14)+
   theme(legend.position = "bottom",
         legend.box="vertical") +
@@ -118,12 +145,30 @@ modelbased::estimate_relation(mod_ecoregion,
   annotate(x = 1960, y = .78, 
            geom = "label",
            label.size = 0,
-           size = 5,
+           size = 4.5,
            label = paste0(perc_change_per_year,"% change per year"))
 
 ggsave("figures/timeseries_with_curves.jpg",
        width = 7, height = 6)
 
+# ordbeta plot?
+modelbased::estimate_relation(mod_ecoregion_ord,
+                                length = 100,
+                                by = c("year", "eco_collapsed")) |>
+  plot(show_data = TRUE)+
+  ylim(c(0,1.1)) +
+  labs(y = "Standardized Kelp Abundance", x = "",
+       color = "", fill = "") +
+  guides(color=guide_legend(nrow=2,
+                            byrow=TRUE))+
+  theme_bw(base_size = 14)+
+  theme(legend.position = "bottom",
+        legend.box="vertical") +
+  scale_color_brewer(palette = "Dark2")+
+  scale_fill_brewer(palette = "Dark2")
+
+ggsave("figures/timeseries_with_curves_ordbeta.jpg",
+       width = 7, height = 6)
 # show with RE
 
 modelbased::estimate_relation(mod_common_slope,
