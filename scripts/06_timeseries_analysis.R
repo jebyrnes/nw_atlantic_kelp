@@ -110,29 +110,76 @@ plot(slopes) +
   labs(y = "", x = "standardized change")
 
 # Show the model results
-modelbased::estimate_relation(mod_ecoregion,
-                              length = 100,
-                              by = c("year", "eco_collapsed")) |>
+
+plot_mod <- function(a_mod){
+  estimate_relation(a_mod,
+                    length = 100,
+                    by = c("year", "eco_collapsed")) |>
+    as_tibble() |>
+    mutate(Predicted = exp(Predicted)-0.01,
+           CI_low = exp(CI_low)-0.01,
+           CI_high = exp(CI_high)-0.01,
+           CI_high = ifelse(CI_high>1.1, 1.1, CI_high)
+    ) |>
+    ggplot(aes(x = year)) +
+    geom_line(aes(y = Predicted, 
+                  color = eco_collapsed),
+              size = 1.5) +
+    geom_ribbon(aes(y = Predicted, 
+                    ymin = CI_low,
+                    ymax = CI_high,
+                    fill = eco_collapsed),
+                alpha = 0.1) +
+    geom_point(data = nwa_dat, 
+               aes(y = focal_std_by_ecoregion, 
+                   color = eco_collapsed),
+               alpha = 0.2) +
+    ylim(c(0,1.1)) +
+    labs(y = "Standardized Kelp Abundance", x = "",
+         color = "", fill = "") +
+    guides(color=guide_legend(nrow=2,
+                              byrow=TRUE))+
+    theme_bw(base_size = 14)+
+    theme(legend.position = "bottom",
+          legend.box="vertical") +
+    scale_color_brewer(palette = "Dark2")+
+    scale_fill_brewer(palette = "Dark2")
+}
+
+plot_mod(mod_ecoregion)
+
+ggsave("figures/timeseries_ecoint_with_curves.jpg",
+       width = 7, height = 6)
+
+# show with common trajectory
+plot_mod(mod_common_slope) +
+  annotate(x = 1960, y = .78, 
+           geom = "label",
+           label.size = 0,
+           size = 4.5,
+           label = paste0(perc_change_per_year,"% change per year"))
+
+ggsave("figures/timeseries_with_curves.jpg",
+       width = 7, height = 6)
+
+# show with common + RE trajectories
+
+# show with RE
+estimate_relation(mod_common_slope,
+                  include_random = TRUE,
+                  length = 200,
+                  data = NULL)|>
   as_tibble() |>
   mutate(Predicted = exp(Predicted)-0.01,
          CI_low = exp(CI_low)-0.01,
-         CI_high = exp(CI_high)-0.01,
-         CI_high = ifelse(CI_high>1.1, 1.1, CI_high)
+         CI_high = exp(CI_high)-0.01
   ) |>
   ggplot(aes(x = year)) +
   geom_line(aes(y = Predicted, 
-                color = eco_collapsed),
-            size = 1.5) +
-  geom_ribbon(aes(y = Predicted, 
-                  ymin = CI_low,
-                  ymax = CI_high,
-                  fill = eco_collapsed),
-              alpha = 0.1) +
-  geom_point(data = nwa_dat, 
-             aes(y = focal_std_by_ecoregion, 
-                 color = eco_collapsed),
-             alpha = 0.2) +
-  ylim(c(0,1.1)) +
+                color = eco_collapsed,
+                group = trajectory),
+            size = 1.1,
+            alpha = 0.5) +
   labs(y = "Standardized Kelp Abundance", x = "",
        color = "", fill = "") +
   guides(color=guide_legend(nrow=2,
@@ -141,14 +188,9 @@ modelbased::estimate_relation(mod_ecoregion,
   theme(legend.position = "bottom",
         legend.box="vertical") +
   scale_color_brewer(palette = "Dark2")+
-  scale_fill_brewer(palette = "Dark2") +
-  annotate(x = 1960, y = .78, 
-           geom = "label",
-           label.size = 0,
-           size = 4.5,
-           label = paste0(perc_change_per_year,"% change per year"))
+  scale_fill_brewer(palette = "Dark2")
 
-ggsave("figures/timeseries_with_curves.jpg",
+ggsave("figures/timeseries_all_modeled.jpg",
        width = 7, height = 6)
 
 # ordbeta plot?
@@ -169,24 +211,7 @@ modelbased::estimate_relation(mod_ecoregion_ord,
 
 ggsave("figures/timeseries_with_curves_ordbeta.jpg",
        width = 7, height = 6)
-# show with RE
 
-modelbased::estimate_relation(mod_common_slope,
-                              include_random = TRUE,
-                              length = 200,
-                              by = c("year", "trajectory")) |>
-  plot(show_data = TRUE, 
-       color = "grey",
-       ribbon = list(alpha = 0)) +
-  labs(y = "Standardized Kelp Abundance", x = "",
-       color = "", fill = "") +
-  guides(color = "none", fill = "none") +
-  theme_bw(base_size = 14)+
-  theme(legend.position = "bottom",
-        legend.box="vertical")
-
-ggsave("figures/timeseries_all.jpg",
-       width = 7, height = 6)
 
 ##
 # Decadal change?
