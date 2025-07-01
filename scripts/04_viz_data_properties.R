@@ -382,7 +382,7 @@ ggplot(env_dat,
   labs(x = "", y = "",
        subtitle = "Temporal coverage of proxies")
 
-ggsave("figures/proxy_timeline.jpg", width = 6, height = 4)
+ggsave("figures/proxy_timeline.jpg", width = 4, height = 5)
 
 ## 
 # show distance from sites to where data collected

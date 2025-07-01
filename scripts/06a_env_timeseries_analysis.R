@@ -39,7 +39,16 @@ coastline <-  ne_states(country = c("United States of America", "Canada"),
 
 coastline_buffer <- coastline |>
   summarize()  |>   
-  st_buffer(dist = 5500)
+  st_buffer(dist = 5000)
+
+
+coastline_buffer_2km <- coastline |>
+  summarize()  |>   
+  st_buffer(dist = 2000)
+
+coastline_buffer_1km <- coastline |>
+  summarize()  |>   
+  st_buffer(dist = 1000)
 
 ggplot(coastline_buffer) +
   geom_sf()
@@ -50,7 +59,14 @@ ggplot(coastline_buffer) +
 make_buffered_dat <- 
   function(a_rast,
            coastline_buffer,
-           layer_name){
+           layer_name,
+           return_buffered_rast = FALSE){
+    
+    # debug - oh, wait, useful!
+    if(return_buffered_rast){
+      return(a_rast |> mask(coastline_buffer))
+    }
+    
     # make a dataset
     names(a_rast) <- time(a_rast)
     
@@ -101,7 +117,10 @@ ggplot() +
                        na.value = NA) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
-           ylim = c(aoi[2], aoi[4])) 
+           ylim = c(aoi[2], aoi[4])) +
+  labs(fill = "ºC", subtitle = "June 2012 HADSST within 5km of coast")
+
+ggsave("figures/hadsst_coastline.jpg", width = 4, height = 5)
 
 # make a dataset
 hadsst_extracted <- make_buffered_dat(hadsst,
@@ -141,15 +160,34 @@ oisst_dat <- make_buffered_dat(oisst,
                                layer_name = "oisst")
 
 
+oisst_coast_rast <- make_buffered_dat(oisst,
+                               coastline_buffer,
+                               layer_name = "oisst",
+                               return_buffered_rast=TRUE)
+
 ## Plots
+
+ggplot() +
+  geom_sf(data = coastline) +
+  tidyterra::geom_spatraster(data = oisst_coast_rast[[366]]) +
+  scale_fill_distiller(palette = "RdBu", 
+                       na.value = NA) +
+  coord_sf(expand = FALSE, 
+           xlim = c(aoi[1], aoi[3]),
+           ylim = c(aoi[2], aoi[4])) +
+  labs(fill = "ºC", subtitle = "June 2012 OISST within 5km of coast")
+ggsave("figures/oisst_coastline_mask.jpg", width = 5, height = 4)
+
 ggplot(oisst_dat,
        aes(x = year, y = oisst_summer, 
            group = cell, color = y)) +
-  geom_line(alpha = 0.1) +
-  geom_smooth(method = "lm", fill = NA, size = 0.4) +
+  geom_line(alpha = 0.4) +
+ # geom_smooth(method = "lm", fill = NA, size = 0.4) +
   scale_color_viridis_b(option = "F", direction = -1) +
   guides(color = "none")+
   labs(x = "", y = "OISST ºC", subtitle = "Summer Average")
+
+ggsave("figures/oisst_timeseries.jpg", width = 5, height = 4)
 
 ggplot(oisst_dat,
        aes(x = year, y = oisst_spring, 
