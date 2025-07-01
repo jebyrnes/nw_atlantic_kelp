@@ -1,5 +1,6 @@
 library(readr)
 library(dplyr)
+library(forcats)
 
 nwa_dat <- read_csv("data/nwa_with_env.csv") |>
   # Rescaling
