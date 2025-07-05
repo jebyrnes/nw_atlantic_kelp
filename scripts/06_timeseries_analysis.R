@@ -28,13 +28,26 @@ source("scripts/load_nwa_data.R")
 # initial plot
 ggplot(nwa_dat,
        aes(x = year, y = focal_std_by_ecoregion,
-           group = trajectory, color = study)) +
-  geom_point(alpha = 0.1) +
-  facet_wrap(vars(eco_collapsed)) +
+           group = trajectory, color = eco_collapsed)) +
+  geom_point(alpha = 0.4) +
+ # facet_wrap(vars(eco_collapsed)) +
   scale_color_discrete(guide = "none") +
   stat_smooth(method = "lm", fill = NA, size = 0.5) +
-  ylim(c(0,1.1))
+  ylim(c(0,1.1)) +
+  ylim(c(0,1.1)) +
+  labs(y = "Standardized Kelp Abundance", x = "",
+       color = "", fill = "") +
+  guides(color=guide_legend(nrow=2,
+                            byrow=TRUE))+
+  theme_bw(base_size = 14)+
+  theme(legend.position = "bottom",
+        legend.box="vertical") +
+  scale_color_brewer(palette = "Dark2")+
+  scale_fill_brewer(palette = "Dark2")
 
+
+ggsave("figures/timeseries_raw_linear.jpg",
+       width = 7, height = 6)
 
 ggplot(nwa_dat,
        aes(x = year, y = focal_std_by_ecoregion)) +

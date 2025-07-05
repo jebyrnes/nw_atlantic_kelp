@@ -225,17 +225,19 @@ wave_dat <- make_buffered_dat(wave_rast,
 ggplot(wave_dat,
        aes(x = year, y = swh_fall, 
            group = cell, color = y)) +
-  geom_line(alpha = 0.1) +
-  geom_smooth(method = "lm", fill = NA, size = 0.5) +
+  geom_line(alpha = 0.5) +
+  #geom_smooth(method = "lm", fill = NA, size = 0.5) +
   scale_color_viridis_b(option = "H", direction = -1) +
   guides(color = "none")+
   labs(x = "", y = "Significant Wave Height (m)", subtitle = "Fall Average")
+ggsave("figures/fall_wave_timeseries.jpg", width = 5, height = 4)
+
 
 ggplot(wave_dat,
        aes(x = year, y = swh_winter, 
            group = cell, color = y)) +
-  geom_line(alpha = 0.1) +
-  geom_smooth(method = "lm", fill = NA, size = 0.5) +
+  geom_line(alpha = 0.5) +
+  #geom_smooth(method = "lm", fill = NA, size = 0.5) +
   scale_color_viridis_b(option = "H", direction = -1) +
   guides(color = "none")+
   labs(x = "", y = "Significant Wave Height (m)", subtitle = "Winter Average")
@@ -269,6 +271,23 @@ no3_dat <- make_buffered_dat(no3_rast,
 
 
 
+ggplot() +
+  geom_sf(data = coastline) +
+  tidyterra::geom_spatraster(data = no3_rast |>
+                               subset(time(no3_rast)==as.POSIXct("2012-04-01", tz = "UTC")) |>
+                               mask(coastline_buffer)) +
+  scale_fill_distiller(palette = "GnBu", 
+                       na.value = NA,
+                       transform = "log10") +
+  geom_sf(data = coastline , fill = "lightgreen") +
+  labs(subtitle = "April 2012 average CMEMS NO3",
+       fill = expression(paste("mmol/", m^3)))+
+  coord_sf(expand = FALSE, 
+           xlim = c(aoi[1], aoi[3]),
+           ylim = c(aoi[2], aoi[4])) 
+ggsave("figures/no3_coastline_mask.jpg", width = 5, height = 4)
+
+
 ggplot(no3_dat,
        aes(x = year, y = no3_spring, 
            group = cell, color = cell)) +
@@ -277,6 +296,7 @@ ggplot(no3_dat,
   scale_color_viridis_b(option = "H", direction = -1) +
   guides(color = "none")+
   labs(x = "", y = "Nitrate", subtitle = "Spring Average")
+ggsave("figures/spring_no3_timeseries.jpg", width = 5, height = 4)
 
 
 
