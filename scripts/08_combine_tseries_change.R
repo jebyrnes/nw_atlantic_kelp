@@ -136,7 +136,7 @@ ggplot(data= had_est_change,
        x = "% change in kelp abundance per year due to driver")
 
 
-ggsave("figures/had_wave_change.jpg", width = 4, height = 3)
+ggsave("figures/had_wave_change.jpg", width = 5.4, height = 3)
 
 
 # all
@@ -155,7 +155,7 @@ ggplot(data= all_est_change,
   labs(y = "",
        x = "% change in kelp abundance per year due to driver")
 
-ggsave("figures/all_change_est.jpg", width = 4, height = 3)
+ggsave("figures/all_change_est.jpg", width = 5.2, height = 3)
 
 
 100*exp(70*log(1+.01*sum(all_est_change$`% change per year`)))
