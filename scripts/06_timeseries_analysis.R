@@ -29,10 +29,11 @@ source("scripts/load_nwa_data.R")
 ggplot(nwa_dat,
        aes(x = year, y = focal_std_by_ecoregion,
            group = trajectory, color = eco_collapsed)) +
-  geom_point(alpha = 0.4) +
+  geom_point(alpha = 0.3) +
  # facet_wrap(vars(eco_collapsed)) +
   scale_color_discrete(guide = "none") +
-  stat_smooth(method = "lm", fill = NA, size = 0.5) +
+  stat_smooth(method = "lm", fill = NA, 
+              size = 0.5, alpha = 0.5) +
   ylim(c(0,1.1)) +
   ylim(c(0,1.1)) +
   labs(y = "Standardized Kelp Abundance", x = "",
