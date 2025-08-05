@@ -69,11 +69,15 @@ mod_ecoregion <- glmmTMB(ln_focal_std_by_ecoregion ~
                dispformula =~focalUnit,
                data = nwa_dat)
 
+saveRDS(mod_ecoregion, "models/mod_ecoregion.rds")
+
 mod_common_slope <- glmmTMB(ln_focal_std_by_ecoregion ~ 
                               eco_collapsed+year + 
                               (1 + year |trajectory) + (1|study), 
                             dispformula =~focalUnit,
                             data = nwa_dat )
+
+saveRDS(mod_common_slope, "models/mod_common_slope.rds")
 
 
 mod_ecoregion_ord <- glmmTMB(rescaled_std_by_ecoregion ~ 
