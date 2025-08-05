@@ -1,0 +1,956 @@
+"Entry","Study","Region","Site","Depth.m","Sample.ID","Sample.Year","Sample.Month","Sample.Day","Latitude","Longitude","Taxon","Fixed.or.Random","Sample.Unit.Size.sq.m","Percent.Cover","Stipe.Density.num.per.sq.m","Individual.Density.num.per.sq.m","Biomass.kg.wet.per.sq.m"
+1,"metaxas_recent","Scotian Shelf","Halibut I",7.5,"Halibut I-7.5-2018-10",2018,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.3125,NA,0,0,NA
+2,"metaxas_recent","Scotian Shelf","Halibut I",7.5,"Halibut I-7.5-2018-10",2018,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.3125,NA,0,0,NA
+3,"metaxas_recent","Scotian Shelf","Halibut I",7.5,"Halibut I-7.5-2018-10",2018,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.3125,NA,14,14,NA
+4,"metaxas_recent","Scotian Shelf","Halibut I",7.5,"Halibut I-7.5-2018-10",2018,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.3125,NA,2.83333333333333,2.83333333333333,NA
+5,"metaxas_recent","Scotian Shelf","Halibut I",7.5,"Halibut I-7.5-2018-10",2018,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.3125,NA,0,0,NA
+6,"metaxas_recent","Scotian Shelf","Tuffin I",7.5,"Tuffin I-7.5-2018-10",2018,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.25,NA,0,0,NA
+7,"metaxas_recent","Scotian Shelf","Tuffin I",7.5,"Tuffin I-7.5-2018-10",2018,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.25,NA,0,0,NA
+8,"metaxas_recent","Scotian Shelf","Tuffin I",7.5,"Tuffin I-7.5-2018-10",2018,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.25,NA,30.9090909090909,30.9090909090909,NA
+9,"metaxas_recent","Scotian Shelf","Tuffin I",7.5,"Tuffin I-7.5-2018-10",2018,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.25,NA,0.727272727272727,0.727272727272727,NA
+10,"metaxas_recent","Scotian Shelf","Tuffin I",7.5,"Tuffin I-7.5-2018-10",2018,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.25,NA,0,0,NA
+11,"metaxas_recent","Scotian Shelf","The Moll",7.5,"The Moll-7.5-2018-10",2018,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+12,"metaxas_recent","Scotian Shelf","The Moll",7.5,"The Moll-7.5-2018-10",2018,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+13,"metaxas_recent","Scotian Shelf","The Moll",7.5,"The Moll-7.5-2018-10",2018,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,NA,5.6,5.6,NA
+14,"metaxas_recent","Scotian Shelf","The Moll",7.5,"The Moll-7.5-2018-10",2018,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,NA,3.2,3.2,NA
+15,"metaxas_recent","Scotian Shelf","The Moll",7.5,"The Moll-7.5-2018-10",2018,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+16,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-7",2019,7,NA,44.431281,-63.5665,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+17,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-7",2019,7,NA,44.431281,-63.5665,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+18,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-7",2019,7,NA,44.431281,-63.5665,"Laminaria digitata","Fixed",0.5,70.5137844611529,23.3333333333333,23.3333333333333,NA
+19,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-7",2019,7,NA,44.431281,-63.5665,"Saccharina latissima","Fixed",0.5,19.9973147153598,6.33333333333333,6.33333333333333,NA
+20,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-7",2019,7,NA,44.431281,-63.5665,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+21,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-7",2019,7,NA,44.431281,-63.5665,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+22,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-7",2019,7,NA,44.431281,-63.5665,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+23,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-7",2019,7,NA,44.431281,-63.5665,"Laminaria digitata","Fixed",0.5,42.7796950546165,3.33333333333333,3.33333333333333,NA
+24,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-7",2019,7,NA,44.431281,-63.5665,"Saccharina latissima","Fixed",0.5,21.9297390430095,11.3333333333333,11.3333333333333,NA
+25,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-7",2019,7,NA,44.431281,-63.5665,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+26,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-7",2019,7,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",1,0,0,0,NA
+27,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-7",2019,7,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",1,0,0,0,NA
+28,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-7",2019,7,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",1,5.93891402714932,0.727272727272727,0.727272727272727,NA
+29,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-7",2019,7,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",1,10.8031674208145,2.72727272727273,2.72727272727273,NA
+30,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-7",2019,7,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",1,0,0,0,NA
+31,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-7",2019,7,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",1,1.04929792429792,0.3,0.3,NA
+32,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-7",2019,7,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",1,0,0,0,NA
+33,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-7",2019,7,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",1,12.0192307692308,3,3,NA
+34,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-7",2019,7,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",1,16.765873015873,4.1,4.1,NA
+35,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-7",2019,7,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",1,0,0,0,NA
+36,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-7",2019,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0.222222222222222,0.222222222222222,NA
+37,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-7",2019,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+38,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-7",2019,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,5.24038461538462,0.888888888888889,0.888888888888889,NA
+39,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-7",2019,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,4.75961538461539,2.22222222222222,2.22222222222222,NA
+40,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-7",2019,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+41,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-7",2019,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.202429149797571,0.5,0.5,NA
+42,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-7",2019,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0.202429149797571,0,0,NA
+43,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-7",2019,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,0.506072874493927,1.25,1.25,NA
+44,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-7",2019,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,39.1194331983806,6.5,6.5,NA
+45,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-7",2019,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+46,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-7",2019,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,2,2,NA
+47,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-7",2019,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+48,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-7",2019,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,88.003569301756,17,17,NA
+49,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-7",2019,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,9.27778481631637,9,9,NA
+50,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-7",2019,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+51,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-7",2019,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0.552312271062271,0.545454545454545,0.545454545454545,NA
+52,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-7",2019,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0.500801282051282,0,0,NA
+53,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-7",2019,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,38.0715026395173,10,10,NA
+54,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-7",2019,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,25.5094425590749,3.63636363636364,3.63636363636364,NA
+55,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-7",2019,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+56,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-7",2019,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.25,0.183150183150183,1.14285714285714,1.14285714285714,NA
+57,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-7",2019,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.25,0.0457875457875458,0,0,NA
+58,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-7",2019,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.25,6.82234432234432,0,0,NA
+59,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-7",2019,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.25,11.6300366300366,6.28571428571429,6.28571428571429,NA
+60,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-7",2019,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.25,0,0,0,NA
+61,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-7",2019,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0.452488687782805,1.66666666666667,1.66666666666667,NA
+62,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-7",2019,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+63,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-7",2019,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,64.5718116306352,7,7,NA
+64,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-7",2019,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,10.1370035193565,10,10,NA
+65,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-7",2019,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+66,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-7",2019,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,5.03393665158371,0.666666666666667,0.666666666666667,NA
+67,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-7",2019,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0.395927601809955,0,0,NA
+68,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-7",2019,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,22.2285067873303,8.66666666666667,8.66666666666667,NA
+69,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-7",2019,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,62.2171945701357,2.33333333333333,2.33333333333333,NA
+70,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-7",2019,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+71,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-7",2019,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0.222222222222222,0.222222222222222,NA
+72,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-7",2019,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+73,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-7",2019,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,13.1630388841927,5.11111111111111,5.11111111111111,NA
+74,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-7",2019,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,21.5897083685545,10.6666666666667,10.6666666666667,NA
+75,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-7",2019,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+76,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-7",2019,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0.343406593406593,4,4,NA
+77,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-7",2019,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0.0457875457875458,0,0,NA
+78,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-7",2019,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,8.8320905285191,1.77777777777778,1.77777777777778,NA
+79,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-7",2019,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,26.6859628466771,9.55555555555556,9.55555555555556,NA
+80,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-7",2019,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+81,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-10",2019,10,NA,44.431281,-63.5665,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+82,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-10",2019,10,NA,44.431281,-63.5665,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+83,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-10",2019,10,NA,44.431281,-63.5665,"Laminaria digitata","Fixed",0.5,48.7244897959184,8.25,8.25,NA
+84,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-10",2019,10,NA,44.431281,-63.5665,"Saccharina latissima","Fixed",0.5,13.4353741496599,2.25,2.25,NA
+85,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2019-10",2019,10,NA,44.431281,-63.5665,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+86,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-10",2019,10,NA,44.431281,-63.5665,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+87,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-10",2019,10,NA,44.431281,-63.5665,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+88,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-10",2019,10,NA,44.431281,-63.5665,"Laminaria digitata","Fixed",0.5,15.3467181285434,2.25,2.25,NA
+89,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-10",2019,10,NA,44.431281,-63.5665,"Saccharina latissima","Fixed",0.5,17.877492550927,6,6,NA
+90,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2019-10",2019,10,NA,44.431281,-63.5665,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+91,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-10",2019,10,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",1,0,0.125,0.125,NA
+92,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-10",2019,10,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",1,0,0,0,NA
+93,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-10",2019,10,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",1,1.05769230769231,1.5,1.5,NA
+94,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-10",2019,10,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",1,3.36538461538462,3.25,3.25,NA
+95,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2019-10",2019,10,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",1,0,0,0,NA
+96,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-10",2019,10,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",1,0.240384615384615,0.2,0.2,NA
+97,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-10",2019,10,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",1,0,0,0,NA
+98,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-10",2019,10,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",1,2.56410256410256,1.2,1.2,NA
+99,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-10",2019,10,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",1,6.65064102564103,2.3,2.3,NA
+100,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2019-10",2019,10,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",1,0,0,0,NA
+101,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-10",2019,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.0961538461538462,0,0,NA
+102,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-10",2019,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+103,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-10",2019,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,2.98076923076923,1.25,1.25,NA
+104,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-10",2019,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,9.51923076923077,2,2,NA
+105,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2019-10",2019,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+106,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-10",2019,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.120192307692308,0.5,0.5,NA
+107,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-10",2019,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+108,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-10",2019,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,0.480769230769231,1,1,NA
+109,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-10",2019,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,25.1201923076923,8.75,8.75,NA
+110,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2019-10",2019,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+111,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-10",2019,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+112,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-10",2019,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+113,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-10",2019,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,67.6282051282051,12,12,NA
+114,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-10",2019,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,5.25641025641026,1.33333333333333,1.33333333333333,NA
+115,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2019-10",2019,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+116,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-10",2019,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0.333333333333333,0.333333333333333,NA
+117,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-10",2019,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+118,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-10",2019,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,45.1048951048951,13,13,NA
+119,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-10",2019,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,26.3111888111888,2.66666666666667,2.66666666666667,NA
+120,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2019-10",2019,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+121,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-10",2019,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+122,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-10",2019,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+123,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-10",2019,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,22.9301948051948,4.5,4.5,NA
+124,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-10",2019,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,14.8133116883117,1.75,1.75,NA
+125,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-10",2019,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+126,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-10",2019,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0.0405844155844156,0,0,NA
+127,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-10",2019,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+128,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-10",2019,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,12.4918831168831,1.5,1.5,NA
+129,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-10",2019,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,9.98376623376623,5,5,NA
+130,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2019-10",2019,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+131,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-10",2019,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+132,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-10",2019,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+133,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-10",2019,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,48.6749401018269,17.75,17.75,NA
+134,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-10",2019,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,2.58460616951183,4.25,4.25,NA
+135,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2019-10",2019,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+136,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-10",2019,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,2.12585034013605,3,3,NA
+137,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-10",2019,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+138,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-10",2019,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,26.4880952380952,8.25,8.25,NA
+139,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-10",2019,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,21.641156462585,5.5,5.5,NA
+140,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2019-10",2019,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+141,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-10",2019,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+142,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-10",2019,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+143,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-10",2019,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,5.35714285714286,0,0,NA
+144,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-10",2019,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,2.81593406593407,10.6666666666667,10.6666666666667,NA
+145,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2019-10",2019,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+146,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-10",2019,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0.0686813186813187,0.333333333333333,0.333333333333333,NA
+147,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-10",2019,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+148,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-10",2019,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,11.3324175824176,2.66666666666667,2.66666666666667,NA
+149,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-10",2019,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,13.2554945054945,23.3333333333333,23.3333333333333,NA
+150,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2019-10",2019,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+151,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2020-7",2020,7,NA,44.431281,-63.5665,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+152,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2020-7",2020,7,NA,44.431281,-63.5665,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+153,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2020-7",2020,7,NA,44.431281,-63.5665,"Laminaria digitata","Fixed",0.5,NA,4.8,4.8,NA
+154,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2020-7",2020,7,NA,44.431281,-63.5665,"Saccharina latissima","Fixed",0.5,NA,10,10,NA
+155,"metaxas_recent","Scotian Shelf","Shag Rock",6,"Shag Rock-6-2020-7",2020,7,NA,44.431281,-63.5665,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+156,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2020-7",2020,7,NA,44.431281,-63.5665,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+157,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2020-7",2020,7,NA,44.431281,-63.5665,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+158,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2020-7",2020,7,NA,44.431281,-63.5665,"Laminaria digitata","Fixed",0.5,NA,4.66666666666667,4.66666666666667,NA
+159,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2020-7",2020,7,NA,44.431281,-63.5665,"Saccharina latissima","Fixed",0.5,NA,12.6666666666667,12.6666666666667,NA
+160,"metaxas_recent","Scotian Shelf","Shag Rock",9,"Shag Rock-9-2020-7",2020,7,NA,44.431281,-63.5665,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+161,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-7",2020,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+162,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-7",2020,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+163,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-7",2020,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,12.5,1.33333333333333,1.33333333333333,NA
+164,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-7",2020,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,8.70535714285714,0.833333333333333,0.833333333333333,NA
+165,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-7",2020,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+166,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-7",2020,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,1.0989010989011,0.333333333333333,0.333333333333333,NA
+167,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-7",2020,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0.0686813186813187,0,0,NA
+168,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-7",2020,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,4.46428571428571,2.83333333333333,2.83333333333333,NA
+169,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-7",2020,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,36.7445054945055,4.33333333333333,4.33333333333333,NA
+170,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-7",2020,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+171,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-7",2020,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+172,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-7",2020,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+173,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-7",2020,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,74.3622448979592,28,28,NA
+174,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-7",2020,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,17.0918367346939,4.16666666666667,4.16666666666667,NA
+175,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-7",2020,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+176,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-7",2020,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0.76530612244898,0.166666666666667,0.166666666666667,NA
+177,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-7",2020,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+178,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-7",2020,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,45.2168367346939,15,15,NA
+179,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-7",2020,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,38.7117346938776,3.33333333333333,3.33333333333333,NA
+180,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-7",2020,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+181,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-7",2020,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+182,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-7",2020,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+183,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-7",2020,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,19.7544642857143,2,2,NA
+184,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-7",2020,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,25,3.33333333333333,3.33333333333333,NA
+185,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-7",2020,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+186,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-7",2020,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,2.33134920634921,2,2,NA
+187,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-7",2020,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+188,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-7",2020,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,10.9623015873016,2.33333333333333,2.33333333333333,NA
+189,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-7",2020,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,45.2380952380952,3.16666666666667,3.16666666666667,NA
+190,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-7",2020,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+191,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-7",2020,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0.333333333333333,0.333333333333333,NA
+192,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-7",2020,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+193,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-7",2020,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,64.8065476190476,20.8333333333333,20.8333333333333,NA
+194,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-7",2020,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,29.3154761904762,1.83333333333333,1.83333333333333,NA
+195,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-7",2020,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+196,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-7",2020,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,2.05357142857143,4.33333333333333,4.33333333333333,NA
+197,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-7",2020,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+198,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-7",2020,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,27.3660714285714,7.33333333333333,7.33333333333333,NA
+199,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-7",2020,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,61.5178571428571,8.16666666666667,8.16666666666667,NA
+200,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-7",2020,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+201,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-7",2020,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0.666666666666667,0.666666666666667,NA
+202,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-7",2020,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+203,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-7",2020,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,8.92857142857143,1.66666666666667,1.66666666666667,NA
+204,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-7",2020,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,27.8886554621849,8,8,NA
+205,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-7",2020,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+206,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-7",2020,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0.262605042016807,0,0,NA
+207,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-7",2020,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+208,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-7",2020,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,16.5441176470588,2.16666666666667,2.16666666666667,NA
+209,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-7",2020,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,47.8991596638655,8.66666666666667,8.66666666666667,NA
+210,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-7",2020,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+211,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-10",2020,10,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",0.5,0.0469924812030075,0.166666666666667,0.166666666666667,NA
+212,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-10",2020,10,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+213,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-10",2020,10,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",0.5,6.15601503759398,3.83333333333333,3.83333333333333,NA
+214,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-10",2020,10,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",0.5,20.8646616541353,8.16666666666667,8.16666666666667,NA
+215,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-10",2020,10,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+216,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-10",2020,10,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",0.5,0,0.166666666666667,0.166666666666667,NA
+217,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-10",2020,10,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+218,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-10",2020,10,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",0.5,4.76190476190476,1.33333333333333,1.33333333333333,NA
+219,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-10",2020,10,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",0.5,7.53968253968254,3.66666666666667,3.66666666666667,NA
+220,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-10",2020,10,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+221,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-10",2020,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+222,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-10",2020,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+223,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-10",2020,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,6.2111801242236,2.33333333333333,2.33333333333333,NA
+224,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-10",2020,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,0.388198757763975,0.666666666666667,0.666666666666667,NA
+225,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2020-10",2020,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+226,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-10",2020,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,1.36054421768707,0.166666666666667,0.166666666666667,NA
+227,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-10",2020,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+228,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-10",2020,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,5.05952380952381,0.666666666666667,0.666666666666667,NA
+229,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-10",2020,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,6.20748299319728,7,7,NA
+230,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2020-10",2020,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+231,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-10",2020,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+232,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-10",2020,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+233,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-10",2020,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,67.0982142857143,24.1666666666667,24.1666666666667,NA
+234,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-10",2020,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,4.28571428571429,4.16666666666667,4.16666666666667,NA
+235,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2020-10",2020,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+236,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-10",2020,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0.166666666666667,0.166666666666667,NA
+237,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-10",2020,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+238,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-10",2020,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,56.043956043956,21.1666666666667,21.1666666666667,NA
+239,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-10",2020,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,3.77747252747253,0.666666666666667,0.666666666666667,NA
+240,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2020-10",2020,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+241,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-10",2020,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.25,0,0,0,NA
+242,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-10",2020,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.25,0,0,0,NA
+243,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-10",2020,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.25,24.5323129251701,2,2,NA
+244,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-10",2020,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.25,13.9030612244898,6.33333333333333,6.33333333333333,NA
+245,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2020-10",2020,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.25,0,0,0,NA
+246,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-10",2020,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.25,1.14087301587302,4,4,NA
+247,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-10",2020,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.25,0,0,0,NA
+248,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-10",2020,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.25,13.1448412698413,3,3,NA
+249,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-10",2020,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.25,16.1210317460317,12.3333333333333,12.3333333333333,NA
+250,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2020-10",2020,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.25,0,0,0,NA
+251,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-10",2020,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+252,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-10",2020,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+253,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-10",2020,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,61.525974025974,19.8333333333333,19.8333333333333,NA
+254,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-10",2020,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,1.90746753246753,3,3,NA
+255,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2020-10",2020,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+256,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-10",2020,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,1.33889064475348,1.16666666666667,1.16666666666667,NA
+257,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-10",2020,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+258,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-10",2020,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,32.0468552465234,7.5,7.5,NA
+259,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-10",2020,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,21.6893173198483,5.5,5.5,NA
+260,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2020-10",2020,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+261,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-10",2020,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.375,0,0.166666666666667,0.166666666666667,NA
+262,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-10",2020,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.375,0,0,0,NA
+263,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-10",2020,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.375,6.42006802721088,2.16666666666667,2.16666666666667,NA
+264,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-10",2020,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.375,5.52721088435374,3.5,3.5,NA
+265,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2020-10",2020,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.375,0,0,0,NA
+266,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-10",2020,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.25,0,0.333333333333333,0.333333333333333,NA
+267,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-10",2020,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.25,0,0,0,NA
+268,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-10",2020,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.25,6.98051948051948,1.33333333333333,1.33333333333333,NA
+269,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-10",2020,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.25,16.5178571428571,16.3333333333333,16.3333333333333,NA
+270,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2020-10",2020,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.25,0,0,0,NA
+271,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-7",2021,7,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",0.5,0.0525210084033613,0,0,NA
+272,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-7",2021,7,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+273,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-7",2021,7,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",0.5,15.8088235294118,1,1,NA
+274,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-7",2021,7,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",0.5,29.6743697478992,4.5,4.5,NA
+275,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-7",2021,7,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",0.5,0,0.666666666666667,0.666666666666667,NA
+276,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-7",2021,7,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",0.5,0.198412698412698,1.16666666666667,1.16666666666667,NA
+277,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-7",2021,7,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+278,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-7",2021,7,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",0.5,9.66032799550499,1.33333333333333,1.33333333333333,NA
+279,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-7",2021,7,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",0.5,21.4224259025144,1.83333333333333,1.83333333333333,NA
+280,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-7",2021,7,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",0.5,0.248015873015873,0,0,NA
+281,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-7",2021,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.297619047619048,0,0,NA
+282,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-7",2021,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+283,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-7",2021,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,4.41468253968254,0.666666666666667,0.666666666666667,NA
+284,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-7",2021,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,19.9404761904762,0.666666666666667,0.666666666666667,NA
+285,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-7",2021,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+286,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-7",2021,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.38265306122449,0.5,0.5,NA
+287,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-7",2021,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+288,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-7",2021,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,4.12414965986394,2.5,2.5,NA
+289,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-7",2021,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,12.0748299319728,4.16666666666667,4.16666666666667,NA
+290,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-7",2021,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+291,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-7",2021,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.3,0,0,0,NA
+292,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-7",2021,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.3,0,0,0,NA
+293,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-7",2021,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.3,91.112012987013,17.8,17.8,NA
+294,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-7",2021,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.3,1.21753246753247,0.4,0.4,NA
+295,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-7",2021,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.3,0,2.4,2.4,NA
+296,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-7",2021,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0.186011904761905,1.2,1.2,NA
+297,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-7",2021,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+298,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-7",2021,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,77.7529761904762,12.2,12.2,NA
+299,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-7",2021,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,8.44494047619048,3,3,NA
+300,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-7",2021,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+301,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-7",2021,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0.0405844155844156,0,0,NA
+302,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-7",2021,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+303,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-7",2021,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,20.6980519480519,1,1,NA
+304,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-7",2021,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,29.2613636363636,4.8,4.8,NA
+305,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-7",2021,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+306,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-7",2021,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0.077639751552795,1.27272727272727,1.27272727272727,NA
+307,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-7",2021,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+308,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-7",2021,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,12.1506211180124,4.36363636363636,4.36363636363636,NA
+309,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-7",2021,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,22.166149068323,3.45454545454545,3.45454545454545,NA
+310,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-7",2021,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,2,2,NA
+311,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-7",2021,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+312,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-7",2021,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+313,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-7",2021,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,84.5714285714286,17.2,17.2,NA
+314,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-7",2021,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,11.8928571428571,3.4,3.4,NA
+315,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-7",2021,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+316,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-7",2021,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0.31055900621118,2.4,2.4,NA
+317,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-7",2021,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+318,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-7",2021,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,64.346916792569,9.6,9.6,NA
+319,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-7",2021,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,31.9634463656203,6.2,6.2,NA
+320,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-7",2021,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+321,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-7",2021,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+322,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-7",2021,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+323,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-7",2021,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,11.5746753246753,1.6,1.6,NA
+324,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-7",2021,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,19.5352016404648,5.8,5.8,NA
+325,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-7",2021,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+326,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-7",2021,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0.170068027210884,0.222222222222222,0.222222222222222,NA
+327,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-7",2021,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+328,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-7",2021,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,23.2993197278912,1.11111111111111,1.11111111111111,NA
+329,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-7",2021,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,40.5187074829932,12.4444444444444,12.4444444444444,NA
+330,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-7",2021,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+331,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-10",2021,10,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+332,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-10",2021,10,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+333,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-10",2021,10,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",0.5,3.29968944099379,0.4,0.4,NA
+334,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-10",2021,10,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",0.5,5.12422360248447,2.26666666666667,2.26666666666667,NA
+335,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2021-10",2021,10,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+336,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-10",2021,10,NA,44.8449,-62.38682,"Agarum clathratum","Fixed",0.5,0,0.133333333333333,0.133333333333333,NA
+337,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-10",2021,10,NA,44.8449,-62.38682,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+338,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-10",2021,10,NA,44.8449,-62.38682,"Laminaria digitata","Fixed",0.5,10.6481481481481,2.53333333333333,2.53333333333333,NA
+339,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-10",2021,10,NA,44.8449,-62.38682,"Saccharina latissima","Fixed",0.5,11.4087301587302,2,2,NA
+340,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2021-10",2021,10,NA,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",0.5,0,0.133333333333333,0.133333333333333,NA
+341,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-10",2021,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+342,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-10",2021,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+343,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-10",2021,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,1.99175824175824,0.666666666666667,0.666666666666667,NA
+344,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-10",2021,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,4.42994505494505,2.13333333333333,2.13333333333333,NA
+345,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2021-10",2021,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+346,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-10",2021,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.562169312169312,0.8,0.8,NA
+347,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-10",2021,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+348,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-10",2021,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,9.32539682539683,2,2,NA
+349,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-10",2021,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,10.8465608465608,4.13333333333333,4.13333333333333,NA
+350,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2021-10",2021,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+351,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-10",2021,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0.133333333333333,0.133333333333333,NA
+352,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-10",2021,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+353,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-10",2021,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,72.3214285714286,18.9333333333333,18.9333333333333,NA
+354,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-10",2021,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,1.29464285714286,2,2,NA
+355,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2021-10",2021,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+356,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-10",2021,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0.170068027210884,0.666666666666667,0.666666666666667,NA
+357,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-10",2021,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+358,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-10",2021,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,65.9013605442177,12.6666666666667,12.6666666666667,NA
+359,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-10",2021,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,4.0391156462585,4,4,NA
+360,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2021-10",2021,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+361,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-10",2021,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0,0.266666666666667,0.266666666666667,NA
+362,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-10",2021,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+363,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-10",2021,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,26.3605442176871,1.86666666666667,1.86666666666667,NA
+364,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-10",2021,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,4.0391156462585,4,4,NA
+365,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2021-10",2021,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+366,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-10",2021,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0.121753246753247,1.14285714285714,1.14285714285714,NA
+367,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-10",2021,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+368,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-10",2021,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,6.73701298701299,6.57142857142857,6.57142857142857,NA
+369,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-10",2021,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,4.54545454545454,7.28571428571429,7.28571428571429,NA
+370,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2021-10",2021,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+371,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-10",2021,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+372,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-10",2021,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+373,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-10",2021,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,73.7012987012987,18.4285714285714,18.4285714285714,NA
+374,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-10",2021,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,0.202922077922078,2.42857142857143,2.42857142857143,NA
+375,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2021-10",2021,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+376,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-10",2021,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0.0811688311688312,0.133333333333333,0.133333333333333,NA
+377,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-10",2021,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+378,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-10",2021,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,69.1558441558442,11.6,11.6,NA
+379,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-10",2021,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,5.4788961038961,4.53333333333333,4.53333333333333,NA
+380,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2021-10",2021,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+381,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-10",2021,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0.0425170068027211,0,0,NA
+382,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-10",2021,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+383,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-10",2021,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,7.27040816326531,4.66666666666667,4.66666666666667,NA
+384,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-10",2021,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,5.18707482993197,3.33333333333333,3.33333333333333,NA
+385,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2021-10",2021,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+386,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-10",2021,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0.133333333333333,0.133333333333333,NA
+387,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-10",2021,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+388,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-10",2021,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,20.9183673469388,5.6,5.6,NA
+389,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-10",2021,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,23.7670068027211,12.4,12.4,NA
+390,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2021-10",2021,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+391,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-7",2022,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+392,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-7",2022,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+393,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-7",2022,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,2.23214285714286,0.133333333333333,0.133333333333333,NA
+394,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-7",2022,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,0.0496031746031746,0.933333333333333,0.933333333333333,NA
+395,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-7",2022,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0.266666666666667,0.266666666666667,NA
+396,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-7",2022,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0.340136054421769,0.4,0.4,NA
+397,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-7",2022,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+398,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-7",2022,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,0.680272108843538,0,0,NA
+399,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-7",2022,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,6.46258503401361,0.4,0.4,NA
+400,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-7",2022,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+401,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-7",2022,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0.133333333333333,0.133333333333333,NA
+402,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-7",2022,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+403,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-7",2022,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,77.6339285714286,12.2666666666667,12.2666666666667,NA
+404,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-7",2022,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,2.76785714285714,3.2,3.2,NA
+405,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-7",2022,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+406,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-7",2022,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0.153846153846154,0.153846153846154,NA
+407,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-7",2022,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+408,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-7",2022,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,69.8660714285714,12.4615384615385,12.4615384615385,NA
+409,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-7",2022,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,3.21428571428571,4.46153846153846,4.46153846153846,NA
+410,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-7",2022,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+411,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-7",2022,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0.0469924812030075,0.75,0.75,NA
+412,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-7",2022,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+413,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-7",2022,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,51.5507518796992,4,4,NA
+414,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-7",2022,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,5.73308270676692,4,4,NA
+415,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-7",2022,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+416,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-7",2022,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0.625,1.28,1.28,NA
+417,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-7",2022,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+418,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-7",2022,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,6.11607142857143,4.96,4.96,NA
+419,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-7",2022,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,17.4553571428571,5.12,5.12,NA
+420,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-7",2022,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+421,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-7",2022,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+422,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-7",2022,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+423,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-7",2022,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,76.2755102040816,18.5333333333333,18.5333333333333,NA
+424,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-7",2022,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,1.19047619047619,4.13333333333333,4.13333333333333,NA
+425,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-7",2022,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+426,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-7",2022,7,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,1.46428571428571,0.666666666666667,0.666666666666667,NA
+427,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-7",2022,7,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+428,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-7",2022,7,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,48.5357142857143,11.3333333333333,11.3333333333333,NA
+429,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-7",2022,7,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,8.82142857142857,2.66666666666667,2.66666666666667,NA
+430,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-7",2022,7,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+431,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-7",2022,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0.125,0.125,NA
+432,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-7",2022,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+433,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-7",2022,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,14.5647321428571,1.75,1.75,NA
+434,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-7",2022,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,3.90625,4.875,4.875,NA
+435,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-7",2022,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0.0558035714285714,0,0,NA
+436,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-7",2022,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0.315126050420168,0.4,0.4,NA
+437,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-7",2022,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+438,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-7",2022,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,24.1596638655462,2.4,2.4,NA
+439,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-7",2022,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,19.905462184874,8.26666666666667,8.26666666666667,NA
+440,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-7",2022,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0.0525210084033613,0,0,NA
+441,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-10",2022,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+442,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-10",2022,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+443,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-10",2022,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,0.649350649350649,0.133333333333333,0.133333333333333,NA
+444,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-10",2022,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,0,0,0,NA
+445,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2022-10",2022,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+446,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-10",2022,10,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+447,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-10",2022,10,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+448,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-10",2022,10,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,3.08441558441558,0.4,0.4,NA
+449,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-10",2022,10,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,2.71915584415584,0.666666666666667,0.666666666666667,NA
+450,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2022-10",2022,10,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+451,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-10",2022,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+452,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-10",2022,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+453,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-10",2022,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,45.2639751552795,9.86666666666667,9.86666666666667,NA
+454,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-10",2022,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,0.15527950310559,0,0,NA
+455,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2022-10",2022,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+456,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-10",2022,10,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,0.357142857142857,0.4,0.4,NA
+457,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-10",2022,10,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+458,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-10",2022,10,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,35.6071428571429,6.66666666666667,6.66666666666667,NA
+459,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-10",2022,10,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,0.107142857142857,0.4,0.4,NA
+460,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2022-10",2022,10,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+461,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-10",2022,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+462,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-10",2022,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+463,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-10",2022,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,13.7581168831169,0.933333333333333,0.933333333333333,NA
+464,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-10",2022,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,0.0811688311688311,1.86666666666667,1.86666666666667,NA
+465,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2022-10",2022,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+466,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-10",2022,10,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+467,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-10",2022,10,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+468,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-10",2022,10,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,6.62774725274725,4.13333333333333,4.13333333333333,NA
+469,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-10",2022,10,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,0.824175824175824,1.2,1.2,NA
+470,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2022-10",2022,10,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+471,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-10",2022,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+472,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-10",2022,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+473,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-10",2022,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,55.4981203007519,13.8666666666667,13.8666666666667,NA
+474,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-10",2022,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,0,2.53333333333333,2.53333333333333,NA
+475,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2022-10",2022,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+476,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-10",2022,10,NA,44.9066,-62.15593,"Agarum clathratum","Fixed",0.5,0.202922077922078,0.533333333333333,0.533333333333333,NA
+477,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-10",2022,10,NA,44.9066,-62.15593,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+478,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-10",2022,10,NA,44.9066,-62.15593,"Laminaria digitata","Fixed",0.5,41.801948051948,8.13333333333333,8.13333333333333,NA
+479,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-10",2022,10,NA,44.9066,-62.15593,"Saccharina latissima","Fixed",0.5,0.0811688311688311,3.73333333333333,3.73333333333333,NA
+480,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2022-10",2022,10,NA,44.9066,-62.15593,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+481,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-10",2022,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+482,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-10",2022,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+483,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-10",2022,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,4.20918367346939,4,4,NA
+484,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-10",2022,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,1.02040816326531,3.33333333333333,3.33333333333333,NA
+485,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2022-10",2022,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+486,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-10",2022,10,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,0,0,0,NA
+487,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-10",2022,10,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,0,0,0,NA
+488,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-10",2022,10,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,22.3639455782313,2.8,2.8,NA
+489,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-10",2022,10,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,5.86734693877551,5.86666666666667,5.86666666666667,NA
+490,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2022-10",2022,10,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,0,0,0,NA
+491,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2023-7",2023,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,NA,0.117647058823529,0.117647058823529,NA
+492,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2023-7",2023,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+493,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2023-7",2023,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,NA,0.470588235294118,0.470588235294118,NA
+494,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2023-7",2023,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,NA,4,4,NA
+495,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2023-7",2023,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+496,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2023-7",2023,7,NA,44.88707,-62.11967,"Agarum clathratum","Fixed",0.5,NA,0.153846153846154,0.153846153846154,NA
+497,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2023-7",2023,7,NA,44.88707,-62.11967,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+498,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2023-7",2023,7,NA,44.88707,-62.11967,"Laminaria digitata","Fixed",0.5,NA,0.153846153846154,0.153846153846154,NA
+499,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2023-7",2023,7,NA,44.88707,-62.11967,"Saccharina latissima","Fixed",0.5,NA,2.30769230769231,2.30769230769231,NA
+500,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2023-7",2023,7,NA,44.88707,-62.11967,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+501,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2023-7",2023,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+502,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2023-7",2023,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+503,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2023-7",2023,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,NA,4.93333333333333,4.93333333333333,NA
+504,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2023-7",2023,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,NA,1.46666666666667,1.46666666666667,NA
+505,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2023-7",2023,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+506,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2023-7",2023,7,NA,44.88797,-62.207,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+507,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2023-7",2023,7,NA,44.88797,-62.207,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+508,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2023-7",2023,7,NA,44.88797,-62.207,"Laminaria digitata","Fixed",0.5,NA,3.6,3.6,NA
+509,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2023-7",2023,7,NA,44.88797,-62.207,"Saccharina latissima","Fixed",0.5,NA,2.4,2.4,NA
+510,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2023-7",2023,7,NA,44.88797,-62.207,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+511,"metaxas_recent","Scotian Shelf","Long 3",6,"Long 3-6-2023-7",2023,7,NA,44.889167,-62.29795,"Agarum clathratum","Fixed",0.5,NA,0.117647058823529,0.117647058823529,NA
+512,"metaxas_recent","Scotian Shelf","Long 3",6,"Long 3-6-2023-7",2023,7,NA,44.889167,-62.29795,"Alaria esculenta","Fixed",0.5,NA,0.235294117647059,0.235294117647059,NA
+513,"metaxas_recent","Scotian Shelf","Long 3",6,"Long 3-6-2023-7",2023,7,NA,44.889167,-62.29795,"Laminaria digitata","Fixed",0.5,NA,2.23529411764706,2.23529411764706,NA
+514,"metaxas_recent","Scotian Shelf","Long 3",6,"Long 3-6-2023-7",2023,7,NA,44.889167,-62.29795,"Saccharina latissima","Fixed",0.5,NA,2.11764705882353,2.11764705882353,NA
+515,"metaxas_recent","Scotian Shelf","Long 3",6,"Long 3-6-2023-7",2023,7,NA,44.889167,-62.29795,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+516,"metaxas_recent","Scotian Shelf","Long 3",9,"Long 3-9-2023-7",2023,7,NA,44.889167,-62.29795,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+517,"metaxas_recent","Scotian Shelf","Long 3",9,"Long 3-9-2023-7",2023,7,NA,44.889167,-62.29795,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+518,"metaxas_recent","Scotian Shelf","Long 3",9,"Long 3-9-2023-7",2023,7,NA,44.889167,-62.29795,"Laminaria digitata","Fixed",0.5,NA,0.142857142857143,0.142857142857143,NA
+519,"metaxas_recent","Scotian Shelf","Long 3",9,"Long 3-9-2023-7",2023,7,NA,44.889167,-62.29795,"Saccharina latissima","Fixed",0.5,NA,4.57142857142857,4.57142857142857,NA
+520,"metaxas_recent","Scotian Shelf","Long 3",9,"Long 3-9-2023-7",2023,7,NA,44.889167,-62.29795,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+521,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2023-7",2023,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,NA,0.4,0.4,NA
+522,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2023-7",2023,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+523,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2023-7",2023,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,NA,1.46666666666667,1.46666666666667,NA
+524,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2023-7",2023,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,NA,3.6,3.6,NA
+525,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2023-7",2023,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+526,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2023-7",2023,7,NA,44.88955,-62.30292,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+527,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2023-7",2023,7,NA,44.88955,-62.30292,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+528,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2023-7",2023,7,NA,44.88955,-62.30292,"Laminaria digitata","Fixed",0.5,NA,2.13333333333333,2.13333333333333,NA
+529,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2023-7",2023,7,NA,44.88955,-62.30292,"Saccharina latissima","Fixed",0.5,NA,3.6,3.6,NA
+530,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2023-7",2023,7,NA,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+531,"metaxas_recent","Scotian Shelf","Long 2",6,"Long 2-6-2023-7",2023,7,NA,44.8905,-62.305483,"Agarum clathratum","Fixed",0.5,NA,0.375,0.375,NA
+532,"metaxas_recent","Scotian Shelf","Long 2",6,"Long 2-6-2023-7",2023,7,NA,44.8905,-62.305483,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+533,"metaxas_recent","Scotian Shelf","Long 2",6,"Long 2-6-2023-7",2023,7,NA,44.8905,-62.305483,"Laminaria digitata","Fixed",0.5,NA,5.5,5.5,NA
+534,"metaxas_recent","Scotian Shelf","Long 2",6,"Long 2-6-2023-7",2023,7,NA,44.8905,-62.305483,"Saccharina latissima","Fixed",0.5,NA,1.75,1.75,NA
+535,"metaxas_recent","Scotian Shelf","Long 2",6,"Long 2-6-2023-7",2023,7,NA,44.8905,-62.305483,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+536,"metaxas_recent","Scotian Shelf","Long 2",9,"Long 2-9-2023-7",2023,7,NA,44.8905,-62.305483,"Agarum clathratum","Fixed",0.5,NA,1.46666666666667,1.46666666666667,NA
+537,"metaxas_recent","Scotian Shelf","Long 2",9,"Long 2-9-2023-7",2023,7,NA,44.8905,-62.305483,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+538,"metaxas_recent","Scotian Shelf","Long 2",9,"Long 2-9-2023-7",2023,7,NA,44.8905,-62.305483,"Laminaria digitata","Fixed",0.5,NA,2.93333333333333,2.93333333333333,NA
+539,"metaxas_recent","Scotian Shelf","Long 2",9,"Long 2-9-2023-7",2023,7,NA,44.8905,-62.305483,"Saccharina latissima","Fixed",0.5,NA,1.33333333333333,1.33333333333333,NA
+540,"metaxas_recent","Scotian Shelf","Long 2",9,"Long 2-9-2023-7",2023,7,NA,44.8905,-62.305483,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+541,"metaxas_recent","Scotian Shelf","Tuffin I 6",6,"Tuffin I 6-6-2023-7",2023,7,NA,44.9053,-62.168033,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+542,"metaxas_recent","Scotian Shelf","Tuffin I 6",6,"Tuffin I 6-6-2023-7",2023,7,NA,44.9053,-62.168033,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+543,"metaxas_recent","Scotian Shelf","Tuffin I 6",6,"Tuffin I 6-6-2023-7",2023,7,NA,44.9053,-62.168033,"Laminaria digitata","Fixed",0.5,NA,1.71428571428571,1.71428571428571,NA
+544,"metaxas_recent","Scotian Shelf","Tuffin I 6",6,"Tuffin I 6-6-2023-7",2023,7,NA,44.9053,-62.168033,"Saccharina latissima","Fixed",0.5,NA,5.14285714285714,5.14285714285714,NA
+545,"metaxas_recent","Scotian Shelf","Tuffin I 6",6,"Tuffin I 6-6-2023-7",2023,7,NA,44.9053,-62.168033,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+546,"metaxas_recent","Scotian Shelf","Tuffin I 6",9,"Tuffin I 6-9-2023-7",2023,7,NA,44.9053,-62.168033,"Agarum clathratum","Fixed",0.5,NA,0.625,0.625,NA
+547,"metaxas_recent","Scotian Shelf","Tuffin I 6",9,"Tuffin I 6-9-2023-7",2023,7,NA,44.9053,-62.168033,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+548,"metaxas_recent","Scotian Shelf","Tuffin I 6",9,"Tuffin I 6-9-2023-7",2023,7,NA,44.9053,-62.168033,"Laminaria digitata","Fixed",0.5,NA,0.125,0.125,NA
+549,"metaxas_recent","Scotian Shelf","Tuffin I 6",9,"Tuffin I 6-9-2023-7",2023,7,NA,44.9053,-62.168033,"Saccharina latissima","Fixed",0.5,NA,3.625,3.625,NA
+550,"metaxas_recent","Scotian Shelf","Tuffin I 6",9,"Tuffin I 6-9-2023-7",2023,7,NA,44.9053,-62.168033,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+551,"metaxas_recent","Scotian Shelf","Tuffin I 3",6,"Tuffin I 3-6-2023-7",2023,7,NA,44.906233,-62.164917,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+552,"metaxas_recent","Scotian Shelf","Tuffin I 3",6,"Tuffin I 3-6-2023-7",2023,7,NA,44.906233,-62.164917,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+553,"metaxas_recent","Scotian Shelf","Tuffin I 3",6,"Tuffin I 3-6-2023-7",2023,7,NA,44.906233,-62.164917,"Laminaria digitata","Fixed",0.5,NA,3.6,3.6,NA
+554,"metaxas_recent","Scotian Shelf","Tuffin I 3",6,"Tuffin I 3-6-2023-7",2023,7,NA,44.906233,-62.164917,"Saccharina latissima","Fixed",0.5,NA,2.66666666666667,2.66666666666667,NA
+555,"metaxas_recent","Scotian Shelf","Tuffin I 3",6,"Tuffin I 3-6-2023-7",2023,7,NA,44.906233,-62.164917,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+556,"metaxas_recent","Scotian Shelf","Tuffin I 3",9,"Tuffin I 3-9-2023-7",2023,7,NA,44.906233,-62.164917,"Agarum clathratum","Fixed",0.5,NA,0.8,0.8,NA
+557,"metaxas_recent","Scotian Shelf","Tuffin I 3",9,"Tuffin I 3-9-2023-7",2023,7,NA,44.906233,-62.164917,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+558,"metaxas_recent","Scotian Shelf","Tuffin I 3",9,"Tuffin I 3-9-2023-7",2023,7,NA,44.906233,-62.164917,"Laminaria digitata","Fixed",0.5,NA,1.46666666666667,1.46666666666667,NA
+559,"metaxas_recent","Scotian Shelf","Tuffin I 3",9,"Tuffin I 3-9-2023-7",2023,7,NA,44.906233,-62.164917,"Saccharina latissima","Fixed",0.5,NA,4.4,4.4,NA
+560,"metaxas_recent","Scotian Shelf","Tuffin I 3",9,"Tuffin I 3-9-2023-7",2023,7,NA,44.906233,-62.164917,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+561,"metaxas_recent","Scotian Shelf","Tuffin I 2",6,"Tuffin I 2-6-2023-7",2023,7,NA,44.906233,-62.159833,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+562,"metaxas_recent","Scotian Shelf","Tuffin I 2",6,"Tuffin I 2-6-2023-7",2023,7,NA,44.906233,-62.159833,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+563,"metaxas_recent","Scotian Shelf","Tuffin I 2",6,"Tuffin I 2-6-2023-7",2023,7,NA,44.906233,-62.159833,"Laminaria digitata","Fixed",0.5,NA,3.73333333333333,3.73333333333333,NA
+564,"metaxas_recent","Scotian Shelf","Tuffin I 2",6,"Tuffin I 2-6-2023-7",2023,7,NA,44.906233,-62.159833,"Saccharina latissima","Fixed",0.5,NA,5.2,5.2,NA
+565,"metaxas_recent","Scotian Shelf","Tuffin I 2",6,"Tuffin I 2-6-2023-7",2023,7,NA,44.906233,-62.159833,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+566,"metaxas_recent","Scotian Shelf","Tuffin I 2",9,"Tuffin I 2-9-2023-7",2023,7,NA,44.906233,-62.159833,"Agarum clathratum","Fixed",0.5,NA,0.533333333333333,0.533333333333333,NA
+567,"metaxas_recent","Scotian Shelf","Tuffin I 2",9,"Tuffin I 2-9-2023-7",2023,7,NA,44.906233,-62.159833,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+568,"metaxas_recent","Scotian Shelf","Tuffin I 2",9,"Tuffin I 2-9-2023-7",2023,7,NA,44.906233,-62.159833,"Laminaria digitata","Fixed",0.5,NA,0.8,0.8,NA
+569,"metaxas_recent","Scotian Shelf","Tuffin I 2",9,"Tuffin I 2-9-2023-7",2023,7,NA,44.906233,-62.159833,"Saccharina latissima","Fixed",0.5,NA,8.93333333333333,8.93333333333333,NA
+570,"metaxas_recent","Scotian Shelf","Tuffin I 2",9,"Tuffin I 2-9-2023-7",2023,7,NA,44.906233,-62.159833,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+571,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2023-7",2023,7,NA,44.9066,-62.155933,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+572,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2023-7",2023,7,NA,44.9066,-62.155933,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+573,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2023-7",2023,7,NA,44.9066,-62.155933,"Laminaria digitata","Fixed",0.5,NA,3.6,3.6,NA
+574,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2023-7",2023,7,NA,44.9066,-62.155933,"Saccharina latissima","Fixed",0.5,NA,3.6,3.6,NA
+575,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2023-7",2023,7,NA,44.9066,-62.155933,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+576,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2023-7",2023,7,NA,44.9066,-62.155933,"Agarum clathratum","Fixed",0.5,NA,0.133333333333333,0.133333333333333,NA
+577,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2023-7",2023,7,NA,44.9066,-62.155933,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+578,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2023-7",2023,7,NA,44.9066,-62.155933,"Laminaria digitata","Fixed",0.5,NA,2.26666666666667,2.26666666666667,NA
+579,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2023-7",2023,7,NA,44.9066,-62.155933,"Saccharina latissima","Fixed",0.5,NA,5.06666666666667,5.06666666666667,NA
+580,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2023-7",2023,7,NA,44.9066,-62.155933,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+581,"metaxas_recent","Scotian Shelf","Tuffin I 4",6,"Tuffin I 4-6-2023-7",2023,7,NA,44.910117,-62.155817,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+582,"metaxas_recent","Scotian Shelf","Tuffin I 4",6,"Tuffin I 4-6-2023-7",2023,7,NA,44.910117,-62.155817,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+583,"metaxas_recent","Scotian Shelf","Tuffin I 4",6,"Tuffin I 4-6-2023-7",2023,7,NA,44.910117,-62.155817,"Laminaria digitata","Fixed",0.5,NA,0.533333333333333,0.533333333333333,NA
+584,"metaxas_recent","Scotian Shelf","Tuffin I 4",6,"Tuffin I 4-6-2023-7",2023,7,NA,44.910117,-62.155817,"Saccharina latissima","Fixed",0.5,NA,1.6,1.6,NA
+585,"metaxas_recent","Scotian Shelf","Tuffin I 4",6,"Tuffin I 4-6-2023-7",2023,7,NA,44.910117,-62.155817,"Saccorhiza dermatodea","Fixed",0.5,NA,0.266666666666667,0.266666666666667,NA
+586,"metaxas_recent","Scotian Shelf","Tuffin I 4",9,"Tuffin I 4-9-2023-7",2023,7,NA,44.910117,-62.155817,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+587,"metaxas_recent","Scotian Shelf","Tuffin I 4",9,"Tuffin I 4-9-2023-7",2023,7,NA,44.910117,-62.155817,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+588,"metaxas_recent","Scotian Shelf","Tuffin I 4",9,"Tuffin I 4-9-2023-7",2023,7,NA,44.910117,-62.155817,"Laminaria digitata","Fixed",0.5,NA,0,0,NA
+589,"metaxas_recent","Scotian Shelf","Tuffin I 4",9,"Tuffin I 4-9-2023-7",2023,7,NA,44.910117,-62.155817,"Saccharina latissima","Fixed",0.5,NA,0,0,NA
+590,"metaxas_recent","Scotian Shelf","Tuffin I 4",9,"Tuffin I 4-9-2023-7",2023,7,NA,44.910117,-62.155817,"Saccorhiza dermatodea","Fixed",0.5,NA,1.53846153846154,1.53846153846154,NA
+591,"metaxas_recent","Scotian Shelf","Tuffin I 5",6,"Tuffin I 5-6-2023-7",2023,7,NA,44.911317,-62.175083,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+592,"metaxas_recent","Scotian Shelf","Tuffin I 5",6,"Tuffin I 5-6-2023-7",2023,7,NA,44.911317,-62.175083,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+593,"metaxas_recent","Scotian Shelf","Tuffin I 5",6,"Tuffin I 5-6-2023-7",2023,7,NA,44.911317,-62.175083,"Laminaria digitata","Fixed",0.5,NA,1.73333333333333,1.73333333333333,NA
+594,"metaxas_recent","Scotian Shelf","Tuffin I 5",6,"Tuffin I 5-6-2023-7",2023,7,NA,44.911317,-62.175083,"Saccharina latissima","Fixed",0.5,NA,1.46666666666667,1.46666666666667,NA
+595,"metaxas_recent","Scotian Shelf","Tuffin I 5",6,"Tuffin I 5-6-2023-7",2023,7,NA,44.911317,-62.175083,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+596,"metaxas_recent","Scotian Shelf","Tuffin I 5",9,"Tuffin I 5-9-2023-7",2023,7,NA,44.911317,-62.175083,"Agarum clathratum","Fixed",0.5,NA,0.125,0.125,NA
+597,"metaxas_recent","Scotian Shelf","Tuffin I 5",9,"Tuffin I 5-9-2023-7",2023,7,NA,44.911317,-62.175083,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+598,"metaxas_recent","Scotian Shelf","Tuffin I 5",9,"Tuffin I 5-9-2023-7",2023,7,NA,44.911317,-62.175083,"Laminaria digitata","Fixed",0.5,NA,0.875,0.875,NA
+599,"metaxas_recent","Scotian Shelf","Tuffin I 5",9,"Tuffin I 5-9-2023-7",2023,7,NA,44.911317,-62.175083,"Saccharina latissima","Fixed",0.5,NA,1,1,NA
+600,"metaxas_recent","Scotian Shelf","Tuffin I 5",9,"Tuffin I 5-9-2023-7",2023,7,NA,44.911317,-62.175083,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+601,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2023-7",2023,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+602,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2023-7",2023,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+603,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2023-7",2023,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,NA,0.266666666666667,0.266666666666667,NA
+604,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2023-7",2023,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,NA,0.933333333333333,0.933333333333333,NA
+605,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2023-7",2023,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+606,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2023-7",2023,7,NA,44.92397,-62.23767,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+607,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2023-7",2023,7,NA,44.92397,-62.23767,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+608,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2023-7",2023,7,NA,44.92397,-62.23767,"Laminaria digitata","Fixed",0.5,NA,5.33333333333333,5.33333333333333,NA
+609,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2023-7",2023,7,NA,44.92397,-62.23767,"Saccharina latissima","Fixed",0.5,NA,4.26666666666667,4.26666666666667,NA
+610,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2023-7",2023,7,NA,44.92397,-62.23767,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+611,"metaxas_recent","Scotian Shelf","Moll 2",6,"Moll 2-6-2023-7",2023,7,NA,44.924583,-62.2391,"Agarum clathratum","Fixed",0.5,NA,0,0,NA
+612,"metaxas_recent","Scotian Shelf","Moll 2",6,"Moll 2-6-2023-7",2023,7,NA,44.924583,-62.2391,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+613,"metaxas_recent","Scotian Shelf","Moll 2",6,"Moll 2-6-2023-7",2023,7,NA,44.924583,-62.2391,"Laminaria digitata","Fixed",0.5,NA,0.933333333333333,0.933333333333333,NA
+614,"metaxas_recent","Scotian Shelf","Moll 2",6,"Moll 2-6-2023-7",2023,7,NA,44.924583,-62.2391,"Saccharina latissima","Fixed",0.5,NA,1.2,1.2,NA
+615,"metaxas_recent","Scotian Shelf","Moll 2",6,"Moll 2-6-2023-7",2023,7,NA,44.924583,-62.2391,"Saccorhiza dermatodea","Fixed",0.5,NA,0.133333333333333,0.133333333333333,NA
+616,"metaxas_recent","Scotian Shelf","Moll 2",9,"Moll 2-9-2023-7",2023,7,NA,44.924583,-62.2391,"Agarum clathratum","Fixed",0.5,NA,0.666666666666667,0.666666666666667,NA
+617,"metaxas_recent","Scotian Shelf","Moll 2",9,"Moll 2-9-2023-7",2023,7,NA,44.924583,-62.2391,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+618,"metaxas_recent","Scotian Shelf","Moll 2",9,"Moll 2-9-2023-7",2023,7,NA,44.924583,-62.2391,"Laminaria digitata","Fixed",0.5,NA,1.33333333333333,1.33333333333333,NA
+619,"metaxas_recent","Scotian Shelf","Moll 2",9,"Moll 2-9-2023-7",2023,7,NA,44.924583,-62.2391,"Saccharina latissima","Fixed",0.5,NA,3.2,3.2,NA
+620,"metaxas_recent","Scotian Shelf","Moll 2",9,"Moll 2-9-2023-7",2023,7,NA,44.924583,-62.2391,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+621,"metaxas_recent","Scotian Shelf","Moll 3",6,"Moll 3-6-2023-7",2023,7,NA,44.925267,-62.236233,"Agarum clathratum","Fixed",0.5,NA,0.625,0.625,NA
+622,"metaxas_recent","Scotian Shelf","Moll 3",6,"Moll 3-6-2023-7",2023,7,NA,44.925267,-62.236233,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+623,"metaxas_recent","Scotian Shelf","Moll 3",6,"Moll 3-6-2023-7",2023,7,NA,44.925267,-62.236233,"Laminaria digitata","Fixed",0.5,NA,0.5,0.5,NA
+624,"metaxas_recent","Scotian Shelf","Moll 3",6,"Moll 3-6-2023-7",2023,7,NA,44.925267,-62.236233,"Saccharina latissima","Fixed",0.5,NA,2.375,2.375,NA
+625,"metaxas_recent","Scotian Shelf","Moll 3",6,"Moll 3-6-2023-7",2023,7,NA,44.925267,-62.236233,"Saccorhiza dermatodea","Fixed",0.5,NA,0,0,NA
+626,"metaxas_recent","Scotian Shelf","Moll 3",9,"Moll 3-9-2023-7",2023,7,NA,44.925267,-62.236233,"Agarum clathratum","Fixed",0.5,NA,1.46666666666667,1.46666666666667,NA
+627,"metaxas_recent","Scotian Shelf","Moll 3",9,"Moll 3-9-2023-7",2023,7,NA,44.925267,-62.236233,"Alaria esculenta","Fixed",0.5,NA,0,0,NA
+628,"metaxas_recent","Scotian Shelf","Moll 3",9,"Moll 3-9-2023-7",2023,7,NA,44.925267,-62.236233,"Laminaria digitata","Fixed",0.5,NA,2.4,2.4,NA
+629,"metaxas_recent","Scotian Shelf","Moll 3",9,"Moll 3-9-2023-7",2023,7,NA,44.925267,-62.236233,"Saccharina latissima","Fixed",0.5,NA,2.26666666666667,2.26666666666667,NA
+630,"metaxas_recent","Scotian Shelf","Moll 3",9,"Moll 3-9-2023-7",2023,7,NA,44.925267,-62.236233,"Saccorhiza dermatodea","Fixed",0.5,NA,0.4,0.4,NA
+1,"metaxas_recent","Scotian Shelf","Fish I",6,"Fish I-6-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Agarum clathratum","Fixed",NA,0.0267094017094017,NA,NA,NA
+2,"metaxas_recent","Scotian Shelf","Fish I",6,"Fish I-6-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+8,"metaxas_recent","Scotian Shelf","Fish I",6,"Fish I-6-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Laminaria digitata","Fixed",NA,75.4438253854142,NA,NA,NA
+10,"metaxas_recent","Scotian Shelf","Fish I",6,"Fish I-6-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Saccharina latissima","Fixed",NA,6.45993090502436,NA,NA,NA
+11,"metaxas_recent","Scotian Shelf","Fish I",6,"Fish I-6-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+13,"metaxas_recent","Scotian Shelf","Fish I",9,"Fish I-9-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Agarum clathratum","Fixed",NA,0.699300699300699,NA,NA,NA
+14,"metaxas_recent","Scotian Shelf","Fish I",9,"Fish I-9-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+20,"metaxas_recent","Scotian Shelf","Fish I",9,"Fish I-9-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Laminaria digitata","Fixed",NA,81.3519813519814,NA,NA,NA
+22,"metaxas_recent","Scotian Shelf","Fish I",9,"Fish I-9-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Saccharina latissima","Fixed",NA,6.52680652680653,NA,NA,NA
+23,"metaxas_recent","Scotian Shelf","Fish I",9,"Fish I-9-2018-8",2018,8,2018-08-01,44.820867,-62.439917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+25,"metaxas_recent","Scotian Shelf","Pumpkin I",6,"Pumpkin I-6-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+26,"metaxas_recent","Scotian Shelf","Pumpkin I",6,"Pumpkin I-6-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+32,"metaxas_recent","Scotian Shelf","Pumpkin I",6,"Pumpkin I-6-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Laminaria digitata","Fixed",NA,6.38957816377171,NA,NA,NA
+34,"metaxas_recent","Scotian Shelf","Pumpkin I",6,"Pumpkin I-6-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Saccharina latissima","Fixed",NA,0.310173697270472,NA,NA,NA
+35,"metaxas_recent","Scotian Shelf","Pumpkin I",6,"Pumpkin I-6-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+37,"metaxas_recent","Scotian Shelf","Pumpkin I",9,"Pumpkin I-9-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Agarum clathratum","Fixed",NA,0.495337995337995,NA,NA,NA
+38,"metaxas_recent","Scotian Shelf","Pumpkin I",9,"Pumpkin I-9-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+44,"metaxas_recent","Scotian Shelf","Pumpkin I",9,"Pumpkin I-9-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Laminaria digitata","Fixed",NA,10.518648018648,NA,NA,NA
+46,"metaxas_recent","Scotian Shelf","Pumpkin I",9,"Pumpkin I-9-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Saccharina latissima","Fixed",NA,3.11771561771562,NA,NA,NA
+47,"metaxas_recent","Scotian Shelf","Pumpkin I",9,"Pumpkin I-9-2018-8",2018,8,2018-08-01,44.822083,-62.3769,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+49,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+50,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+56,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Laminaria digitata","Fixed",NA,4.95177045177045,NA,NA,NA
+58,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Saccharina latissima","Fixed",NA,14.9328449328449,NA,NA,NA
+59,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+61,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Agarum clathratum","Fixed",NA,2.11004273504274,NA,NA,NA
+62,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+68,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Laminaria digitata","Fixed",NA,8.38675213675214,NA,NA,NA
+70,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Saccharina latissima","Fixed",NA,2.69764957264957,NA,NA,NA
+71,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2018-8",2018,8,2018-08-01,44.8449,-62.386817,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+73,"metaxas_recent","Scotian Shelf","Bird I Breakers",6,"Bird I Breakers-6-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+74,"metaxas_recent","Scotian Shelf","Bird I Breakers",6,"Bird I Breakers-6-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+80,"metaxas_recent","Scotian Shelf","Bird I Breakers",6,"Bird I Breakers-6-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Laminaria digitata","Fixed",NA,90.5594405594406,NA,NA,NA
+82,"metaxas_recent","Scotian Shelf","Bird I Breakers",6,"Bird I Breakers-6-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Saccharina latissima","Fixed",NA,5.8941058941059,NA,NA,NA
+83,"metaxas_recent","Scotian Shelf","Bird I Breakers",6,"Bird I Breakers-6-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+85,"metaxas_recent","Scotian Shelf","Bird I Breakers",9,"Bird I Breakers-9-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+86,"metaxas_recent","Scotian Shelf","Bird I Breakers",9,"Bird I Breakers-9-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Alaria esculenta","Fixed",NA,0.55668016194332,NA,NA,NA
+92,"metaxas_recent","Scotian Shelf","Bird I Breakers",9,"Bird I Breakers-9-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Laminaria digitata","Fixed",NA,64.7700983227299,NA,NA,NA
+94,"metaxas_recent","Scotian Shelf","Bird I Breakers",9,"Bird I Breakers-9-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Saccharina latissima","Fixed",NA,12.0373048004627,NA,NA,NA
+95,"metaxas_recent","Scotian Shelf","Bird I Breakers",9,"Bird I Breakers-9-2018-8",2018,8,2018-08-01,44.85755,-62.24515,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+97,"metaxas_recent","Scotian Shelf","Harbour I",6,"Harbour I-6-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+98,"metaxas_recent","Scotian Shelf","Harbour I",6,"Harbour I-6-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+104,"metaxas_recent","Scotian Shelf","Harbour I",6,"Harbour I-6-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Laminaria digitata","Fixed",NA,2.32708468002586,NA,NA,NA
+106,"metaxas_recent","Scotian Shelf","Harbour I",6,"Harbour I-6-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Saccharina latissima","Fixed",NA,13.8332255979315,NA,NA,NA
+107,"metaxas_recent","Scotian Shelf","Harbour I",6,"Harbour I-6-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+109,"metaxas_recent","Scotian Shelf","Harbour I",9,"Harbour I-9-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Agarum clathratum","Fixed",NA,0.206043956043956,NA,NA,NA
+110,"metaxas_recent","Scotian Shelf","Harbour I",9,"Harbour I-9-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+116,"metaxas_recent","Scotian Shelf","Harbour I",9,"Harbour I-9-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Laminaria digitata","Fixed",NA,7.82967032967033,NA,NA,NA
+118,"metaxas_recent","Scotian Shelf","Harbour I",9,"Harbour I-9-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Saccharina latissima","Fixed",NA,16.6552197802198,NA,NA,NA
+119,"metaxas_recent","Scotian Shelf","Harbour I",9,"Harbour I-9-2018-8",2018,8,2018-08-01,44.867617,-62.334983,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+121,"metaxas_recent","Scotian Shelf","Bird I",6,"Bird I-6-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+122,"metaxas_recent","Scotian Shelf","Bird I",6,"Bird I-6-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+128,"metaxas_recent","Scotian Shelf","Bird I",6,"Bird I-6-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Laminaria digitata","Fixed",NA,14.0943825637703,NA,NA,NA
+130,"metaxas_recent","Scotian Shelf","Bird I",6,"Bird I-6-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Saccharina latissima","Fixed",NA,10.8489675479471,NA,NA,NA
+131,"metaxas_recent","Scotian Shelf","Bird I",6,"Bird I-6-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+133,"metaxas_recent","Scotian Shelf","Bird I",9,"Bird I-9-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Agarum clathratum","Fixed",NA,0.655646874134269,NA,NA,NA
+134,"metaxas_recent","Scotian Shelf","Bird I",9,"Bird I-9-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Alaria esculenta","Fixed",NA,0.0565610859728507,NA,NA,NA
+140,"metaxas_recent","Scotian Shelf","Bird I",9,"Bird I-9-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Laminaria digitata","Fixed",NA,16.7807507618432,NA,NA,NA
+142,"metaxas_recent","Scotian Shelf","Bird I",9,"Bird I-9-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Saccharina latissima","Fixed",NA,28.1293286545387,NA,NA,NA
+143,"metaxas_recent","Scotian Shelf","Bird I",9,"Bird I-9-2018-8",2018,8,2018-08-01,44.8708,-62.282867,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+145,"metaxas_recent","Scotian Shelf","Nowlans Shoal",6,"Nowlans Shoal-6-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Agarum clathratum","Fixed",NA,0.289655996177735,NA,NA,NA
+146,"metaxas_recent","Scotian Shelf","Nowlans Shoal",6,"Nowlans Shoal-6-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+152,"metaxas_recent","Scotian Shelf","Nowlans Shoal",6,"Nowlans Shoal-6-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Laminaria digitata","Fixed",NA,3.88198757763975,NA,NA,NA
+154,"metaxas_recent","Scotian Shelf","Nowlans Shoal",6,"Nowlans Shoal-6-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Saccharina latissima","Fixed",NA,23.5338031533684,NA,NA,NA
+155,"metaxas_recent","Scotian Shelf","Nowlans Shoal",6,"Nowlans Shoal-6-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+157,"metaxas_recent","Scotian Shelf","Nowlans Shoal",9,"Nowlans Shoal-9-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Agarum clathratum","Fixed",NA,7.03983516483517,NA,NA,NA
+158,"metaxas_recent","Scotian Shelf","Nowlans Shoal",9,"Nowlans Shoal-9-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+164,"metaxas_recent","Scotian Shelf","Nowlans Shoal",9,"Nowlans Shoal-9-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Laminaria digitata","Fixed",NA,6.56936813186813,NA,NA,NA
+166,"metaxas_recent","Scotian Shelf","Nowlans Shoal",9,"Nowlans Shoal-9-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Saccharina latissima","Fixed",NA,18.6847527472527,NA,NA,NA
+167,"metaxas_recent","Scotian Shelf","Nowlans Shoal",9,"Nowlans Shoal-9-2018-8",2018,8,2018-08-01,44.879667,-62.3286,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+169,"metaxas_recent","Scotian Shelf","Camp I",6,"Camp I-6-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+170,"metaxas_recent","Scotian Shelf","Camp I",6,"Camp I-6-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Alaria esculenta","Fixed",NA,0.270432692307692,NA,NA,NA
+176,"metaxas_recent","Scotian Shelf","Camp I",6,"Camp I-6-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Laminaria digitata","Fixed",NA,88.8307005494506,NA,NA,NA
+178,"metaxas_recent","Scotian Shelf","Camp I",6,"Camp I-6-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Saccharina latissima","Fixed",NA,7.72235576923077,NA,NA,NA
+179,"metaxas_recent","Scotian Shelf","Camp I",6,"Camp I-6-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+181,"metaxas_recent","Scotian Shelf","Camp I",9,"Camp I-9-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Agarum clathratum","Fixed",NA,0.0323206205559146,NA,NA,NA
+182,"metaxas_recent","Scotian Shelf","Camp I",9,"Camp I-9-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Alaria esculenta","Fixed",NA,0.0323206205559147,NA,NA,NA
+188,"metaxas_recent","Scotian Shelf","Camp I",9,"Camp I-9-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Laminaria digitata","Fixed",NA,70.0468648998061,NA,NA,NA
+190,"metaxas_recent","Scotian Shelf","Camp I",9,"Camp I-9-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Saccharina latissima","Fixed",NA,12.6131221719457,NA,NA,NA
+191,"metaxas_recent","Scotian Shelf","Camp I",9,"Camp I-9-2018-8",2018,8,2018-08-01,44.88065,-62.16285,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+193,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+194,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+200,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Laminaria digitata","Fixed",NA,1.1166253101737,NA,NA,NA
+202,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Saccharina latissima","Fixed",NA,2.17564693371145,NA,NA,NA
+203,"metaxas_recent","Scotian Shelf","White I",6,"White I-6-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+205,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Agarum clathratum","Fixed",NA,0.450721153846154,NA,NA,NA
+206,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+212,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Laminaria digitata","Fixed",NA,0.721153846153846,NA,NA,NA
+214,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Saccharina latissima","Fixed",NA,9.04447115384616,NA,NA,NA
+215,"metaxas_recent","Scotian Shelf","White I",9,"White I-9-2018-8",2018,8,2018-08-01,44.887067,-62.119667,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+217,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Agarum clathratum","Fixed",NA,0.0381944444444445,NA,NA,NA
+218,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Alaria esculenta","Fixed",NA,0.20970695970696,NA,NA,NA
+224,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Laminaria digitata","Fixed",NA,72.4644383394383,NA,NA,NA
+226,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Saccharina latissima","Fixed",NA,13.4100529100529,NA,NA,NA
+227,"metaxas_recent","Scotian Shelf","Halibut I",6,"Halibut I-6-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+229,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Agarum clathratum","Fixed",NA,0.516369047619048,NA,NA,NA
+230,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Alaria esculenta","Fixed",NA,0.16468253968254,NA,NA,NA
+236,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Laminaria digitata","Fixed",NA,58.0178182384065,NA,NA,NA
+238,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Saccharina latissima","Fixed",NA,17.1117837092102,NA,NA,NA
+239,"metaxas_recent","Scotian Shelf","Halibut I",9,"Halibut I-9-2018-8",2018,8,2018-08-01,44.887967,-62.207,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+241,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Agarum clathratum","Fixed",NA,0.0523286237571952,NA,NA,NA
+242,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+248,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Laminaria digitata","Fixed",NA,20.094191522763,NA,NA,NA
+250,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Saccharina latissima","Fixed",NA,15.6985871271586,NA,NA,NA
+251,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+253,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Agarum clathratum","Fixed",NA,0.427350427350427,NA,NA,NA
+254,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+260,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Laminaria digitata","Fixed",NA,6.53235653235653,NA,NA,NA
+262,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Saccharina latissima","Fixed",NA,10.4395604395604,NA,NA,NA
+263,"metaxas_recent","Scotian Shelf","Long I",9,"Long I-9-2018-8",2018,8,2018-08-01,44.88955,-62.302917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+265,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+266,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Alaria esculenta","Fixed",NA,0.051975051975052,NA,NA,NA
+272,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Laminaria digitata","Fixed",NA,72.8498165998166,NA,NA,NA
+274,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Saccharina latissima","Fixed",NA,8.91939141939142,NA,NA,NA
+275,"metaxas_recent","Scotian Shelf","Tuffin I",6,"Tuffin I-6-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+277,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Agarum clathratum","Fixed",NA,6.85096153846154,NA,NA,NA
+278,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Alaria esculenta","Fixed",NA,0.0600961538461539,NA,NA,NA
+284,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Laminaria digitata","Fixed",NA,53.4555288461538,NA,NA,NA
+286,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Saccharina latissima","Fixed",NA,23.4975961538462,NA,NA,NA
+287,"metaxas_recent","Scotian Shelf","Tuffin I",9,"Tuffin I-9-2018-8",2018,8,2018-08-01,44.9066,-62.155933,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+289,"metaxas_recent","Scotian Shelf","Gold I",6,"Gold I-6-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Agarum clathratum","Fixed",NA,0.0282805429864253,NA,NA,NA
+290,"metaxas_recent","Scotian Shelf","Gold I",6,"Gold I-6-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+296,"metaxas_recent","Scotian Shelf","Gold I",6,"Gold I-6-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Laminaria digitata","Fixed",NA,4.61607720011081,NA,NA,NA
+298,"metaxas_recent","Scotian Shelf","Gold I",6,"Gold I-6-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Saccharina latissima","Fixed",NA,19.4350817249977,NA,NA,NA
+299,"metaxas_recent","Scotian Shelf","Gold I",6,"Gold I-6-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+301,"metaxas_recent","Scotian Shelf","Gold I",9,"Gold I-9-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Agarum clathratum","Fixed",NA,2.85547785547786,NA,NA,NA
+302,"metaxas_recent","Scotian Shelf","Gold I",9,"Gold I-9-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+308,"metaxas_recent","Scotian Shelf","Gold I",9,"Gold I-9-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Laminaria digitata","Fixed",NA,15.202059844917,NA,NA,NA
+310,"metaxas_recent","Scotian Shelf","Gold I",9,"Gold I-9-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Saccharina latissima","Fixed",NA,12.1580800152229,NA,NA,NA
+311,"metaxas_recent","Scotian Shelf","Gold I",9,"Gold I-9-2018-8",2018,8,2018-08-01,44.9077,-62.260967,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+313,"metaxas_recent","Scotian Shelf","Crooks I",6,"Crooks I-6-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Agarum clathratum","Fixed",NA,0.0757862826828344,NA,NA,NA
+314,"metaxas_recent","Scotian Shelf","Crooks I",6,"Crooks I-6-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Alaria esculenta","Fixed",NA,0.113679424024252,NA,NA,NA
+320,"metaxas_recent","Scotian Shelf","Crooks I",6,"Crooks I-6-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Laminaria digitata","Fixed",NA,79.7840090943539,NA,NA,NA
+322,"metaxas_recent","Scotian Shelf","Crooks I",6,"Crooks I-6-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Saccharina latissima","Fixed",NA,11.839238347859,NA,NA,NA
+323,"metaxas_recent","Scotian Shelf","Crooks I",6,"Crooks I-6-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+325,"metaxas_recent","Scotian Shelf","Crooks I",9,"Crooks I-9-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Agarum clathratum","Fixed",NA,3.86280386280386,NA,NA,NA
+326,"metaxas_recent","Scotian Shelf","Crooks I",9,"Crooks I-9-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Alaria esculenta","Fixed",NA,0.599400599400599,NA,NA,NA
+332,"metaxas_recent","Scotian Shelf","Crooks I",9,"Crooks I-9-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Laminaria digitata","Fixed",NA,64.5354645354645,NA,NA,NA
+334,"metaxas_recent","Scotian Shelf","Crooks I",9,"Crooks I-9-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Saccharina latissima","Fixed",NA,9.35730935730936,NA,NA,NA
+335,"metaxas_recent","Scotian Shelf","Crooks I",9,"Crooks I-9-2018-8",2018,8,2018-08-01,44.922917,-62.086267,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+337,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+338,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Alaria esculenta","Fixed",NA,0.0821185617103984,NA,NA,NA
+344,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Laminaria digitata","Fixed",NA,20.7294797039695,NA,NA,NA
+346,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Saccharina latissima","Fixed",NA,18.7628018240263,NA,NA,NA
+347,"metaxas_recent","Scotian Shelf","The Moll",6,"The Moll-6-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+349,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Agarum clathratum","Fixed",NA,3.08243024256849,NA,NA,NA
+350,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Alaria esculenta","Fixed",NA,0.230414746543779,NA,NA,NA
+356,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Laminaria digitata","Fixed",NA,49.5492986276396,NA,NA,NA
+358,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Saccharina latissima","Fixed",NA,23.6691016356915,NA,NA,NA
+359,"metaxas_recent","Scotian Shelf","The Moll",9,"The Moll-9-2018-8",2018,8,2018-08-01,44.923967,-62.237667,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+361,"metaxas_recent","Scotian Shelf","Goose I",6,"Goose I-6-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Agarum clathratum","Fixed",NA,0.113679424024252,NA,NA,NA
+362,"metaxas_recent","Scotian Shelf","Goose I",6,"Goose I-6-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Alaria esculenta","Fixed",NA,0.568397120121258,NA,NA,NA
+368,"metaxas_recent","Scotian Shelf","Goose I",6,"Goose I-6-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Laminaria digitata","Fixed",NA,70.1834744938193,NA,NA,NA
+370,"metaxas_recent","Scotian Shelf","Goose I",6,"Goose I-6-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Saccharina latissima","Fixed",NA,14.0844709810227,NA,NA,NA
+371,"metaxas_recent","Scotian Shelf","Goose I",6,"Goose I-6-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+373,"metaxas_recent","Scotian Shelf","Goose I",9,"Goose I-9-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Agarum clathratum","Fixed",NA,0.395604395604395,NA,NA,NA
+374,"metaxas_recent","Scotian Shelf","Goose I",9,"Goose I-9-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Alaria esculenta","Fixed",NA,0.307692307692308,NA,NA,NA
+380,"metaxas_recent","Scotian Shelf","Goose I",9,"Goose I-9-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Laminaria digitata","Fixed",NA,62.5934065934066,NA,NA,NA
+382,"metaxas_recent","Scotian Shelf","Goose I",9,"Goose I-9-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Saccharina latissima","Fixed",NA,22.2857142857143,NA,NA,NA
+383,"metaxas_recent","Scotian Shelf","Goose I",9,"Goose I-9-2018-8",2018,8,2018-08-01,44.92995,-62.086267,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+385,"metaxas_recent","Scotian Shelf","Barren I",6,"Barren I-6-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+386,"metaxas_recent","Scotian Shelf","Barren I",6,"Barren I-6-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+392,"metaxas_recent","Scotian Shelf","Barren I",6,"Barren I-6-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Laminaria digitata","Fixed",NA,23.6305361305361,NA,NA,NA
+394,"metaxas_recent","Scotian Shelf","Barren I",6,"Barren I-6-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Saccharina latissima","Fixed",NA,9.13253413253413,NA,NA,NA
+395,"metaxas_recent","Scotian Shelf","Barren I",6,"Barren I-6-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+397,"metaxas_recent","Scotian Shelf","Barren I",9,"Barren I-9-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Agarum clathratum","Fixed",NA,0.459636517328825,NA,NA,NA
+398,"metaxas_recent","Scotian Shelf","Barren I",9,"Barren I-9-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+404,"metaxas_recent","Scotian Shelf","Barren I",9,"Barren I-9-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Laminaria digitata","Fixed",NA,30.1738729903405,NA,NA,NA
+406,"metaxas_recent","Scotian Shelf","Barren I",9,"Barren I-9-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Saccharina latissima","Fixed",NA,29.3343092680285,NA,NA,NA
+407,"metaxas_recent","Scotian Shelf","Barren I",9,"Barren I-9-2018-8",2018,8,2018-08-01,44.932417,-62.05015,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+505,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-7",2019,7,2019-07-01,44.88955,-62.30292,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+506,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-7",2019,7,2019-07-01,44.88955,-62.30292,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+512,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-7",2019,7,2019-07-01,44.88955,-62.30292,"Laminaria digitata","Fixed",NA,24.7781065088757,NA,NA,NA
+514,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-7",2019,7,2019-07-01,44.88955,-62.30292,"Saccharina latissima","Fixed",NA,17.5295857988166,NA,NA,NA
+515,"metaxas_recent","Scotian Shelf","Long I",6,"Long I-6-2019-7",2019,7,2019-07-01,44.88955,-62.30292,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+745,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+746,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+752,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Laminaria digitata","Fixed",NA,10.0446428571429,NA,NA,NA
+754,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Saccharina latissima","Fixed",NA,38.3184523809524,NA,NA,NA
+755,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+757,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Agarum clathratum","Fixed",NA,2.59353741496599,NA,NA,NA
+758,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+764,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Laminaria digitata","Fixed",NA,10.671768707483,NA,NA,NA
+766,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Saccharina latissima","Fixed",NA,35.0765306122449,NA,NA,NA
+767,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2020-7",2020,7,2020-07-01,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1321,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Agarum clathratum","Fixed",NA,0.0496031746031746,NA,NA,NA
+1322,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1328,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Laminaria digitata","Fixed",NA,1.98412698412698,NA,NA,NA
+1330,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Saccharina latissima","Fixed",NA,3.125,NA,NA,NA
+1331,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1333,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Agarum clathratum","Fixed",NA,0.744047619047619,NA,NA,NA
+1334,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1340,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Laminaria digitata","Fixed",NA,11.4583333333333,NA,NA,NA
+1342,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Saccharina latissima","Fixed",NA,11.6071428571429,NA,NA,NA
+1343,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-7",2022,7,2022-07-01,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1465,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Agarum clathratum","Fixed",NA,0.107142857142857,NA,NA,NA
+1466,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1472,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Laminaria digitata","Fixed",NA,1.64285714285714,NA,NA,NA
+1474,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Saccharina latissima","Fixed",NA,0.821428571428571,NA,NA,NA
+1475,"metaxas_recent","Scotian Shelf","Speck I",6,"Speck I-6-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1477,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Agarum clathratum","Fixed",NA,0.0318877551020408,NA,NA,NA
+1478,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1484,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Laminaria digitata","Fixed",NA,4.20918367346939,NA,NA,NA
+1486,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Saccharina latissima","Fixed",NA,0.318877551020408,NA,NA,NA
+1487,"metaxas_recent","Scotian Shelf","Speck I",9,"Speck I-9-2022-10",2022,10,2022-10-01,44.8449,-62.38682,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1609,"metaxas_recent","Scotian Shelf","Long3",6,"Long3-6-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1610,"metaxas_recent","Scotian Shelf","Long3",6,"Long3-6-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1616,"metaxas_recent","Scotian Shelf","Long3",6,"Long3-6-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Laminaria digitata","Fixed",NA,12.6623376545455,NA,NA,NA
+1618,"metaxas_recent","Scotian Shelf","Long3",6,"Long3-6-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Saccharina latissima","Fixed",NA,8.19805194545454,NA,NA,NA
+1619,"metaxas_recent","Scotian Shelf","Long3",6,"Long3-6-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Saccorhiza dermatodea","Fixed",NA,0.324675327272727,NA,NA,NA
+1621,"metaxas_recent","Scotian Shelf","Long3",9,"Long3-9-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1622,"metaxas_recent","Scotian Shelf","Long3",9,"Long3-9-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1628,"metaxas_recent","Scotian Shelf","Long3",9,"Long3-9-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Laminaria digitata","Fixed",NA,5.71428572,NA,NA,NA
+1630,"metaxas_recent","Scotian Shelf","Long3",9,"Long3-9-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Saccharina latissima","Fixed",NA,10.89285713,NA,NA,NA
+1631,"metaxas_recent","Scotian Shelf","Long3",9,"Long3-9-2023-7",2023,7,2023-07-01,44.889167,-62.29795,"Saccorhiza dermatodea","Fixed",NA,0.625,NA,NA,NA
+1633,"metaxas_recent","Scotian Shelf","Long1",6,"Long1-6-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1634,"metaxas_recent","Scotian Shelf","Long1",6,"Long1-6-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1640,"metaxas_recent","Scotian Shelf","Long1",6,"Long1-6-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Laminaria digitata","Fixed",NA,20.08928572,NA,NA,NA
+1642,"metaxas_recent","Scotian Shelf","Long1",6,"Long1-6-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Saccharina latissima","Fixed",NA,2.67857142,NA,NA,NA
+1643,"metaxas_recent","Scotian Shelf","Long1",6,"Long1-6-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1645,"metaxas_recent","Scotian Shelf","Long1",9,"Long1-9-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1646,"metaxas_recent","Scotian Shelf","Long1",9,"Long1-9-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1652,"metaxas_recent","Scotian Shelf","Long1",9,"Long1-9-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Laminaria digitata","Fixed",NA,2.58928571,NA,NA,NA
+1654,"metaxas_recent","Scotian Shelf","Long1",9,"Long1-9-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Saccharina latissima","Fixed",NA,3.92857142,NA,NA,NA
+1655,"metaxas_recent","Scotian Shelf","Long1",9,"Long1-9-2023-7",2023,7,2023-07-01,44.88955,-62.302917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1657,"metaxas_recent","Scotian Shelf","Long2",6,"Long2-6-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1658,"metaxas_recent","Scotian Shelf","Long2",6,"Long2-6-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1664,"metaxas_recent","Scotian Shelf","Long2",6,"Long2-6-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Laminaria digitata","Fixed",NA,29.91071429,NA,NA,NA
+1666,"metaxas_recent","Scotian Shelf","Long2",6,"Long2-6-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Saccharina latissima","Fixed",NA,3.75,NA,NA,NA
+1667,"metaxas_recent","Scotian Shelf","Long2",6,"Long2-6-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Saccorhiza dermatodea","Fixed",NA,1.33928571,NA,NA,NA
+1669,"metaxas_recent","Scotian Shelf","Long2",9,"Long2-9-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Agarum clathratum","Fixed",NA,0.730519481818182,NA,NA,NA
+1670,"metaxas_recent","Scotian Shelf","Long2",9,"Long2-9-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1676,"metaxas_recent","Scotian Shelf","Long2",9,"Long2-9-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Laminaria digitata","Fixed",NA,26.7045454454545,NA,NA,NA
+1678,"metaxas_recent","Scotian Shelf","Long2",9,"Long2-9-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Saccharina latissima","Fixed",NA,3.49025973636364,NA,NA,NA
+1679,"metaxas_recent","Scotian Shelf","Long2",9,"Long2-9-2023-7",2023,7,2023-07-01,44.8905,-62.305483,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1681,"metaxas_recent","Scotian Shelf","Tuffin6",6,"Tuffin6-6-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1682,"metaxas_recent","Scotian Shelf","Tuffin6",6,"Tuffin6-6-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1688,"metaxas_recent","Scotian Shelf","Tuffin6",6,"Tuffin6-6-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Laminaria digitata","Fixed",NA,29.4642857181818,NA,NA,NA
+1690,"metaxas_recent","Scotian Shelf","Tuffin6",6,"Tuffin6-6-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Saccharina latissima","Fixed",NA,1.94805193636364,NA,NA,NA
+1691,"metaxas_recent","Scotian Shelf","Tuffin6",6,"Tuffin6-6-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1693,"metaxas_recent","Scotian Shelf","Tuffin6",9,"Tuffin6-9-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Agarum clathratum","Fixed",NA,0.818452366666667,NA,NA,NA
+1694,"metaxas_recent","Scotian Shelf","Tuffin6",9,"Tuffin6-9-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Alaria esculenta","Fixed",NA,0.148809525,NA,NA,NA
+1700,"metaxas_recent","Scotian Shelf","Tuffin6",9,"Tuffin6-9-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Laminaria digitata","Fixed",NA,6.25000000833333,NA,NA,NA
+1702,"metaxas_recent","Scotian Shelf","Tuffin6",9,"Tuffin6-9-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Saccharina latissima","Fixed",NA,8.55654761666667,NA,NA,NA
+1703,"metaxas_recent","Scotian Shelf","Tuffin6",9,"Tuffin6-9-2023-7",2023,7,2023-07-01,44.9053,-62.168033,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1705,"metaxas_recent","Scotian Shelf","Tuffin3",6,"Tuffin3-6-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1706,"metaxas_recent","Scotian Shelf","Tuffin3",6,"Tuffin3-6-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1712,"metaxas_recent","Scotian Shelf","Tuffin3",6,"Tuffin3-6-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Laminaria digitata","Fixed",NA,43.24776786875,NA,NA,NA
+1714,"metaxas_recent","Scotian Shelf","Tuffin3",6,"Tuffin3-6-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Saccharina latissima","Fixed",NA,5.24553570625,NA,NA,NA
+1715,"metaxas_recent","Scotian Shelf","Tuffin3",6,"Tuffin3-6-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1717,"metaxas_recent","Scotian Shelf","Tuffin3",9,"Tuffin3-9-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Agarum clathratum","Fixed",NA,0.412087907692308,NA,NA,NA
+1718,"metaxas_recent","Scotian Shelf","Tuffin3",9,"Tuffin3-9-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1724,"metaxas_recent","Scotian Shelf","Tuffin3",9,"Tuffin3-9-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Laminaria digitata","Fixed",NA,8.79120878461539,NA,NA,NA
+1726,"metaxas_recent","Scotian Shelf","Tuffin3",9,"Tuffin3-9-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Saccharina latissima","Fixed",NA,7.34890109230769,NA,NA,NA
+1727,"metaxas_recent","Scotian Shelf","Tuffin3",9,"Tuffin3-9-2023-7",2023,7,2023-07-01,44.906233,-62.164917,"Saccorhiza dermatodea","Fixed",NA,0.343406592307692,NA,NA,NA
+1729,"metaxas_recent","Scotian Shelf","Tuffin2",6,"Tuffin2-6-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1730,"metaxas_recent","Scotian Shelf","Tuffin2",6,"Tuffin2-6-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1736,"metaxas_recent","Scotian Shelf","Tuffin2",6,"Tuffin2-6-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Laminaria digitata","Fixed",NA,18.83928571,NA,NA,NA
+1738,"metaxas_recent","Scotian Shelf","Tuffin2",6,"Tuffin2-6-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Saccharina latissima","Fixed",NA,18.39285715,NA,NA,NA
+1739,"metaxas_recent","Scotian Shelf","Tuffin2",6,"Tuffin2-6-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Saccorhiza dermatodea","Fixed",NA,2.05357143,NA,NA,NA
+1741,"metaxas_recent","Scotian Shelf","Tuffin2",9,"Tuffin2-9-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1742,"metaxas_recent","Scotian Shelf","Tuffin2",9,"Tuffin2-9-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1748,"metaxas_recent","Scotian Shelf","Tuffin2",9,"Tuffin2-9-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Laminaria digitata","Fixed",NA,1.78571428888889,NA,NA,NA
+1750,"metaxas_recent","Scotian Shelf","Tuffin2",9,"Tuffin2-9-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Saccharina latissima","Fixed",NA,7.83730158888889,NA,NA,NA
+1751,"metaxas_recent","Scotian Shelf","Tuffin2",9,"Tuffin2-9-2023-7",2023,7,2023-07-01,44.906233,-62.159833,"Saccorhiza dermatodea","Fixed",NA,0.396825388888889,NA,NA,NA
+1753,"metaxas_recent","Scotian Shelf","Tuffin1",6,"Tuffin1-6-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1754,"metaxas_recent","Scotian Shelf","Tuffin1",6,"Tuffin1-6-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1760,"metaxas_recent","Scotian Shelf","Tuffin1",6,"Tuffin1-6-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Laminaria digitata","Fixed",NA,54.3269230769231,NA,NA,NA
+1762,"metaxas_recent","Scotian Shelf","Tuffin1",6,"Tuffin1-6-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Saccharina latissima","Fixed",NA,0.686813176923077,NA,NA,NA
+1763,"metaxas_recent","Scotian Shelf","Tuffin1",6,"Tuffin1-6-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1765,"metaxas_recent","Scotian Shelf","Tuffin1",9,"Tuffin1-9-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Agarum clathratum","Fixed",NA,0.44642857,NA,NA,NA
+1766,"metaxas_recent","Scotian Shelf","Tuffin1",9,"Tuffin1-9-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1772,"metaxas_recent","Scotian Shelf","Tuffin1",9,"Tuffin1-9-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Laminaria digitata","Fixed",NA,4.99999999,NA,NA,NA
+1774,"metaxas_recent","Scotian Shelf","Tuffin1",9,"Tuffin1-9-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Saccharina latissima","Fixed",NA,3.30357143,NA,NA,NA
+1775,"metaxas_recent","Scotian Shelf","Tuffin1",9,"Tuffin1-9-2023-7",2023,7,2023-07-01,44.9066,-62.155933,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1777,"metaxas_recent","Scotian Shelf","Tuffin4",4,"Tuffin4-4-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Agarum clathratum","Fixed",NA,0.0686813153846154,NA,NA,NA
+1778,"metaxas_recent","Scotian Shelf","Tuffin4",4,"Tuffin4-4-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1784,"metaxas_recent","Scotian Shelf","Tuffin4",4,"Tuffin4-4-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Laminaria digitata","Fixed",NA,4.94505493846154,NA,NA,NA
+1786,"metaxas_recent","Scotian Shelf","Tuffin4",4,"Tuffin4-4-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Saccharina latissima","Fixed",NA,4.8076923,NA,NA,NA
+1787,"metaxas_recent","Scotian Shelf","Tuffin4",4,"Tuffin4-4-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Saccorhiza dermatodea","Fixed",NA,2.74725272307692,NA,NA,NA
+1789,"metaxas_recent","Scotian Shelf","Tuffin4",9,"Tuffin4-9-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1790,"metaxas_recent","Scotian Shelf","Tuffin4",9,"Tuffin4-9-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1796,"metaxas_recent","Scotian Shelf","Tuffin4",9,"Tuffin4-9-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Laminaria digitata","Fixed",NA,0.829081628571429,NA,NA,NA
+1798,"metaxas_recent","Scotian Shelf","Tuffin4",9,"Tuffin4-9-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Saccharina latissima","Fixed",NA,1.59438774285714,NA,NA,NA
+1799,"metaxas_recent","Scotian Shelf","Tuffin4",9,"Tuffin4-9-2023-7",2023,7,2023-07-01,44.910117,-62.155817,"Saccorhiza dermatodea","Fixed",NA,0.446428564285714,NA,NA,NA
+1801,"metaxas_recent","Scotian Shelf","Tuffin5",6,"Tuffin5-6-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1802,"metaxas_recent","Scotian Shelf","Tuffin5",6,"Tuffin5-6-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1808,"metaxas_recent","Scotian Shelf","Tuffin5",6,"Tuffin5-6-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Laminaria digitata","Fixed",NA,19.3993506454545,NA,NA,NA
+1810,"metaxas_recent","Scotian Shelf","Tuffin5",6,"Tuffin5-6-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Saccharina latissima","Fixed",NA,3.81493504545455,NA,NA,NA
+1811,"metaxas_recent","Scotian Shelf","Tuffin5",6,"Tuffin5-6-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Saccorhiza dermatodea","Fixed",NA,1.13636362727273,NA,NA,NA
+1813,"metaxas_recent","Scotian Shelf","Tuffin5",9,"Tuffin5-9-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Agarum clathratum","Fixed",NA,0.297619041666667,NA,NA,NA
+1814,"metaxas_recent","Scotian Shelf","Tuffin5",9,"Tuffin5-9-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1820,"metaxas_recent","Scotian Shelf","Tuffin5",9,"Tuffin5-9-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Laminaria digitata","Fixed",NA,10.1190476166667,NA,NA,NA
+1822,"metaxas_recent","Scotian Shelf","Tuffin5",9,"Tuffin5-9-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Saccharina latissima","Fixed",NA,2.90178570833333,NA,NA,NA
+1823,"metaxas_recent","Scotian Shelf","Tuffin5",9,"Tuffin5-9-2023-7",2023,7,2023-07-01,44.911317,-62.175083,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1825,"metaxas_recent","Scotian Shelf","Moll1",6,"Moll1-6-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1826,"metaxas_recent","Scotian Shelf","Moll1",6,"Moll1-6-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1832,"metaxas_recent","Scotian Shelf","Moll1",6,"Moll1-6-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Laminaria digitata","Fixed",NA,4.82142856,NA,NA,NA
+1834,"metaxas_recent","Scotian Shelf","Moll1",6,"Moll1-6-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Saccharina latissima","Fixed",NA,3.2142857,NA,NA,NA
+1835,"metaxas_recent","Scotian Shelf","Moll1",6,"Moll1-6-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1837,"metaxas_recent","Scotian Shelf","Moll1",9,"Moll1-9-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Agarum clathratum","Fixed",NA,0.1116071375,NA,NA,NA
+1838,"metaxas_recent","Scotian Shelf","Moll1",9,"Moll1-9-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1844,"metaxas_recent","Scotian Shelf","Moll1",9,"Moll1-9-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Laminaria digitata","Fixed",NA,13.5044643,NA,NA,NA
+1846,"metaxas_recent","Scotian Shelf","Moll1",9,"Moll1-9-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Saccharina latissima","Fixed",NA,10.7142857,NA,NA,NA
+1847,"metaxas_recent","Scotian Shelf","Moll1",9,"Moll1-9-2023-7",2023,7,2023-07-01,44.923967,-62.237667,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1849,"metaxas_recent","Scotian Shelf","Moll2",6,"Moll2-6-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1850,"metaxas_recent","Scotian Shelf","Moll2",6,"Moll2-6-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1856,"metaxas_recent","Scotian Shelf","Moll2",6,"Moll2-6-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Laminaria digitata","Fixed",NA,4.22077921818182,NA,NA,NA
+1858,"metaxas_recent","Scotian Shelf","Moll2",6,"Moll2-6-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Saccharina latissima","Fixed",NA,3.65259739090909,NA,NA,NA
+1859,"metaxas_recent","Scotian Shelf","Moll2",6,"Moll2-6-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Saccorhiza dermatodea","Fixed",NA,1.46103896363636,NA,NA,NA
+1861,"metaxas_recent","Scotian Shelf","Moll2",9,"Moll2-9-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Agarum clathratum","Fixed",NA,0.243506490909091,NA,NA,NA
+1862,"metaxas_recent","Scotian Shelf","Moll2",9,"Moll2-9-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1868,"metaxas_recent","Scotian Shelf","Moll2",9,"Moll2-9-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Laminaria digitata","Fixed",NA,8.19805194545455,NA,NA,NA
+1870,"metaxas_recent","Scotian Shelf","Moll2",9,"Moll2-9-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Saccharina latissima","Fixed",NA,8.44155846363636,NA,NA,NA
+1871,"metaxas_recent","Scotian Shelf","Moll2",9,"Moll2-9-2023-7",2023,7,2023-07-01,44.924583,-62.2391,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
+1873,"metaxas_recent","Scotian Shelf","Moll3",6,"Moll3-6-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Agarum clathratum","Fixed",NA,0,NA,NA,NA
+1874,"metaxas_recent","Scotian Shelf","Moll3",6,"Moll3-6-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1880,"metaxas_recent","Scotian Shelf","Moll3",6,"Moll3-6-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Laminaria digitata","Fixed",NA,3.19940475833333,NA,NA,NA
+1882,"metaxas_recent","Scotian Shelf","Moll3",6,"Moll3-6-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Saccharina latissima","Fixed",NA,3.72023809166667,NA,NA,NA
+1883,"metaxas_recent","Scotian Shelf","Moll3",6,"Moll3-6-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Saccorhiza dermatodea","Fixed",NA,1.5625,NA,NA,NA
+1885,"metaxas_recent","Scotian Shelf","Moll3",9,"Moll3-9-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Agarum clathratum","Fixed",NA,1.19047618333333,NA,NA,NA
+1886,"metaxas_recent","Scotian Shelf","Moll3",9,"Moll3-9-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Alaria esculenta","Fixed",NA,0,NA,NA,NA
+1892,"metaxas_recent","Scotian Shelf","Moll3",9,"Moll3-9-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Laminaria digitata","Fixed",NA,15.5505952583333,NA,NA,NA
+1894,"metaxas_recent","Scotian Shelf","Moll3",9,"Moll3-9-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Saccharina latissima","Fixed",NA,5.65476191666667,NA,NA,NA
+1895,"metaxas_recent","Scotian Shelf","Moll3",9,"Moll3-9-2023-7",2023,7,2023-07-01,44.925267,-62.236233,"Saccorhiza dermatodea","Fixed",NA,0,NA,NA,NA
