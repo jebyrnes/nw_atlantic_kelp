@@ -30,6 +30,7 @@ new_data <-
 # create combined data with geospatial info
 # then get focal kelp standardized by each region
 log_add_one <- function(x) log(x+1)
+log_add_01 <- function(x) log(x+.01)
 
 combined_data <- new_data |>
   filter(!is.na(study)) |>
@@ -48,13 +49,40 @@ combined_data <- new_data |>
   ungroup() |>
   
   mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_realm,
-                .fns = log_add_one,
+                .fns = log_add_01,
                 .names = "ln_{.col}")
   )
 
+# filter out some duplicate studies 
+combined_data <- combined_data |>
+  filter(study != "Attridge_et_al._2022")
 
 #write out data
-write_csv(combined_data, "data/kelptime_nwa_data.csv")
+write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
 
 
+#write out data that meets time requirements for analysis
+combined_clear <- combined_data |>
+  as_tibble() |>
+  mutate(date = ymd(sasdate),
+         year = year(date),
+         year_f = as.character(year),
+         year_c = year - mean(year),
+         trajectory = paste(study, site)) |>
+  filter(!is.na(ln_focal_std_by_ecoregion)) |>
+  group_by(trajectory) |>
+  mutate(n_per_trajectory = n()) |>
+  ungroup() |>
+  filter(n_per_trajectory >= 2)# at least 3 data points per trajectory
+
+write_csv(combined_clear, 
+           "data/kelptime_nwa_data.csv")
+
+# unique lat/longs and date ranges
+combined_clear |>
+  group_by(latitude, longitude) |>
+  summarize(min_year = min(year),
+            max_year = max(year)) |>
+  ungroup() |>
+  write_csv("data/unique_latlongs_time.csv")
 
