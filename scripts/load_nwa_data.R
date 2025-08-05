@@ -2,7 +2,7 @@ library(readr)
 library(dplyr)
 library(forcats)
 
-nwa_dat <- read_csv("data/nwa_with_env.csv") |>
+nwa_dat <- read_csv("data/nwa_with_env.csv", show_col_types = FALSE) |>
   # Rescaling
   mutate(rescaled_std_by_ecoregion = scales::rescale(focal_std_by_ecoregion, c(0,1)),
          year_z = (year - mean(year))/sd(year)) |>
