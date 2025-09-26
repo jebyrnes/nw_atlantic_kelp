@@ -30,5 +30,7 @@ nwa_dat <- read_csv("data/kelptime_nwa_data.csv", show_col_types = FALSE) |>
                         "Gulf of St. Lawrence - Newfoundland" = 
                           c("Gulf of St. Lawrence - Eastern Scotian Shelf",
                             "Southern Grand Banks - South Newfoundland",
-                            "Northern Grand Banks - Southern Labrador")))
+                            "Northern Grand Banks - Southern Labrador"))) |>
+  # french characters giving trouble
+  mutate(site = ifelse(site == "I_le aux\nGoe\x89lands", "I_le aux Goelands", site))
 
