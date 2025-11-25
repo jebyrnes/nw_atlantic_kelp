@@ -32,5 +32,25 @@ nwa_dat <- read_csv("data/kelptime_nwa_data.csv", show_col_types = FALSE) |>
                             "Southern Grand Banks - South Newfoundland",
                             "Northern Grand Banks - Southern Labrador"))) |>
   # french characters giving trouble
-  mutate(site = ifelse(site == "I_le aux\nGoe\x89lands", "I_le aux Goelands", site))
+  mutate(site = ifelse(site == "I_le aux\nGoe\x89lands", "I_le aux Goelands", site),
+         trajectory = ifelse(trajectory == "Gagnon_et_al._2005 I_le aux\nGoe\x89lands", "Gagnon_et_al._2005 I_le aux Goelands", trajectory)) |>
+  # for decadal analysis
+  mutate(decade = (floor(year/10)*10) |> 
+           paste0("s") |>
+           as.factor(),
+         decade = fct_collapse(decade,
+                               "pre-1980s" = c(
+                                 "1970s",
+                                 "1960s",
+                                 "1940s"
+                               )),
+         decade = fct_collapse(decade,
+                               "post-2010" = c(
+                                 "2010s",
+                                 "2020s"
+                               )),
+         # for GAMs
+         eco_collapsed = as.factor(eco_collapsed),
+         trajectory = as.factor(trajectory),
+         study = as.factor(study))
 
