@@ -113,7 +113,7 @@ ggplot(traj_dat |> filter(!is.na(ecoregion)),
   scale_fill_distiller(palette = "RdBu",
                        trans = "log10", 
                        guide = "none") +
-  theme()
+  theme_classic()
 
 ggsave("figures/trajectories_by_type.jpg",
        width = 8, height = 4)
