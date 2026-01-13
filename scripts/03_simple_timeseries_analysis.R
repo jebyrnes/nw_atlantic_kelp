@@ -38,7 +38,7 @@ ggplot(nwa_dat,
   ylim(c(0,1.1)) +
   ylim(c(0,1.1)) +
   labs(y = "Standardized Kelp Abundance", x = "",
-       color = "", fill = "") +
+       color = "") +
   guides(color=guide_legend(nrow=2,
                             byrow=TRUE))+
   theme_bw(base_size = 14)+
