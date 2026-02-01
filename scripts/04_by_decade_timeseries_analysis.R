@@ -7,6 +7,7 @@ library(dplyr)
 library(ggplot2)
 library(lubridate)
 library(glmmTMB)
+library(mgcv)
 library(broom.mixed)
 library(emmeans)
 library(forcats)
@@ -28,12 +29,135 @@ ggplot(aes(x = decade, y = eco_collapsed,
   geom_tile() +
   scale_fill_viridis_c(transform = "log10")
 
+
+
+
+#####
+## Model 1. Global trend, no regional variation, 
+## trajectories deviation using random smooths with k = 3 for GAM
+#####
+## linear
+mod_decadal_global <- glmmTMB(ln_focal_std_by_ecoregion ~ 
+                                eco_collapsed +
+                                year_c*decade + 
+                                (1 + year_c |trajectory) + (1|study), 
+                              dispformula =~focalUnit,
+                              data = nwa_dat )
+
+estimate_slopes(mod_decadal_global, trend = "year_c", by = "decade", backend = "emmeans") |> plot()
+
+## GAM
+mod_time_global <- bam(ln_focal_std_by_ecoregion ~
+                         eco_collapsed +
+                         s(year_c, k = 10, m = 2, bs = "tp") +
+                         s(trajectory, bs = "re") +
+                         s(study, bs = "re") +
+                         s(trajectory, year_c, bs = "fs", m = 1, k = 3),
+                       method = "REML",
+                       family = "gaussian",
+                       data = nwa_dat
+)
+
+estimate_relation(mod_time_global, 
+                  by = c("year_c", "eco_collapsed"),
+                  length = 300,
+                  preserve_range = TRUE) |> 
+  plot(show_data = TRUE,
+       ribbon = "none")
+
+
+#####
+## Model 2. Global trend with regional deviations with own wigliness
+## trajectories deviation using random smooths with k = 3 for GAM
+#####
+## linear
+mod_decadal_regional_global <- glmmTMB(ln_focal_std_by_ecoregion ~ 
+                                eco_collapsed +
+                                year_c*decade + 
+                                (0 + year_c | eco_collapsed) +
+                                (1 + year_c |trajectory) + 
+                                (1|study), 
+                              dispformula =~focalUnit,
+                              data = nwa_dat )
+
+estimate_slopes(mod_decadal_regional_global, trend = "year_c", by = c("decade", "eco_collapsed"), backend = "emmeans") |> plot()
+
+## GAM
+mod_time_regional_global_wiggly <- bam(ln_focal_std_by_ecoregion ~
+                                         eco_collapsed +
+                                         s(year_c, k = 10, m = 2, bs = "tp") +
+                                         s(year_c, by = eco_collapsed, k = 10, m = 1, bs = "tp") +
+                                         s(trajectory, bs = "re") +
+                                         s(study, bs = "re") +
+                                         s(trajectory, year_c, bs = "fs", m = 1, k = 3),
+                                       method = "REML",
+                                       family = "gaussian",
+                                       data = nwa_dat)
+
+estimate_relation(mod_time_regional_global_wiggly, 
+                  by = c("year_c", "eco_collapsed"),
+                  length = 300) |> 
+  plot(ribbon = "none",
+       show_data = TRUE) +
+  facet_wrap(vars(eco_collapsed)) +
+  guides(color = "none") +
+  labs(y = "Log Standardized Kelp Abundance") 
+
+
+#####
+## Model 3. Regional trends only each with own wigliness for GAM, 
+## trajectories deviation using random smooths with k = 3 for GAM
+#####
+## linear
+mod_decadal_regional <- glmmTMB(ln_focal_std_by_ecoregion ~ 
+                                  (eco_collapsed:year_c)*decade + 
+                                  (1 + year_c |trajectory) + 
+                                  (1|study), 
+                                dispformula =~focalUnit,
+                                data = nwa_dat )
+
+estimate_slopes(mod_decadal_regional, trend = "year_c", by = c("decade", "eco_collapsed"), backend = "emmeans") |> plot()
+
+## GAM
+mod_time_regional_wiggly <- bam(ln_focal_std_by_ecoregion ~
+                                  eco_collapsed +
+                                  s(year_c, by = eco_collapsed, 
+                                    k = 10, m = 1, bs = "tp") +
+                                  s(trajectory, bs = "re") +
+                                  s(study, bs = "re") +
+                                  s(trajectory, year_c, bs = "fs", m = 1, k = 3),
+                                method = "REML",
+                                family = "gaussian",
+                                data = nwa_dat)
+
+estimate_relation(mod_time_regional_wiggly, 
+                  by = c("year_c", "eco_collapsed"),
+                  length = 300) |> 
+  plot(ribbon = "none",
+       show_data = TRUE) +
+  facet_wrap(vars(eco_collapsed)) +
+  guides(color = "none") +
+  labs(y = "Log Standardized Kelp Abundance") 
+
+
+##
+# Save the models
+##
+
+saveRDS(mod_decadal_global, "models/mod_decadal_global.rds")
+saveRDS(mod_time_global, "models/mod_time_global.rds")
+saveRDS(mod_decadal_regional_global, "models/mod_decadal_regional_global.rds")
+saveRDS(mod_time_regional_global_wiggly, "models/mod_time_regional_global_wiggly.rds")
+saveRDS(mod_decadal_regional, "models/mod_decadal_regional.rds")
+saveRDS(mod_time_regional_wiggly, "models/mod_time_regional_wiggly.rds")
+
+#-----------------
 # plot some smooths
 ggplot(nwa_dat, 
        aes(x = year, y = ln_focal_std_by_ecoregion,
            color = eco_collapsed)) +
   geom_point(alpha = 0.1) +
-  stat_smooth(formula = y ~ s(x, bs = "cs", k = 5)) +
+  stat_smooth(formula = y ~ s(x, bs = "tp", k = 8)) +
    theme(legend.position = "bottom")
 
 ##
@@ -41,6 +165,7 @@ ggplot(nwa_dat,
 ##
 
 mod_decadal <- glmmTMB(ln_focal_std_by_ecoregion ~ 
+                            eco_collapsed +
                              year_c*decade + 
                              (1 + year_c |trajectory) + (1|study), 
                            dispformula =~focalUnit,
@@ -115,9 +240,14 @@ mod_gam_decadal_eco <- mgcv::bam(ln_focal_std_by_ecoregion ~
 
 
 
-
+ds <- gratia::data_slice(mod_gam_decadal_eco, 
+                         eco_collapsed = gratia::evenly(eco_collapsed),
+                         year_c =  gratia::evenly(year_c, n = 500, 
+                                                  lower = 1975-mean_year,
+                                                  upper = 2023 - mean_year))
 
 gratia::fitted_values(mod_gam_decadal, 
+                      data = ds,
                       scale = "response",
                       terms = c("(Intercept)", "eco_collapsed", "s(year_c)"))|>
   mutate(year = year_c + mean_year) |>
@@ -132,24 +262,36 @@ gratia::fitted_values(mod_gam_decadal,
 
 
 
+
+
 gratia::fitted_values(mod_gam_decadal_eco, 
+                      data = ds,
                       scale = "response",
-                      terms = c("(Intercept)", "eco_collapsed", "s(year_c)"))|>
+                      terms = c("(Intercept)", 
+                                "eco_collapsed", 
+                                "s(year_c)",
+                                "s(year_c):eco_collapsedVirginian",
+                                "s(year_c):eco_collapsedGulf of Maine/Bay of Fundy",
+                                "s(year_c):eco_collapsedScotian Shelf",
+                                "s(year_c):eco_collapsedGulf of St. Lawrence - Newfoundland")) |>
   mutate(year = year_c + mean_year) |>
   ggplot(aes(x = year, y = .fitted, group = eco_collapsed)) +
-  geom_line() +
+  geom_point(data = nwa_dat, aes(y = ln_focal_std_by_ecoregion),
+             alpha = 0.1) +
+  geom_line(color = "red") +
   geom_ribbon(aes(group = eco_collapsed, 
                   ymin = .lower_ci,
                   ymax = .upper_ci),
-              alpha = 0.4) +
-  geom_point(data = nwa_dat, aes(y = ln_focal_std_by_ecoregion),
-             alpha = 0.2) +
+              alpha = 0.4) + ylim(c(-5, 2.5)) +
   facet_wrap(vars(eco_collapsed))
+
 
 change_rates <- gratia::derivatives(mod_gam_decadal) |>
   mutate(.smooth = gsub("s\\(year_c\\)", "", .smooth))
 
-change_rates_eco <- gratia::derivatives(mod_gam_decadal_eco) |>
+change_rates_eco <- gratia::derivatives(mod_gam_decadal_eco,
+                                        type = "central",
+                                        level = 0.8) |>
   mutate(.smooth = gsub("s\\(year_c\\):eco_collapsed", "", .smooth))
 
 
@@ -173,7 +315,7 @@ ggplot(change_rates_eco,
   theme(legend.position = "bottom") +
   xlim(c(1980, 2020)) +
   labs(color = "", fill = "") +
-  facet_wrap(vars(.smooth), scales = "free_y") 
+  facet_wrap(vars(.smooth)) +  ylim(c(-0.5, 0.5))
 
 
 ####
