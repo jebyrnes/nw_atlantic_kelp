@@ -84,7 +84,9 @@ performance::check_residuals(mod_ecoregion) |> plot()
 
 car::Anova(mod_ecoregion)
 
-change_est <- tidy(mod_common_slope) |> filter(term == "year") |> pull(estimate)
+change_est <- 
+  emtrends(mod_ecoregion, ~1, var = "year") |> tidy()|> pull(year.trend)
+
 perc_change_per_year <- ((exp(change_est) -1 )*100) |> round(2)
 
 modelbased::estimate_grouplevel(mod_ecoregion,
@@ -105,6 +107,14 @@ slopes <- emtrends(mod_ecoregion, specs = ~eco_collapsed, var = "year")
 
 plot(slopes) +
   labs(y = "", x = "standardized change")
+
+estimate_slopes(mod_ecoregion, trend = "year", 
+                by = "eco_collapsed",
+                backend = "emmeans") |>
+  plot()
+
+contrast(slopes,
+         method = "pairwise") 
 
 # Show the model results
 
@@ -176,12 +186,12 @@ estimate_relation(mod_ecoregion,
 
 ggsave("figures/timeseries_all_modeled.jpg",
        width = 7, height = 6)
-
-## Bayesian
-library(brms)
-mod_ecoregion <- brm(brmsformula(ln_focal_std_by_ecoregion ~ 
-                                   eco_collapsed*year + 
-                                   (1 + year |trajectory) + 
-                                   (1|study),
-                                 sigma ~ focalUnit),
-                     data = nwa_dat)
+# 
+# ## Bayesian
+# library(brms)
+# mod_ecoregion <- brm(brmsformula(ln_focal_std_by_ecoregion ~ 
+#                                    eco_collapsed*year + 
+#                                    (1 + year |trajectory) + 
+#                                    (1|study),
+#                                  sigma ~ focalUnit),
+#                      data = nwa_dat)

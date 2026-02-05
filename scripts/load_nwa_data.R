@@ -54,3 +54,6 @@ nwa_dat <- read_csv("data/kelptime_nwa_data.csv", show_col_types = FALSE) |>
          trajectory = as.factor(trajectory),
          study = as.factor(study))
 
+maine_scotia <- nwa_dat |>
+  filter(eco_collapsed %in% c("Gulf of Maine/Bay of Fundy",
+                              "Scotian Shelf"))
