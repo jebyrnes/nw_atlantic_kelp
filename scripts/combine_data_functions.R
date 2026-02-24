@@ -148,3 +148,8 @@ standardize_by_max <- function(x, samp=3) {
   m <- mean(sort(x, decreasing=T, na.last=T)[1:samp])
   x/m
 }
+
+ln_stdMax <- function(x, samp=3) {
+  m <- mean(sort(x, decreasing=T, na.last=T)[1:samp])
+  log(x/m+1/m)
+}
