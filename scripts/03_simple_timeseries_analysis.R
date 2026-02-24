@@ -37,7 +37,7 @@ ggplot(nwa_dat,
               size = 0.5, alpha = 0.5) +
   ylim(c(0,1.1)) +
   ylim(c(0,1.1)) +
-  labs(y = "Standardized Kelp Abundance", x = "",
+  labs(y = "Kelp Abundance Standardized\nBy Ecoregion", x = "",
        color = "") +
   guides(color=guide_legend(nrow=2,
                             byrow=TRUE))+
@@ -51,19 +51,9 @@ ggplot(nwa_dat,
 ggsave("figures/timeseries_raw_linear.jpg",
        width = 7, height = 6)
 
-ggplot(nwa_dat,
-       aes(x = year, y = focal_std_by_ecoregion)) +
-  geom_point(alpha = 0.1, aes(color = study)) +
-  scale_color_discrete(guide = "none") +
-  stat_smooth(method = "glm", fill = NA, 
-              method.args = list(family = gaussian(link = "identity")),
-              aes(group = eco_collapsed),
-              color = "black") +
-  ylim(c(0,1.1))
-
-
-
-# Model
+##
+# Model by ecoregion
+##
 mod_ecoregion <- glmmTMB(ln_focal_std_by_ecoregion ~ 
                   eco_collapsed*year + 
                  (1 + year |trajectory) + (1|study), 
@@ -99,7 +89,6 @@ modelbased::estimate_grouplevel(mod_ecoregion,
   guides(y = "none") +
   geom_hline(yintercept = 0, lty = 2, color = "red")
 
-car::Anova(mod_ecoregion)
 tidy(mod_ecoregion, effects = "fixed")
 
 # Plot slopes
@@ -112,6 +101,9 @@ estimate_slopes(mod_ecoregion, trend = "year",
                 by = "eco_collapsed",
                 backend = "emmeans") |>
   plot()
+
+ggsave("figures/ecoregion_slopes.jpg", 
+       width = 7, height = 6)
 
 contrast(slopes,
          method = "pairwise") 
@@ -186,12 +178,3 @@ estimate_relation(mod_ecoregion,
 
 ggsave("figures/timeseries_all_modeled.jpg",
        width = 7, height = 6)
-# 
-# ## Bayesian
-# library(brms)
-# mod_ecoregion <- brm(brmsformula(ln_focal_std_by_ecoregion ~ 
-#                                    eco_collapsed*year + 
-#                                    (1 + year |trajectory) + 
-#                                    (1|study),
-#                                  sigma ~ focalUnit),
-#                      data = nwa_dat)

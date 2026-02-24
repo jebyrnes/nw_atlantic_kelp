@@ -40,22 +40,28 @@ combined_data <- new_data |>
   mutate(focal_std_by_ecoregion = standardize_by_max(focalKelp))|>
   ungroup() |>
   
-  group_by(province) |>
+  group_by(province, focalUnit) |>
   mutate(focal_std_by_province = standardize_by_max(focalKelp))|>
   ungroup() |>
   
-  group_by(realm) |>
+  group_by(realm, focalUnit) |>
   mutate(focal_std_by_realm = standardize_by_max(focalKelp)) |>
   ungroup() |>
   
-  mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_realm,
+  group_by(focalUnit) |>
+  mutate(focal_std_by_all = standardize_by_max(focalKelp)) |>
+  ungroup() |>
+  
+  mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_all,
                 .fns = log_add_01,
                 .names = "ln_{.col}")
   )
 
 # filter out some duplicate studies 
+# some of which we now have raw data for
 combined_data <- combined_data |>
-  filter(study != "Attridge_et_al._2022")
+  filter(!(study %in% c("Attridge_et_al._2022", 
+                        "Feehan_et_al._2019" )))
 
 #write out data
 write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
