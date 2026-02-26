@@ -34,6 +34,7 @@ log_add_01 <- function(x) log(x+.01)
 
 combined_data <- new_data |>
   filter(!is.na(study)) |>
+  filter(!is.na(latitude)) |>
   add_geo_info() |>
   
   group_by(ecoregion, focalUnit) |>
@@ -61,7 +62,8 @@ combined_data <- new_data |>
 # some of which we now have raw data for
 combined_data <- combined_data |>
   filter(!(study %in% c("Attridge_et_al._2022", 
-                        "Feehan_et_al._2019" )))
+                        "Feehan_et_al._2019",
+                        "Filbee-Dexteretal_et_al._2016")))
 
 #write out data
 write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
@@ -79,7 +81,7 @@ combined_clear <- combined_data |>
   group_by(trajectory) |>
   mutate(n_per_trajectory = n()) |>
   ungroup() |>
-  filter(n_per_trajectory >= 2)# at least 3 data points per trajectory
+  filter(n_per_trajectory >= 3)# at least 3 data points per trajectory
 
 write_csv(combined_clear, 
            "data/kelptime_nwa_data.csv")

@@ -63,7 +63,7 @@ basemap <- ggplot() +
   geom_sf(data = ecoregions_shp, fill = NA)
 
 basemap +
-  geom_sf(data = unique_latlong, alpha = 0.8, size = 2.5) +
+  geom_sf(data = unique_latlong, alpha = 0.8, size = 1.5) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
            ylim = c(aoi[2], aoi[4])) 
@@ -72,7 +72,7 @@ basemap +
 ggsave("figures/sitemap.jpg", width = 6, height = 8)
 
 basemap +
-  geom_sf(data = old_unique_latlong, alpha = 0.8, size = 2.5) +
+  geom_sf(data = old_unique_latlong, alpha = 0.8, size = 1.5) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
            ylim = c(aoi[2], aoi[4])) 
@@ -153,7 +153,7 @@ ggplot(nwa_dat |> filter(!is.na(ecoregion)),
   theme_bw(base_size = 18) +
   theme()
 
-ggsave("figures/length_by_focalUnit.jpg", width = 12, height = 4)
+ggsave("figures/length_by_focalUnit.jpg", width = 14, height = 4)
 
 
 ggplot(nwa_dat,
@@ -193,8 +193,8 @@ ggsave("figures/timeseries_with_length_trj.jpg", width = 8, height = 4)
 old_hist <- ggplot(data = old_data,
        aes(x = year)) + 
   geom_histogram(bins = 30) +
-  xlim(c(1941, 2030)) +
-  ylim(c(0,300)) +
+  xlim(c(1970, 2025)) +
+  ylim(c(0,200)) +
   labs(x="", y = "# sites",
        subtitle = "Krumhansl et al. 2016")
 
@@ -202,8 +202,8 @@ old_hist <- ggplot(data = old_data,
 new_hist <- ggplot(data = nwa_dat,
        aes(x = year)) + 
   geom_histogram(bins = 40)+
-  xlim(c(1941, 2030)) +
-  ylim(c(0,300)) +
+  xlim(c(1970, 2025)) +
+  ylim(c(0,200)) +
   labs(x="", y = "# sites", 
        subtitle = "Current Dataset") 
 
