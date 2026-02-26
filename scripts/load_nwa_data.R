@@ -38,12 +38,12 @@ nwa_dat <- read_csv("data/kelptime_nwa_data.csv", show_col_types = FALSE) |>
   mutate(decade = (floor(year/10)*10) |> 
            paste0("s") |>
            as.factor(),
-         decade = fct_collapse(decade,
-                               "pre-1980s" = c(
-                                 "1970s",
-                                 "1960s",
-                                 "1940s"
-                               )),
+         # decade = fct_collapse(decade,
+         #                       "pre-1980s" = c(
+         #                         "1970s",
+         #                         "1960s",
+         #                         "1940s"
+         #                       )),
          decade = fct_collapse(decade,
                                "post-2010" = c(
                                  "2010s",
