@@ -70,7 +70,7 @@ make_kelp_mesh <- function(cutoff = 30,
 
     basic_mesh <- make_mesh(nwa_dat,
                             xy_cols = c("X", "Y"),
-                            cutoff = cutoff) # minimum triangle edge length - distance between locations
+                            cutoff = cutoff, ...) # minimum triangle edge length - distance between locations
   
     
     mesh_coastline <- sdmTMBextra::add_barrier_mesh(
@@ -106,7 +106,7 @@ make_kelp_mesh <- function(cutoff = 30,
 # included
 ####
 
-make_valid_areas <- function(centers = 50, buffer = 30, debug_plot = FALSE){
+make_valid_areas <- function(centers = 60, buffer = 40, debug_plot = FALSE){
   
   km <- kmeans(st_coordinates(unique_latlong), centers = centers)
 
@@ -114,7 +114,7 @@ make_valid_areas <- function(centers = 50, buffer = 30, debug_plot = FALSE){
     mutate(cluster = km$cluster) |>
     group_by(cluster) |>
     summarize() |>
-    st_concave_hull(ratio = 1, allow_holes = FALSE)  |>
+    st_concave_hull(ratio = 1, allow_holes = TRUE)  |>
     st_transform(st_crs(coastline_32619_km)) |>
     st_buffer(buffer) |> #km from sample areas
     summarize() |>
@@ -221,18 +221,18 @@ make_prediction_grid <- function(
 # time when we load this script
 # full_prediction_points <- make_prediction_grid()
 # 
-ggplot() +
-  geom_sf(data = coastline_32619_km) +
-  geom_sf(data = valid_areas , fill = "lightblue") +
-  geom_sf(data = full_prediction_points|> st_intersection(valid_areas),
-          size = 0.01, aes(color = eco_collapsed)) +
-  scale_color_brewer(palette = "Dark2")
+# ggplot() +
+#   geom_sf(data = coastline_32619_km) +
+#   geom_sf(data = valid_areas , fill = "lightblue") +
+#   geom_sf(data = full_prediction_points|> st_intersection(valid_areas),
+#           size = 0.01, aes(color = eco_collapsed)) +
+#   scale_color_brewer(palette = "Dark2")
 # 
 # saveRDS(full_prediction_points, "data/full_coastline_prediction_grid.rds")
 # saveRDS(full_prediction_points |> st_intersection(valid_areas), "data/valid_coastline_prediction_grid.rds")
 
 full_prediction_points <- readRDS("data/full_coastline_prediction_grid.rds")
-prediction_points <- readRDS("data/full_coastline_prediction_grid.rds")
+prediction_points <- readRDS("data/valid_coastline_prediction_grid.rds")
 
 
 ####
@@ -314,7 +314,7 @@ plot_fit_sdm_model <- function(mod, dat = NULL){
     theme(legend.position = "bottom",
           legend.box="vertical") +
     scale_color_brewer(palette = "Dark2") +
-    geom_point(aes(y = exp(yi)-0.01), alpha = 0.05) +
+    geom_point(aes(y = yi), alpha = 0.1) +
     facet_wrap(vars(eco_collapsed)) +
     guides(color = "none")
 }
@@ -331,6 +331,7 @@ slope_triptych <- function(dat,
                            upr_title = "Upper CI",
                            size = 0.8,
                            limits = c(-0.07, 0.27),
+                           n.breaks = 5,
                            ...){
   
   
@@ -338,7 +339,7 @@ slope_triptych <- function(dat,
   mean_map <- ggplot(dat) +
     geom_sf(data = coastline) +
     geom_sf(aes(color = combined_slope_mean), size = size, ...) +
-    scale_color_slope_b(limits = limits) +
+    scale_color_slope_b(limits = limits, n.breaks = n.breaks) +
     labs(color = color_lab, 
          title = title,
          subtitle = mean_title)
@@ -347,14 +348,14 @@ slope_triptych <- function(dat,
   lwr_map <- ggplot(dat) +
     geom_sf(data = coastline) +
     geom_sf(aes(color = combined_slope_lwr), size = size, ...) +
-    scale_color_slope_b(limits = limits) +
+    scale_color_slope_b(limits = limits, n.breaks = n.breaks) +
     labs(color = color_lab, 
          subtitle = lwr_title)
   
   upr_map <- ggplot(dat) +
     geom_sf(data = coastline) +
     geom_sf(aes(color = combined_slope_upr), size = size, ...) +
-    scale_color_slope_b(limits = limits) +
+    scale_color_slope_b(limits = limits, n.breaks = n.breaks) +
     labs(color = color_lab, 
          subtitle = upr_title) 
   

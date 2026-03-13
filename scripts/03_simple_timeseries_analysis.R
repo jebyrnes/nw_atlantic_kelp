@@ -60,6 +60,12 @@ mod_ecoregion <- glmmTMB(ln_focal_std_by_ecoregion ~
                dispformula =~focalUnit,
                data = nwa_dat)
 
+mod_common_slope <- glmmTMB(ln_focal_std_by_ecoregion ~ 
+                           eco_collapsed+year + 
+                           (1 + year |trajectory) + (1|study), 
+                         dispformula =~focalUnit,
+                         data = nwa_dat)
+
 saveRDS(mod_ecoregion, "models/mod_ecoregion.rds")
 
 # check model
@@ -67,17 +73,23 @@ performance::check_convergence(mod_ecoregion)
 
 performance::check_predictions(mod_ecoregion)
 
-performance::check_residuals(mod_ecoregion) |> plot()
+#performance::check_residuals(mod_ecoregion) |> plot()
 
 
 # What's the model tell us?
 
 car::Anova(mod_ecoregion)
 
+# AIC way
+AIC(mod_ecoregion)
+AIC(mod_common_slope)
+
 change_est <- 
-  emtrends(mod_ecoregion, ~1, var = "year") |> tidy()|> pull(year.trend)
+  emtrends(mod_common_slope, ~1, var = "year") |> 
+  tidy()|> pull(year.trend) 
 
 perc_change_per_year <- ((exp(change_est) -1 )*100) |> round(2)
+perc_change_per_year
 
 modelbased::estimate_grouplevel(mod_ecoregion,
                                 type = "total",
@@ -106,7 +118,19 @@ ggsave("figures/ecoregion_slopes.jpg",
        width = 7, height = 6)
 
 contrast(slopes,
-         method = "pairwise") 
+         method = "pairwise", conf.int = TRUE)  |> 
+ confint() |>
+  ggplot(aes(x = contrast, y = estimate, 
+             ymin = lower.CL, ymax = upper.CL)) +
+  geom_point() + 
+  geom_linerange() +
+  geom_hline(yintercept = 0, lty = 2) +
+  coord_flip() +
+  labs(x="", y = "slope") +
+  theme_bw(base_size = 18)
+
+ggsave("figures/ecoregion_slopes_contrast.jpg", 
+       width = 10, height = 6)
 
 # Show the model results
 
@@ -150,6 +174,10 @@ plot_mod(mod_ecoregion)
 ggsave("figures/timeseries_ecoint_with_curves.jpg",
        width = 7, height = 6)
 
+plot_mod(mod_common_slope)
+
+ggsave("figures/timeseries_eco_common_slope_with_curves.jpg",
+       width = 7, height = 6)
 
 estimate_relation(mod_ecoregion,
                   include_random = TRUE,

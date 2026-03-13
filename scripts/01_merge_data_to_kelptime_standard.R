@@ -81,7 +81,7 @@ combined_clear <- combined_data |>
   group_by(trajectory) |>
   mutate(n_per_trajectory = n()) |>
   ungroup() |>
-  filter(n_per_trajectory >= 3)# at least 3 data points per trajectory
+  filter(n_per_trajectory >= 3)
 
 write_csv(combined_clear, 
            "data/kelptime_nwa_data.csv")

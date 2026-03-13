@@ -98,6 +98,7 @@ mod_spatial <- sdmTMB(ln_focal_std_by_ecoregion ~
 predict(mod_spatial) |>
   st_as_sf(coords = c("longitude", "latitude"), crs = 4326) |>
   ggplot() +
+  geom_sf(data = coastline) +
   geom_sf(aes(color = zeta_s_year_c + coef(mod_spatial)[2] )) +
   scale_color_viridis_c() +
   labs(color = "trend")

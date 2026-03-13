@@ -27,17 +27,28 @@ filter_time_eco_collapsed <- function(dat, reference = nwa_dat){
 # some ggplot2 scales
 ##
 scale_color_slope_c <- function(...){
-  scale_color_distiller(palette = "RdYlBu", direction =2, ...) 
+  colorspace::scale_color_continuous_divergingx(palette = 'RdYlBu', 
+                                               mid = 0,
+                                               ...) 
+    
+  #scale_color_distiller(palette = "RdYlBu", direction =2, ...) 
 }
 
 scale_color_slope_b <- function(n.breaks = 5, ...){
-  scale_color_fermenter(palette = "RdYlBu", direction =2, 
-                        n.breaks=n.breaks,
-                        ...) 
+  # scale_color_fermenter(palette = "RdYlBu", direction =2, 
+  #                       n.breaks=n.breaks,
+  #                       ...) 
+  colorspace::scale_color_binned_divergingx(palette = 'RdYlBu', 
+                                               mid = 0,
+                                           n.breaks = n.breaks,
+                                               ...) 
 }
 
 scale_fill_slope_c <- function(...){
-  scale_fill_distiller(palette = "RdYlBu", direction =2, ...) 
+  colorspace::scale_fill_continuous_divergingx(palette = 'RdYlBu', 
+                                               mid = 0,
+                                               ...) 
+#  scale_fill_distiller(palette = "RdYlBu", direction =2, ...) 
 }
 
 scale_fill_slope_b <- function(n.breaks = 5, ...){

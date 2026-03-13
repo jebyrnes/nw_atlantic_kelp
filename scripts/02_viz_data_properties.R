@@ -25,7 +25,23 @@ source("scripts/load_nwa_data.R")
 ecoregions_shp <- mr_shp(key = "Ecoregions:ecoregions") |> 
   st_make_valid() |>
   dplyr::select(ecoregion, geometry) |>
-  filter(ecoregion %in% levels(nwa_dat$ecoregion))
+  filter(ecoregion %in% levels(nwa_dat$ecoregion))|>
+  # for plotting, get N-S
+  mutate(ecoregion = factor(ecoregion, levels = 
+                              c("Virginian",
+                                "Gulf of Maine/Bay of Fundy",
+                                "Scotian Shelf",
+                                "Gulf of St. Lawrence - Eastern Scotian Shelf",
+                                "Southern Grand Banks - South Newfoundland",  
+                                "Northern Grand Banks - Southern Labrador"
+                              ))) |>
+  # to combine regions without much data
+  mutate(eco_collapsed = 
+           fct_collapse(ecoregion,
+                        "Gulf of St. Lawrence - Newfoundland" = 
+                          c("Gulf of St. Lawrence - Eastern Scotian Shelf",
+                            "Southern Grand Banks - South Newfoundland",
+                            "Northern Grand Banks - Southern Labrador"))) 
 
 
 old_data <- read_csv("data/nwa_krumhansl_2016.csv")
@@ -78,6 +94,29 @@ basemap +
            ylim = c(aoi[2], aoi[4])) 
 
 ggsave("figures/sitemap_krumhansl_2016.jpg", width = 6, height = 8)
+
+##
+# Map of Ecoregions (collapsed)
+##
+ggplot() +
+  geom_sf(data = coastline , fill = "lightgrey") +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 12, color = "black"),
+        axis.text.y = element_text(size = 12, color = "black"),
+        panel.grid.major = element_blank()#,
+        #panel.background = element_rect(fill = "lightblue")
+        ) +
+  geom_sf(data = ecoregions_shp |> 
+            group_by(eco_collapsed) |> summarize(),
+          mapping = aes(fill = eco_collapsed), 
+          color = NA, alpha = 0.5) +
+  guides(fill = "none") +
+  coord_sf(expand = FALSE, 
+           xlim = c(aoi[1], aoi[3]),
+           ylim = c(aoi[2]+2, aoi[4]-1)) +
+  scale_fill_brewer(palette = "Dark2")
+
+ggsave("figures/eco_collapsed.jpg", width = 6, height = 8)
 
 ##
 # show data by ecoregion and measurement type
