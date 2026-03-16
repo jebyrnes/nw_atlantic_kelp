@@ -4,4 +4,4 @@ format: html
 ---
 
 ## Materials for Collaborators
-- [Presentation for sdmTMB Discussion]
+- [Presentation for sdmTMB Discussion](./smdTMB_discussion.html)
