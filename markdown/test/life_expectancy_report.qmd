@@ -1,0 +1,38 @@
+---
+title: "Life Expectancy Report for `r params$country`"
+format:
+  html:
+    embed-resources: true
+params:
+  country: "Afghanistan"
+---
+
+```{r}
+library(tidyverse)
+library(gapminder)
+```
+
+```{r}
+#| label: country
+params$country
+```
+
+```{r}
+#| label: life-expectancy-data
+life_expectancy <-
+  gapminder |>
+  filter(country == params$country)
+
+life_expectancy$country[1]
+```
+
+## Life Expectancy in `r params$country`
+
+```{r}
+#| label: life-expectancy-plot
+ggplot(data = life_expectancy, 
+       aes(year, lifeExp)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = life_expectancy$country[1])
+```

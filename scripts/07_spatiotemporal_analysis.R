@@ -166,9 +166,9 @@ ggplot(predicted|>
        aes(x = year, y = est, group = cell_id, color = Y)) +
   geom_line(alpha = 0.1)  +
   scale_color_viridis_c() +
-  # geom_point(data = mod_spatiotemporal$data,
-  #            aes(y = focal_std_by_all),
-  #            alpha = 0.1, group = 1) +
+  geom_point(data = mod_spatiotemporal$data,
+             aes(y = focal_std_by_all),
+             alpha = 0.1, group = 1) +
    labs(y = "Standardized Kelp Abundance", x = "",
         color = "Northing") +
   theme_light(base_size = 18)
@@ -178,11 +178,10 @@ ggsave("figures/spatiotemporal_curves.jpg",
 
 # hovmoller
 ggplot(predicted,
-       aes(x = year, y = id, fill = est, color = est)) +
+       aes(x = year, y = id, fill = est)) +
   geom_tile() +
   #scale_fill_viridis_c(option = "D") +
   colorspace::scale_fill_continuous_divergingx(palette = "BrBG", mid = 0.2, rev = FALSE) +
-  colorspace::scale_color_continuous_divergingx(palette = "BrBG", mid = 0.2, rev = FALSE) +
   facet_wrap(vars(forcats::fct_rev(eco_collapsed)), 
               scale = "free_y", ncol = 1)+
   guides(y = "none") +
@@ -203,13 +202,14 @@ predict_decades <-
   ungroup() |>
   st_as_sf(coords = c("X", "Y"), crs = st_crs(coastline_32619_km))
 
-yrs_plot <- list(c(1980, 1990), c(1990, 2000),
-            c(2000, 2010), c(2010, 2020))
+# yrs_plot <- list(c(1980, 1990), c(1990, 2000),
+#             c(2000, 2010), c(2010, 2020))
 ggplot() +
   geom_sf(data = coastline_32619_km) +
   geom_sf(data = predict_decades , 
           aes(color = est), size = 1) +
-  scale_color_viridis_c(option = "A", transform = "logit") +
+  colorspace::scale_color_continuous_divergingx(palette = "BrBG", 
+                                                mid = 0.2, rev = FALSE) +
   facet_wrap(vars(year)) +
   labs(color = "Standardized\nKelp Abundance")
 
@@ -237,7 +237,6 @@ ggplot(predicted|> get_derivs(),
        aes(x = year, y = est_change, group = cell_id, color = Y)) +
   geom_line(alpha = 0.1)  +
   scale_color_viridis_c() +
- # facet_wrap(vars(eco_collapsed)) +
   labs(y = "Rate of Change", x = "") +
   geom_hline(yintercept = 0, lty = 2, lwd = 0.3) +
   xlim(c(1970, 2025)) +
@@ -252,8 +251,26 @@ ggplot(predicted|> get_derivs(),
   facet_wrap(vars(forcats::fct_rev(eco_collapsed)), 
              scale = "free_y", ncol = 1)+
   labs(y = "", x = "", fill = "Rate of Change") +
-  #xlim(c(1970, 2020)) +
   guides(y = "none")
 
 ggsave("figures/spatiotemporal_rate_of_change_hovmoller.jpg", 
        width = 5, height = 7)
+
+
+slope_decades <-
+  predicted|> get_derivs() |>
+  filter(year %in% yrs) |>
+  mutate(ind = match(year, yrs)) |>
+  group_by(year) |> 
+  # mutate(X = (X) + (ind-1)*2e3) |>
+  ungroup() |>
+  st_as_sf(coords = c("X", "Y"), crs = st_crs(coastline_32619_km))
+
+ggplot() +
+  geom_sf(data = coastline_32619_km) +
+  geom_sf(data = slope_decades , 
+          aes(color = exp(log_est_change)-1), size = 1) +
+  colorspace::scale_color_continuous_divergingx(palette = 'RdYlBu', mid = 0) +
+  facet_wrap(vars(year)) +
+  labs(color = "% Change")
+
