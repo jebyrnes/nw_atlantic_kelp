@@ -70,19 +70,19 @@ coastline <- ne_states(country = c("United States of America", "Canada"),
   st_crop(aoi)
 
 basemap <- ggplot() +
-  geom_sf(data = coastline , fill = "seagreen3") +
+  geom_sf(data = coastline  , fill = "seagreen3") +
   theme_bw() +
   theme(axis.text.x = element_text(size = 12, color = "black"),
         axis.text.y = element_text(size = 12, color = "black"),
         panel.grid.major = element_blank(),
         panel.background = element_rect(fill = "lightblue")) +
-  geom_sf(data = ecoregions_shp, fill = NA)
+  geom_sf(data = ecoregions_shp , fill = NA)
 
 basemap +
   geom_sf(data = unique_latlong, alpha = 0.8, size = 1.5) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
-           ylim = c(aoi[2], aoi[4])) 
+           ylim = c(aoi[2], aoi[4]))
   
 
 ggsave("figures/sitemap.jpg", width = 6, height = 8)
@@ -111,6 +111,7 @@ ggplot() +
           mapping = aes(fill = eco_collapsed), 
           color = NA, alpha = 0.5) +
   guides(fill = "none") +
+  geom_sf(data = unique_latlong, alpha = 0.8, size = 1.5) +
   coord_sf(expand = FALSE, 
            xlim = c(aoi[1], aoi[3]),
            ylim = c(aoi[2]+2, aoi[4]-1)) +
@@ -199,10 +200,11 @@ ggplot(nwa_dat,
        aes(x = year, 
            y = latitude,
            group = trj,
-           color = ecoregion)) +
+           color = eco_collapsed)) +
   geom_line(alpha = 0.7) +
   labs(x = "", y = "", color = "") +
   scale_y_continuous(labels = ~ paste0(.x, "°"))  +
+  scale_color_brewer(palette = "Dark2") +
   guides(color=guide_legend(nrow=2,byrow=TRUE))+
   theme_bw(base_size = 18)+
   theme(legend.position = "bottom",

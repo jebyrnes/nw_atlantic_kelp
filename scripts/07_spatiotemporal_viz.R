@@ -36,7 +36,8 @@ make_basis <- function(smooth_formula, dat, basis_prev = NULL){
   colnames(sx) <- paste0("SX", seq_len(ncol(sx)))
   sz <- as.data.frame(do.call(cbind, sm$Zs))
   colnames(sz) <- paste0("SZ", seq_len(ncol(sz)))
-  v <- as_tibble(sm$basis_out[[1]][[1]]$X)
+  v <- as.data.frame(sm$basis_out[[1]][[1]]$X)
+  colnames(v) <- paste0("SV", seq_len(ncol(v)))
   dat <- cbind(dat, sx, sz, v)
   
   return(list(sx = sx, sz = sz, dat = dat, sm = sm, v = v))
@@ -49,76 +50,12 @@ smooth_formula <- focal_std_by_all ~ s(year,  bs = "tp", k = 5)
 nwa_basis <- make_basis(smooth_formula, nwa_dat)
 nwa_dat_with_basis <- nwa_basis$dat
 
-# for prediction
-prediction_points_yr <-
-  tidyr::expand_grid(prediction_points, year = seq(
-    min(nwa_dat_with_basis$year),
-    max(nwa_dat_with_basis$year),
-    by = 0.1
-  ))
-
-pred_basis <- make_basis(smooth_formula, prediction_points_yr, basis_prev = nwa_basis$sm)
-
-pred_data <- pred_basis$dat |>
-  as_tibble() |>
-  mutate(
-    trajectory = nwa_dat_with_basis$trajectory[1],
-    study = nwa_dat_with_basis$study[1],
-    focalUnit = nwa_dat_with_basis$focalUnit[1]
-  )
 
 
 ####
-## Fit a GAM model
-## where the coefficients and intercepts
-## vary by space and time
+## Load GAM sdmTMB model
 ####
-
-##
-fe_formula_unpenalized <- as.formula(paste("focal_std_by_all ~ 1 + ", 
-                                           paste(colnames(nwa_basis$v), collapse = " + "),
-                                           "+ (1|study) + (1  |trajectory)"))
-
-svc_formula_unpenalized <- as.formula(paste("~ 0 +", paste(colnames(nwa_basis$v), collapse = " + ")))
-
-fe_formula_penalized <- as.formula(paste("focal_std_by_all ~ 1 + ", 
-                                         paste(colnames(nwa_basis$sx), collapse = " + "),
-                                         "+ (1|study) + (1 +",
-                                         paste(colnames(nwa_basis$sx), collapse = " + "),
-                                         "| trajectory)"))
-
-svc_formula_penalized <- as.formula(paste("~ 0 +", paste(colnames(nwa_basis$sz), collapse = " + ")))
-
-mod_spatiotemporal<- sdmTMB(fe_formula_unpenalized, 
-                      dispformula = ~focalUnit,
-                      family = tweedie(link = "log"),
-                      spatial = "on",
-                      spatial_varying = svc_formula_unpenalized, 
-                      mesh = mesh_coastline,
-                      data = nwa_dat_with_basis,
-                      control = 
-                        sdmTMBcontrol(map = list(ln_tau_Z = factor(rep(1L, ncol(nwa_basis$v)))))
-)
-
-
-##
-# model checks
-##
-sanity(mod_spatiotemporal)
-
-# check predictions
-prediction_check_density(mod_spatiotemporal)
-prediction_check_density(mod_spatiotemporal, trans = \(x) log(x+0.01))
-
-# randomized quantile residuals
-dharma_plot(mod_spatiotemporal)
-
-##
-# Coefficients
-##
-tidy(mod_spatiotemporal)
-tidy(mod_spatiotemporal, "ran_pars")
-tidy(mod_spatiotemporal, "dispersion")
+mod_spatiotemporal <- readRDS("models/mod_spatiotemporal.rds")
 
 ##
 # pretty plots
@@ -139,12 +76,29 @@ ggplot(fitted,
   labs(y = "Standardized Kelp Abundance", x = "")
 
 ggsave("figures/spatiotemporal_fitted.jpg", 
-       width = 7, height = 6)
+       width = 6, height = 5)
 
 ## 
 # Show a plot of predictions to 
 # emphasize the GAM-nature of the data
 ##
+# for prediction
+prediction_points_yr <-
+  tidyr::expand_grid(prediction_points, year = seq(
+    min(nwa_dat_with_basis$year),
+    max(nwa_dat_with_basis$year),
+    by = 0.1
+  ))
+
+pred_basis <- make_basis(smooth_formula, prediction_points_yr, basis_prev = nwa_basis$sm)
+
+pred_data <- pred_basis$dat |>
+  as_tibble() |>
+  mutate(
+    trajectory = nwa_dat_with_basis$trajectory[1],
+    study = nwa_dat_with_basis$study[1],
+    focalUnit = nwa_dat_with_basis$focalUnit[1]
+  )
 
 predicted <- predict(mod_spatiotemporal,
                      type = "response",
@@ -166,9 +120,9 @@ ggplot(predicted|>
        aes(x = year, y = est, group = cell_id, color = Y)) +
   geom_line(alpha = 0.1)  +
   scale_color_viridis_c() +
-  geom_point(data = mod_spatiotemporal$data,
-             aes(y = focal_std_by_all),
-             alpha = 0.1, group = 1) +
+  # geom_point(data = mod_spatiotemporal$data,
+  #            aes(y = focal_std_by_all),
+  #            alpha = 0.1, group = 1) +
    labs(y = "Standardized Kelp Abundance", x = "",
         color = "Northing") +
   theme_light(base_size = 18)
@@ -187,6 +141,9 @@ ggplot(predicted,
   guides(y = "none") +
   labs(y = "", x = "", fill = "Standardized\nKelp Abundance") +
   theme_classic() 
+
+ggsave("figures/spatiotemporal_hovmoller.jpg", 
+       width = 8, height = 5)
 
 ##
 # Map predictions over time
@@ -207,7 +164,7 @@ predict_decades <-
 ggplot() +
   geom_sf(data = coastline_32619_km) +
   geom_sf(data = predict_decades , 
-          aes(color = est), size = 1) +
+          aes(color = est), size = 2) +
   colorspace::scale_color_continuous_divergingx(palette = "BrBG", 
                                                 mid = 0.2, rev = FALSE) +
   facet_wrap(vars(year)) +
@@ -215,7 +172,7 @@ ggplot() +
 
 
 ggsave("figures/spatiotemporal_maps.jpg", 
-       width = 8, height = 5)
+       width = 7, height = 4)
 ## 
 # Get the first derivatives (x-lag(x))
 # to show change in rate of change through time
@@ -250,11 +207,11 @@ ggplot(predicted|> get_derivs(),
   colorspace::scale_fill_continuous_divergingx(palette = 'RdYlBu', mid = 0) +
   facet_wrap(vars(forcats::fct_rev(eco_collapsed)), 
              scale = "free_y", ncol = 1)+
-  labs(y = "", x = "", fill = "Rate of Change") +
+  labs(y = "", x = "", fill = "Porportion Change\nPer Year") +
   guides(y = "none")
 
 ggsave("figures/spatiotemporal_rate_of_change_hovmoller.jpg", 
-       width = 5, height = 7)
+       width = 5, height = 6)
 
 
 slope_decades <-
@@ -269,8 +226,10 @@ slope_decades <-
 ggplot() +
   geom_sf(data = coastline_32619_km) +
   geom_sf(data = slope_decades , 
-          aes(color = exp(log_est_change)-1), size = 1) +
+          aes(color = exp(log_est_change)-1), size = 2) +
   colorspace::scale_color_continuous_divergingx(palette = 'RdYlBu', mid = 0) +
   facet_wrap(vars(year)) +
-  labs(color = "% Change")
+  labs(color = "Porportion Change Per Year")
 
+ggsave("figures/spatiotemporal_rate_of_change_by_decade_maps.jpg", 
+       width = 8, height = 5)

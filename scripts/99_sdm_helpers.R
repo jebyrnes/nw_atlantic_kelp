@@ -239,29 +239,38 @@ prediction_points <- readRDS("data/valid_coastline_prediction_grid.rds")
 # Useful helper functions
 ####
 
-prediction_check_density <- function(mod, seed = 31415, trans = identity){
+prediction_check_density <- function(mod, seed = 31415, 
+                                     trans = identity, 
+                                     return_data = FALSE, ...){
   m <- simulate(mod, 
                 nsim = 100,
                 type = "mle-mvn",
                 seed = seed,
                 mle_mvn_samples = "multiple") |>
     as_tibble() |>
-    tidyr::pivot_longer(everything())
+    bind_cols(mod$data) |>
+    tidyr::pivot_longer(matches("^V\\d"))
+  
+  if(return_data) return(m)
+
   
   ggplot() +
     geom_density(data = m ,  
                  mapping = aes(x = trans(value), group = name),
                  alpha = 0.1,
                  fill = NA, color = "lightgrey")+
-    geom_density(data = tibble(x = mod$tmb_data$y_i) ,  
+    geom_density(data =bind_cols(tibble(x = mod$tmb_data$y_i),
+                                 mod$data),
                  mapping = aes(x = trans(x)),
                  alpha = 0.1,
                  fill = NA, color = "darkblue")
 }
 
-dharma_plot <- function(mod, seed = 2718282){
+dharma_plot <- function(mod, nsim = 300, 
+                        type = "mle-mvn", 
+                        seed = 2718282){
   set.seed(seed)
-  simulate(mod, nsim = 300, type = "mle-mvn") |>
+  simulate(mod, nsim = nsim, type = type) |>
     dharma_residuals(mod)
 }
 
@@ -269,9 +278,9 @@ dharma_plot <- function(mod, seed = 2718282){
 # predictions and error and a yi variable for whatever the
 # model predicted if this is on the model data
 
-get_predicted_sdm_data <- function(mod, dat = NULL, nsim = 300,
+get_predicted_sdm_data <- function(mod, dat = NULL, nsim = 1e3,
                                    slopevar = "year_c",
-                                   lwr = 0.025, upr = 0.975){
+                                   lwr = 0.025, upr = 0.975, ...){
   if(is.null(dat)){
     dat <- mod$data
     dat$yi <- mod$tmb_data$y_i
@@ -280,7 +289,7 @@ get_predicted_sdm_data <- function(mod, dat = NULL, nsim = 300,
   # for combined variable    
   zeta_s <- predict(mod, newdata = dat,
                     nsim = nsim, 
-                    sims_var = "zeta_s")
+                    sims_var = "zeta_s", ...)
   
   sims <- spread_sims(mod, nsim = nsim)
   
@@ -288,10 +297,10 @@ get_predicted_sdm_data <- function(mod, dat = NULL, nsim = 300,
   dat$combined_slope_median <- apply(combined, 2, median)
   dat$combined_slope_mean <- apply(combined, 2, mean)
   dat$combined_slope_sd <- apply(combined, 2, sd)
-  dat$combined_slope_lwr <- apply(combined, 2, quantile, probs = 0.025)
-  dat$combined_slope_upr <- apply(combined, 2, quantile, probs = 0.975)
+  dat$combined_slope_lwr <- apply(combined, 2, quantile, probs = lwr)
+  dat$combined_slope_upr <- apply(combined, 2, quantile, probs = upr)
   
-  predict(mod, se=TRUE, newdata = dat) |>
+  predict(mod, se=TRUE, newdata = dat, ...) |>
     mutate(slope_fe = coef(mod)[2],
            slope_fe_se = tidy(mod)$std.error[2])
 }
@@ -324,7 +333,7 @@ plot_fit_sdm_model <- function(mod, dat = NULL){
 ###
 
 slope_triptych <- function(dat,
-                           color_lab = "Rate of Change\nPer Year",
+                           color_lab = "Porportion Change\nPer Year",
                            title = "",
                            mean_title = "Mean Slope",
                            lwr_title = "Lower CI",

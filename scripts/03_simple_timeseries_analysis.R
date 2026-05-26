@@ -23,6 +23,7 @@ coef_to_prec<-scales::new_transform(
   transform = \(.x) exp(.x)-1,
   inverse = \(.y) log(.y+1) 
 )
+
 #reads in nwa data
 source("scripts/load_nwa_data.R")
 
@@ -35,8 +36,7 @@ ggplot(nwa_dat,
   scale_color_discrete(guide = "none") +
   stat_smooth(method = "lm", fill = NA, 
               size = 0.5, alpha = 0.5) +
-  ylim(c(0,1.1)) +
-  ylim(c(0,1.1)) +
+  ylim(c(0,1.5)) +
   labs(y = "Kelp Abundance Standardized\nBy Ecoregion", x = "",
        color = "") +
   guides(color=guide_legend(nrow=2,
@@ -67,6 +67,7 @@ mod_common_slope <- glmmTMB(ln_focal_std_by_ecoregion ~
                          data = nwa_dat)
 
 saveRDS(mod_ecoregion, "models/mod_ecoregion.rds")
+saveRDS(mod_ecoregion, "models/mod_common_slope.rds")
 
 # check model
 performance::check_convergence(mod_ecoregion)
@@ -112,7 +113,8 @@ plot(slopes) +
 estimate_slopes(mod_ecoregion, trend = "year", 
                 by = "eco_collapsed",
                 backend = "emmeans") |>
-  plot()
+  plot() +
+  xlab("")
 
 ggsave("figures/ecoregion_slopes.jpg", 
        width = 7, height = 6)
@@ -121,7 +123,7 @@ contrast(slopes,
          method = "pairwise", conf.int = TRUE)  |> 
  confint() |>
   ggplot(aes(x = contrast, y = estimate, 
-             ymin = lower.CL, ymax = upper.CL)) +
+             ymin = asymp.LCL, ymax = asymp.UCL)) +
   geom_point() + 
   geom_linerange() +
   geom_hline(yintercept = 0, lty = 2) +
@@ -134,7 +136,7 @@ ggsave("figures/ecoregion_slopes_contrast.jpg",
 
 # Show the model results
 
-plot_mod <- function(a_mod){
+plot_mod <- function(a_mod, upr_lim = 1.6){
   estimate_relation(a_mod,
                     length = 100,
                     by = c("year", "eco_collapsed")) |>
@@ -142,7 +144,7 @@ plot_mod <- function(a_mod){
     mutate(Predicted = exp(Predicted)-0.01,
            CI_low = exp(CI_low)-0.01,
            CI_high = exp(CI_high)-0.01,
-           CI_high = ifelse(CI_high>1.1, 1.1, CI_high)
+           CI_high = ifelse(CI_high>upr_lim, upr_lim, CI_high)
     ) |>
     ggplot(aes(x = year)) +
     geom_line(aes(y = Predicted, 
@@ -157,7 +159,7 @@ plot_mod <- function(a_mod){
                aes(y = focal_std_by_ecoregion, 
                    color = eco_collapsed),
                alpha = 0.2) +
-    ylim(c(0,1.1)) +
+    ylim(c(0,upr_lim)) +
     labs(y = "Standardized Kelp Abundance", x = "",
          color = "", fill = "") +
     guides(color=guide_legend(nrow=2,
