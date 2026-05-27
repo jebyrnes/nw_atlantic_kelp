@@ -96,6 +96,17 @@ basemap +
 ggsave("figures/sitemap_krumhansl_2016.jpg", width = 6, height = 8)
 
 ##
+# Data Properties (#)
+##
+# how many sites?
+nwa_dat |> 
+  pull(trajectory) |>
+  n_distinct()
+
+# how many data points?
+nrow(nwa_dat)
+
+##
 # Map of Ecoregions (collapsed)
 ##
 ggplot() +
@@ -260,7 +271,7 @@ old_length <- old_data |>
   summarize(study_length = max(year) - min(year)) |>
   ggplot(aes(x = study_length)) +
   geom_histogram(bins = 40) +
-  xlim(c(-1, 80)) + ylim(c(-1, 55)) +
+  xlim(c(-1, 45)) + ylim(c(-1, 50)) +
   labs(x = "time series duration (years)", y = "# sites",
        subtitle = "Krumhansl et al. 2016")
 
@@ -269,7 +280,7 @@ new_length <- nwa_dat |>
   summarize(study_length = max(year) - min(year)) |>
   ggplot(aes(x = study_length)) +
   geom_histogram(bins = 40) +
-  xlim(c(-1, 80)) + ylim(c(-1, 55)) +
+  xlim(c(-1, 45)) + ylim(c(-1, 50)) +
   labs(x = "time series duration (years)", y = "# sites",
        subtitle = "Current dataset")
 
