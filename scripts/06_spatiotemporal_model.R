@@ -45,6 +45,7 @@ make_basis <- function(smooth_formula, dat, basis_prev = NULL){
 
 # the smoother
 smooth_formula <- focal_std_by_all ~ s(year,  bs = "tp", k = 5)
+#smooth_formula <- focal_std_by_all ~ s(year,  bs = "gp")
 
 
 nwa_basis <- make_basis(smooth_formula, nwa_dat)
