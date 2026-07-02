@@ -1,0 +1,279 @@
+---
+title: "Report for `r params$study`"
+format:
+  html:
+    embed-resources: true
+    code-fold: true
+    code-summary: "Show the code"
+params:
+  study: "merinov_gosl"
+  path: "data/clean_data/timeseries/merinov_gosl.csv"
+---
+```{r}
+#| label: load_libraries
+#| message: false
+#| warning: false
+#| echo: false
+
+setwd(here::here())
+library(knitr)
+library(kableExtra)
+opts_knit$set(root.dir = here::here())
+
+
+pacman::p_load(readr, dplyr, ggplot2,
+               glmmTMB, modelbased, see)
+
+theme_set(theme_bw(base_size = 13) +
+            theme(legend.position="bottom"))
+
+source("scripts/load_nwa_data.R")
+
+kelptime_study <- nwa_dat |>
+  dplyr::filter(study == params$study)
+
+study_data <- read_csv(params$path,
+  show_col_types = FALSE
+ ) |>
+  filter(Study == params$study) |>
+  dplyr::select(-Sample.ID) |> #don't need and was causing problems
+  mutate(
+         Site = iconv(Site,  from = "latin1", to = "UTF-8", sub = ""),
+         Site = gsub("\\x89", "", Site ),
+         Site = gsub("\\n", "", Site ),
+         Site = stringi::stri_enc_toutf8(Site))
+
+
+# deal with UTF-8 problem for some dataset site names in trajectories
+# solution from https://github.com/r-spatial/mapview/issues/194
+kelptime_study$trajectory = sapply(kelptime_study$trajectory, iconv, from = "latin1", to = "UTF-8", sub = "")
+kelptime_study$site = sapply(kelptime_study$site, iconv, from = "latin1", to = "UTF-8", sub = "")
+study_data$Site = sapply(study_data$Site, iconv, from = "latin1", to = "UTF-8", sub = "")
+
+```
+
+
+```{r}
+#| label: is this mined?
+#| output: asis
+#| echo: false
+#| 
+if(grepl("mined", params$path)){
+  cat("**NOTE**: This data was mined from papers, and was not given to us by the author.")
+}
+```
+
+## 1. The Data
+
+
+
+Here is your dataset as we reprocessed it. Please take a look.
+
+::: {.callout-note collapse="true"}
+
+## Click to see the clean data
+```{r}
+#| label: show_study_data
+# 
+ study_data |>
+          kable( format = "html") %>%
+          kable_styling(position = "center", full_width = F, bootstrap_options = c("striped","hover"))%>%
+          scroll_box( width = "1000px", height = "500px", fixed_thead = T)
+
+```
+:::
+
+Here is your dataset as where we have now summed across all kelp species and put into the KelpTime main database format.
+
+::: {.callout-note collapse="true"}
+
+## Click to see the data in kelptime format
+```{r}
+#| label: show_kelptime_data
+#|
+kelptime_study |>
+         kable( format = "html") %>% 
+         kable_styling(position = "center", full_width = F, bootstrap_options = c("striped","hover"))%>%        
+         scroll_box( width = "1000px", height = "500px", fixed_thead = T)
+```
+:::
+
+## 2. Plots of raw data
+
+### 2.1 By metric
+Here is what your data looks like with all sites plotted together looking at each sampling metric.
+
+```{r}
+#| label: raw_plot
+#| fig-width: 10
+
+kelptime_study_measurement_long <- 
+  kelptime_study |>
+  tidyr::pivot_longer(cols =biomass_kg_wet_per_sq_m:percent_cover) |>
+  filter(!is.na(value))
+
+ggplot(kelptime_study_measurement_long,
+       aes(x = date, y = value,
+           color = site)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(vars(name), scale = "free_y")
+
+```
+
+### 2.2 Standardized data
+Here is what your data looks like with all sites plotted together where we take the preferred metric (order of preference: biomass, percent cover, individual count) and standardize it by dividing it by the highest value in the Ecoregion.
+
+
+```{r}
+#| label: std_plot
+
+
+ggplot(kelptime_study,
+       aes(x = date, y = focal_std_by_ecoregion,
+           color = site)) +
+  geom_point() +
+  geom_line()
+
+```
+
+
+### 2.3 Standardized data by site
+Here is what your data looks like with all sites plotted together where we take the preferred metric (order of preference: biomass, percent cover, individual count) and standardize it by dividing it by the highest value in the Ecoregion. We then facet by site so that you can look at each site indivudally to assess if trends look accurate.
+
+```{r}
+#| label: std_plot_by_site
+ 
+ggplot(kelptime_study,
+       aes(x = date, y = focal_std_by_ecoregion,
+           color = site)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(vars(site)) +
+  guides(color = "none")
+
+```
+
+## 3. Modeled timeseries resuls
+
+We fit two models. One where the slope varies by ecoregion (note: the GOSL and Newfoundland are collapsed) and one where the slope does not vary by ecoregion. Based on the modeled results, here is the smoothed fits to your data. Note - thus far, the model with a common slope appears to be the correct is the one with a common slope (best fit in terms of prediction and p-value for slope*ecoregion is not distinguishable from 0).
+
+**Note** - the study (black) line might not line up in the middle or on trajectories, as it is shrunken in towards the grand mean for the ecoregion.
+
+### 3.1 Slope Varying by Ecoregion Model
+
+```{r}
+#| label: plot_fit_vary
+#| fig-width: 6
+
+mod_ecoregion <- readRDS("models/mod_ecoregion.rds")
+
+
+# for plotting to do the back transform
+exp_trans <- function(dat){
+
+  dat |>
+    mutate(
+      Predicted = exp(Predicted)-0.01,
+           CI_low = exp(CI_low)-0.01,
+           CI_high = exp(CI_high)-0.01,
+           CI_high = ifelse(CI_high>1.1, 1.1, CI_high)
+    )|>
+               mutate(trajectory = 
+                        gsub(study[1], "", trajectory))
+
+}
+
+
+re_ecoregion <- ranef(mod_ecoregion)$cond$study |>
+  as_tibble(rownames = "study")  |> 
+  filter(study == params$study) |> 
+  pull(`(Intercept)`)
+
+
+dat_fixed_ecoregion <- estimate_relation(mod_ecoregion,
+                               include_random = FALSE,
+                  length = 200,
+                  data = kelptime_study) |>
+  mutate(Predicted = Predicted + re_ecoregion,
+         CI_high = CI_high + re_ecoregion,
+         CI_low = CI_low + re_ecoregion) |>
+  exp_trans()
+
+dat_traj_ecoregion <- estimate_relation(mod_ecoregion,
+                              include_random = TRUE,
+                  length = 200,
+                  data = kelptime_study) |>
+    exp_trans()
+
+
+ggplot(dat_traj_ecoregion, aes(x = year)) +
+  geom_line(aes(y = Predicted,
+                color = trajectory), alpha = 0.5) +
+  geom_point(aes(y = focal_std_by_ecoregion,
+                 group = trajectory,
+                 shape = trajectory,
+                 color = trajectory), alpha = 0.5,
+             data = kelptime_study |>
+               mutate(trajectory = 
+                        gsub(study[1], "", trajectory))) +
+  geom_line(data = dat_fixed_ecoregion,
+            aes(y = Predicted), color = "black") +
+  geom_ribbon(data = dat_fixed_ecoregion,
+            aes(y = Predicted,
+                ymin = CI_low,
+                ymax = CI_high), color = NA,
+            alpha = 0.1) +
+  labs(x = "", y = "Standardized Kelp",
+      color = "site", shape = "site")
+
+```
+
+### 3.2 Common Slope Model
+```{r}
+#| label: plot_fit_common
+#| fig-width: 6
+
+mod_common_slope <- readRDS("models/mod_common_slope.rds")
+
+re <- ranef(mod_common_slope)$cond$study |>
+  as_tibble(rownames = "study")  |> 
+  filter(study == params$study) |> 
+  pull(`(Intercept)`)
+
+
+dat_fixed <- estimate_relation(mod_common_slope,
+                               include_random = FALSE,
+                  length = 200,
+                  data = kelptime_study) |>
+  mutate(Predicted = Predicted + re,
+         CI_high = CI_high + re_ecoregion,
+         CI_low = CI_low + re_ecoregion) |>
+  exp_trans()
+
+dat_traj <- estimate_relation(mod_common_slope,
+                              include_random = TRUE,
+                  length = 200,
+                  data = kelptime_study) |>
+    exp_trans()
+
+ggplot(dat_traj, aes(x = year)) +
+  geom_line(aes(y = Predicted,
+                color = trajectory), alpha = 0.5) +
+  geom_point(aes(y = focal_std_by_ecoregion,
+                 group = trajectory,
+                 shape = trajectory,
+                 color = trajectory), alpha = 0.5,
+             data = kelptime_study |>
+               mutate(trajectory = 
+                        gsub(study[1], "", trajectory))) +
+  geom_line(data = dat_fixed,
+            aes(y = Predicted), color = "black") +
+  geom_ribbon(data = dat_fixed,
+            aes(y = Predicted,
+                ymin = CI_low,
+                ymax = CI_high), color = NA,
+            alpha = 0.1) +
+  labs(x = "", y = "Standardized Kelp",
+      color = "site", shape = "site")
+```

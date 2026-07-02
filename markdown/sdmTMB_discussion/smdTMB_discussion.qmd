@@ -1,0 +1,743 @@
+---
+title: "Analyzing Northwest Atlantic Kelp with sdmTMB"
+format: revealjs
+---
+
+## Background
+
+![](https://subelab.com/wp-content/uploads/2020/09/2016-PNAS-Krumhansla.jpg){fig-align="center"}
+
+## Background
+- In 2013, we collected all extant time series of kelp abundance
+- Analysis showed 1/3 of the world's forests declining, 1/3 with no trend, 1/3 increasing
+- We decided to revisit a decade later
+- BUT - starting with Northwest Atlantic to build framework so that we can move on to the rest of the world more quickly
+
+```{r preamble}
+#| message: false
+#| warning: false
+#| echo: false
+knitr::opts_chunk$set(root.dir = here::here(), message = FALSE, warning = FALSE) 
+setwd(here::here())
+
+pacman::p_load(dplyr, ggplot2, sdmTMB, sf, tidyr, modelbased)
+source("scripts/99_sdm_helpers.R")
+```
+
+## The Data
+`r nrow(nwa_dat)` points over `r dplyr::n_distinct(nwa_dat$trajectory)` sites
+
+```{r data_map}
+ggplot() +
+  geom_sf(data = coastline , fill = "seagreen3") +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 12, color = "black"),
+        axis.text.y = element_text(size = 12, color = "black"),
+        panel.grid.major = element_blank(),
+        panel.background = element_rect(fill = "lightblue")) +
+  geom_sf(data = ecoregions_shp, fill = NA)+
+  geom_sf(data = unique_latlong, alpha = 0.8, size = 1.5) +
+  coord_sf(expand = FALSE, 
+           xlim = c(aoi[1], aoi[3]),
+           ylim = c(aoi[2], aoi[4])) 
+
+```
+
+## Sampling Uneven in Time
+```{r sample_time}
+ggplot() +
+  geom_sf(data = coastline , fill = "seagreen3") +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 12, color = "black"),
+        axis.text.y = element_text(size = 12, color = "black"),
+        panel.grid.major = element_blank(),
+        panel.background = element_rect(fill = "lightblue")) +
+  geom_sf(data = ecoregions_shp, fill = NA)+
+  geom_sf(data = nwa_dat |> 
+            st_as_sf(coords = c("longitude", "latitude"),
+                     crs = 4326), alpha = 0.8, size = 1.5) +
+  coord_sf(expand = FALSE, 
+           xlim = c(aoi[1], aoi[3]),
+           ylim = c(aoi[2], aoi[4]))  +
+  facet_wrap(vars(decade))
+```
+
+## Timing and Duration of Data
+```{r histograms}
+nwa_dat <- nwa_dat |>
+  mutate(trj = as.character(trajectory) |>
+         forcats::fct_reorder(latitude, .desc = FALSE))
+
+ggplot(nwa_dat |> filter(!is.na(ecoregion)),
+       aes(x = year, 
+           y = latitude,
+           group = trj,
+           color = ecoregion )) +
+  geom_line(alpha = 0.7) +
+  labs(x = "", y = "", color = "") +
+  scale_y_continuous(labels = ~ paste0(.x, "°")) +
+  theme(legend.position = "bottom",
+        legend.box="vertical")+ 
+  theme_bw(base_size = 18) +
+  theme()
+
+```
+
+## Variation in Measurement type
+Standardized as $stdkelp = Kelp_{ijt}/m_{ij}$
+m = average of highest three measurement  
+i = ecoregion (or whole data set)
+j = measurement type  
+t = year
+```{r measure_type}
+
+traj_dat <- nwa_dat |>
+  select(ecoregion,
+         trajectory,
+         has_bm, 
+         has_sd,
+         has_pc) |>
+  pivot_longer(-c(ecoregion, trajectory)) |>
+  filter(value>0) |>
+  group_by(ecoregion, name) |>
+  summarize(n_timeseries = n_distinct(trajectory)) |>
+  mutate(name = case_when(
+    name == "has_bm" ~ "Biomass",
+    name == "has_sd" ~ "Stipe density",
+    name == "has_pc" ~ "Percent cover"
+  ))
+
+ggplot(traj_dat |> filter(!is.na(ecoregion)),
+       aes(y = ecoregion, x = name, 
+           fill = n_timeseries,
+           label = n_timeseries)) +
+  geom_tile() +
+  geom_label(fontface="bold") +
+  labs(x = "", y = "") +
+  scale_x_discrete(position = "top", 
+                   expand = c(0,0))  +
+  scale_y_discrete(expand = c(0,0)) +
+  scale_fill_distiller(palette = "RdBu",
+                       trans = "log10", 
+                       guide = "none") +
+  theme_classic()
+```
+
+## Initial Analysis
+```{r basic_mod}
+#| echo: true
+
+mod_ecoregion <- glmmTMB::glmmTMB(ln_focal_std_by_ecoregion ~
+                                    
+                           eco_collapsed * year + 
+                             
+                           (1 + year |trajectory) + 
+                             
+                           (1|study),
+                           
+                         dispformula =~focalUnit,
+                         
+                         data = nwa_dat)
+```
+
+
+## Analysis Standardized by Ecoregion
+:::: {.columns margin-left="-5em" margin-right="-5em"}
+
+::: {.column width="70%"}
+```{r timeseries}
+#| fig-width: 8
+#| fig-height: 7
+#| 
+plot_mod <- function(a_mod){
+  estimate_relation(a_mod,
+                    length = 100,
+                    by = c("year", "eco_collapsed")) |>
+    as_tibble() |>
+    mutate(Predicted = exp(Predicted)-0.01,
+           CI_low = exp(CI_low)-0.01,
+           CI_high = exp(CI_high)-0.01,
+           CI_high = ifelse(CI_high>1.1, 1.1, CI_high)
+    ) |>
+    ggplot(aes(x = year)) +
+    geom_line(aes(y = Predicted, 
+                  color = eco_collapsed),
+              size = 1.5) +
+    geom_ribbon(aes(y = Predicted, 
+                    ymin = CI_low,
+                    ymax = CI_high,
+                    fill = eco_collapsed),
+                alpha = 0.1) +
+    geom_point(data = nwa_dat, 
+               aes(y = focal_std_by_ecoregion, 
+                   color = eco_collapsed),
+               alpha = 0.2) +
+    ylim(c(0,1.1)) +
+    labs(y = "Standardized Kelp Abundance", x = "",
+         color = "", fill = "") +
+    guides(color=guide_legend(nrow=2,
+                              byrow=TRUE))+
+    theme_bw(base_size = 14)+
+    theme(legend.position = "bottom",
+          legend.box="vertical") +
+    scale_color_brewer(palette = "Dark2")+
+    scale_fill_brewer(palette = "Dark2")
+}
+
+plot_mod(mod_ecoregion)
+```
+:::
+
+::: {.column width="30%" .smaller}
+- Same analysis as Krumhansl et al 2013, but with glmmTMB
+  
+- Rate of change the same across collapsed ecoregions  
+      - LRT test and AIC comparison to alt model
+
+:::
+
+:::: 
+
+## But What about Continuous Space?
+
+## Creating a Mesh
+- Working in UTM in km scale  
+
+- Still feeling a bit at sea with parameters  
+      - Should I be working with inla?
+
+- Used cutoff = 10 for a fine-grained mesh - works! yes?  
+
+- Also trying to use a barrier for the coastline  
+
+## Creating a Mesh
+Note: Results did sometimes change with a larger cutoff
+
+```{r mesh}
+#| echo: true
+
+  basic_mesh <- make_mesh(nwa_dat,
+                            xy_cols = c("X", "Y"),
+                            cutoff = 10) 
+     
+  mesh_coastline <- sdmTMBextra::add_barrier_mesh(
+      spde_obj = basic_mesh,
+      # neg buffer to handle imprecision
+      barrier_sf = coastline_32619_km |> st_buffer(-2)
+    )
+```
+
+## The Mesh
+```{r the_mesh_map}
+ggplot() +
+  geom_sf(data = coastline_32619_km) +
+  inlabru::gg(mesh_coastline$mesh,
+              edge.color = "black",
+              ext.color = "darkgrey"
+  ) +
+  geom_point(data = nwa_dat, aes(x = X, y = Y)) +
+  theme_void()
+```
+
+## The Mesh - Way to show the cuts?
+```{r the_mesh}
+ggplot() +
+  inlabru::gg(mesh_coastline$mesh,
+              edge.color = "black",
+              ext.color = "darkgrey"
+  ) +
+  geom_point(data = nwa_dat, aes(x = X, y = Y)) +
+  theme_void()
+```
+
+## An Initial Grid for Interpolation
+Areas within 40km of kmeans clusters of points
+```{r the_grid}
+   ggplot() +
+      geom_sf(data = coastline_32619_km) +
+      geom_sf(data = valid_areas , fill = "lightblue") +
+      geom_sf(data = prediction_points, size = 0.01)
+```
+
+## A Model of Varying Slopes
+Note RE structure
+```{r slope_spatial_model}
+#| cache: true
+#| echo: true
+
+mod_spatial <- sdmTMB(focal_std_by_all ~ 
+                        year_c  +
+                        (1 | study) +
+                        (1  + year_c | trajectory), 
+                      
+                      spatial = "on",
+                      spatial_varying = ~0 + year_c, 
+                      
+                      dispformula = ~focalUnit,
+                      
+                      family = tweedie(link = "log"),
+                      mesh = mesh_coastline,
+                      data = nwa_dat)
+```
+
+## One Thing I Like: Bimodality
+
+```{r bimodality}
+prediction_check_density(mod_spatial, trans = \(x) log(x+0.01)) + labs(subtitle = "Observed v. Simulated Values of focal_std_by_all")
+```
+
+
+## Interpretation
+Reasonable? Test of slope homogeneity?
+```{r slope_ranefs}
+tidy(mod_spatial, effects = "ran_pars", conf.int = TRUE)
+```
+
+## Fits look OK
+
+```{r spatial_fits}
+#| cache: true
+# get some fitted data and some derived quantities
+fitted_spatial <- get_predicted_sdm_data(mod_spatial,
+                                         lwr = 0.05, upr = 0.95) |>
+  st_as_sf(coords = c("X", "Y"), crs = st_crs(coastline_32619_km))
+
+# Show the curves resulting from this model
+plot_fit_sdm_model(mod_spatial, fitted_spatial)
+
+```
+
+## Although Surprised South isn't Stronger...
+
+```{r linear_plot}
+ggplot(fitted_spatial) +
+  geom_sf(data = coastline) +
+  geom_sf(aes(color = combined_slope_mean), size = 0.8) +
+  scale_color_slope_c() +
+  labs(color = "Rate of Change\nper year", 
+       title = "For Included Studies",
+       subtitle = "Mean")
+```
+
+## A function to get predictions and spatial variation
+```{r get_predicted_sdm_data}
+#| echo: true
+get_predicted_sdm_data <-
+  function(mod, dat = NULL, 
+           nsim = 300, slopevar = "year_c",
+           lwr = 0.025, upr = 0.975){
+  if(is.null(dat)){
+    dat <- mod$data
+    dat$yi <- mod$tmb_data$y_i
+  }
+  
+  # for combined variable    
+  # from the paper
+  zeta_s <- predict(mod, newdata = dat,
+                    nsim = nsim, 
+                    sims_var = "zeta_s")
+  
+  sims <- spread_sims(mod, nsim = nsim)
+  
+  combined <- sims[[slopevar]] + t(zeta_s)
+  dat$combined_slope_median <- apply(combined, 2, median)
+  dat$combined_slope_mean <- apply(combined, 2, mean)
+  dat$combined_slope_sd <- apply(combined, 2, sd)
+  dat$combined_slope_lwr <- apply(combined, 2, quantile, 
+                                  probs = 0.025)
+  dat$combined_slope_upr <- apply(combined, 2, quantile, 
+                                  probs = 0.975)
+  
+  predict(mod, se=TRUE, newdata = dat) |>
+    mutate(slope_fe = coef(mod)[2],
+           slope_fe_se = tidy(mod)$std.error[2])
+}
+```
+
+## Interpolations
+- Chose a random trajectory, study, focal unit - doesn't make a difference
+```{r interpolate_spatial}
+#| cache: true
+#| echo: true
+pred_data <- prediction_points |>  
+  as_tibble() |> 
+  mutate(year_c = 0,
+         trajectory = nwa_dat$trajectory[1],
+         study = nwa_dat$study[1],
+         focalUnit = nwa_dat$focalUnit[1]
+  )
+
+spatial_interpolate <- get_predicted_sdm_data(mod_spatial,
+                                              dat = pred_data,
+                                         lwr = 0.05, upr = 0.95, nsim = 1e3) |>
+  st_as_sf(crs = st_crs(coastline_32619_km)) |>
+  mutate(in_ci = ifelse(sign(combined_slope_mean) == sign(combined_slope_lwr) &
+                          sign(combined_slope_mean) == sign(combined_slope_upr),
+                        TRUE, FALSE))
+```
+
+## Properties
+```{r interpolate_linear_properties}
+ggplot(spatial_interpolate |> select(X, Y, combined_slope_mean, combined_slope_lwr, combined_slope_upr) |> pivot_longer(combined_slope_mean:combined_slope_upr), 
+       aes(x = value)) +
+  geom_histogram(bins = 50) +
+  facet_wrap(vars(name)) +
+  geom_vline(xintercept = 0, lty = 2, color = "red")
+```
+
+## The Curves
+Shifted up? Correct? Plotting est
+
+```{r spatial_surves}
+# curves
+spatial_slope <- predict(mod_spatial, 
+                         type = "response",
+                         newdata = prediction_points |>  
+  as_tibble() |> 
+    tidyr::crossing(
+  tibble(year_c = seq(min(nwa_dat$year_c), max(nwa_dat$year_c), length.out =100),
+         year = seq(min(nwa_dat$year), max(nwa_dat$year), length.out =100),
+         trajectory = rep(nwa_dat$trajectory[1],100),
+         study = rep(nwa_dat$study[1],100),
+         focalUnit = rep(nwa_dat$focalUnit[1],100)
+  )))
+
+ggplot(nwa_dat, aes(x = year, color = Y,
+                    y = focal_std_by_all)) +
+  geom_point(alpha = 0.5) +
+  geom_line(data = spatial_slope,
+              aes(y = est, 
+                  color = Y,
+                  group = Y),
+            alpha = 0.2)  +
+  scale_color_viridis_c()
+```
+
+## Variability in zeta_s across space
+```{r plot-zeta-s}
+ggplot(spatial_slope |> filter(year_c == min(year_c)),
+       aes(x = Y, y = zeta_s_year_c)) +
+         geom_point(alpha = 0.5)
+```
+
+
+## Map of Interpolations 
+
+```{r spatial_map}
+# map
+ggplot(spatial_interpolate) + 
+  geom_sf(data = coastline_32619_km, 
+  color = NA, fill = "darkgrey") +
+  geom_sf(aes(color = combined_slope_mean, shape = in_ci), 
+             size = 2, alpha = 0.5) + 
+  scale_color_slope_c() +
+  labs(color = "Rate of Change\nper Year") +
+  theme_light(base_size = 16)
+```
+
+
+
+## Final Thoughts on initial sdmTMB
+- So, this support the earlier analysis of similar slope throughout even if we are starting in different places
+
+- A little worried that there is no high change in S trend and overprediction in the 1980s - shift down?
+
+- Mesh right?
+
+## Spatio-Temporal Variation
+
+- We know that there has been urchin outbreaks, recovery, species invasions, climate change, and more in the region  
+
+- GAMs seem the right way to go to examine temporal variation 
+
+- But, the severity and timing of these mechanisms differ by region. 
+
+## A Function to Generate Elements Needed for GAMs in sdmTMB
+
+```{r make_basis_function}
+#| echo: true
+make_basis <- function(smooth_formula, dat, basis_prev = NULL){
+  sm <- sdmTMB:::parse_smoothers(smooth_formula, data = dat, basis_prev = basis_prev)
+  
+  # unpenalized v. penalized part
+  sx <- as.data.frame(sm$Xs)
+  colnames(sx) <- paste0("SX", seq_len(ncol(sx)))
+  sz <- as.data.frame(do.call(cbind, sm$Zs))
+  colnames(sz) <- paste0("SZ", seq_len(ncol(sz)))
+  
+  # or the whole thing
+  v <- as_tibble(sm$basis_out[[1]][[1]]$X)
+  
+  # data with basis sets
+  dat <- cbind(dat, sx, sz, v)
+  
+  return(list(sx = sx, sz = sz, dat = dat, sm = sm, v = v))
+}
+```
+
+## Creating a smoother and basis set
+
+```{r make_basis}
+#| echo: true
+# the smoother - k = 5 as ~5 decades
+smooth_formula <- 
+  focal_std_by_all ~ s(year,  bs = "tp", k = 5)
+
+
+nwa_basis <- make_basis(smooth_formula, nwa_dat)
+nwa_dat_with_basis <- nwa_basis$dat
+```
+
+## Making Unpenalized Formulae
+
+```{r gam_formulae}
+#| echo: true
+fe_formula_unpenalized <- 
+  as.formula(paste("focal_std_by_all ~ 1 + ",
+                   paste(colnames(nwa_basis$v), collapse = " + "),
+                   "+ (1|study) + (1  |trajectory)"))
+
+svc_formula_unpenalized <- 
+  as.formula(paste("~ 0 +",
+                   paste(colnames(nwa_basis$v), collapse = " + ")))
+```
+
+## Making Unpenalized Formulae
+
+```{r show_formulae}
+#| echo: true
+
+fe_formula_unpenalized
+
+svc_formula_unpenalized
+
+```
+
+## Putting This Into sdmTMB
+```{r mod_spatiotemporal}
+#| echo: true
+mod_spatiotemporal<- sdmTMB(
+  fe_formula_unpenalized,
+  spatial_varying = svc_formula_unpenalized, 
+  
+  dispformula = ~focalUnit,
+  family = tweedie(link = "log"),
+  
+  spatial = "on",
+  mesh = mesh_coastline,
+  
+  data = nwa_dat_with_basis,
+  control = 
+    sdmTMBcontrol(map = list(ln_tau_Z = factor(rep(1L, ncol(nwa_basis$v)))))
+)
+```
+
+## Looks OK?
+```{r spatiotemporal_ranpars}
+tidy(mod_spatiotemporal, "ran_pars")
+```
+
+## Fitted Values Look Good
+```{r plot_fitted_spatiotemporal}
+
+fitted <- predict(mod_spatiotemporal,
+                  type = "response")
+
+ggplot(fitted,
+       aes(x = year, y = est, group = trajectory, color = eco_collapsed)) +
+  geom_line() +
+  scale_color_brewer(palette = "Dark2")+
+  facet_wrap(vars(eco_collapsed)) +
+  guides(color="none") +
+  geom_point(data = mod_spatiotemporal$data,
+             aes(y = focal_std_by_all),
+             alpha = 0.1) +
+  labs(y = "Standardized Kelp Abundance", x = "")
+```
+
+## Prediction Set for Interpolation
+```{r spatiotemporal_pred}
+#| echo: true
+prediction_points_yr <-
+  tidyr::expand_grid(prediction_points, year = seq(
+    min(nwa_dat_with_basis$year),
+    max(nwa_dat_with_basis$year),
+    by = 0.1
+  ))
+
+pred_basis <- make_basis(smooth_formula, 
+                         prediction_points_yr, 
+                         basis_prev = nwa_basis$sm)
+
+pred_data <- pred_basis$dat |>
+  as_tibble() |>
+  mutate(
+    trajectory = nwa_dat_with_basis$trajectory[1],
+    study = nwa_dat_with_basis$study[1],
+    focalUnit = nwa_dat_with_basis$focalUnit[1]
+  )
+
+predicted <- predict(mod_spatiotemporal,
+                     type = "response",
+                     newdata = pred_data)
+```
+
+## We Can See Loss and Gain
+
+```{r interpolate_gam}
+ggplot(predicted|> 
+         filter_time_eco_collapsed()  ,
+       aes(x = year, y = est, group = cell_id, color = Y)) +
+  geom_line(alpha = 0.1)  +
+  scale_color_viridis_c() +
+ labs(y = "Standardized Kelp Abundance", x = "",
+        color = "Northing") +
+  theme_light(base_size = 18)
+```
+
+## Interpolation with Data Overlay
+
+```{r est_gam_with_data}
+ggplot(predicted|> 
+         filter_time_eco_collapsed()  ,
+       aes(x = year, y = est, group = cell_id, color = Y)) +
+  geom_line(alpha = 0.1)  +
+  scale_color_viridis_c() +
+  geom_point(data = mod_spatiotemporal$data,
+             aes(y = focal_std_by_all),
+             alpha = 0.1, group = 1) +
+   labs(y = "Standardized Kelp Abundance", x = "",
+        color = "Northing") +
+  theme_light(base_size = 18)
+```
+
+## Adding Ecoregions and an Order to Cells
+```{r add_eco_spatio_pred}
+#| echo: true
+predicted <- predicted |>
+  mutate(
+    eco_collapsed =
+      forcats::fct_relevel(
+        eco_collapsed,
+        c(
+          "Virginian" ,
+          "Gulf of Maine/Bay of Fundy" ,
+          "Scotian Shelf" ,
+          "Gulf of St. Lawrence - Newfoundland"
+        )
+      ),
+    ord = as.numeric(eco_collapsed) * 1e5 + Y,
+    id = rank(ord)
+  )
+```
+
+## Hovmoller of Estimate
+
+```{r hovmoller_est}
+ggplot(predicted,
+       aes(x = year, y = id, fill = est)) +
+  geom_tile() +
+  colorspace::scale_fill_continuous_divergingx(palette = "BrBG", mid = 0.2, rev = FALSE) +
+  facet_wrap(vars(forcats::fct_rev(eco_collapsed)), 
+              scale = "free_y", ncol = 1)+
+  guides(y = "none") +
+  labs(y = "", x = "", fill = "Standardized\nKelp Abundance") +
+  theme_classic() 
+```
+
+## Or on a map
+
+```{r map_over_time}
+yrs <- c(1975, 1985, 1995, 2005, 2015) + 5
+
+predict_decades <-
+  predicted |>
+  filter(year %in% yrs) |>
+  mutate(ind = match(year, yrs)) |>
+  group_by(year) |> 
+ # mutate(X = (X) + (ind-1)*2e3) |>
+  ungroup() |>
+  st_as_sf(coords = c("X", "Y"), crs = st_crs(coastline_32619_km))
+
+yrs_plot <- list(c(1980, 1990), c(1990, 2000),
+            c(2000, 2010), c(2010, 2020))
+ggplot() +
+  geom_sf(data = coastline_32619_km) +
+  geom_sf(data = predict_decades , 
+          aes(color = est), size = 1) +
+  colorspace::scale_color_continuous_divergingx(palette = "BrBG", mid = 0.2, rev = FALSE) +
+  facet_wrap(vars(year)) +
+  labs(color = "Standardized\nKelp Abundance")
+```
+
+## Rate of Change
+
+```{r derivs}
+#| echo: true
+get_derivs <- function(dat){
+  dat |>
+    group_by(X, Y, ecoregion, trajectory, study, geometry) |>
+    arrange(year) |>
+    mutate(est_change = lead(est) - lag(est),
+           log_est_change = log(lead(est)+1e-7) - log(lag(est)+1e-7),
+           est_accel = lead(est_change) - lag(est_change) ) |>
+    ungroup()
+}
+```
+
+## Again, see the recovery
+
+```{r plot_derivs}
+#| warning: false
+ggplot(predicted|> get_derivs(),
+       aes(x = year, y = est_change, group = cell_id, color = Y)) +
+  geom_line(alpha = 0.1)  +
+  scale_color_viridis_c() +
+  labs(y = "Rate of Change", x = "") +
+  geom_hline(yintercept = 0, lty = 2, lwd = 0.3) +
+  scale_y_continuous(transform = "pseudo_log")
+```
+
+## Hovmoller of Change
+
+```{r change_hov}
+ggplot(predicted|> get_derivs(),
+       aes(x = year, fill = est_change, y = id)) +
+  geom_tile()  +
+  colorspace::scale_fill_continuous_divergingx(palette = 'RdYlBu', mid = 0) +
+  facet_wrap(vars(forcats::fct_rev(eco_collapsed)), 
+             scale = "free_y", ncol = 1)+
+  labs(y = "", x = "", fill = "Rate of Change") +
+  guides(y = "none")
+```
+
+## Spatial Viz of % Change Clearer
+
+```{r spatial_change_map}
+
+slope_decades <-
+  predicted|> get_derivs() |>
+  filter(year %in% yrs) |>
+  mutate(ind = match(year, yrs)) |>
+  group_by(year) |> 
+  # mutate(X = (X) + (ind-1)*2e3) |>
+  ungroup() |>
+  st_as_sf(coords = c("X", "Y"), crs = st_crs(coastline_32619_km))
+
+ggplot() +
+  geom_sf(data = coastline_32619_km) +
+  geom_sf(data = slope_decades , 
+          aes(color = exp(log_est_change)-1), size = 1) +
+  colorspace::scale_color_continuous_divergingx(palette = 'RdYlBu', mid = 0) +
+  facet_wrap(vars(year)) +
+  labs(color = "% Change")
+```
+
+## Final Thoughts on GAM sdmTMB
+- We see surprising uniformity in loss and recovery
+
+- Are things tuned right?
+
+- A little worried that S trend is not stronger, but, this is because here we have a spatial RE instead of a spatial FE (conversation point) 
+
+- Is implementation of GAM here correct?

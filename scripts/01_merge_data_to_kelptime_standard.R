@@ -34,28 +34,38 @@ log_add_01 <- function(x) log(x+.01)
 
 combined_data <- new_data |>
   filter(!is.na(study)) |>
+  filter(!is.na(latitude)) |>
   add_geo_info() |>
   
   group_by(ecoregion, focalUnit) |>
   mutate(focal_std_by_ecoregion = standardize_by_max(focalKelp))|>
   ungroup() |>
   
-  group_by(province) |>
+  group_by(province, focalUnit) |>
   mutate(focal_std_by_province = standardize_by_max(focalKelp))|>
   ungroup() |>
   
-  group_by(realm) |>
+  group_by(realm, focalUnit) |>
   mutate(focal_std_by_realm = standardize_by_max(focalKelp)) |>
   ungroup() |>
   
-  mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_realm,
+  group_by(focalUnit) |>
+  mutate(focal_std_by_all = standardize_by_max(focalKelp)) |>
+  ungroup() |>
+  
+  mutate(across(.cols = focal_std_by_ecoregion:focal_std_by_all,
                 .fns = log_add_01,
                 .names = "ln_{.col}")
   )
 
 # filter out some duplicate studies 
+# some of which we now have raw data for
 combined_data <- combined_data |>
-  filter(study != "Attridge_et_al._2022")
+  filter(!(study %in% c("Attridge_et_al._2022", 
+                        "Feehan_et_al._2019",
+                        "Filbee-Dexteretal_et_al._2016",
+                        "Egan_&_Yarish__1990"
+                        )))
 
 #write out data
 write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
@@ -65,6 +75,7 @@ write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
 combined_clear <- combined_data |>
   as_tibble() |>
   mutate(date = ymd(sasdate),
+         month = month(date),
          year = year(date),
          year_f = as.character(year),
          year_c = year - mean(year),
@@ -73,7 +84,7 @@ combined_clear <- combined_data |>
   group_by(trajectory) |>
   mutate(n_per_trajectory = n()) |>
   ungroup() |>
-  filter(n_per_trajectory >= 2)# at least 3 data points per trajectory
+  filter(n_per_trajectory >= 3) 
 
 write_csv(combined_clear, 
            "data/kelptime_nwa_data.csv")
@@ -82,7 +93,7 @@ write_csv(combined_clear,
 combined_clear |>
   group_by(latitude, longitude) |>
   summarize(min_year = min(year),
-            max_year = max(year)) |>
-  ungroup() |>
+            max_year = max(year),
+            .groups = "drop") |>
   write_csv("data/unique_latlongs_time.csv")
 

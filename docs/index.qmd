@@ -1,0 +1,7 @@
+---
+title: "NW Atlantic Kelp Timeseries"
+format: html
+---
+
+## Materials for Collaborators
+- [Presentation for sdmTMB Discussion](./smdTMB_discussion.html)

@@ -44,8 +44,11 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
       period = sasDate |> as.factor() |> as.numeric()
     ) |>
     
-    # Average each taxon within a sample_ID
-    group_by(Study, Site, period, Sample_ID, Taxon) |>
+    # Average each taxon within a sample_ID, Month, and Year (used to be period)
+    # This is to ensure we don't get duplicate measurements, or if the same
+    # permanent plot was sampled multiple times in the same month which happens
+    # in some surveys
+    group_by(Study, Site, Sample_Year, Sample_Month, Sample_ID, Taxon) |>
     summarize(
       Latitude = mean_na(Latitude),
       Longitude = mean_na(Longitude),
@@ -62,8 +65,9 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
       .groups = "drop"
     ) |>
     
-  # Sum across taxon for each sample
-  group_by(Study, Site, period, Sample_ID) |>
+  # Sum across taxa for each sample and Sample.Year, Sample.Month - used to use period
+  # in individual sample units
+  group_by(Study, Site, Sample_Year, Sample_Month, Sample_ID) |>
     summarize(
       Latitude = mean_na(Latitude),
       Longitude = mean_na(Longitude),
@@ -81,8 +85,8 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
     ) |>
     
     # aggregate measurements by period - so getting average kelp cover
-    # per site per period - 1 measurement
-   group_by(Study, Site, period) |>
+    # per site per period - 1 measurement - use sample year and month as period
+   group_by(Study, Site, Sample_Year, Sample_Month) |>
     summarize(
       Latitude = mean_na(Latitude),
       Longitude = mean_na(Longitude),
@@ -147,4 +151,9 @@ process_one_study_to_combine <- function(datasetname, path = "data/clean_data/ti
 standardize_by_max <- function(x, samp=3) {
   m <- mean(sort(x, decreasing=T, na.last=T)[1:samp])
   x/m
+}
+
+ln_stdMax <- function(x, samp=3) {
+  m <- mean(sort(x, decreasing=T, na.last=T)[1:samp])
+  log(x/m+1/m)
 }
