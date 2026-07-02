@@ -4,7 +4,11 @@ library(forcats)
 library(sf)
 library(mregions)
 
+<<<<<<< HEAD
 nwa_dat <- read_csv("data/kelptime_nwa_data.csv", show_col_types = FALSE) |>
+=======
+nwa_dat <- read_csv("data/nwa_with_env.csv", show_col_types = FALSE) |>
+>>>>>>> c77727d1d1d6fcbfe14ee691da97bc60076a8817
   # Rescaling
   mutate(rescaled_std_by_ecoregion = scales::rescale(focal_std_by_ecoregion, c(0,1)),
          year_z = (year - mean(year))/sd(year)) |>
