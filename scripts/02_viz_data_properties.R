@@ -76,7 +76,7 @@ basemap <- ggplot() +
         axis.text.y = element_text(size = 12, color = "black"),
         panel.grid.major = element_blank(),
         panel.background = element_rect(fill = "lightblue")) +
-  geom_sf(data = ecoregions_shp , fill = NA)
+  geom_sf(data = ecoregions_shp , fill = NA) 
 
 basemap +
   geom_sf(data = unique_latlong, alpha = 0.8, size = 1.5) +
@@ -290,3 +290,4 @@ old_length + new_length +
 
 ggsave("figures/duration_hist.jpg",
        width = 8, height = 4)
+
