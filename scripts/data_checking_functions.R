@@ -138,10 +138,10 @@ check_problems <- function(kelp_data) {
     if (mvar$nobs > 0) {
       cat(paste(out, errorName, "\n", sep = " "))
       
-      NewDirectory <- paste("clean_data/dataQA/", out, sep = "")
+      NewDirectory <- paste("dataQA/", out, sep = "")
       dir.create(NewDirectory, showWarnings = FALSE, recursive = TRUE)
       
-      outfile <- paste("clean_data/dataQA/", out, "/", dataName, ".csv", sep = "")
+      outfile <- paste("dataQA/", out, "/", dataName, ".csv", sep = "")
       df <- eval(parse(text = dataName))
       write.csv(df, file = outfile, row.names = FALSE)
     }
