@@ -16,9 +16,14 @@ source("scripts/add_geo_info.R")
 raw_data_files <- list.files("data/clean_data/timeseries/",
                              pattern = "csv")
 
-map(raw_data_files, read_kelp_data) |>
-  walk(check_problems)
+### NOTES ON removing some data sets - 
+### 1) Goodbout St. Lawrence problems are caused by NAs
+### and because they are different measurements, do not cause
+### problems when merged
 
+map(raw_data_files[!grepl("Godbout_StLawrence", raw_data_files)], 
+    read_kelp_data) |>
+  walk(check_problems)
 
 # combine in old data as well
 #moved GOM files to new clean data
@@ -58,14 +63,6 @@ combined_data <- new_data |>
                 .names = "ln_{.col}")
   )
 
-# filter out some duplicate studies 
-# some of which we now have raw data for
-combined_data <- combined_data |>
-  filter(!(study %in% c("Attridge_et_al._2022", 
-                        "Feehan_et_al._2019",
-                        "Filbee-Dexteretal_et_al._2016",
-                        "Egan_&_Yarish__1990"
-                        )))
 
 #write out data
 write_csv(combined_data, "data/kelptime_nwa_all_data.csv")
