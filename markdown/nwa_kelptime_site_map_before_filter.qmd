@@ -1,0 +1,54 @@
+---
+title: "NWA KelpTime Site Map Before Filtering"
+html:
+  page-layout: full
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+knitr::opts_chunk$set(root.dir = here::here(), message = FALSE, warning = FALSE) 
+setwd(here::here())
+
+library(sf)
+library(leaflet)
+library(glue)
+library(readr)
+library(dplyr)
+
+nwa_dat <- read_csv("data/kelptime_nwa_all_data.csv") |>
+  mutate(trajectory = paste(study, site))
+
+good_cols <- colors() |> 
+  stringr::str_subset("gr[ea]y", negate = TRUE) |>
+  stringr::str_subset("black", negate = TRUE) |>
+  gplots::col2hex()
+
+# make sf obj
+nwa_dat <- nwa_dat |> st_as_sf(
+  coords = c("longitude", "latitude"),
+  crs = 4326
+)
+
+# get site-level LL
+nwa_grouped <- nwa_dat |>
+  group_by(trajectory) |>
+  summarize(study = study[1],
+            site = site[1],
+            min_year = min(sample_year),
+            max_year = max(sample_year),
+            n = n(),
+            eco_collapsed = ecoregion[1]) |>
+  mutate(text = glue("{trajectory}<br>study: {study}<br>{min_year} - {max_year}, n = {n}<br>site: {site}<br>{eco_collapsed}"),
+         col = good_cols[rank(trajectory) |> round()])
+
+leaflet() |>
+  addTiles() |>
+  addCircleMarkers(data = nwa_grouped |> st_centroid(),
+             fillColor = ~col,
+             fillOpacity = 0.8,
+             popup = ~text,
+             stroke = 0)
+
+```
