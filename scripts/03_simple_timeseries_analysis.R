@@ -67,24 +67,27 @@ mod_common_slope <- glmmTMB(ln_focal_std_by_ecoregion ~
                          data = nwa_dat)
 
 saveRDS(mod_ecoregion, "models/mod_ecoregion.rds")
-saveRDS(mod_ecoregion, "models/mod_common_slope.rds")
+saveRDS(mod_common_slope, "models/mod_common_slope.rds")
 
 # check model
 performance::check_convergence(mod_ecoregion)
+performance::check_convergence(mod_common_slope)
 
 performance::check_predictions(mod_ecoregion)
+performance::check_predictions(mod_common_slope)
 
 #performance::check_residuals(mod_ecoregion) |> plot()
 
 
-# What's the model tell us?
-
+# What's the ecoregion model tell us?
 car::Anova(mod_ecoregion)
 
-# AIC way
+# Compare ecoregion versus common slope model using 
+# AIC for prediction
 AIC(mod_ecoregion)
 AIC(mod_common_slope)
 
+# Common slope estimate of change
 change_est <- 
   emtrends(mod_common_slope, ~1, var = "year") |> 
   tidy()|> pull(year.trend) 
@@ -92,6 +95,7 @@ change_est <-
 perc_change_per_year <- ((exp(change_est) -1 )*100) |> round(2)
 perc_change_per_year
 
+# Show variation in trends from ecoregino model by site
 modelbased::estimate_grouplevel(mod_ecoregion,
                                 type = "total",
                                 group = "trajectory:year") |>
@@ -104,17 +108,17 @@ modelbased::estimate_grouplevel(mod_ecoregion,
 
 tidy(mod_ecoregion, effects = "fixed")
 
-# Plot slopes
-slopes <- emtrends(mod_ecoregion, specs = ~eco_collapsed, var = "year")
-
-plot(slopes) +
-  labs(y = "", x = "standardized change")
+# Plot slopes from ecoregion model
+# slopes <- emtrends(mod_ecoregion, specs = ~eco_collapsed, var = "year")
+# 
+# plot(slopes) +
+#   labs(y = "", x = "standardized change")
 
 estimate_slopes(mod_ecoregion, trend = "year", 
                 by = "eco_collapsed",
                 backend = "emmeans") |>
   plot() +
-  xlab("")
+  xlab("") 
 
 ggsave("figures/ecoregion_slopes.jpg", 
        width = 7, height = 6)
@@ -136,7 +140,7 @@ ggsave("figures/ecoregion_slopes_contrast.jpg",
 
 # Show the model results
 
-plot_mod <- function(a_mod, upr_lim = 1.6){
+plot_mod <- function(a_mod, upr_lim = 2){
   estimate_relation(a_mod,
                     length = 100,
                     by = c("year", "eco_collapsed")) |>
