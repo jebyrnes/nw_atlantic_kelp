@@ -15,10 +15,10 @@
 26,"noisette_antacosti","Gulf of Saint Lawrence","CAA_ouest_13",NA,"CAA_ouest_1-NA-2021-9-1",2021,9,1,49.782592,-64.337332,"Alaria esculenta","Fixed",0.5,NA,4.75,4.75,0.0525
 28,"noisette_antacosti","Gulf of Saint Lawrence","CAA_ouest_13",NA,"CAA_ouest_1-NA-2021-9-1",2021,9,1,49.782592,-64.337332,"Laminaria digitata","Fixed",0.5,NA,0.75,0.75,0.0425
 31,"noisette_antacosti","Gulf of Saint Lawrence","CAA_ouest_13",NA,"CAA_ouest_1-NA-2021-9-1",2021,9,1,49.782592,-64.337332,"Saccharina latissima","Fixed",0.5,NA,9,9,1.51
-33,"noisette_antacosti","Gulf of Saint Lawrence","PB_ouest_1",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Agarum clathratum","Fixed",0.5,NA,0,0,0
-34,"noisette_antacosti","Gulf of Saint Lawrence","PB_ouest_1",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Alaria esculenta","Fixed",0.5,NA,1.33333333333333,1.33333333333333,0.0133333333333333
-36,"noisette_antacosti","Gulf of Saint Lawrence","PB_ouest_1",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Laminaria digitata","Fixed",0.5,NA,2.16666666666667,2.16666666666667,1.02666666666667
-39,"noisette_antacosti","Gulf of Saint Lawrence","PB_ouest_1",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Saccharina latissima","Fixed",0.5,NA,5.83333333333333,5.83333333333333,0.143385416666667
+33,"noisette_antacosti","Gulf of Saint Lawrence","PB_est",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Agarum clathratum","Fixed",0.5,NA,0,0,0
+34,"noisette_antacosti","Gulf of Saint Lawrence","PB_est",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Alaria esculenta","Fixed",0.5,NA,1.33333333333333,1.33333333333333,0.0133333333333333
+36,"noisette_antacosti","Gulf of Saint Lawrence","PB_est",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Laminaria digitata","Fixed",0.5,NA,2.16666666666667,2.16666666666667,1.02666666666667
+39,"noisette_antacosti","Gulf of Saint Lawrence","PB_est",NA,"PB_ouest_1-NA-2021-9-1",2021,9,1,49.783606,-64.407798,"Saccharina latissima","Fixed",0.5,NA,5.83333333333333,5.83333333333333,0.143385416666667
 41,"noisette_antacosti","Gulf of Saint Lawrence","PO",NA,"PO-NA-2021-9-1",2021,9,1,49.866069,-64.529267,"Agarum clathratum","Fixed",0.5,NA,0,0,0
 42,"noisette_antacosti","Gulf of Saint Lawrence","PO",NA,"PO-NA-2021-9-1",2021,9,1,49.866069,-64.529267,"Alaria esculenta","Fixed",0.5,NA,5.33333333333333,5.33333333333333,0
 44,"noisette_antacosti","Gulf of Saint Lawrence","PO",NA,"PO-NA-2021-9-1",2021,9,1,49.866069,-64.529267,"Laminaria digitata","Fixed",0.5,NA,17.3333333333333,17.3333333333333,0
