@@ -60,6 +60,9 @@ ggplot(slopes_only,
   coord_flip() +
   facet_wrap(~eco_collapsed)
 
+ggsave("figures/spatial_slopes.jpg", 
+       width = 8, height = 7)
+
 # Show the curves resulting from this model
 plot_fit_sdm_model(mod_spatial, fitted_spatial)
 
@@ -69,6 +72,7 @@ ggsave("figures/spatial_kelp_change_fitted_curves.jpg",
 # show study slopes with FE + spatial variation
 col_lims <- rep(max(abs(c(fitted_spatial$combined_slope_lwr, fitted_spatial$combined_slope_upr))),
                 2) * c(-1,1)
+col_lims <- c(-0.075, 0.075)
 
 slope_map <- ggplot(fitted_spatial) +
   geom_sf(data = coastline) +
@@ -82,7 +86,7 @@ slope_map +
 ggsave("figures/spatial_kelp_change_fitted_mean.jpg", width = 7, height = 7)
 
 
-mean_map <- slope_map + scale_color_slope_b(limits =col_lims, n.breaks = 7) +
+mean_map <- slope_map + scale_color_slope_b(limits =col_lims, n.breaks = 7) 
 
 
 lwr_map <- ggplot(fitted_spatial) +
@@ -107,15 +111,6 @@ mean_map /( lwr_map + upr_map)+
 
 ggsave("figures/spatial_kelp_change_fitted_triptych.jpg", width = 8, height = 5)
 
-ggplot(fitted_spatial |>
-         group_by(site) |>
-         filter(sample_year == max(sample_year)),
-       aes(x = latitude, y = combined_slope_mean,
-           ymin = combined_slope_lwr, ymax = combined_slope_upr)) +
-  geom_pointrange() +
-  geom_hline(yintercept = 0, color = "red", lty = 2) +
-  facet_wrap(vars(eco_collapsed)) +
-  coord_flip() 
 
 ##
 # Interpolated Slopes
@@ -156,7 +151,7 @@ ggsave("figures/spatial_kelp_change_interpolated.jpg",
 
 # all three - use function from sdmPrep
 slope_triptych(spatial_interpolate, 
-               limits = c(-0.12, 0.12),
+               limits = c(-0.15, 0.15),
                n.breaks = 7)
 
 ggsave("figures/spatial_kelp_change_interpolated_triptych_std.jpg", 
@@ -188,10 +183,3 @@ ggplot(nwa_dat, aes(x = year, color = Y,
        color = "UTM Northing")
 
 ggsave("figures/spatial_kelp_change_interpolated_curves.jpg")
-
-
-
-##
-# emtrends(mod_spatial_eco, ~eco_collapsed, "year_c") |> plot()
-# emtrends(mod_spatial_eco, ~eco_collapsed, "year_c") |> 
-#   contrast(method = "pairwise", adjust= "none") |> plot()
