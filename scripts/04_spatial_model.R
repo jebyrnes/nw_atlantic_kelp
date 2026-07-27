@@ -110,6 +110,8 @@ prediction_check_density(mod_spatial, trans = \(x) log(x+0.01)) +
 prediction_check_density(mod_spatial, trans = \(x) log(x+0.01)) +
   facet_grid(vars(decade), vars(eco_collapsed), scale = "free_y") #huh
 
+ggsave("figures/spatial_fit_eco_bydecade.jpg", width = 8, height = 8)
+
 # randomized quantile residuals
 dharma_plot(mod_spatial)
 
@@ -117,7 +119,9 @@ dharma_plot(mod_spatial)
 # coefs
 tidy(mod_spatial,  conf.int = TRUE)
 tidy(mod_spatial, effects = "ran_pars", conf.int = TRUE)
+
 spatial_mod_re <- tidy(mod_spatial, effects = "ran_vals")
 
+# percent change per year
 perc_change_per_year <- ((exp(coef(mod_spatial)[2]) -1 )*100) |> round(2)
 perc_change_per_year
