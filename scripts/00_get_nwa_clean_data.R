@@ -50,3 +50,15 @@ write_csv(mined, "data/clean_data/timeseries/GOM_mined.csv")
 # remove files no longer needed
 #file.remove("data/clean_data/timeseries/Old_Mined_Data.csv")
 #file.remove("data/clean_data/timeseries/Mined_Data.csv")
+
+## -----------
+## Download from NWA kelptime github repo
+## -----------
+# repo_dir <- "https://github.com/kelpecosystems/nwa_kelpTime_data/trunk/clean_data/timeseries"
+# 
+# system(
+#   sprintf(
+#     'svn export "%s" "my_downloaded_data"',
+#     repo_dir
+#   )
+# )
