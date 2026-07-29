@@ -21,7 +21,7 @@ valid_areas <- make_valid_areas(buffer = 10)
 prediction_points <- full_prediction_points |> 
   st_intersection(valid_areas)
 
-cutoffs <- c(5, 10, 20, 30, 50, 80, 100)
+cutoffs <- c(5, 10, 15, 20, 30, 50, 80, 100)
 k_vals <- 3:12
 
 outlist <- vector("list", 
