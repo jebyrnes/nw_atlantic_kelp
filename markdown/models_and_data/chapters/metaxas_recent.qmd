@@ -1,8 +1,0 @@
----
-title: "metaxas_recent"
-params:
-  path: "data/clean_data/timeseries/metaxas_recent.csv"
-  dataset_name: "metaxas_recent"
----
-
-{{< include ../_analysis-template.qmd >}}

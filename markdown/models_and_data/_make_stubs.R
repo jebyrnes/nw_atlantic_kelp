@@ -6,11 +6,13 @@ setwd(here::here())
 
 ## load in kelptime
 source("scripts/load_nwa_data.R")
-studies <- unique(nwa_dat$study) |> sort()
+studies <- unique(nwa_dat$study) |> as.character() |> sort()
 
 ## what are the studies in clean_data?
 clean_dat <- list.files("data/clean_data/timeseries",
                         full.names = TRUE)
+#### DEBUG: LIMIT 1-4
+clean_dat <- clean_dat[1:4]
 
 analyzed_studies <- read_csv(clean_dat, id = "path") |>
   rename_all(tolower) |>
@@ -21,9 +23,6 @@ analyzed_studies <- read_csv(clean_dat, id = "path") |>
   filter(study %in% studies) |>
   mutate(file = make_clean_names(study))
 
-#### DEBUG: LIMIT 1-4
-clean_dat <- clean_dat[1:4]
-analyzed_studies <- analyzed_studies[1:4,]
 
 # 
 # sites <- tibble::tribble(

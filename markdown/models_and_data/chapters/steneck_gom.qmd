@@ -1,8 +1,0 @@
----
-title: "steneck_gom"
-params:
-  path: "data/clean_data/timeseries/temporal_data_steneck_gom.csv"
-  dataset_name: "steneck_gom"
----
-
-{{< include ../_analysis-template.qmd >}}

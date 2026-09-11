@@ -1,8 +1,0 @@
----
-title: "seabrook"
-params:
-  path: "data/clean_data/timeseries/seabrook.csv"
-  dataset_name: "seabrook"
----
-
-{{< include ../_analysis-template.qmd >}}

@@ -1,8 +1,0 @@
----
-title: "Steneck_1997"
-params:
-  path: "data/clean_data/timeseries/NWA_Mined_Data.csv"
-  dataset_name: "Steneck_1997"
----
-
-{{< include ../_analysis-template.qmd >}}

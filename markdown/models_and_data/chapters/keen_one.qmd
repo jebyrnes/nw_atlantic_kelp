@@ -1,8 +1,0 @@
----
-title: "keen_one"
-params:
-  path: "data/clean_data/timeseries/keen_one.csv"
-  dataset_name: "keen_one"
----
-
-{{< include ../_analysis-template.qmd >}}

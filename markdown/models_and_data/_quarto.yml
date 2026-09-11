@@ -16,6 +16,5 @@ book:
   chapters:
     - index.qmd
     - chapters/dmr_rasher_steneck.qmd
-    - chapters/farrell_rasher_2026.qmd
     - chapters/godbout_st_lawrence.qmd
     - chapters/gulf_of_maine_ios_southwestern_gom.qmd

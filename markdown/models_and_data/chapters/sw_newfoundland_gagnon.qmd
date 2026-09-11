@@ -1,8 +1,0 @@
----
-title: "sw_newfoundland_gagnon"
-params:
-  path: "data/clean_data/timeseries/sw_newfoundland_gagnon.csv"
-  dataset_name: "sw_newfoundland_gagnon"
----
-
-{{< include ../_analysis-template.qmd >}}

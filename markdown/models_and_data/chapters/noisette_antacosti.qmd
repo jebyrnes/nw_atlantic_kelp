@@ -1,8 +1,0 @@
----
-title: "noisette_antacosti"
-params:
-  path: "data/clean_data/timeseries/noisette_antacosti.csv"
-  dataset_name: "noisette_antacosti"
----
-
-{{< include ../_analysis-template.qmd >}}

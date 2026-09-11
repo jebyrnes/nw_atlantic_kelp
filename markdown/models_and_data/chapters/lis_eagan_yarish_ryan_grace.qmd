@@ -1,8 +1,0 @@
----
-title: "lis_eagan_yarish_ryan_grace"
-params:
-  path: "data/clean_data/timeseries/lis_eagan_yarish_ryan_grace.csv"
-  dataset_name: "lis_eagan_yarish_ryan_grace"
----
-
-{{< include ../_analysis-template.qmd >}}

@@ -1,8 +1,0 @@
----
-title: "Rhode_Island_Feehan_Grace_Narvaez"
-params:
-  path: "data/clean_data/timeseries/Rhode_Island_Feehan_Grace_Narvaez.csv"
-  dataset_name: "Rhode_Island_Feehan_Grace_Narvaez"
----
-
-{{< include ../_analysis-template.qmd >}}
