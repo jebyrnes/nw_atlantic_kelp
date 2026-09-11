@@ -1,0 +1,8 @@
+---
+title: "merinov_gosl"
+params:
+  path: "data/clean_data/timeseries/merinov_gosl.csv"
+  dataset_name: "merinov_gosl"
+---
+
+{{< include ../_analysis-template.qmd >}}

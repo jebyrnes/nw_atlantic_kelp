@@ -1,0 +1,8 @@
+---
+title: "farrell_rasher_2026"
+params:
+  path: "data/clean_data/timeseries/farrell_rasher_2026.csv"
+  dataset_name: "farrell_rasher_2026"
+---
+
+{{< include ../_analysis-template.qmd >}}

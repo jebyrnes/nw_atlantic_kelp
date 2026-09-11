@@ -1,0 +1,8 @@
+---
+title: "nova_scotia_kelp"
+params:
+  path: "data/clean_data/timeseries/nova_scotia_kelp.csv"
+  dataset_name: "nova_scotia_kelp"
+---
+
+{{< include ../_analysis-template.qmd >}}

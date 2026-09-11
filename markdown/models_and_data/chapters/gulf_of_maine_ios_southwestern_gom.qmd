@@ -1,0 +1,8 @@
+---
+title: "gulf_of_maine_ios_southwestern_gom"
+params:
+  path: "data/clean_data/timeseries/gulf_of_maine_ios_southwestern_gom.csv"
+  dataset_name: "gulf_of_maine_ios_southwestern_gom"
+---
+
+{{< include ../_analysis-template.qmd >}}

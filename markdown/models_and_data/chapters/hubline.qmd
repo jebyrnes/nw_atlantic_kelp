@@ -1,0 +1,8 @@
+---
+title: "hubline"
+params:
+  path: "data/clean_data/timeseries/hubline.csv"
+  dataset_name: "hubline"
+---
+
+{{< include ../_analysis-template.qmd >}}

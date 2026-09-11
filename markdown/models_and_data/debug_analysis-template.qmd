@@ -1,0 +1,12 @@
+```{r}
+#| label: debug-paths
+#| echo: true
+
+here::i_am("markdown/models_and_data/_analysis-template.qmd")
+
+cat("Working directory:", getwd(), "\n")
+cat("here() root:", here::here(), "\n")
+resolved <- here::here(params$path)
+cat("Resolved path:", resolved, "\n")
+cat("File exists?:", file.exists(resolved), "\n")
+```

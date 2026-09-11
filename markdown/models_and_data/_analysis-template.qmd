@@ -1,14 +1,4 @@
----
-title: "Report for `r params$study`"
-format:
-  html:
-    embed-resources: true
-    code-fold: true
-    code-summary: "Show the code"
-params:
-  study: "merinov_gosl"
-  path: "data/clean_data/timeseries/merinov_gosl.csv"
----
+# `r params$dataset_name`
 
 ```{r}
 #| label: load_libraries
@@ -16,43 +6,53 @@ params:
 #| warning: false
 #| echo: false
 
-setwd(here::here())
 library(knitr)
 library(kableExtra)
-opts_knit$set(root.dir = here::here())
-
 
 pacman::p_load(readr, dplyr, ggplot2,
-               glmmTMB, modelbased, see)
+               glmmTMB, modelbased, see, 
+               sdmTMB, sf, leaflet, glue)
 
 theme_set(theme_bw(base_size = 13) +
             theme(legend.position="bottom"))
+```
 
-source("scripts/load_nwa_data.R")
+```{r}
+#| label: load-data
+#| message: false
+#| echo: false
+
+
+# Anchors the project root explicitly to nw_atlantic_kelp/, since this file
+# runs (via {{< include >}}) with its working directory set to
+# markdown/models_and_data/ — plain here::here() would otherwise resolve
+# root to that folder instead of climbing up to the real project root.
+# If this file moves, update the path below to match.
+# advice from Claude after hours of stackoverflow and other googling fails
+here::i_am("markdown/models_and_data/_analysis-template.qmd")
+
+source(here::here("scripts/load_nwa_data.R"))
+#df <- read.csv(here::here(params$path))
+
 
 kelptime_study <- nwa_dat |>
-  dplyr::filter(study == params$study)
+  dplyr::filter(study == params$dataset_name)
 
-study_data <- read_csv(params$path,
+study_data <- read_csv(here::here(params$path),
   show_col_types = FALSE
  ) |>
-  filter(Study == params$study) |>
-  dplyr::select(-Sample.ID) |> #don't need and was causing problems
+  filter(Study == params$dataset_name) |> # needed for mined data
+  dplyr::select(-Sample.ID) |> # don't need and was causing problems
   mutate(
          Site = iconv(Site,  from = "latin1", to = "UTF-8", sub = ""),
          Site = gsub("\\x89", "", Site ),
          Site = gsub("\\n", "", Site ),
          Site = stringi::stri_enc_toutf8(Site))
 
-
-# deal with UTF-8 problem for some dataset site names in trajectories
-# solution from https://github.com/r-spatial/mapview/issues/194
-kelptime_study$trajectory = sapply(kelptime_study$trajectory, iconv, from = "latin1", to = "UTF-8", sub = "")
-kelptime_study$site = sapply(kelptime_study$site, iconv, from = "latin1", to = "UTF-8", sub = "")
-study_data$Site = sapply(study_data$Site, iconv, from = "latin1", to = "UTF-8", sub = "")
-
 ```
 
+
+## The Data
 
 ```{r}
 #| label: is this mined?
@@ -64,15 +64,12 @@ if(grepl("mined", params$path)){
 }
 ```
 
-## 1. The Data
 
-
-
-Here is your dataset as we reprocessed it. Please take a look.
+Here is your dataset as reprocessed  Please take a look.
 
 ::: {.callout-note collapse="true"}
 
-## Click to see the clean data
+### Click to see the clean data
 ```{r}
 #| label: show_study_data
 # 
@@ -88,7 +85,7 @@ Here is your dataset as where we have now summed across all kelp species and put
 
 ::: {.callout-note collapse="true"}
 
-## Click to see the data in kelptime format
+### Click to see the data in kelptime format
 ```{r}
 #| label: show_kelptime_data
 #|
@@ -99,65 +96,51 @@ kelptime_study |>
 ```
 :::
 
-## 2. Plots of raw data
+## Map of Sites
 
-### 2.1 By metric
-Here is what your data looks like with all sites plotted together looking at each sampling metric.
-
-```{r}
-#| label: raw_plot
-#| fig-width: 10
-
-kelptime_study_measurement_long <- 
-  kelptime_study |>
-  tidyr::pivot_longer(cols =biomass_kg_wet_per_sq_m:percent_cover) |>
-  filter(!is.na(value))
-
-ggplot(kelptime_study_measurement_long,
-       aes(x = date, y = value,
-           color = site)) +
-  geom_point() +
-  geom_line() +
-  facet_wrap(vars(name), scale = "free_y")
-
-```
-
-### 2.2 Standardized data
-Here is what your data looks like with all sites plotted together where we take the preferred metric (order of preference: biomass, percent cover, individual count) and standardize it by dividing it by the highest value in the Ecoregion.
-
+Here are the sites from `r params$dataset_name`
 
 ```{r}
-#| label: std_plot
+#| label: site_map
+#| 
+# make sf obj
+kelptime_study <- kelptime_study |> st_as_sf(
+  coords = c("longitude", "latitude"),
+  crs = 4326
+)
 
+# colors!
+good_cols <- colors() |> 
+  stringr::str_subset("gr[ea]y", negate = TRUE) |>
+  stringr::str_subset("black", negate = TRUE) |>
+  gplots::col2hex()
 
-ggplot(kelptime_study,
-       aes(x = date, y = focal_std_by_ecoregion,
-           color = site)) +
-  geom_point() +
-  geom_line()
+# get site-level LL
+kelptime_study_grouped <- kelptime_study |>
+  group_by(trajectory) |>
+  summarize(study = study[1],
+            site = site[1],
+            min_year = min(sample_year),
+            max_year = max(sample_year),
+            n = n(),
+            eco_collapsed = eco_collapsed[1]) |>
+  mutate(text = glue("{trajectory}<br>study: {study}<br>{min_year} - {max_year}, n = {n}<br>site: {site}<br>{eco_collapsed}"),
+         col = good_cols[rank(trajectory) |> round()])
 
+leaflet() |>
+  addTiles() |>
+  addCircleMarkers(data = kelptime_study_grouped |> st_centroid(),
+             fillColor = ~col,
+             fillOpacity = 0.8,
+             popup = ~text,
+             stroke = 0)
 ```
 
+## Plots of Raw Data
 
-### 2.3 Standardized data by site
-Here is what your data looks like with all sites plotted together where we take the preferred metric (order of preference: biomass, percent cover, individual count) and standardize it by dividing it by the highest value in the Ecoregion. We then facet by site so that you can look at each site indivudally to assess if trends look accurate.
+## How Does the Data Fit Into the Long-Term Trend Analysis?
 
-```{r}
-#| label: std_plot_by_site
- 
-ggplot(kelptime_study,
-       aes(x = date, y = focal_std_by_ecoregion,
-           color = site)) +
-  geom_point() +
-  geom_line() +
-  facet_wrap(vars(site)) +
-  guides(color = "none")
-
-```
-
-## 3. Modeled timeseries resuls
-
-We fit two models. One where the slope varies by ecoregion (note: the GOSL and Newfoundland are collapsed) and one where the slope does not vary by ecoregion. Based on the modeled results, here is the smoothed fits to your data. Note - thus far, the model with a common slope appears to be the correct is the one with a common slope (best fit in terms of prediction and p-value for slope*ecoregion is not distinguishable from 0).
+We fit two models. One where the slope varies by ecoregion (note: the GOSL and Newfoundland are collapsed) and one where the slope does not vary by ecoregion. Based on the modeled results, here is the smoothed fits to your data. Note -  the model with a common slope appears to best predict (best fit in terms of prediction and p-value for slope*ecoregion is not distinguishable from 0).
 
 **Note** - the study (black) line might not line up in the middle or on trajectories, as it is shrunken in towards the grand mean for the ecoregion.
 
@@ -167,7 +150,7 @@ We fit two models. One where the slope varies by ecoregion (note: the GOSL and N
 #| label: plot_fit_vary
 #| fig-width: 6
 
-mod_ecoregion <- readRDS("models/mod_ecoregion.rds")
+mod_ecoregion <- readRDS(here::here("models/mod_ecoregion.rds"))
 
 
 # for plotting to do the back transform
@@ -188,7 +171,7 @@ exp_trans <- function(dat){
 
 re_ecoregion <- ranef(mod_ecoregion)$cond$study |>
   as_tibble(rownames = "study")  |> 
-  filter(study == params$study) |> 
+  filter(study == params$dataset_name) |> 
   pull(`(Intercept)`)
 
 
@@ -213,7 +196,7 @@ ggplot(dat_traj_ecoregion, aes(x = year)) +
                 color = trajectory), alpha = 0.5) +
   geom_point(aes(y = focal_std_by_ecoregion,
                  group = trajectory,
-                 shape = trajectory,
+                 #shape = trajectory,
                  color = trajectory), alpha = 0.5,
              data = kelptime_study |>
                mutate(trajectory = 
@@ -224,9 +207,10 @@ ggplot(dat_traj_ecoregion, aes(x = year)) +
             aes(y = Predicted,
                 ymin = CI_low,
                 ymax = CI_high), color = NA,
-            alpha = 0.1) +
+            alpha = 0.4) +
   labs(x = "", y = "Standardized Kelp",
-      color = "site", shape = "site")
+      color = "site", shape = "site") +
+  guides(color = "none", shape = "none")
 
 ```
 
@@ -235,11 +219,11 @@ ggplot(dat_traj_ecoregion, aes(x = year)) +
 #| label: plot_fit_common
 #| fig-width: 6
 
-mod_common_slope <- readRDS("models/mod_common_slope.rds")
+mod_common_slope <- readRDS(here::here("models/mod_common_slope.rds"))
 
 re <- ranef(mod_common_slope)$cond$study |>
   as_tibble(rownames = "study")  |> 
-  filter(study == params$study) |> 
+  filter(study == params$dataset_name) |> 
   pull(`(Intercept)`)
 
 
@@ -263,7 +247,7 @@ ggplot(dat_traj, aes(x = year)) +
                 color = trajectory), alpha = 0.5) +
   geom_point(aes(y = focal_std_by_ecoregion,
                  group = trajectory,
-                 shape = trajectory,
+                # shape = trajectory,
                  color = trajectory), alpha = 0.5,
              data = kelptime_study |>
                mutate(trajectory = 
@@ -274,7 +258,12 @@ ggplot(dat_traj, aes(x = year)) +
             aes(y = Predicted,
                 ymin = CI_low,
                 ymax = CI_high), color = NA,
-            alpha = 0.1) +
+            alpha = 0.4) +
   labs(x = "", y = "Standardized Kelp",
-      color = "site", shape = "site")
+      color = "site", shape = "site") +
+  guides(color = "none")
 ```
+
+## How Does the Data Fit Into the Spatially Varying Trend Analysis?
+
+## How Does the Data Fit Into the Spatio-Temporal Time Series Model?

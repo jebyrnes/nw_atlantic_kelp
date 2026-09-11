@@ -1,0 +1,8 @@
+---
+title: "witman_gom"
+params:
+  path: "data/clean_data/timeseries/temporal_data_witman_gom.csv"
+  dataset_name: "witman_gom"
+---
+
+{{< include ../_analysis-template.qmd >}}

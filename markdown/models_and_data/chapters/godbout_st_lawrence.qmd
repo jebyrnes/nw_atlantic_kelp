@@ -1,0 +1,8 @@
+---
+title: "Godbout_StLawrence"
+params:
+  path: "data/clean_data/timeseries/Godbout_StLawrence.csv"
+  dataset_name: "Godbout_StLawrence"
+---
+
+{{< include ../_analysis-template.qmd >}}

@@ -1,0 +1,8 @@
+---
+title: "dmr_rasher_steneck"
+params:
+  path: "data/clean_data/timeseries/dmr_rasher_steneck.csv"
+  dataset_name: "dmr_rasher_steneck"
+---
+
+{{< include ../_analysis-template.qmd >}}

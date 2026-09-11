@@ -1,0 +1,15 @@
+project:
+  type: book
+  output-dir: ../../docs/models_and_data
+  execute-dir: project
+
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+
+# execute:
+#   freeze: auto
+
+book:
+  title: "Site Comparisons"
