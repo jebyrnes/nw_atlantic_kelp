@@ -4,7 +4,7 @@ library(forcats)
 library(sf)
 library(mregions)
 
-nwa_dat <- read_csv("data/kelptime_nwa_data.csv", show_col_types = FALSE) |>
+nwa_dat <- read_csv(here::here("data/kelptime_nwa_data.csv"), show_col_types = FALSE) |>
 
   # Rescaling
   mutate(rescaled_std_by_ecoregion = scales::rescale(focal_std_by_ecoregion, c(0,1)),
@@ -87,7 +87,7 @@ ecoregions_shp <- mr_shp(key = "Ecoregions:ecoregions") |>
 
 # for map plotting
 
-unique_latlong <- read_csv("data/unique_latlongs_time.csv") |>
+unique_latlong <- read_csv(here::here("data/unique_latlongs_time.csv")) |>
   st_as_sf(crs = 4326,
            coords = c("longitude", "latitude"))
 
