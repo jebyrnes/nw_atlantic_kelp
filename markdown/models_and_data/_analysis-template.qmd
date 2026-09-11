@@ -196,7 +196,6 @@ ggplot(dat_traj_ecoregion, aes(x = year)) +
                 color = trajectory), alpha = 0.5) +
   geom_point(aes(y = focal_std_by_ecoregion,
                  group = trajectory,
-                 #shape = trajectory,
                  color = trajectory), alpha = 0.5,
              data = kelptime_study |>
                mutate(trajectory = 
@@ -209,8 +208,8 @@ ggplot(dat_traj_ecoregion, aes(x = year)) +
                 ymax = CI_high), color = NA,
             alpha = 0.4) +
   labs(x = "", y = "Standardized Kelp",
-      color = "site", shape = "site") +
-  guides(color = "none", shape = "none")
+      color = "site") +
+  guides(color = "none")
 
 ```
 
@@ -247,7 +246,6 @@ ggplot(dat_traj, aes(x = year)) +
                 color = trajectory), alpha = 0.5) +
   geom_point(aes(y = focal_std_by_ecoregion,
                  group = trajectory,
-                # shape = trajectory,
                  color = trajectory), alpha = 0.5,
              data = kelptime_study |>
                mutate(trajectory = 
@@ -260,7 +258,7 @@ ggplot(dat_traj, aes(x = year)) +
                 ymax = CI_high), color = NA,
             alpha = 0.4) +
   labs(x = "", y = "Standardized Kelp",
-      color = "site", shape = "site") +
+      color = "site") +
   guides(color = "none")
 ```
 

@@ -21,6 +21,10 @@ analyzed_studies <- read_csv(clean_dat, id = "path") |>
   filter(study %in% studies) |>
   mutate(file = make_clean_names(study))
 
+#### DEBUG: LIMIT 1-4
+clean_dat <- clean_dat[1:4]
+analyzed_studies <- analyzed_studies[1:4,]
+
 # 
 # sites <- tibble::tribble(
 #   ~file,     ~name,     ~dataset,
@@ -33,7 +37,7 @@ analyzed_studies <- read_csv(clean_dat, id = "path") |>
 chapter_dir <- here("markdown", "models_and_data", "chapters")
 
 # --- 1. write/update a stub for every current dataset ---
-pwalk(analyzed_studies[1:3], function(path, study, file) {
+pwalk(analyzed_studies, function(path, study, file) {
   glue(
     "---\n",
     "title: \"{study}\"\n",
