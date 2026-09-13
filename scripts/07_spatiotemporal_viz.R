@@ -64,6 +64,9 @@ mod_spatiotemporal <- readRDS("models/mod_spatiotemporal.rds")
 fitted <- predict(mod_spatiotemporal,
                   type = "response")
 
+saveRDS(fitted, "data/model_derived_data/fitted_spatiotemporal_model_sf.rds")
+
+
 ggplot(fitted,
        aes(x = year, y = est, group = trajectory, color = eco_collapsed)) +
   geom_line() +
@@ -114,6 +117,9 @@ predicted <- predicted |>
          ord = as.numeric(eco_collapsed)*1e5 + Y,
          id = rank(ord)
   )
+
+
+saveRDS(predicted, "data/model_derived_data/predicted_spatiotemporal_model_sf.rds")
 
 ggplot(predicted|> 
          filter_time_eco_collapsed()  ,

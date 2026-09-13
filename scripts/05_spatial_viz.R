@@ -42,6 +42,8 @@ fitted_spatial <- get_predicted_sdm_data(mod_spatial,
                                          lwr = 0.05, upr = 0.95) |>
   st_as_sf(coords = c("X", "Y"), crs = st_crs(coastline_32619_km))
 
+saveRDS(fitted_spatial, "data/model_derived_data/fitted_spatial_model_sf.rds")
+
 slopes_only <- fitted_spatial |>
   group_by(trajectory) |>
   slice(1L) |>
@@ -130,6 +132,9 @@ spatial_interpolate <- get_predicted_sdm_data(mod_spatial,
   mutate(in_ci = ifelse(sign(combined_slope_mean) == sign(combined_slope_lwr)&
                           sign(combined_slope_mean) == sign(combined_slope_upr),
                         TRUE, FALSE))
+
+saveRDS(spatial_interpolate, "data/model_derived_data/prediction_spatial_model_sf.rds")
+
 
 # map of means
 ggplot(spatial_interpolate) + 
