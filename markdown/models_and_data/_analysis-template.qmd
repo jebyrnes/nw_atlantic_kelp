@@ -13,8 +13,9 @@ pacman::p_load(readr, dplyr, ggplot2,
                glmmTMB, modelbased, see, 
                sdmTMB, sf, leaflet, glue)
 
-theme_set(theme_bw(base_size = 13) +
-            theme(legend.position="bottom"))
+theme_set(theme_bw(base_size = 13) #+
+            #theme(legend.position="bottom")
+            )
 ```
 
 ```{r}
@@ -112,6 +113,7 @@ kelptime_study <- kelptime_study |> st_as_sf(
 # colors!
 good_cols <- colors() |> 
   stringr::str_subset("gr[ea]y", negate = TRUE) |>
+  stringr::str_subset("white", negate = TRUE) |>
   stringr::str_subset("black", negate = TRUE) |>
   gplots::col2hex()
 
@@ -264,4 +266,171 @@ ggplot(dat_traj, aes(x = year)) +
 
 ## How Does the Data Fit Into the Spatially Varying Trend Analysis?
 
+First, let's look at the map showing slopes for each site.
+
+```{r}
+#| label: load_trends_spatial_fit
+
+fitted_spatial_predictions <- readRDS(here::here("data/model_derived_data/fitted_spatial_model_sf.rds")) |>
+  filter(study == params$dataset_name)
+
+slopes_spatial_fits <- 
+  fitted_spatial_predictions |>
+  group_by(trajectory) |>
+  slice(1L) |>
+  ungroup() |>
+  select(trajectory, latitude, eco_collapsed, combined_slope_median:combined_slope_upr) |>
+  arrange(combined_slope_mean) |>
+  mutate(samp = 1:n()) |>
+  st_transform(4326) |>
+  mutate(text = glue("slope = {round(combined_slope_mean,4)}"))
+
+```
+
+``` {r}
+#| label: plot_spatial_trends
+
+domain <- c(-1*max(abs(slopes_spatial_fits$combined_slope_mean)),
+               max(abs(slopes_spatial_fits$combined_slope_mean)))
+
+spatial_slope_pal <- 
+  colorNumeric(
+    colorspace::divergingx_hcl(7,
+                               palette = "RdYlBu"),
+    domain = domain)
+
+leaflet() |>
+  addTiles() |>
+  addCircleMarkers(data = slopes_spatial_fits,
+             fillColor = ~spatial_slope_pal(combined_slope_mean),
+             fillOpacity = 0.8,
+             popup = ~text,
+             stroke = 0) |>
+   addLegend(pal =spatial_slope_pal,
+             values = seq(domain[1], domain[2], length.out = 7) )
+```
+
+Next, let's see how that actually plays out on a scatter plot with individual fit lines overlain. Note, colors go from south to north.
+
+```{r}
+#| label: fit_spatial_curve_plot
+
+ggplot(fitted_spatial_predictions,
+         aes(x = year,
+             y = exp(est)-0.01,
+             color = latitude,
+             group = trajectory,
+         )) +
+    geom_line(linewidth = 1.1, alpha = 0.9) +
+    labs(y = "Standardized Kelp Abundance", x = "",
+         color = "Latitude") +
+    theme_bw(base_size = 14)+
+    scale_colour_distiller(palette = "RdBu", direction = 1) +
+    geom_point(aes(y = yi), alpha = 0.4) +
+    facet_wrap(vars(eco_collapsed))
+
+```
+
+The above shows the results directly from the fit model for the individual data sets. These model, however, has a random effect for each site. Let's instead show a map of the region with the general trends from the region from the model fit.
+
+Note - circle markers with an outline around them are estimates from the model for observed sites. Other points are from a grid around the region and represent model estimates for those sites.
+
+```{r}
+#| label: load_trends_spatial_predict
+
+spatial_predictions <- readRDS(here::here("data/model_derived_data/prediction_spatial_model_sf.rds")) 
+
+# crop to extent of dataset
+spatial_predictions <- spatial_predictions |> 
+  st_crop(st_bbox(fitted_spatial_predictions) |>st_as_sfc() |> st_buffer(1e1))
+
+slopes_spatial_predictions <- 
+  spatial_predictions |>
+  group_by(X, Y) |>
+  slice(1L) |>
+  ungroup() |>
+  select(X, Y, combined_slope_median:combined_slope_upr) |>
+  arrange(combined_slope_mean) |>
+  mutate(samp = 1:n()) |>
+  st_transform(4326) |>
+  mutate(text = glue("slope = {round(combined_slope_mean,4)}"))
+
+```
+
+``` {r}
+#| label: plot_spatial_predictions
+
+domain <- c(-1*max(abs(slopes_spatial_predictions$combined_slope_mean)),
+               max(abs(slopes_spatial_predictions$combined_slope_mean)))
+
+spatial_slope_pal <- 
+  colorNumeric(
+    colorspace::divergingx_hcl(7,
+                               palette = "RdYlBu"),
+    domain = domain)
+
+leaflet() |>
+  addTiles() |>
+  addCircleMarkers(data = slopes_spatial_predictions,
+             fillColor = ~spatial_slope_pal(combined_slope_mean),
+             fillOpacity = 0.8,
+             popup = ~text,
+             stroke = 0) |>
+    addCircleMarkers(data = slopes_spatial_fits,
+             fillColor = ~spatial_slope_pal(combined_slope_mean),
+             fillOpacity = 0.8,
+             popup = ~text,
+             stroke = 1) |>
+   addLegend(pal =spatial_slope_pal,
+             values = seq(domain[1], domain[2], length.out = 7) )
+```
+
+
+Last, let's show the data set, but the curves show the regional fits - again, colors go south to north.
+
+```{r}
+#| label: predicted_spatial_curve_plot
+#| 
+spatial_curves <- readRDS(here::here("data/model_derived_data/prediction_spatial_model_curves.rds")) |>
+  st_as_sf(coords = c("X", "Y"), 
+           crs = st_crs(spatial_predictions),
+           remove = FALSE)|> 
+  # crop to the dataset
+  st_crop(st_bbox(fitted_spatial_predictions) |>st_as_sfc() |> st_buffer(1e1)) |>
+  st_transform(4326) %>%
+    mutate(lon = sf::st_coordinates(.)[,1],
+                lat = sf::st_coordinates(.)[,2]) |>
+  # Trim to the time of the data set
+  filter(year >= min(study_data$Sample.Year)) |>
+  filter(year <= max(study_data$Sample.Year))
+
+ggplot(fitted_spatial_predictions,
+       aes(x = year, color = latitude,
+                    y = yi)) +
+  geom_point( alpha = 0.9) +
+  geom_line(data = spatial_curves,
+            aes(y = est, 
+                color = lat,
+                group = Y))  +
+  scale_color_viridis_c() +
+  labs(x="", y = "Standardized Kelp Abundance", 
+       color = "Latitude")
+
+```
+
 ## How Does the Data Fit Into the Spatio-Temporal Time Series Model?
+
+
+First, let's look at the map showing slopes for each site for each decade.
+
+```{r}
+#| label: splot_by_decade_fit
+
+yrs <- c(1975, 1985, 1995, 2005, 2015) + 5
+```
+
+Next, let's see how that actually plays out on a scatter plot with individual fit lines overlain. Note, colors go from south to north.
+
+The above shows the results directly from the fit model for the individual data sets. These data, however, have a random effect for each site. Let's instead show a map of the region by decade with the general trends from the region from the model fit.
+
+Last, let's show the data set, but the curves show the regional fits - again, colors go south to north.

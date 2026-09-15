@@ -175,6 +175,8 @@ spatial_slope <- predict(mod_spatial,
                                     focalUnit = rep(nwa_dat$focalUnit[3],100)
                              )))
 
+saveRDS(spatial_slope, "data/model_derived_data/prediction_spatial_model_curves.rds")
+
 ggplot(nwa_dat, aes(x = year, color = Y,
                     y = focal_std_by_all)) +
   #geom_point(alpha = 0.5) +
