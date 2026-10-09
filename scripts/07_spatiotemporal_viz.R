@@ -136,6 +136,21 @@ ggplot(predicted|>
 ggsave("figures/spatiotemporal_curves.jpg", 
        width = 8, height = 5)
 
+ggplot(predicted|> 
+         filter_time_eco_collapsed() |>
+         mutate(y_group = round(Y/10)*10) |>
+         group_by(y_group, year) |>
+         summarize(est = mean(est)),
+       aes(x = year, y = est, group = y_group, color = y_group)) +
+  geom_line(alpha = 0.75)  +
+  scale_color_viridis_c() +
+  labs(y = "Standardized Kelp Abundance", x = "",
+       color = "Northing Bin") +
+  theme_light(base_size = 18)
+
+ggsave("figures/spatiotemporal_curves_binned.jpg", 
+       width = 8, height = 5)
+
 # hovmoller
 ggplot(predicted,
        aes(x = year, y = id, fill = est)) +
