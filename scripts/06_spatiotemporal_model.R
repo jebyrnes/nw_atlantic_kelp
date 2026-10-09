@@ -4,8 +4,9 @@
 #' with sdmTMB
 #' -----------------------------------------------
 
-library(sdmTMB)
-library(sdmTMBextra)
+library(sdmTMB) # pak::pak("sdmTMB/sdmTMB", dependencies = TRUE)
+
+library(sdmTMBextra) # remotes::install_github("pbs-assess/sdmTMBextra", dependencies = TRUE)
 library(sf)
 library(ggplot2)
 library(patchwork)
